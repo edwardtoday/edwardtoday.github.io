@@ -5,6 +5,18 @@ slug: western-literature-final-essay
 status: publish
 title: Western Literature - Final Essay
 wordpress_id: '9827'
+categories:
+- Thoughts
+tags:
+- App
+- Car
+- LAN
+- Notes
+- Reading
+- Things
+- Thoughts
+- Words
+- Work
 ---
 
 To See a World in a Chimney

@@ -9,16 +9,29 @@ categories:
 - Life at Shanghai
 tags:
 - Adium
+- APE
 - App
 - AppFresh
+- application
+- BlackBerry
+- Car
 - Carbon Copy Cloner
 - Cyberduck
+- Data
+- Design
 - Dropbox
 - Evernote
+- GIT
+- iPad
+- iPhone
 - Mac
+- Notes
+- Reading
 - Screenflow
 - Skim
+- TeX
 - Things
+- update
 - Versions
 - Welly
 ---
@@ -58,7 +71,7 @@ I use this for texting. Video chats? Go for Skype.
 
 
 
-![Adium.png](http://edwardtoday.files.wordpress.com/2011/01/adium.png)
+![Adium.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/adium.png)
 
 
 
@@ -73,7 +86,7 @@ Find updates of installed applications and let you download/install these update
 
 
 
-![AppFresh.png](http://edwardtoday.files.wordpress.com/2011/01/appfresh.png)
+![AppFresh.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/appfresh.png)
 
 
 
@@ -88,7 +101,7 @@ Incremental backup. Using rsync as backend. Fast and stable.
 
 
 
-![CarbonCopyCloner.png](http://edwardtoday.files.wordpress.com/2011/01/carboncopycloner.png)
+![CarbonCopyCloner.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/carboncopycloner.png)
 
 
 
@@ -103,7 +116,7 @@ FTP client. I tried Transmit and ForkLift and finally chose this one.
 
 
 
-![Cyberduck.png](http://edwardtoday.files.wordpress.com/2011/01/cyberduck.png)
+![Cyberduck.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/cyberduck.png)
 
 
 
@@ -123,7 +136,7 @@ Automatically syncs everything in the Dropbox folder.
 
 
 
-![Dropbox.png](http://edwardtoday.files.wordpress.com/2011/01/dropbox.png)
+![Dropbox.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/dropbox.png)
 
 
 
@@ -143,7 +156,7 @@ I use Evernote for Windows, Mac, iPhone/iPad and Blackberry.
 
 
 
-![Evernote.png](http://edwardtoday.files.wordpress.com/2011/01/evernote.png)
+![Evernote.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/evernote.png)
 
 
 
@@ -158,7 +171,7 @@ The built-in screen shot is very powerful, but video capture is missing before Q
 
 
 
-![Screenflow.png](http://edwardtoday.files.wordpress.com/2011/01/screenflow.png)
+![Screenflow.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/screenflow.png)
 
 
 
@@ -173,7 +186,7 @@ PDF reader. Faster than Adobe Reader. Very useful notes feature which does not a
 
 
 
-![Skim.png](http://edwardtoday.files.wordpress.com/2011/01/skim.png)
+![Skim.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/skim.png)
 
 
 
@@ -188,7 +201,7 @@ GTD tool. Syncs with iCal and iPhone client.
 
 
 
-![Things.png](http://edwardtoday.files.wordpress.com/2011/01/things.png)
+![Things.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/things.png)
 
 
 
@@ -203,7 +216,7 @@ Award winning Subversion client. As DVCS is more popular these days, try MacHG a
 
 
 
-![Versions.png](http://edwardtoday.files.wordpress.com/2011/01/versions.png)
+![Versions.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/versions.png)
 
 
 
@@ -218,4 +231,4 @@ Terminal app I use for BBS.
 
 
 
-![Welly.png](http://edwardtoday.files.wordpress.com/2011/01/welly.png)
+![Welly.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/welly.png)

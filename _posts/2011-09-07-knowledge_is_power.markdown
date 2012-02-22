@@ -1,13 +1,16 @@
 ---
-date: '2011-09-07 15:55:21'
+date: '2011-09-07 15:54:23'
 layout: post
 slug: knowledge_is_power
 status: publish
 title: Knowledge is power
-wordpress_id: '38039'
+wordpress_id: '38142'
 categories:
 - Life at Hong Kong
 - Thoughts
+tags:
+- Data
+- Work
 ---
 
 Knowledge is power.下面一句应该是France is bacon吧？

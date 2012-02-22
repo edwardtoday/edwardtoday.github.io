@@ -6,6 +6,7 @@ status: publish
 title: ruo
 wordpress_id: '9950'
 tags:
+- Java
 - Work
 ---
 

@@ -1,10 +1,10 @@
 ---
-date: '2012-02-08 20:16:11'
+date: '2012-02-08 20:14:10'
 layout: post
 slug: kept-in-redundant-data-is-really-terrible
 status: publish
 title: 冗余数据真可怕
-wordpress_id: '38121'
+wordpress_id: '38398'
 categories:
 - Programming
 tags:

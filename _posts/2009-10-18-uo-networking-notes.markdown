@@ -6,9 +6,20 @@ status: publish
 title: UO Networking Notes
 wordpress_id: '37619'
 tags:
+- Car
+- Cost
+- Design
+- Hardware
+- LAN
+- Mac
 - Networking
 - Notes
+- RAM
+- Test
 - Thoughts
+- update
+- web
+- Work
 ---
 
 
@@ -774,7 +785,7 @@ Good Switching Loops: Redundant paths
       
 
     
-  
+
 
 
   
@@ -790,7 +801,7 @@ Good Switching Loops: Redundant paths
       
 
     
-  
+
 
 
   
@@ -806,7 +817,7 @@ Good Switching Loops: Redundant paths
       
 
     
-  
+
 
   
 
@@ -923,7 +934,7 @@ July 22, 2009
           
 
         
-      
+
       
 * 
         Distribution layer
@@ -974,14 +985,14 @@ July 22, 2009
           
 
         
-      
+
       
 * 
         Core layer
       
 
-    
-  
+
+
 
                                     where you spend most of the money for performance  
 
@@ -1038,9 +1049,9 @@ July 22, 2009
             
 
           
-        
-      
-    
+
+
+
     
 * 
       Depending in how large your campus is
@@ -1104,7 +1115,7 @@ July 22, 2009
       
 
     
-  
+
 
 
   
@@ -1143,7 +1154,7 @@ July 22, 2009
       
 
     
-  
+
 
 
   
@@ -1195,8 +1206,8 @@ July 22, 2009
         
 
       
-    
-  
+
+
 
 
   

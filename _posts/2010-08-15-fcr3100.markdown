@@ -6,9 +6,9 @@ status: publish
 title: FCR3100
 wordpress_id: '9987'
 categories:
-- Cycling
+- Bicycling
 tags:
-- Cycling
+- Bicycling
 ---
 
 本来觉得上海市区的道路不平坦，想买山地车的。经过实地考察，还是买了个平把公路车。就是FCR3100啦。

@@ -5,7 +5,12 @@ slug: 4th-day
 status: publish
 title: 4th Day
 wordpress_id: '9978'
+categories:
+- Programming
 tags:
+- Design
+- Programming
+- RAM
 - Work
 ---
 

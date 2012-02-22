@@ -6,10 +6,11 @@ status: publish
 title: 与电动车的首次磕碰
 wordpress_id: '37824'
 categories:
-- Cycling
+- Bicycling
 - Life at Shanghai
 tags:
-- Cycling
+- Bicycling
+- BlackBerry
 ---
 
 停着等红灯，后面一辆电动车要左转（注意是红灯方向左转。。。），然后按喇叭让我前面的车再往前挪一点，前轮刚从两车中间的缝隙钻过就猛一加速，结果脚撑挂到我前轮。

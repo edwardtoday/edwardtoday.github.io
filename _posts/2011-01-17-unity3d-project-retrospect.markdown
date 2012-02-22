@@ -8,11 +8,25 @@ wordpress_id: '37914'
 categories:
 - Life at Shanghai
 tags:
+- App
+- application
+- Design
+- Emacs
 - Graphics
 - iOS
 - iPad
+- iPhone
+- M4
+- Mac
+- OpenGL
 - Optimization
+- RAM
+- Test
+- TeX
 - Unity3D
+- Versions
+- Work
+- Xcode
 ---
 
 Table of Contents
@@ -37,7 +51,7 @@ Table of Contents
   * 2 Script performance tweak 
 
 
-  * 3 Graphics performance tweak  
+  * 3 Graphics performance tweak 
 
 
     * 3.1 Shader 
@@ -67,7 +81,7 @@ Table of Contents
   * 4 Memory consumption tweak 
 
 
-  * 5 Cross-platform issues  
+  * 5 Cross-platform issues 
 
 
     * 5.1 Textures 
@@ -82,7 +96,7 @@ Table of Contents
 
 
 
-  * 6 Remaining issues  
+  * 6 Remaining issues 
 
 
     * 6.1 iOS4 multi-tasking support 

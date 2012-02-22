@@ -1,14 +1,16 @@
 ---
-date: '2011-12-15 19:54:21'
+date: '2011-12-15 19:36:29'
 layout: post
 slug: recent-2
 status: publish
 title: 近况
-wordpress_id: '38101'
+wordpress_id: '38376'
 categories:
 - Life at Hong Kong
 tags:
+- APE
 - Emacs
+- Mac
 - Python
 - R
 ---

@@ -1,10 +1,10 @@
 ---
-date: '2011-05-29 23:59:45'
+date: '2011-05-29 23:51:43'
 layout: post
 slug: jin_tian_kan_le_liang_bu_pian_zi-2
 status: publish
 title: 今天看了两部片子
-wordpress_id: '37999'
+wordpress_id: '38093'
 categories:
 - Life at Shanghai
 tags:

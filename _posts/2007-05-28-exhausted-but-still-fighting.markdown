@@ -7,6 +7,13 @@ title: Exhausted but still fighting^^
 wordpress_id: '9808'
 categories:
 - Life at Tsinghua
+- Thoughts
+tags:
+- APE
+- LAN
+- Reading
+- Thoughts
+- Work
 ---
 
 Lack of sleep is such a powerful enemy.  

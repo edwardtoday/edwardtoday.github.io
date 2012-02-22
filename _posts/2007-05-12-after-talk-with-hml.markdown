@@ -7,6 +7,9 @@ title: After talk with HML
 wordpress_id: '9805'
 categories:
 - Life at Tsinghua
+tags:
+- APE
+- Car
 ---
 
 a. Economics: I will try my best.  

@@ -7,6 +7,9 @@ title: version control system
 wordpress_id: '9938'
 categories:
 - Life at Tsinghua
+tags:
+- Eclipse
+- Xcode
 ---
 
 之前一直是依靠Google Code来进行版本控制的，不过实习期间由于资料保密等原因，自己的机器不能接入公司的网络。于是只好在本地建了subversion服务端。  

@@ -7,6 +7,9 @@ title: 论文初稿终于出炉了
 wordpress_id: '9972'
 categories:
 - Life at Tsinghua
+tags:
+- Skim
+- TeX
 ---
 
 从上上周四终于把实验做完之后，这两周都在忙着写论文。

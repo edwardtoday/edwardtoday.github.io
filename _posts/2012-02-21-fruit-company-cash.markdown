@@ -1,10 +1,10 @@
 ---
-date: '2012-02-21 17:26:44'
+date: '2012-02-21 17:23:29'
 layout: post
 slug: fruit-company-cash
 status: publish
 title: 水果公司现金多
-wordpress_id: '38141'
+wordpress_id: '38422'
 categories:
 - Thoughts
 tags:

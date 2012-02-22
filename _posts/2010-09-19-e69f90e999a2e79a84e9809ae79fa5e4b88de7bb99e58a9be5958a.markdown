@@ -8,7 +8,7 @@ wordpress_id: '37697'
 categories:
 - Life at Shanghai
 tags:
-- Cycling
+- Bicycling
 - 放假
 ---
 

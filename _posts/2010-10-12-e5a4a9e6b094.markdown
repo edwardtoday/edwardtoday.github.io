@@ -8,7 +8,8 @@ wordpress_id: '37847'
 categories:
 - Life at Shanghai
 tags:
-- Cycling
+- Bicycling
+- BlackBerry
 ---
 
 昨天报小雨，上班时在下，也就没骑车。  

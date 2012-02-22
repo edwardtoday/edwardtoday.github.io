@@ -8,8 +8,10 @@ wordpress_id: '37869'
 categories:
 - Life at Shanghai
 tags:
+- Dropbox
 - GIT
 - Mac
+- MacBook
 - Work
 ---
 

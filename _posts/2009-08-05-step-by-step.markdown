@@ -5,6 +5,8 @@ slug: step-by-step
 status: publish
 title: Step by step
 wordpress_id: '9930'
+tags:
+- Canon
 ---
 
   1. Canon EF 50/1.8 II

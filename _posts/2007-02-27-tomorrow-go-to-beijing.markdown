@@ -1,0 +1,27 @@
+---
+date: '2007-02-27 14:57:53'
+layout: post
+slug: tomorrow-go-to-beijing
+status: publish
+title: 明天要去北京?!
+wordpress_id: '9778'
+categories:
+- Life at Tsinghua
+---
+
+估计第一批人都是1号到吧.该死的THU居然停暖气到28号.
+
+
+本来这些大学的财务就不透明,还跟学生说什么节约资源,停暖一个寒假某系教授估算少说节省几百万...
+
+
+怎么从来没见到说办公室停暖的?
+
+
+那么多教室有人么?停么?
+
+
+ 
+
+
+北京,失望.

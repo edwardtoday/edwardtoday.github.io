@@ -6,7 +6,10 @@ status: publish
 title: 1st modo project
 wordpress_id: '9932'
 tags:
+- CPU
+- RAM
 - Work
+- 内存
 ---
 
 花了半个月时间从头开始学用modo

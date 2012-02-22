@@ -5,6 +5,8 @@ slug: surprised
 status: publish
 title: surprised
 wordpress_id: '9965'
+tags:
+- MP3
 ---
 
 不久前找到一个Bold上的FTP客户端，好像叫BeFTP吧。虽然是共享软件，不过限制仅仅是不能保存站点为书签。

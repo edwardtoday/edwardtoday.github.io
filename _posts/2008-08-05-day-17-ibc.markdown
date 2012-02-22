@@ -5,6 +5,10 @@ slug: day-17-ibc
 status: publish
 title: Day 17 @ IBC
 wordpress_id: '9884'
+tags:
+- APE
+- Java
+- update
 ---
 
 今天预计就很闲

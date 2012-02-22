@@ -1,46 +1,44 @@
 ---
-date: '2011-09-08 16:33:46'
+date: '2011-09-08 16:33:18'
 layout: post
 slug: how_to_opengl_with_xcode
 status: publish
 title: 'How to: OpenGL with Xcode'
-wordpress_id: '38041'
+wordpress_id: '38165'
 categories:
 - Life at Hong Kong
 - Programming
 tags:
+- App
+- App Store
+- Apple
+- application
+- GIT
+- iPhone
+- Mac
+- MacBook
 - OpenGL
+- Product
+- Programming
+- RAM
+- web
+- Work
 - Xcode
 ---
 
 I selected an image processing course this semester, the labs of which are based on OpenGL.
 
-
-
-
 Programming environment in the computer lab is cygwin & gcc/g++ & opengl & glut under Windows OS.
 
-
-
-
 If I were under some linux distribution, it would be even easier to get everything work with some apt-get's. That would be as free of charge as the cygwin solution.
-
-
-
 
 I am currently using a 2007 MacBook with Mac OS Lion. With the following steps, I have got an OpenGL programming environment with Xcode.
 
 
-
-
-### Get Xcode
-
-
+# Get Xcode
 
 
 Start the Mac App Store by clicking the top left  icon and then click "App Store…".
-
-
 
 
 ![Start Mac App Store](http://qingpei.me/wordpress/wp-content/uploads/2011/09/macappstore.png)
@@ -51,24 +49,14 @@ Start the Mac App Store by clicking the top left  icon and then click "App St
 Search for "Xcode".
 
 
-
-
 ![Search Xcode](http://qingpei.me/wordpress/wp-content/uploads/2011/09/searchxcode.png)The first hit should be the Xcode.
 
-
-
-
 ![Install Xcode](http://qingpei.me/wordpress/wp-content/uploads/2011/09/xcodeinstall.png)
-
-
-
 
 If you are using Lion, it should be free. Click "INSTALL" and after the download finishes, there should be a "Install Xcode" in your Application folder. Install it with the default settings should be fine.
 
 
-
-
-### Create a New Xcode Project
+# Create a New Xcode Project
 
 
 
@@ -118,7 +106,8 @@ Now we have an empty project.
 
 
 
-### Add a Target
+
+# Add a Target
 
 
 
@@ -168,12 +157,13 @@ At this point, the app is actually runnable. By clicking the "Run" button, after
 
 
 
-### Add Source Code to the Project
+
+# Add Source Code to the Project
 
 
 
 
-### Although there has been a GUI application running so far, it has nothing to do with OpenGL but based on NSWindow from Apple's framework. The next steps are to remove whatever we don't need and add OpenGL and GLUT to our app.
+Although there has been a GUI application running so far, it has nothing to do with OpenGL but based on NSWindow from Apple's framework. The next steps are to remove whatever we don't need and add OpenGL and GLUT to our app.
 
 
 
@@ -256,81 +246,40 @@ when you searched for OpenGL samples on the web. Change them to:
 #include <GLUT/GLUT.h>
 
 
-
-
 Or you would encounter compile errors later since Xcode cannot find those files.
 
 
-
-
-### Use OpenGL and GLUT Frameworks
-
-
+# Use OpenGL and GLUT Frameworks
 
 
 If you compile right now, there would be errors telling you that files including gl.h are missing. This is solved by adding frameworks to our project. Click the Project in the leftmost colomn to view the project "Summary" tab. In the middle, there is "Linked Frameworks and Libraries".
 
-
-
-
 ![Project Settings](http://qingpei.me/wordpress/wp-content/uploads/2011/09/projectsettings.png)
-
-
-
 
 Click the ![+ button](http://qingpei.me/wordpress/wp-content/uploads/2011/09/+.png) button to add frameworks we need. In this case, we are adding OpenGL and GLUT.
 
-
-
-
 Search for "opengl", select it and click "Add".
-
-
-
 
 ![Add OpenGL framework](http://qingpei.me/wordpress/wp-content/uploads/2011/09/addopengl.png)
 
-
-
-
 Add GLUT the same way.
 
-
-
-
 ![Frameworks added](http://qingpei.me/wordpress/wp-content/uploads/2011/09/frameworkadded.png)
-
-
-
 
 They should appear both in the "Linked Frameworks and Libraries" box and in the left column as part of the project.
 
 
-
-
-### Hello world!
-
-
+# Hello world!
 
 
 Click "Run" again and a window pops up with its content drawn with OpenGL. What you see in the window depends on what is in that main.cpp file.
 
-
-
-
 ![OpenGL Window](http://qingpei.me/wordpress/wp-content/uploads/2011/09/openglwindow.png)
 
 
-
-
-### Afterword
-
-
+# Afterword
 
 
 With the app successfully built and run, the next steps are all about applying what feel like drawing onto the window.
-
-
-
 
 Being able to use tools like Xcode only tells us apart from other animals. It is the work done with those tools that tell us apart from other human beings.

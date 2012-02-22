@@ -5,6 +5,8 @@ slug: some-plan
 status: publish
 title: Some plan
 wordpress_id: '9793'
+tags:
+- LAN
 ---
 
 June 23, 2007

@@ -1,10 +1,10 @@
 ---
-date: '2011-12-04 18:44:46'
+date: '2011-12-04 18:42:22'
 layout: post
 slug: from-luxury-frugal-hard-solid-state-vs-spinning
 status: publish
 title: 由奢入俭难（solid state vs spinning）
-wordpress_id: '38090'
+wordpress_id: '38366'
 categories:
 - Life at Hong Kong
 tags:

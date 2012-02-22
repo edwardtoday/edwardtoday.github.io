@@ -5,6 +5,8 @@ slug: blackberry-bold-9000-os-5-0-0-822
 status: publish
 title: BlackBerry Bold 9000 OS 5.0.0.822
 wordpress_id: '9986'
+tags:
+- BlackBerry
 ---
 
 上周经不住新输入法的诱惑，刷了新系统。

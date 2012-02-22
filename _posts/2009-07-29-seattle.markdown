@@ -5,6 +5,8 @@ slug: seattle
 status: publish
 title: '@Seattle'
 wordpress_id: '9925'
+tags:
+- LAN
 ---
 
 今天早上从Portland出发，中午到达微软总部。  

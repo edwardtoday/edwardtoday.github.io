@@ -5,6 +5,9 @@ slug: day-12-ibc
 status: publish
 title: Day 12 @ IBC
 wordpress_id: '9880'
+tags:
+- Eclipse
+- Java
 ---
 
 先从早上说起吧

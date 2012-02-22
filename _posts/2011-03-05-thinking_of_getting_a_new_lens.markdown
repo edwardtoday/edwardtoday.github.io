@@ -1,17 +1,18 @@
 ---
-date: '2011-03-05 23:19:36'
+date: '2011-03-05 23:18:59'
 layout: post
 slug: thinking_of_getting_a_new_lens
 status: publish
 title: Thinking of Getting a New Lens
-wordpress_id: '37955'
+wordpress_id: '37982'
 categories:
 - Life at Shanghai
 tags:
-- '&#23567;&#23567;&#30333;'
 - Canon
+- LAN
 - Lens
 - Zeiss
+- 小小白
 ---
 
 从06年开始接触单反，到现在依然用着Canon 350D和一代的EF-S 18-55，没有爱死，不是据说素质有不小提升的二代。镜头的消费只有小痰盂，理由是没有比它再便宜的了。
@@ -44,10 +45,12 @@ tags:
 
 
 
-Zeiss Planar T* 85/1.4 ZE再次进入视线，手动，但是对于350D的自动对焦，我也不说啥了，手动不会比它慢的⋯⋯
+Zeiss Planar T* 85/1.4 ZE再次进入视线，手动，但是对于350D的自动对焦，我也不说啥了，手动不会比它慢的⋯⋯
 
 
 
+
+ 
 
 
 

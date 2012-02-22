@@ -1,10 +1,10 @@
 ---
-date: '2011-09-20 13:38:55'
+date: '2011-09-20 13:38:30'
 layout: post
 slug: workflow_use_carbon_copy_cloner_to_backup
 status: publish
 title: 'Workflow: Use Carbon Copy Cloner to Backup'
-wordpress_id: '38065'
+wordpress_id: '38206'
 categories:
 - Life at Hong Kong
 tags:

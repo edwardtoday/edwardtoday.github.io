@@ -9,9 +9,18 @@ categories:
 - Life at Shanghai
 tags:
 - '1394'
+- App
+- Apple
+- BlackBerry
+- CPU
 - eSATA
 - FreeNAS
+- NAS
+- RAID
+- SSD
+- USB
 - USB3.0
+- VM
 ---
 
 由于上周在研究FreeNAS（周末即告放弃，把那个vm删了，主要原因是家里路由都是百兆的口，传文件不给力啊），所以顺便幻想了一下升级机器后用什么接口连接外置盘。

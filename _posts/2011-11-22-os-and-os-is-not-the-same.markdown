@@ -1,10 +1,10 @@
 ---
-date: '2011-11-22 12:07:54'
+date: '2011-11-22 12:06:53'
 layout: post
 slug: os-and-os-is-not-the-same
 status: publish
 title: OS和OS是不一样的
-wordpress_id: '38083'
+wordpress_id: '38360'
 categories:
 - Thoughts
 tags:

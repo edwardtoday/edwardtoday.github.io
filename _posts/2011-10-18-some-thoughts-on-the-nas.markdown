@@ -1,10 +1,10 @@
 ---
-date: '2011-10-18 11:26:26'
+date: '2011-10-18 11:15:58'
 layout: post
 slug: some-thoughts-on-the-nas
 status: publish
 title: 关于NAS的一些想法
-wordpress_id: '38078'
+wordpress_id: '38353'
 categories:
 - Thoughts
 tags:

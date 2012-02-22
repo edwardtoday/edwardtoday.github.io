@@ -1,10 +1,10 @@
 ---
-date: '2012-02-07 20:32:23'
+date: '2012-02-07 20:31:16'
 layout: post
 slug: wiwistudio-music-aptitude-test
 status: publish
 title: WiwiStudio音乐能力测验
-wordpress_id: '38114'
+wordpress_id: '38389'
 categories:
 - Life at Hong Kong
 ---
@@ -14,7 +14,7 @@ categories:
 
 
 
-![Result](http://edwardtoday.files.wordpress.com/2012/02/result.png)
+![Result](http://qingpei.me/wordpress/wp-content/uploads/2012/02/result.png)
 
 
 
@@ -24,4 +24,4 @@ categories:
 
 
 
-![Stat](http://edwardtoday.files.wordpress.com/2012/02/stat.png)
+![Stat](http://qingpei.me/wordpress/wp-content/uploads/2012/02/stat.png)

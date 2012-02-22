@@ -21,7 +21,7 @@ tags:
 
 
 
-![RandyPausch](http://edwardtoday.files.wordpress.com/2011/01/newimage.jpg)
+![RandyPausch](http://qingpei.me/wordpress/wp-content/uploads/2011/01/newimage.jpg)
 
 
 

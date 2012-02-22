@@ -6,10 +6,11 @@ status: publish
 title: 安全意识
 wordpress_id: '37828'
 categories:
-- Cycling
+- Bicycling
 - Life at Shanghai
 tags:
-- Cycling
+- Bicycling
+- BlackBerry
 ---
 
 买车之后骑了一天就上淘宝买头盔了。之后只要骑车出门从来没忘戴上。

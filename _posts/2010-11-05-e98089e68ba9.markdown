@@ -8,7 +8,16 @@ wordpress_id: '37864'
 categories:
 - Life at Shanghai
 tags:
+- '1394'
+- Adium
+- App
+- Apple
+- Car
+- eSATA
+- Mac
 - SSD
+- Thinkpad
+- USB
 ---
 
 3Q的选择题已经发展到大街小巷了，原来中午吃饭走在路上人们讨论的五花八门，偶尔说说apple store早上有货中午断货之类的，这两天突然听到很多关于这两个软件的讨论。  

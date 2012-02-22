@@ -7,6 +7,8 @@ title: 3D Vision显示图像序列成功
 wordpress_id: '9967'
 categories:
 - Life at Tsinghua
+tags:
+- SSD
 ---
 
 研究了这许多天，终于让3D Vision以给定的帧率播放双目图片序列了。  

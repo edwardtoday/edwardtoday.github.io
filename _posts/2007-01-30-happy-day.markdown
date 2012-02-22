@@ -5,6 +5,9 @@ slug: happy-day
 status: publish
 title: Happy day
 wordpress_id: '9751'
+tags:
+- App
+- Mouse
 ---
 
 今天起来得真早...还不到九点.

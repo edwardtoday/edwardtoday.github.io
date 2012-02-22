@@ -5,6 +5,9 @@ slug: new-external-harddrive
 status: publish
 title: New External Harddrive
 wordpress_id: '9981'
+tags:
+- '1394'
+- USB
 ---
 
 下班回家刚进门就发现昨天在新蛋上下单的LaCie送到了。

@@ -1,10 +1,10 @@
 ---
-date: '2011-09-27 09:37:56'
+date: '2011-09-27 09:37:34'
 layout: post
 slug: a-contradiction
 status: publish
 title: 一个矛盾
-wordpress_id: '38069'
+wordpress_id: '38326'
 categories:
 - Thoughts
 tags:

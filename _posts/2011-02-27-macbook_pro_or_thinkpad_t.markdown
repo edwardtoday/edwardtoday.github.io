@@ -1,16 +1,25 @@
 ---
-date: '2011-02-27 14:39:29'
+date: '2011-02-27 14:38:48'
 layout: post
 slug: macbook_pro_or_thinkpad_t
 status: publish
 title: MacBook Pro or Thinkpad T
-wordpress_id: '37953'
+wordpress_id: '37977'
 categories:
 - Life at Shanghai
 tags:
+- App
+- Apple
+- Lenovo
+- Mac
 - MacBook
+- Snow Leopard
 - T Series
 - Thinkpad
+- ThunderBolt
+- Work
+- 内存
+- 散热
 ---
 
 手头这台MacBook MA701服役4年了，换了两次内存，从2×512MB变成现在的1G+2G，换过3个风扇（1 from Apple，2 from 淘宝），一块水货电池，还在三里屯免费更换过掌托，最后一次则是去年下半年加的Intel X25-M，把原来的ST移到光驱位。

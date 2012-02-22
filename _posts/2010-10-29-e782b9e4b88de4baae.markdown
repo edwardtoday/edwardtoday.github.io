@@ -8,6 +8,7 @@ wordpress_id: '37853'
 categories:
 - Life at Shanghai
 tags:
+- BlackBerry
 - RAM
 ---
 

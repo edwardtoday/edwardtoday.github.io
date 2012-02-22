@@ -7,6 +7,11 @@ title: Recently
 wordpress_id: '9794'
 categories:
 - Life at Tsinghua
+tags:
+- Car
+- Reading
+- Things
+- Work
 ---
 
 recently i've been reading a lot of stuffs

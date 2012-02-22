@@ -5,6 +5,28 @@ slug: hard-drive-erased-new-os-from-now-on-contd
 status: publish
 title: Hard drive erased, new OS from now on (cont'd)
 wordpress_id: '9983'
+tags:
+- Adium
+- APE
+- App
+- AppFresh
+- BlackBerry
+- Car
+- Carbon Copy Cloner
+- Cyberduck
+- Emacs
+- Evernote
+- Mac
+- Microsoft
+- Skim
+- Snow Leopard
+- TeX
+- Things
+- update
+- Versions
+- VM
+- Welly
+- Work
 ---
 
 下班回家吃晚饭开始享受周末……从大四生活中跳出来才想起来，每周是分为工作日和双休日的……

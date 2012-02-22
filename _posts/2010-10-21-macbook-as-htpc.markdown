@@ -8,8 +8,10 @@ wordpress_id: '37849'
 categories:
 - Life at Shanghai
 tags:
+- CPU
 - HTPC
 - Mac
+- MacBook
 ---
 
 由于各种保密的需求，工作不能在自己的电脑上做，必须用公司的机器，于是老迈的MacBook长期闲置在家。

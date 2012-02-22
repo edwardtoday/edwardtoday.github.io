@@ -1,12 +1,16 @@
 ---
-date: '2011-09-05 16:19:18'
+date: '2011-09-05 16:16:09'
 layout: post
 slug: tui_le_yi_men_ke
 status: publish
 title: 退了一门课
-wordpress_id: '38037'
+wordpress_id: '38140'
 categories:
 - Life at Hong Kong
+tags:
+- C++
+- Java
+- Python
 ---
 
 当年在BAI Xiaoying和bigpizza手下学软件工程写PhoneMe的时候，还远远没有意识到那些知识到底有什么用处。不过工作中时不时遇到的低效率却再三凸显软件工程的重要性。于是我又选了个相关课程。结果退了……

@@ -1,10 +1,10 @@
 ---
-date: '2012-02-07 20:26:11'
+date: '2012-02-07 20:24:50'
 layout: post
 slug: new-year-more
 status: publish
 title: 新年第一更
-wordpress_id: '38109'
+wordpress_id: '38384'
 categories:
 - Life at Hong Kong
 tags:

@@ -1,10 +1,10 @@
 ---
-date: '2011-08-29 17:30:36'
+date: '2011-08-29 17:30:16'
 layout: post
 slug: shi_ge_yi_nian_you_yao_kai_xue_le
 status: publish
 title: 时隔一年，又要开学了
-wordpress_id: '38026'
+wordpress_id: '38129'
 categories:
 - Life at Hong Kong
 tags:

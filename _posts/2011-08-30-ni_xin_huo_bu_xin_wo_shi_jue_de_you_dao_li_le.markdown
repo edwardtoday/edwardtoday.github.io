@@ -1,15 +1,19 @@
 ---
-date: '2011-08-30 11:07:15'
+date: '2011-08-30 11:06:57'
 layout: post
 slug: ni_xin_huo_bu_xin_wo_shi_jue_de_you_dao_li_le
 status: publish
 title: 你信或不信，我是觉得有道理了
-wordpress_id: '38028'
+wordpress_id: '38131'
 categories:
 - Life at Hong Kong
 - Programming
 tags:
+- C++
+- LAN
 - Programming
+- Python
+- RAM
 ---
 
 Advice From An Old Programmer

@@ -5,6 +5,8 @@ slug: c-2
 status: publish
 title: C++...
 wordpress_id: '9764'
+tags:
+- C++
 ---
 
 可恶的C++!

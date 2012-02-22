@@ -5,6 +5,8 @@ slug: essays-to-be-done
 status: publish
 title: Essays to be done
 wordpress_id: '9791'
+tags:
+- Work
 ---
 
 By Week 8:

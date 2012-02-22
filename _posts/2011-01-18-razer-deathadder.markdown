@@ -8,6 +8,9 @@ wordpress_id: '37919'
 categories:
 - Life at Shanghai
 tags:
+- GIT
+- Mac
+- MacBook
 - Mouse
 - Razer
 ---

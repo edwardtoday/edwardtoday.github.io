@@ -5,6 +5,9 @@ slug: day-28-ibc
 status: publish
 title: Day 28 @ IBC
 wordpress_id: '9897'
+tags:
+- Eclipse
+- Java
 ---
 
 今天去场馆做Java作业了。。。

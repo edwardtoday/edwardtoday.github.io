@@ -5,6 +5,9 @@ slug: w-h-y
 status: publish
 title: W-H-Y
 wordpress_id: '9753'
+tags:
+- Mac
+- MacBook
 ---
 
 回家了,躺在大大的床上,睡得反而不那么好了.

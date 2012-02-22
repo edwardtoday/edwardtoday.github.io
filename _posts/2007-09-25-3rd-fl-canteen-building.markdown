@@ -5,6 +5,8 @@ slug: 3rd-fl-canteen-building
 status: publish
 title: 3rd Fl Canteen Building...
 wordpress_id: '9838'
+tags:
+- Test
 ---
 
 

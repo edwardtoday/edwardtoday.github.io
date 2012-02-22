@@ -6,6 +6,7 @@ status: publish
 title: 凉快
 wordpress_id: '9917'
 tags:
+- CPU
 - Thoughts
 ---
 

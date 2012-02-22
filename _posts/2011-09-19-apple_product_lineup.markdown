@@ -1,14 +1,13 @@
 ---
-date: '2011-09-19 19:19:57'
+date: '2011-09-19 19:16:17'
 layout: post
 slug: apple_product_lineup
 status: publish
 title: Apple Product Lineup
-wordpress_id: '38061'
+wordpress_id: '38198'
 categories:
 - Thoughts
 tags:
-- '100'
 - App
 - Apple
 - eSATA
@@ -37,7 +36,7 @@ tags:
 
 
 
-![Overview hero](http://edwardtoday.files.wordpress.com/2011/09/overview_hero.png)
+![Overview hero](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_hero.png)
 
 
 
@@ -72,7 +71,7 @@ tags:
 
 
 
-![Overview hero1 20110606](http://edwardtoday.files.wordpress.com/2011/09/overview_hero1_20110606.png)![Overview performance 20110302](http://edwardtoday.files.wordpress.com/2011/09/overview_performance_20110302.jpg)![Design unibody2](http://edwardtoday.files.wordpress.com/2011/09/design_unibody2.jpg)![Overview software2 20110720](http://edwardtoday.files.wordpress.com/2011/09/overview_software2_20110720.png)
+![Overview hero1 20110606](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_hero1_20110606.png)![Overview performance 20110302](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_performance_20110302.jpg)![Design unibody2](http://qingpei.me/wordpress/wp-content/uploads/2011/09/design_unibody2.jpg)![Overview software2 20110720](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_software2_20110720.png)
 
 
 

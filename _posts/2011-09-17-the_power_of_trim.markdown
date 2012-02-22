@@ -1,10 +1,10 @@
 ---
-date: '2011-09-17 04:21:57'
+date: '2011-09-17 04:21:38'
 layout: post
 slug: the_power_of_trim
 status: publish
 title: The Power of Trim
-wordpress_id: '38049'
+wordpress_id: '38185'
 categories:
 - Life at Hong Kong
 tags:

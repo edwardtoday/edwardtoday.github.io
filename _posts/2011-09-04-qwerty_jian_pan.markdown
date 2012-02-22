@@ -1,14 +1,15 @@
 ---
-date: '2011-09-04 15:29:50'
+date: '2011-09-04 15:29:21'
 layout: post
 slug: qwerty_jian_pan
 status: publish
 title: QWERTY键盘
-wordpress_id: '38035'
+wordpress_id: '38138'
 categories:
 - Thoughts
 tags:
 - Keyboard
+- Work
 ---
 
 订阅了HowStuffWorks.com的podcast：The Stuff of Genius。昨天刚好看到“[The QWERTY Keyboard](http://videos.howstuffworks.com/howstuffworks/40391-the-stuff-of-genius-the-qwerty-keyboard-video.htm)”这一期。

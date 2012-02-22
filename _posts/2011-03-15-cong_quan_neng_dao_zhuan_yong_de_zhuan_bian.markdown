@@ -1,17 +1,24 @@
 ---
-date: '2011-03-15 23:33:28'
+date: '2011-03-15 23:28:10'
 layout: post
 slug: cong_quan_neng_dao_zhuan_yong_de_zhuan_bian
 status: publish
 title: 从全能到专用的转变
-wordpress_id: '37959'
+wordpress_id: '37984'
 categories:
 - Life at Shanghai
 tags:
+- CPU
 - HTPC
 - iMovie
+- iPad
 - iPad2
+- Mac
+- MacBook
 - NAS
+- RAID
+- 散热
+- 机箱
 ---
 
 电脑刚进入桌面应用的时候，区别在于有和没有。仅有的一台电脑需要满足用户各种任务的需求。可能在选配置的时候会侧重于某一方面（因为预算、空间等始终是有限的），或是追求高性能的多核CPU，或是来个SLI或者CrossFire，也有需要家里做多盘RAID的（比如做视频剪辑的），还有见到风扇就想咔嚓掉的（为了放客厅当HTPC）。
@@ -48,6 +55,8 @@ tags:
 
 
 
+
+ 
 
 
 

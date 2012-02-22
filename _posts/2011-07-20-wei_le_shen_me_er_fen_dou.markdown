@@ -1,13 +1,16 @@
 ---
-date: '2011-07-20 15:26:01'
+date: '2011-07-20 15:25:23'
 layout: post
 slug: wei_le_shen_me_er_fen_dou
 status: publish
 title: 为了什么而奋斗
-wordpress_id: '38014'
+wordpress_id: '38115'
 categories:
+- Programming
 - Thoughts
 tags:
+- Programming
+- RAM
 - Thoughts
 ---
 

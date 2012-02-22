@@ -7,6 +7,9 @@ title: auto update
 wordpress_id: '37632'
 tags:
 - BlackBerry
+- Mac
+- update
+- upgrade
 - Work
 ---
 

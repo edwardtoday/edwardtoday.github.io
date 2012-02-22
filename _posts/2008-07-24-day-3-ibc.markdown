@@ -5,6 +5,8 @@ slug: day-3-ibc
 status: publish
 title: Day 3 @ IBC
 wordpress_id: '22771'
+tags:
+- Java
 ---
 
 昨天休息一天  

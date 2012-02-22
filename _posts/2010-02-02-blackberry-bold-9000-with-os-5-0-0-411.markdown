@@ -6,6 +6,17 @@ status: publish
 title: BlackBerry Bold 9000 with OS 5.0.0.411
 wordpress_id: '9963'
 tags:
+- App
+- BlackBerry
+- Evernote
+- iPad
+- iPhone
+- Java
+- Mac
+- TeX
+- update
+- USB
+- web
 - Work
 ---
 
@@ -41,7 +52,7 @@ tags:
 
 [![1265027534631](https://lh6faa.bay.livefilestore.com/y1mPn85j2Jcy1Y3Sp4IGtSY62NCeXR_Q8xYY9N_sek5qO4d6davKM9GD7Hju-WrySgeiLF4pFWJzB996Zeyt3e8htn8hdO7jKML1nbZwDOv0Y2V0SOZ2Emxrg20xcNdb4fduw5jfWAwf8RDnuhYs0M0BQ/1265027534631_thumb.png)](https://lh6faa.bay.livefilestore.com/y1m_V-HP2Rwb1JnGe3zE83JAk5lDFb27zgBT5Q6wDYdVBYTSxnxTGZugotGBiBVdiOQguJ1JBbCUNfKre5s-msco7-oGaLijHGg3RnuBovhDgXGU8VJk4MgHlclVJJ1h9SXTsO7pjb1x8RQRtnMdde67Q/1265027534631[2].png) [![1265028101556](https://lh6faa.bay.livefilestore.com/y1movrw3bEJvFK4vvaKw_Dn1ypRNTtY7OOe_MsoszGqZjYLB_qiFLtzMh_kZiOVqq5bsEx3BwfSGGEKalpohEVfgXSQrHl5L-DSYZtW-N47yPwAwwvrslIBwlsDZ0l0_LaGNguK6Ud6LMBCj18dvKm6_A/1265028101556_thumb.png)](https://lh6faa.bay.livefilestore.com/y1mJZrAboG7G5lU4wzy7rP85GdbIRf49GsKWoZw6myzmr9SrazTUBrXzyrv2JAvrx8iirsWptGGHr2XR01winxFNqqW-P9xoGBLc8MtTIoiA1w2mT_scHz0kM-UtOQ1TG-baJ_hcmmQsNqW60zj7Zr6nQ/1265028101556[2].png)
 
-[![1265028207961](https://lh6faa.bay.livefilestore.com/y1mJCqUJTmeajfZ5AXF2cmsOeqo5X0j39c7JVg53mualxXVmNK80Kb5eOkGfNulLfcNFe7JIcn9vYkyKYNgwEfC6XEd13Z-LIqV-hcqAL3aPg7_N2BPUZhhY6dL0CCGhsjqnBQ4hQn3PTCWVo3425aieg/1265028207961_thumb.png)](https://lh6faa.bay.livefilestore.com/y1mpBmcvWppOdC0NnARLNwFtzLdmVRFATs3EbseFUurn6Xe4jH_YdmmojozQcIDl9Pb1JLwgZYEvunuUlIaXIXpk9a0-TRlBZr60qB-FDo6iiY6DThS23ETb3QygvgPK6Vzm-H5PTXPPsSY9BUe8IXiIw/1265028207961[2].png) [![1265027705145](https://lh6faa.bay.livefilestore.com/y1mMGsNJH6ipNo1fs5V2ZYCETH7menpSCU8JTegPZ5XDzMEqTzqtkDxtRjiWQkTlEX2Y650uhRoDOeONglwwjN9893RB4oSlarbbSV6XKBi3CVfpKNRQ9NTNlyrWmklpo2xqiupx7LxzbcvpIDpR4rapg/1265027705145_thumb.png)](https://lh6faa.bay.livefilestore.com/y1mB-2XeEHbZz1OcjgPkmj5B3St8Tir0eb47-QtJN1Whva-OONiGqfzdmQi4FhPz2E-4D27T30l-4qCXd8kmi6jH4vgW3UzEPGL-d7XlQZIbqKj8mfuOn3veCHxBNn3N3jPiVzc-d0ClEoPvFELFCLMZg/1265027705145[2].png)
+[![1265028207961](https://lh6faa.bay.livefilestore.com/y1mJCqUJTmeajfZ5AXF2cmsOeqo5X0j39c7JVg53mualxXVmNK80Kb5eOkGfNulLfcNFe7JIcn9vYkyKYNgwEfC6XEd13Z-LIqV-hcqAL3aPg7_N2BPUZhhY6dL0CCGhsjqnBQ4hQn3PTCWVo3425aieg/1265028207961_thumb.png)](https://lh6faa.bay.livefilestore.com/y1mpBmcvWppOdC0NnARLNwFtzLdmVRFATs3EbseFUurn6Xe4jH_YdmmojozQcIDl9Pb1JLwgZYEvunuUlIaXIXpk9a0-TRlBZr60qB-FDo6iiY6DThS23ETb3QygvgPK6Vzm-H5PTXPPsSY9BUe8IXiIw/1265028207961[2].png) ![1265027705145](https://lh6faa.bay.livefilestore.com/y1mMGsNJH6ipNo1fs5V2ZYCETH7menpSCU8JTegPZ5XDzMEqTzqtkDxtRjiWQkTlEX2Y650uhRoDOeONglwwjN9893RB4oSlarbbSV6XKBi3CVfpKNRQ9NTNlyrWmklpo2xqiupx7LxzbcvpIDpR4rapg/1265027705145_thumb.png)
 
 Yes!æ¸åå¤§å­¦ç½ç»å­¦å ï¼ï¼ï¼ç»å½è¿å»äºï¼å¯ä»¥ä¸è½½éä»¶ï¼è£ä¸ZiploreråDocumentsToGoä¹åï¼officeæä»¶ä¸ç½æå°½ï½è³äº.cpp,.javaä¹ç±»çï¼æ¥çç¼è¾æ²¡é®é¢ï¼ä¸è¿æ²¡æé«äº®ï¼è²ä¼¼ä¹æ²¡å¤å°äººç¨ææºæ¥åè¿ä¸ªï¼åªææqwertyé®çâ¦â¦
 

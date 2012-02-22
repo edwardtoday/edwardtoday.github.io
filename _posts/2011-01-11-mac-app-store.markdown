@@ -8,8 +8,19 @@ wordpress_id: '37876'
 categories:
 - Life at Shanghai
 tags:
+- App
 - App Store
+- AppFresh
+- Apple
+- Evernote
+- iOS
+- iPad
+- iPhone
 - Mac
+- MacBook
+- RAM
+- TeX
+- update
 ---
 
 App Store迟到了，好在没有跳票太久。7号果断更新到10.6.6，开始体验App Store。
@@ -17,7 +28,7 @@ App Store迟到了，好在没有跳票太久。7号果断更新到10.6.6，开�
 
 
 
-![AppStore.png](http://edwardtoday.files.wordpress.com/2011/01/appstore.png)
+![AppStore.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/appstore.png)
 
 
 
@@ -37,7 +48,7 @@ App Store上有一些一直在用的freeware，比如Evernote、MindNode、TextW
 
 
 
-![AppStorePurchases.png](http://edwardtoday.files.wordpress.com/2011/01/appstorepurchases.png)
+![AppStorePurchases.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/appstorepurchases.png)
 
 
 

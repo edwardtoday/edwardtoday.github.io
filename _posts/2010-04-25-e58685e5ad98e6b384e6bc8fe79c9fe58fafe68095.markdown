@@ -7,6 +7,9 @@ title: 内存泄漏真可怕
 wordpress_id: '9968'
 categories:
 - Life at Tsinghua
+tags:
+- VM
+- 内存
 ---
 
 这周末校庆活动，于是前天孙老师让我做个能用来演示的3D player。我就做了个循环播放demo clip的玩意儿。话说我的毕设都是靠nVidia的3D Vision眼镜来看3D效果的，而我们实验室还有另外一台Bolad的硕大的裸眼观看3D的平板电视。那就干脆用我一台机器演示吧。为了做这个电视demo，我才发现：

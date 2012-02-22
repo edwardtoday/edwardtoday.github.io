@@ -1,10 +1,10 @@
 ---
-date: '2011-09-16 22:21:31'
+date: '2011-09-16 22:21:12'
 layout: post
 slug: thunderbolt_cinema_display
 status: publish
 title: ThunderBolt Cinema Display
-wordpress_id: '38047'
+wordpress_id: '38181'
 categories:
 - Thoughts
 tags:

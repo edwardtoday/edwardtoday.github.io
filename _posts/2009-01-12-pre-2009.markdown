@@ -1,0 +1,32 @@
+---
+date: '2009-01-12 21:58:54'
+layout: post
+slug: pre-2009
+status: publish
+title: pre 2009
+wordpress_id: '9915'
+categories:
+- Life at Tsinghua
+---
+
+2009年里，我要 
+
+  1. 学到吃饭的技能（其实就是不被接踵而来的deadline放倒，而是放倒它们）  
+  2. 明确一个经济学的方向，捣腾个毕业设计出来  
+  3. 明确几个CS的方向，准备折腾毕业设计
+
+  
+
+  1. 攒出一个LX3  
+  2. 一个小DV Clip for 418A  
+  3. 一本Photo Gallery for CS62
+
+  
+
+  1. 用好FCS2  
+  2. 向无所不能的小导学习，学C#  
+  3. 再不TAOCP就更加没有时间了吧
+
+  
+
+想到再补充  

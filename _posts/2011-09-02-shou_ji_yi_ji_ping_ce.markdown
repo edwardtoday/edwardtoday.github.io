@@ -1,13 +1,16 @@
 ---
-date: '2011-09-02 21:07:17'
+date: '2011-09-02 21:06:55'
 layout: post
 slug: shou_ji_yi_ji_ping_ce
 status: publish
 title: 手机以及评测
-wordpress_id: '38033'
+wordpress_id: '38136'
 categories:
 - Life at Hong Kong
 tags:
+- Android
+- BlackBerry
+- Design
 - Mobile Phone
 ---
 

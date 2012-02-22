@@ -7,6 +7,8 @@ title: Leave
 wordpress_id: '9783'
 categories:
 - Life at Tsinghua
+tags:
+- edwardtoday
 ---
 
 20:10

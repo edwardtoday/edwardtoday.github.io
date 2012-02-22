@@ -6,6 +6,7 @@ status: publish
 title: 30！
 wordpress_id: '28247'
 tags:
+- Java
 - Work
 ---
 

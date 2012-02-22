@@ -8,7 +8,9 @@ wordpress_id: '37843'
 categories:
 - Life at Shanghai
 tags:
-- Cycling
+- Bicycling
+- BlackBerry
+- Java
 ---
 
 之前见过一些JAVA车架，觉得对部分IT人士是个好选择（比如当Sun的员工车？）  

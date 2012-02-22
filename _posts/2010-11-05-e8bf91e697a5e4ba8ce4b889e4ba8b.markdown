@@ -7,10 +7,17 @@ title: 近日二三事
 wordpress_id: '37857'
 categories:
 - Life at Shanghai
+- Programming
 tags:
-- Cycling
+- '1394'
+- Bicycling
+- BlackBerry
+- C++
+- Programming
+- RAM
 - Reading
 - SSD
+- USB
 ---
 
 每天还是花了一些时间读书，现在遇到个小问题：  

@@ -7,6 +7,9 @@ title: Plantronics Voyager PRO
 wordpress_id: '9939'
 categories:
 - Life at Tsinghua
+tags:
+- LAN
+- NAS
 ---
 
 中午吃饭的时候，快递终于到了。  
@@ -16,7 +19,7 @@ categories:
 
 
 
-Plantronics是一家[怎样的公司](http://www.plantronics.com/china/cn/press/heritage.jhtml)呢？他们自己是这么说的：“1969 年，Plantronics 耳机中传来了来自月球的第一声话语。”既然NASA选它，那应该真的ok。
+Plantronics是一家怎样的公司呢？他们自己是这么说的：“1969 年，Plantronics 耳机中传来了来自月球的第一声话语。”既然NASA选它，那应该真的ok。
 
 
 

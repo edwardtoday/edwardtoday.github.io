@@ -7,6 +7,9 @@ title: MacBook Fan
 wordpress_id: '9960'
 categories:
 - Life at Tsinghua
+tags:
+- Mac
+- MacBook
 ---
 
 这风扇真是一年一坏。

@@ -7,6 +7,8 @@ title: Another busy week
 wordpress_id: '9795'
 categories:
 - Life at Tsinghua
+tags:
+- Work
 ---
 
 Basketball match on Saturday morning 9:30-11:00  

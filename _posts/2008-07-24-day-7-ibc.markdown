@@ -5,6 +5,9 @@ slug: day-7-ibc
 status: publish
 title: Day 7 @ IBC
 wordpress_id: '22775'
+tags:
+- Java
+- Mac
 ---
 
 又开始上班了

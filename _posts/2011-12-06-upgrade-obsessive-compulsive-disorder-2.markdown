@@ -1,14 +1,19 @@
 ---
-date: '2011-12-06 21:34:52'
+date: '2011-12-06 21:32:44'
 layout: post
 slug: upgrade-obsessive-compulsive-disorder-2
 status: publish
 title: 升级强迫症
-wordpress_id: '38093'
+wordpress_id: '38369'
 categories:
 - Life at Hong Kong
 - Thoughts
 tags:
+- App
+- App Store
+- Developer
+- Mac
+- R
 - software
 - Ubuntu
 - update

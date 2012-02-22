@@ -1,16 +1,17 @@
 ---
-date: '2012-02-07 20:40:45'
+date: '2012-02-07 20:39:42'
 layout: post
 slug: dropbox-in-the-import-photos
 status: publish
 title: Dropbox新功能——导入相片
-wordpress_id: '38118'
+wordpress_id: '38393'
 categories:
 - Life at Hong Kong
 tags:
 - App
 - Dropbox
 - iOS
+- R
 ---
 
 Dropbox的空间停留在18.9GB已经很久了，最近发现了这个[测试版的活动](http://forums.dropbox.com/topic.php?id=53106)，最多可以额外获得5GB空间。
@@ -23,7 +24,7 @@ Dropbox的空间停留在18.9GB已经很久了，最近发现了这个[测试版
 
 
 
-![Space](http://edwardtoday.files.wordpress.com/2012/02/space.png)
+![Space](http://qingpei.me/wordpress/wp-content/uploads/2012/02/space.png)
 
 
 

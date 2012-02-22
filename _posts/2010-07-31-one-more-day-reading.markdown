@@ -6,6 +6,9 @@ status: publish
 title: One more day reading
 wordpress_id: '9979'
 tags:
+- App
+- Reading
+- Strategy
 - Work
 ---
 

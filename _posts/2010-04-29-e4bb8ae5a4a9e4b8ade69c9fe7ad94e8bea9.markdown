@@ -7,6 +7,8 @@ title: 今天中期答辩
 wordpress_id: '9970'
 categories:
 - Life at Tsinghua
+tags:
+- Ubuntu
 ---
 
 通知早上八点半，我应该是8点就到了FIT吧。答辩地点和我的实验室就隔一堵墙，早早地坐下了等着。

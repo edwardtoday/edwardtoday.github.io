@@ -1,14 +1,28 @@
 ---
-date: '2011-02-21 21:48:45'
+date: '2011-02-21 21:46:22'
 layout: post
 slug: dui_su_du_de_zhui_qiu
 status: publish
 title: 对速度的追求
-wordpress_id: '37947'
+wordpress_id: '37966'
 categories:
 - Life at Shanghai
 tags:
+- APE
+- CPU
+- Data
+- Eclipse
+- iPhone
+- Java
+- Mac
+- MacBook
+- RAID
+- RAM
+- Razer
 - SSD
+- TeX
+- Work
+- 内存
 ---
 
 SSD：系统盘和笔记本的首选

@@ -5,6 +5,9 @@ slug: milestone
 status: publish
 title: Milestone
 wordpress_id: '9931'
+tags:
+- Mac
+- MacBook
 ---
 
 今天早上上班路上看到一辆BMW，车尾标了个L7，没见过…  

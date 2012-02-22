@@ -5,6 +5,8 @@ slug: cpc
 status: publish
 title: CPC
 wordpress_id: '9792'
+tags:
+- Work
 ---
 
 One more's been "forced" to join CPC. Lucky not to be the one^^

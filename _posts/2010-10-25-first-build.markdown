@@ -9,6 +9,11 @@ categories:
 - Life at Shanghai
 tags:
 - FreeNAS
+- Mac
+- NAS
+- Python
+- SSD
+- VM
 - Work
 ---
 

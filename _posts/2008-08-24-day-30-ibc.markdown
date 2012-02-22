@@ -6,6 +6,7 @@ status: publish
 title: Day 30 @ IBC
 wordpress_id: '9899'
 tags:
+- CPU
 - Thoughts
 ---
 

@@ -7,6 +7,8 @@ title: ThuThesis封面隶书设置
 wordpress_id: '9973'
 categories:
 - Life at Tsinghua
+tags:
+- Mac
 ---
 
 今天上午答辩完，有人问我封面的隶书怎么设置，我才想起来我封面上的校名还是楷体……学校要求是隶书。此外xeCJK的幼圆字体也缺失。

@@ -7,6 +7,9 @@ title: Thank you, Lear^^
 wordpress_id: '9807'
 categories:
 - Life at Tsinghua
+tags:
+- LAN
+- Mac
 ---
 
 As planned, I went to rehearse Act 1 Scene 4 for tomorrow's performance tonight.  

@@ -8,7 +8,11 @@ wordpress_id: '37855'
 categories:
 - Life at Shanghai
 tags:
+- '1394'
+- FreeNAS
+- NAS
 - SSD
+- Work
 ---
 
 昨天下单，今天快递就送到了。还有一个光驱位的硬盘盒。

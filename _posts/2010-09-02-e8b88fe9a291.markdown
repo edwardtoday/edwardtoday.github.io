@@ -6,9 +6,9 @@ status: publish
 title: 踏频
 wordpress_id: '9994'
 categories:
-- Cycling
+- Bicycling
 tags:
-- Cycling
+- Bicycling
 ---
 
 不坐公交如何知道骑车是多么方便……

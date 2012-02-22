@@ -5,6 +5,8 @@ slug: restarted
 status: publish
 title: Restarted
 wordpress_id: '9835'
+tags:
+- Volunteer
 ---
 
 Now I have a reason to write in English, don't I^^

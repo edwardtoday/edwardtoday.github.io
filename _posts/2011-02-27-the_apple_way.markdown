@@ -1,20 +1,26 @@
 ---
-date: '2011-02-27 13:42:33'
+date: '2011-02-27 13:41:41'
 layout: post
 slug: the_apple_way
 status: publish
 title: The Apple Way
-wordpress_id: '37951'
+wordpress_id: '37975'
 categories:
 - Life at Shanghai
 tags:
+- App
 - Apple
 - Developer
+- eSATA
 - Firewire
 - iOS
+- Mac
 - Microsoft
+- Product
+- RAM
 - ThunderBolt
 - USB
+- USB3.0
 - Visual Studio
 - Xcode
 ---
@@ -44,6 +50,8 @@ Apple的各种数字证书让客户很纠结，骂个不停。因为我这里可
 
 
 
+ 
+
 
 
 
@@ -51,6 +59,8 @@ Apple的各种数字证书让客户很纠结，骂个不停。因为我这里可
 
 
 
+
+ 
 
 
 

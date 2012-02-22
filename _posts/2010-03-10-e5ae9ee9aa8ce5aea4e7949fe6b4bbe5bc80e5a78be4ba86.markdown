@@ -7,6 +7,9 @@ title: 实验室生活开始了
 wordpress_id: '9966'
 categories:
 - Life at Tsinghua
+tags:
+- CPU
+- 内存
 ---
 
 这周正式开始实验室生活，这两天都在实验室坐到10pm才回来，今天更是10:30pm。

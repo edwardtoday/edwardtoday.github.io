@@ -8,6 +8,7 @@ wordpress_id: '37860'
 categories:
 - Life at Shanghai
 tags:
+- BlackBerry
 - Social State
 ---
 

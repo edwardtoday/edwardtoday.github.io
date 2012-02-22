@@ -8,7 +8,9 @@ wordpress_id: '37867'
 categories:
 - Life at Shanghai
 tags:
+- Design
 - Networking
+- Work
 ---
 
 上周末把家里的网给改造了一下。
@@ -29,4 +31,4 @@ tags:
 
 
 
-![Home network](http://edwardtoday.files.wordpress.com/2011/01/qingnetwork.png)
+![Home network](http://qingpei.me/wordpress/wp-content/uploads/2011/01/qingnetwork.png)

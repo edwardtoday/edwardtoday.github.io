@@ -6,9 +6,9 @@ status: publish
 title: 39.21km
 wordpress_id: '37806'
 categories:
-- Cycling
+- Bicycling
 tags:
-- Cycling
+- Bicycling
 ---
 
 从平南路转到莲花路，一直骑到江川东路，到我爸单位大概是19.7km，用时49min。

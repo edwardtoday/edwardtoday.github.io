@@ -5,6 +5,9 @@ slug: day-19-ibc-volunteer-work
 status: publish
 title: Day 19 @ IBC - Volunteer Work
 wordpress_id: '9889'
+tags:
+- Volunteer
+- Work
 ---
 
 8号下午到IBC

@@ -7,6 +7,9 @@ title: Application Proc / 1
 wordpress_id: '9940'
 categories:
 - Life at Tsinghua
+tags:
+- App
+- application
 ---
 
 今天用4年前的ID登Stanford的申请站，帐号居然还是能用的…

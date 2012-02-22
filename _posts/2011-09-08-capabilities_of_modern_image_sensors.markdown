@@ -1,13 +1,21 @@
 ---
-date: '2011-09-08 17:37:15'
+date: '2011-09-08 17:36:44'
 layout: post
 slug: capabilities_of_modern_image_sensors
 status: publish
 title: Capabilities of Modern Image Sensors
-wordpress_id: '38043'
+wordpress_id: '38167'
 categories:
 - Life at Hong Kong
 - Thoughts
+tags:
+- APE
+- App
+- application
+- GIT
+- LAN
+- Product
+- Thinkpad
 ---
 
 In the 1st lecture, George mentioned that human eye has ~100M rods and cones. He claimed that no camera could capture that many pixels. It is true that no consumer electronic class digital cameras are on par but more professional ones do.

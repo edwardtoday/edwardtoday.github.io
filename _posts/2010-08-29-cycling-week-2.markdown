@@ -6,9 +6,9 @@ status: publish
 title: Cycling - Week 2
 wordpress_id: '9991'
 categories:
-- Cycling
+- Bicycling
 tags:
-- Cycling
+- Bicycling
 ---
 
 Total distance:

@@ -1,14 +1,15 @@
 ---
-date: '2011-08-26 18:40:46'
+date: '2011-08-26 18:40:18'
 layout: post
 slug: contact_info_update
 status: publish
 title: Contact Info Update
-wordpress_id: '38020'
+wordpress_id: '38121'
 categories:
 - Life at Hong Kong
 tags:
 - Hong Kong
+- update
 ---
 
 如果近期要联系我的话，除了email和各种页面的留言这种不保证立即回复的途径之外，最直接的就是手机了。

@@ -1,14 +1,20 @@
 ---
-date: '2011-02-21 22:15:44'
+date: '2011-02-21 22:14:09'
 layout: post
 slug: dui_xin_ban_de_zhui_qiu
 status: publish
 title: 对新版的追求
-wordpress_id: '37949'
+wordpress_id: '37970'
 categories:
 - Life at Shanghai
 tags:
+- App
+- App Store
+- Mac
+- MacBook
+- Python
 - software
+- Ubuntu
 - update
 - upgrade
 ---
@@ -57,6 +63,8 @@ tags:
 
 
 
+
+ 
 
 
 

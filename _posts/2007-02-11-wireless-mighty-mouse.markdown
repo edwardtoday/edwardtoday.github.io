@@ -5,6 +5,8 @@ slug: wireless-mighty-mouse
 status: publish
 title: Wireless Mighty Mouse...
 wordpress_id: '9766'
+tags:
+- Mouse
 ---
 
 [![](http://tk4.storage.msn.com/x1pAdjo0uCo2H203Ok2wq9QnqN2p4hfO_mi6Hu4NWgnpdrDDOgANI-TdOxvaXyCU8-a_Us4EdB_BxXqCxdKjBmXW1A21lWPh-AoYagHrqXrW-oh8BAtOPn_9cREldJCT34n-WWeDjYIzHLKhrPnO0TOUV2L-K68q0vL)](http://tk4.storage.msn.com/x1pAdjo0uCo2H203Ok2wq9QnqN2p4hfO_mi6Hu4NWgnpdpafJS805xjJO8KxQZyLPNliIWAcP-savBVFD9vW5CNg5VNhbIHCsIo6yoU0pGQ-he8zulgelB_hZIpInmLUMLZsCtTI30oVAUumryc35eU3y1zziaE8pKi)

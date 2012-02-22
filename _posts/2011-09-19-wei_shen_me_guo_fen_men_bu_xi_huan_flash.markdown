@@ -1,10 +1,10 @@
 ---
-date: '2011-09-19 16:14:47'
+date: '2011-09-19 16:14:00'
 layout: post
 slug: wei_shen_me_guo_fen_men_bu_xi_huan_flash
 status: publish
 title: 为什么果粉们不喜欢Flash
-wordpress_id: '38054'
+wordpress_id: '38191'
 categories:
 - Life at Hong Kong
 tags:
@@ -12,7 +12,7 @@ tags:
 - 内存
 ---
 
-![Flash Player CPU Usage](http://edwardtoday.files.wordpress.com/2011/09/flash-player-cpu-usage.png)
+![Flash Player CPU Usage](http://qingpei.me/wordpress/wp-content/uploads/2011/09/Flash-Player-CPU-Usage.png)
 
 
 

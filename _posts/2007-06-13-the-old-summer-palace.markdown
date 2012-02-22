@@ -5,6 +5,8 @@ slug: the-old-summer-palace
 status: publish
 title: The Old Summer Palace
 wordpress_id: '9819'
+tags:
+- Things
 ---
 
 Just seen the movie now

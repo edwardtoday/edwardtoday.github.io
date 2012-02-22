@@ -5,6 +5,8 @@ slug: day-5-ibc
 status: publish
 title: Day 5 @ IBC
 wordpress_id: '9871'
+tags:
+- Java
 ---
 
 今天做了为数不多的几件事：

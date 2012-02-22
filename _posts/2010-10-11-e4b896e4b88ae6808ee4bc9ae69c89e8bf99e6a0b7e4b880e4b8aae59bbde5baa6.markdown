@@ -6,6 +6,8 @@ status: publish
 title: 世上怎会有这样一个国度
 wordpress_id: '37837'
 tags:
+- Canon
+- Python
 - Thoughts
 ---
 

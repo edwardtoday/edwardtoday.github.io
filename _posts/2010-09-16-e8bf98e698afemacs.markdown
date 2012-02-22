@@ -6,6 +6,11 @@ status: publish
 title: 还是Emacs
 wordpress_id: '9998'
 tags:
+- Eclipse
+- Emacs
+- Mac
+- Python
+- TeX
 - Work
 ---
 

@@ -6,7 +6,15 @@ status: publish
 title: Triple-boot with MacBook (2,1 early 2007)
 wordpress_id: '9961'
 tags:
+- Mac
+- MacBook
+- RAM
+- Snow Leopard
+- Ubuntu
+- update
+- VM
 - Work
+- 内存
 ---
 
 去年国庆的时候重做了一次系统，当时是Snow Leopard + Windows 7 dual-boot。后来因为win 7的频频蓝屏让我不得不将其格掉换成win xp，顿时一切都安定了（VPN的连接稳定了，不过外接显示器的配置又繁琐了）。等到后半学期开始做各个大作业的时候，我发现让Linux蜗居在VMware里实在是有些影响速度：一来F1-F12被Mac占了，功能键得靠Fn搭配实现，麻烦；二来Mac以及一堆后台服务占了1g多内存，对于几个很能吃内存的工程，剩下的2g兼任cache和虚拟机RAM有些力不从心，而且我不能保证我需要放在RAM中的数据没有被VMware自动请到虚存里，对性能的测试就只好将就看看了。
@@ -24,7 +32,7 @@ tags:
   7. Insert the Ubuntu live cd (or DVD or alternative cd, etc.) and reboot.  
   8. Choose to boot with the optical drive with a Linux icon in the rEFIt startup screen.  
   9. Install Ubuntu. Resize the windows partition to make room for Ubuntu. Install grub to the Ubuntu partition instead of the hd.  
-  10. [Configure](https://help.ubuntu.com/community/MacBook2-1/Karmic) Ubuntu to work better with MacBook.
+  10. Configure Ubuntu to work better with MacBook.
 
 到这里应该结束了，不过我启动了几回Ubuntu之后，换到Win7一次，然后再也进不了Ubuntu了。思考再三，我觉得可能是安装Ubuntu的时候用的是ext4而非ext3，而rEFIt没说支持ext4……于是从第7步重来，问题解决。
 

@@ -6,9 +6,20 @@ status: publish
 title: MySQL C++ mac...
 wordpress_id: '37630'
 tags:
+- C++
+- Data
+- Eclipse
+- Infomation Retrieval
+- Java
+- Mac
 - MySQL
 - Snow Leopard
+- TeX
+- Ubuntu
+- VM
 - Work
+- Xcode
+- 内存
 ---
 
 近日着手数据库大作业。

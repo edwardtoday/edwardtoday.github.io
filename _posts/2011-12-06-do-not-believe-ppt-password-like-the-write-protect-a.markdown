@@ -1,10 +1,10 @@
 ---
-date: '2011-12-06 22:04:24'
+date: '2011-12-06 22:01:59'
 layout: post
 slug: do-not-believe-ppt-password-like-the-write-protect-a
 status: publish
 title: 再也不相信ppt写保护密码之类的了
-wordpress_id: '38098'
+wordpress_id: '38373'
 categories:
 - Life at Hong Kong
 ---

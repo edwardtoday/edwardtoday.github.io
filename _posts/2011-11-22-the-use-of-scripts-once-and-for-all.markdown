@@ -1,10 +1,10 @@
 ---
-date: '2011-11-22 12:22:15'
+date: '2011-11-22 12:20:52'
 layout: post
 slug: the-use-of-scripts-once-and-for-all
 status: publish
 title: 利用脚本，一劳永逸
-wordpress_id: '38086'
+wordpress_id: '38362'
 categories:
 - Life at Hong Kong
 tags:

@@ -1,10 +1,10 @@
 ---
-date: '2011-05-28 01:06:56'
+date: '2011-05-28 00:53:14'
 layout: post
 slug: xi_you_can_ban_a
 status: publish
 title: 喜忧参半啊
-wordpress_id: '37998'
+wordpress_id: '38091'
 categories:
 - Life at Shanghai
 tags:
@@ -12,6 +12,8 @@ tags:
 - Brick
 - DD-WRT
 - Gigabit
+- Mac
+- MacBook
 ---
 
 交换机到了，现在内网传输有80MB/s以上了，并发的传输没测，交换机标称是16Gbps的处理能力，8口全双工的。

@@ -5,6 +5,9 @@ slug: on-goodbye-lenin
 status: publish
 title: On Goodbye, Lenin!
 wordpress_id: '9804'
+tags:
+- App
+- Work
 ---
 
 This movie is, rather than great, just a little thought-provoking.  

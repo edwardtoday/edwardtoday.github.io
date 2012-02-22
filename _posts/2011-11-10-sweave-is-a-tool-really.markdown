@@ -1,10 +1,10 @@
 ---
-date: '2011-11-10 17:05:16'
+date: '2011-11-10 16:57:22'
 layout: post
 slug: sweave-is-a-tool-really
 status: publish
 title: Sweave果然是个利器
-wordpress_id: '38081'
+wordpress_id: '38356'
 categories:
 - Life at Hong Kong
 tags:
@@ -64,7 +64,7 @@ tags:
 
 
 
-[11500811g_QING_Pei.pdf](http://edwardtoday.files.wordpress.com/2011/11/11500811g_qing_pei.pdf)
+[gview file="http://qingpei.me/wordpress/wp-content/uploads/2011/11/11500811g_QING_Pei.pdf"]
 
 
 

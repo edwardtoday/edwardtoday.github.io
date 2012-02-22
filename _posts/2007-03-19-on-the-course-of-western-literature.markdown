@@ -5,6 +5,9 @@ slug: on-the-course-of-western-literature
 status: publish
 title: On the course of Western Literature
 wordpress_id: '9789'
+tags:
+- Reading
+- Words
 ---
 
 Selected the Western Literature, cuz it is taught by an Englishman, unlike many other similar courses almost sharing the same name as this one.

@@ -7,6 +7,12 @@ title: After Deadlines
 wordpress_id: '9920'
 categories:
 - Life at Tsinghua
+tags:
+- App
+- Apple
+- Jobs
+- Mac
+- MacBook
 ---
 
 follow the dead-parallel-lines, dead-surfaces, dead-spaces...

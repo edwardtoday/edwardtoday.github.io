@@ -7,6 +7,8 @@ title: 小悲剧一则
 wordpress_id: '37831'
 categories:
 - Life at Shanghai
+tags:
+- BlackBerry
 ---
 
 早上骑车到公司，欲锁车，发现锁没带，返回。 
