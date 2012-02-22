@@ -1,0 +1,10 @@
+---
+date: '2007-01-23 15:34:56'
+layout: post
+slug: web-album-1
+status: publish
+title: Web Album 1
+wordpress_id: '9748'
+---
+
+[http://picasaweb.google.com/edwardtoday/](http://picasaweb.google.com/edwardtoday/)

@@ -1,0 +1,12 @@
+---
+date: '2007-03-18 15:17:04'
+layout: post
+slug: '%e8%ae%a162-vs-%e8%ae%a144'
+status: publish
+title: 计62 VS 计44
+wordpress_id: '9788'
+categories:
+- Life at Tsinghua
+---
+
+37:17

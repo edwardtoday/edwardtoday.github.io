@@ -1,0 +1,14 @@
+---
+date: '2010-04-26 23:41:00'
+layout: post
+slug: '9999'
+status: publish
+title: '9999'
+wordpress_id: '9969'
+tags:
+- Thoughts
+---
+
+刚才看了下，访问量9999.  
+这个数字很好看啊  
+

@@ -1,0 +1,26 @@
+---
+date: '2010-10-11 16:12:23'
+layout: post
+slug: it%e4%b8%8e%e5%8d%95%e8%bd%a6
+status: publish
+title: IT与单车
+wordpress_id: '37843'
+categories:
+- Life at Shanghai
+tags:
+- Cycling
+---
+
+之前见过一些JAVA车架，觉得对部分IT人士是个好选择（比如当Sun的员工车？）  
+结果前天又偶遇一辆.Net……  
+还有什么牌子？！
+
+
+
+
+Posted with WordPress for BlackBerry.
+
+
+
+
+啊，我又看到Apache了！

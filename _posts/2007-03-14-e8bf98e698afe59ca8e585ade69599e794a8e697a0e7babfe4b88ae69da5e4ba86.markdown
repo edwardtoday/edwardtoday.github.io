@@ -1,0 +1,21 @@
+---
+date: '2007-03-14 21:08:44'
+layout: post
+slug: '%e8%bf%98%e6%98%af%e5%9c%a8%e5%85%ad%e6%95%99%e7%94%a8%e6%97%a0%e7%ba%bf%e4%b8%8a%e6%9d%a5%e4%ba%86'
+status: publish
+title: 还是在六教用无线上来了...
+wordpress_id: '9785'
+categories:
+- Life at Tsinghua
+---
+
+寝室端口网管死也不开,没办法,上不了外网.今天来六教试试人品,不小心上来了^^
+
+
+现在那个忙啊...
+
+
+所以...
+
+
+就写这些...

@@ -1,0 +1,13 @@
+---
+date: '2012-02-04 21:45:27'
+layout: post
+slug: temporary-post-used-for-theme-detection-3f4b565f-6184-4139-8358-13a84f48425c-3bfe001a-32de-4114-a6b4-4005b770f6d7
+status: trash
+title: Temporary Post Used For Theme Detection (3f4b565f-6184-4139-8358-13a84f48425c
+  - 3bfe001a-32de-4114-a6b4-4005b770f6d7)
+wordpress_id: '38105'
+categories:
+- Life at Shanghai
+---
+
+This is a temporary post that was not deleted. Please delete this manually. (2a913e2a-4ec0-42fe-8b43-292b54b3a084 - 3bfe001a-32de-4114-a6b4-4005b770f6d7)

@@ -1,0 +1,15 @@
+---
+date: '2010-09-28 19:01:00'
+layout: post
+slug: '%e5%89%8d%e7%9e%bb%e6%80%a7'
+status: publish
+title: 前瞻性
+wordpress_id: '37826'
+tags:
+- Thoughts
+---
+
+上周才把space搬到wp，今天就看到微软的动静，充分证明了我的前瞻性啊。
+现在google reader上全是朋友们搬家后的rss... 
+
+Posted with WordPress for BlackBerry.

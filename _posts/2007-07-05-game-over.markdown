@@ -1,0 +1,10 @@
+---
+date: '2007-07-05 03:19:02'
+layout: post
+slug: game-over
+status: publish
+title: Game Over.
+wordpress_id: '9834'
+---
+
+最后一门也结束了。

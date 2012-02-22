@@ -1,0 +1,12 @@
+---
+date: '2009-09-25 19:34:43'
+layout: post
+slug: bs
+status: publish
+title: BS
+wordpress_id: '9941'
+categories:
+- Life at Tsinghua
+---
+
+这回集体被CUHK鄙视了，nnd……

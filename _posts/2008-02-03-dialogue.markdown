@@ -1,0 +1,36 @@
+---
+date: '2008-02-03 00:59:14'
+layout: post
+slug: dialogue
+status: publish
+title: Dialogue
+wordpress_id: '37611'
+tags:
+- Thoughts
+---
+
+-她什么时候回来啊?
+
+--5号
+
+-你去接啊?
+
+--嗯
+
+-还有谁啊?
+
+--她妈
+
+-同学呢?
+
+--没有了
+
+-我可不可以不同意?
+
+--可以
+
+-我不同意你还去不去?
+
+--去
+
+...

@@ -1,0 +1,40 @@
+---
+date: '2011-07-06 21:37:41'
+layout: post
+slug: m4
+status: publish
+title: M4
+wordpress_id: '38010'
+categories:
+- Life at Shanghai
+tags:
+- M4
+- SSD
+---
+
+M4可以算是目前为止性价比最高的主流SSD了。搞了个64G的。现在有四块2寸盘放在联力BZ-525里，占一个光驱位。
+
+
+
+
+麻烦的是M4和Intel G2厚度比9.5mm多出一点点，结果拧完螺丝往机箱塞的时候发现会蹭到，再拧下来重新摆放……
+
+
+
+
+好在两款希捷的厚度很标准，放进去妥妥的。
+
+
+
+
+[![as-ssd-bench M4-CT064M4SSD2 7.3.2011 8-53-15 PM](http://qingpei.me/wordpress/wp-content/uploads/2011/07/as-ssd-bench-M4-CT064M4SSD2-7.3.2011-8-53-15-PM_thumb.png)](http://qingpei.me/wordpress/wp-content/uploads/2011/07/as-ssd-bench-M4-CT064M4SSD2-7.3.2011-8-53-15-PM.png)
+
+
+
+
+现在的系统盘是将SSD带入很多人家的Intel G2 80G。
+
+
+
+
+[![as-ssd-bench INTEL SSDSA2M080 7.3.2011 8-49-39 PM](http://qingpei.me/wordpress/wp-content/uploads/2011/07/as-ssd-bench-INTEL-SSDSA2M080-7.3.2011-8-49-39-PM_thumb.png)](http://qingpei.me/wordpress/wp-content/uploads/2011/07/as-ssd-bench-INTEL-SSDSA2M080-7.3.2011-8-49-39-PM.png)

@@ -1,0 +1,21 @@
+---
+date: '2010-10-12 18:13:22'
+layout: post
+slug: '%e5%a4%a9%e6%b0%94'
+status: publish
+title: 天气
+wordpress_id: '37847'
+categories:
+- Life at Shanghai
+tags:
+- Cycling
+---
+
+昨天报小雨，上班时在下，也就没骑车。  
+今天报小雨，早饭时在下，结果走去车站半路上就停了，到现在一直没下几滴。  
+明天报中雨，我是骑呢，还是不骑呢……来回省一个多小时呢……
+
+
+
+
+Posted with WordPress for BlackBerry.

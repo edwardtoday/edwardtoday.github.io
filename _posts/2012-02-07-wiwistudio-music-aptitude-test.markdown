@@ -1,0 +1,27 @@
+---
+date: '2012-02-07 20:32:23'
+layout: post
+slug: wiwistudio-music-aptitude-test
+status: publish
+title: WiwiStudio音乐能力测验
+wordpress_id: '38114'
+categories:
+- Life at Hong Kong
+---
+
+在人人和微博上都看到了这个分享，于是我也去[该站点](http://wiwistudio.com/musictest/)做了一下。
+
+
+
+
+![Result](http://edwardtoday.files.wordpress.com/2012/02/result.png)
+
+
+
+
+看到几位贵系的辅导员一个个都16~18分了，我不禁想问一句，你们怎么当初会选择学计算机呢⋯⋯
+
+
+
+
+![Stat](http://edwardtoday.files.wordpress.com/2012/02/stat.png)
