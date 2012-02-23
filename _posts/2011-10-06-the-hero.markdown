@@ -15,7 +15,7 @@ tags:
 - Steve Jobs
 ---
 
-![The Hero](http://dl.dropbox.com/u/5249413/blog_images/2011/10/t_hero1.png)
+![The Hero](/images/in_post/t_hero1.png)
 
 
 

@@ -31,4 +31,4 @@ tags:
 
 
 
-![Home network](http://dl.dropbox.com/u/5249413/blog_images/2011/01/qingnetwork.png)
+![Home network](/images/in_post/qingnetwork.png)

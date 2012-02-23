@@ -35,4 +35,4 @@ tags:
 
 把这种项目当作休闲锻炼倒是挺好的，难怪清华每年有不少人参加铁人三项赛，确实全面锻炼身体素质。
 
-[![image](http://dl.dropbox.com/u/5249413/blog_images/2010/09/image_thumb.png)](http://dl.dropbox.com/u/5249413/blog_images/2010/09/image.png)
+[![image](/images/in_post/image_thumb3.png)](/images/in_post/image3.png)

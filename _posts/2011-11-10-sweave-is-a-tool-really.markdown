@@ -64,7 +64,7 @@ tags:
 
 
 
-[gview file="http://dl.dropbox.com/u/5249413/blog_images/2011/11/11500811g_QING_Pei.pdf"]
+[gview file="/images/in_post/11500811g_QING_Pei.pdf"]
 
 
 

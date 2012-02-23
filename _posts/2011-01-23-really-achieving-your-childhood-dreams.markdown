@@ -21,7 +21,7 @@ tags:
 
 
 
-![RandyPausch](http://dl.dropbox.com/u/5249413/blog_images/2011/01/newimage.jpg)
+![RandyPausch](/images/in_post/newimage.jpg)
 
 
 

@@ -14,7 +14,7 @@ categories:
 
 
 
-![EIZO](http://dl.dropbox.com/u/5249413/blog_images/2011/09/EIZO.png)
+![EIZO](/images/in_post/EIZO.png)
 
 
 

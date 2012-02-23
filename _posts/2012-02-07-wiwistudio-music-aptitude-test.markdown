@@ -14,7 +14,7 @@ categories:
 
 
 
-![Result](http://dl.dropbox.com/u/5249413/blog_images/2012/02/result.png)
+![Result](/images/in_post/result.png)
 
 
 
@@ -24,4 +24,4 @@ categories:
 
 
 
-![Stat](http://dl.dropbox.com/u/5249413/blog_images/2012/02/stat.png)
+![Stat](/images/in_post/stat.png)
