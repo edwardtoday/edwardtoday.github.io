@@ -50,3 +50,6 @@ h1, h2, h3{
 .content .copy{
   line-height: 3em;
 }
+.related li{
+  font-size: 3em;
+}
