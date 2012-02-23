@@ -4,4 +4,5 @@ permalink: /posts/:title
 auto: true
 rdiscount:
   extensions: [smart]
-include: ["about"]
+include: [about]
+exclude: [readme.markdown, Rakefile]
