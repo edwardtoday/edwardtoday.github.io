@@ -5,7 +5,7 @@
 <meta name="author" content="edwardtoday" />
 <meta name="description" content="A blog of edwardtoday. Since 2006." />
 <meta name="keywords" content="HTML,CSS,XML,JavaScript" />
-<meta charset="UTF-8" />
+<meta http-equiv="content-type" content="text/html; charset=UTF-8">
 <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/github" />
 <link rel="stylesheet" href="/css/styles.css" type="text/css" media="screen, projection" />
 <link rel="stylesheet" href="/css/syntax.css" type="text/css" />
@@ -14,18 +14,30 @@
 <link href='http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz' rel='stylesheet' type='text/css'>
 <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
 <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascript/application.js"></script>
+<script async type="text/javascript" src="/javascript/application.js"></script>
 <script type="text/javascript">
 $(document).ready(function() {
 {{ page.script }}
 });
+</script>
+<script type="text/javascript">
+  var _gaq = _gaq || [];
+  _gaq.push(['_setAccount', 'UA-29345258-1']);
+  _gaq.push(['_trackPageview']);
+
+  (function() {
+    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
+    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
+  })();
+
 </script>
 </head>
 <body>
 
 <div id="header">
   <a href="/">
-  <img src="http://www.gravatar.com/avatar/71ad5da0dd03afb5ccd7a4f3f5ceec75.png" height="75" width="75" class="avatar" />
+  <img src="http://www.gravatar.com/avatar/71ad5da0dd03afb5ccd7a4f3f5ceec75.png" height="80" width="80" class="avatar" />
   </a>
 
 <div id="me">
@@ -55,17 +67,6 @@ $(document).ready(function() {
 </div>
 
 {{ content }}
-
-<script type="text/javascript">
-var gaJsHost = (("https:" == document.location.protocol) ? "https://ssl." : "http://www.");
-document.write(unescape("%3Cscript src='" + gaJsHost + "google-analytics.com/ga.js' type='text/javascript'%3E%3C/script%3E"));
-</script>
-<script type="text/javascript">
-try{
-var pageTracker = _gat._getTracker("UA-29345258-1");
-pageTracker._trackPageview();
-} catch(err) {}
-</script>
 
 </body>
 </html>
