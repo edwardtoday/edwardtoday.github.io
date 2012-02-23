@@ -9,8 +9,8 @@
   display: none;
 }
 #header .avatar{
-  width: 40px;
-  height: 40px;
+  width: 50px;
+  height: 50px;
   margin-bottom: -10px;
   margin-right: 5px;
 }
@@ -18,9 +18,9 @@
   display: inline;
 }
 #header #pei, #header #qing{
-  font-size: 30px;
+  font-size: 40px;
   color: #000;
-  font-family: 'Yanone Kaffeesatz', sans-serif;
+  font-family: 'Merriweather', sans-serif;
   letter-spacing: 0;
   font-weight: normal;
   text-transform: none;
