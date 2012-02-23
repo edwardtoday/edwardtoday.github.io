@@ -1,6 +1,7 @@
 .highlight {
   margin: 0;
   background-color: #eee;
+  font-family: 'monaco', 'andale mono', 'consolas', monospace;
   font-size: 12px;
   padding: 0px 15px;
   -webkit-border-radius: 10px;
