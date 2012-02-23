@@ -27,10 +27,10 @@ tags:
 
 原来的装法如下左图，CPU和电源之间正好是电源的封闭外壳，风扇只能从一个1cm左右的缝隙进风。电源风扇倒是有大面积的机箱散热孔进风，不过电源负载很小，不热，吹出来的风感觉不到热。
 
-[![image](http://qingpei.me/wordpress/wp-content/uploads/2011/04/image_thumb.png)](http://qingpei.me/wordpress/wp-content/uploads/2011/04/image.png)[![image](http://qingpei.me/wordpress/wp-content/uploads/2011/04/image_thumb1.png)](http://qingpei.me/wordpress/wp-content/uploads/2011/04/image1.png)
+[![image](http://dl.dropbox.com/u/5249413/blog_images/2011/04/image_thumb.png)](http://dl.dropbox.com/u/5249413/blog_images/2011/04/image.png)[![image](http://dl.dropbox.com/u/5249413/blog_images/2011/04/image_thumb1.png)](http://dl.dropbox.com/u/5249413/blog_images/2011/04/image1.png)
 
 现在把CPU散热和电源都换个方向装，CPU的热量往电源风扇吹，经由电源风扇抽到外面。这样的风道直接多了，气流也不至于在机箱里乱跑。
 
-[![image](http://qingpei.me/wordpress/wp-content/uploads/2011/04/image_thumb2.png)](http://qingpei.me/wordpress/wp-content/uploads/2011/04/image2.png)
+[![image](http://dl.dropbox.com/u/5249413/blog_images/2011/04/image_thumb2.png)](http://dl.dropbox.com/u/5249413/blog_images/2011/04/image2.png)
 
 原来待机温度大概在30℃~35℃，现在开机一看，对夏天的散热有点信心了。

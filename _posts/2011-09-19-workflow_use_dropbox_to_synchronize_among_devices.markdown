@@ -27,7 +27,7 @@ tags:
 
 我是用Dropbox来做同步的。有其他选择，甚至自己装台linux机器，配好dyndns和rsync、samba、afp、ftp等服务也能达到目的，不过就是“强大，但是折腾”。
 
-[![Logo](http://qingpei.me/wordpress/wp-content/uploads/2011/09/logo.png)](http://www.dropbox.com)用一句话来概括就是把一个文件夹存到云上去，在多个设备间同步。
+[![Logo](http://dl.dropbox.com/u/5249413/blog_images/2011/09/logo.png)](http://www.dropbox.com)用一句话来概括就是把一个文件夹存到云上去，在多个设备间同步。
 
 有PC、Mac、Linux，也有iPhone、iPad、Android、Blackberry版本。基本上一网打尽了。
 

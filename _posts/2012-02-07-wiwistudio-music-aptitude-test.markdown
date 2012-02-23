@@ -14,7 +14,7 @@ categories:
 
 
 
-![Result](http://qingpei.me/wordpress/wp-content/uploads/2012/02/result.png)
+![Result](http://dl.dropbox.com/u/5249413/blog_images/2012/02/result.png)
 
 
 
@@ -24,4 +24,4 @@ categories:
 
 
 
-![Stat](http://qingpei.me/wordpress/wp-content/uploads/2012/02/stat.png)
+![Stat](http://dl.dropbox.com/u/5249413/blog_images/2012/02/stat.png)

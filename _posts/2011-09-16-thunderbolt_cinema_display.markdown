@@ -33,7 +33,7 @@ Apple官网的宣传图是这样的：
 
 
 
-![Thunderbolt Cinema Display](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_hero1.jpg)
+![Thunderbolt Cinema Display](http://dl.dropbox.com/u/5249413/blog_images/2011/09/overview_hero1.jpg)
 
 
 

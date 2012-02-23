@@ -24,7 +24,7 @@ Dropbox的空间停留在18.9GB已经很久了，最近发现了这个[测试版
 
 
 
-![Space](http://qingpei.me/wordpress/wp-content/uploads/2012/02/space.png)
+![Space](http://dl.dropbox.com/u/5249413/blog_images/2012/02/space.png)
 
 
 

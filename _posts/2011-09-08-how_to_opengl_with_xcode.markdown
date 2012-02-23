@@ -41,7 +41,7 @@ I am currently using a 2007 MacBook with Mac OS Lion. With the following steps, 
 Start the Mac App Store by clicking the top left  icon and then click "App Store…".
 
 
-![Start Mac App Store](http://qingpei.me/wordpress/wp-content/uploads/2011/09/macappstore.png)
+![Start Mac App Store](http://dl.dropbox.com/u/5249413/blog_images/2011/09/macappstore.png)
 
 
 
@@ -49,9 +49,9 @@ Start the Mac App Store by clicking the top left  icon and then click "App St
 Search for "Xcode".
 
 
-![Search Xcode](http://qingpei.me/wordpress/wp-content/uploads/2011/09/searchxcode.png)The first hit should be the Xcode.
+![Search Xcode](http://dl.dropbox.com/u/5249413/blog_images/2011/09/searchxcode.png)The first hit should be the Xcode.
 
-![Install Xcode](http://qingpei.me/wordpress/wp-content/uploads/2011/09/xcodeinstall.png)
+![Install Xcode](http://dl.dropbox.com/u/5249413/blog_images/2011/09/xcodeinstall.png)
 
 If you are using Lion, it should be free. Click "INSTALL" and after the download finishes, there should be a "Install Xcode" in your Application folder. Install it with the default settings should be fine.
 
@@ -66,7 +66,7 @@ Start Xcode and a welcome screen will pop up.
 
 
 
-![Welcome to Xcode](http://qingpei.me/wordpress/wp-content/uploads/2011/09/welcometoxcode.png)
+![Welcome to Xcode](http://dl.dropbox.com/u/5249413/blog_images/2011/09/welcometoxcode.png)
 
 
 
@@ -76,7 +76,7 @@ Click "Create a new Xcode project".
 
 
 
-![Empty Mac OS X Project](http://qingpei.me/wordpress/wp-content/uploads/2011/09/emptyproject.png)
+![Empty Mac OS X Project](http://dl.dropbox.com/u/5249413/blog_images/2011/09/emptyproject.png)
 
 
 
@@ -96,7 +96,7 @@ Click "Next" again and choose where to save the project. Note that we are select
 
 
 
-![Git Source Control](http://qingpei.me/wordpress/wp-content/uploads/2011/09/sourcecontrol.png)
+![Git Source Control](http://dl.dropbox.com/u/5249413/blog_images/2011/09/sourcecontrol.png)
 
 
 
@@ -112,7 +112,7 @@ Now we have an empty project.
 
 
 
-Click ![Add Target](http://qingpei.me/wordpress/wp-content/uploads/2011/09/addtarget.png) button to add a target. What is a "target"? When you create an application, you may expecting it to be run on different platforms, iPhones, Macs, PCs or Linux hosts and so on. They may need different tools/configurations to build, and this is the moment that we need to define what platform we need our OpenGL app to be running on.
+Click ![Add Target](http://dl.dropbox.com/u/5249413/blog_images/2011/09/addtarget.png) button to add a target. What is a "target"? When you create an application, you may expecting it to be run on different platforms, iPhones, Macs, PCs or Linux hosts and so on. They may need different tools/configurations to build, and this is the moment that we need to define what platform we need our OpenGL app to be running on.
 
 
 
@@ -122,7 +122,7 @@ Choose "Mac OS X" -> "Cocoa Application". (Command Line Tool works as well but a
 
 
 
-![Cocoa Application as target](http://qingpei.me/wordpress/wp-content/uploads/2011/09/cocoaapplication.png)
+![Cocoa Application as target](http://dl.dropbox.com/u/5249413/blog_images/2011/09/cocoaapplication.png)
 
 
 
@@ -132,7 +132,7 @@ Click "Next". Fill the Product Name, Company Identifier and some other settings.
 
 
 
-![Fill the target information](http://qingpei.me/wordpress/wp-content/uploads/2011/09/targetinfo.png)
+![Fill the target information](http://dl.dropbox.com/u/5249413/blog_images/2011/09/targetinfo.png)
 
 
 
@@ -142,7 +142,7 @@ Click "Finish" and a number of files will be automatically added to our project.
 
 
 
-![Files added to project](http://qingpei.me/wordpress/wp-content/uploads/2011/09/projectview.png)
+![Files added to project](http://dl.dropbox.com/u/5249413/blog_images/2011/09/projectview.png)
 
 
 
@@ -152,7 +152,7 @@ At this point, the app is actually runnable. By clicking the "Run" button, after
 
 
 
-![Empty window](http://qingpei.me/wordpress/wp-content/uploads/2011/09/cocoawindow.png)
+![Empty window](http://dl.dropbox.com/u/5249413/blog_images/2011/09/cocoawindow.png)
 
 
 
@@ -173,7 +173,7 @@ Delete files that we do not need by selecting them (hold  to select multiple 
 
 
 
-![Delete unnecessary files](http://qingpei.me/wordpress/wp-content/uploads/2011/09/deletefiles.png)
+![Delete unnecessary files](http://dl.dropbox.com/u/5249413/blog_images/2011/09/deletefiles.png)
 
 
 
@@ -183,7 +183,7 @@ You have the choice to just keep those files out of the project or delete them a
 
 
 
-![Delete files dialog](http://qingpei.me/wordpress/wp-content/uploads/2011/09/deletedialog.png)
+![Delete files dialog](http://dl.dropbox.com/u/5249413/blog_images/2011/09/deletedialog.png)
 
 
 
@@ -193,7 +193,7 @@ Then add the source code that uses OpenGL to the project. Either right click the
 
 
 
-![Add files to project](http://qingpei.me/wordpress/wp-content/uploads/2011/09/addfiles.png)
+![Add files to project](http://dl.dropbox.com/u/5249413/blog_images/2011/09/addfiles.png)
 
 
 
@@ -203,7 +203,7 @@ Here I have added a main.cpp to the project. As the code is from the professor a
 
 
 
-![Main.cpp](http://qingpei.me/wordpress/wp-content/uploads/2011/09/main.cpp_.png)
+![Main.cpp](http://dl.dropbox.com/u/5249413/blog_images/2011/09/main.cpp_.png)
 
 
 
@@ -254,17 +254,17 @@ Or you would encounter compile errors later since Xcode cannot find those files.
 
 If you compile right now, there would be errors telling you that files including gl.h are missing. This is solved by adding frameworks to our project. Click the Project in the leftmost colomn to view the project "Summary" tab. In the middle, there is "Linked Frameworks and Libraries".
 
-![Project Settings](http://qingpei.me/wordpress/wp-content/uploads/2011/09/projectsettings.png)
+![Project Settings](http://dl.dropbox.com/u/5249413/blog_images/2011/09/projectsettings.png)
 
-Click the ![+ button](http://qingpei.me/wordpress/wp-content/uploads/2011/09/+.png) button to add frameworks we need. In this case, we are adding OpenGL and GLUT.
+Click the ![+ button](http://dl.dropbox.com/u/5249413/blog_images/2011/09/+.png) button to add frameworks we need. In this case, we are adding OpenGL and GLUT.
 
 Search for "opengl", select it and click "Add".
 
-![Add OpenGL framework](http://qingpei.me/wordpress/wp-content/uploads/2011/09/addopengl.png)
+![Add OpenGL framework](http://dl.dropbox.com/u/5249413/blog_images/2011/09/addopengl.png)
 
 Add GLUT the same way.
 
-![Frameworks added](http://qingpei.me/wordpress/wp-content/uploads/2011/09/frameworkadded.png)
+![Frameworks added](http://dl.dropbox.com/u/5249413/blog_images/2011/09/frameworkadded.png)
 
 They should appear both in the "Linked Frameworks and Libraries" box and in the left column as part of the project.
 
@@ -274,7 +274,7 @@ They should appear both in the "Linked Frameworks and Libraries" box and in the 
 
 Click "Run" again and a window pops up with its content drawn with OpenGL. What you see in the window depends on what is in that main.cpp file.
 
-![OpenGL Window](http://qingpei.me/wordpress/wp-content/uploads/2011/09/openglwindow.png)
+![OpenGL Window](http://dl.dropbox.com/u/5249413/blog_images/2011/09/openglwindow.png)
 
 
 # Afterword

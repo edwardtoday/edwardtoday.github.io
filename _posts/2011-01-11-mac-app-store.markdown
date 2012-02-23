@@ -28,7 +28,7 @@ App Store迟到了，好在没有跳票太久。7号果断更新到10.6.6，开�
 
 
 
-![AppStore.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/appstore.png)
+![AppStore.png](http://dl.dropbox.com/u/5249413/blog_images/2011/01/appstore.png)
 
 
 
@@ -48,7 +48,7 @@ App Store上有一些一直在用的freeware，比如Evernote、MindNode、TextW
 
 
 
-![AppStorePurchases.png](http://qingpei.me/wordpress/wp-content/uploads/2011/01/appstorepurchases.png)
+![AppStorePurchases.png](http://dl.dropbox.com/u/5249413/blog_images/2011/01/appstorepurchases.png)
 
 
 

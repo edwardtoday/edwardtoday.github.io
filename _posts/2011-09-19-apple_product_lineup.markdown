@@ -36,7 +36,7 @@ tags:
 
 
 
-![Overview hero](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_hero.png)
+![Overview hero](http://dl.dropbox.com/u/5249413/blog_images/2011/09/overview_hero.png)
 
 
 
@@ -71,7 +71,7 @@ tags:
 
 
 
-![Overview hero1 20110606](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_hero1_20110606.png)![Overview performance 20110302](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_performance_20110302.jpg)![Design unibody2](http://qingpei.me/wordpress/wp-content/uploads/2011/09/design_unibody2.jpg)![Overview software2 20110720](http://qingpei.me/wordpress/wp-content/uploads/2011/09/overview_software2_20110720.png)
+![Overview hero1 20110606](http://dl.dropbox.com/u/5249413/blog_images/2011/09/overview_hero1_20110606.png)![Overview performance 20110302](http://dl.dropbox.com/u/5249413/blog_images/2011/09/overview_performance_20110302.jpg)![Design unibody2](http://dl.dropbox.com/u/5249413/blog_images/2011/09/design_unibody2.jpg)![Overview software2 20110720](http://dl.dropbox.com/u/5249413/blog_images/2011/09/overview_software2_20110720.png)
 
 
 

@@ -17,7 +17,7 @@ tags:
 
 其实总有这么一天的。
 
-[![](http://qingpei.me/wordpress/wp-content/uploads/2011/04/Tsinghua100_Logo.jpg)](/?p=38016)
+[![](http://dl.dropbox.com/u/5249413/blog_images/2011/04/Tsinghua100_Logo.jpg)](/?p=38016)
 
 “清华的礼堂好气派啊，跟人民大会堂有一拼啊～”
 

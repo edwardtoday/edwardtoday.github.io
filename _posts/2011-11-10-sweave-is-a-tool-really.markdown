@@ -64,7 +64,7 @@ tags:
 
 
 
-[gview file="http://qingpei.me/wordpress/wp-content/uploads/2011/11/11500811g_QING_Pei.pdf"]
+[gview file="http://dl.dropbox.com/u/5249413/blog_images/2011/11/11500811g_QING_Pei.pdf"]
 
 
 

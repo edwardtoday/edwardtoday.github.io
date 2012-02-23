@@ -13,7 +13,7 @@ tags:
 - Notes
 ---
 
-[![_MG_6234](http://qingpei.me/wordpress/wp-content/uploads/2011/05/MG_6234_thumb.jpg)](http://qingpei.me/wordpress/wp-content/uploads/2011/05/MG_6234.jpg)
+[![_MG_6234](http://dl.dropbox.com/u/5249413/blog_images/2011/05/MG_6234_thumb.jpg)](http://dl.dropbox.com/u/5249413/blog_images/2011/05/MG_6234.jpg)
 
 跟huww在gtalk上聊了下Kindle的使用感受，然后，然后我就去淘宝上看了看，到第二天晚上的时候，卖家就发货了。
 
@@ -25,11 +25,11 @@ tags:
 
 Kindle3的电量标称能用一个月。我现在用了一周，每天三四个小时，大多数是开着皮套那个灯用的，用了差不多三分之一的电（如果那个电量显示真的是线性的）。这是iPad无论如何赶不上的，刚开始用iPad的时候，真的对续航能力感到惊讶，标10小时还就能用10小时，跟市面上这些全都几百小时待机的手机一比，那真是太诚实了。Kindle3功能单一，但是看书这个功能来说，比iPad强。
 
-[![_MG_6240](http://qingpei.me/wordpress/wp-content/uploads/2011/05/MG_6240_thumb.jpg)](http://qingpei.me/wordpress/wp-content/uploads/2011/05/MG_6240.jpg)
+[![_MG_6240](http://dl.dropbox.com/u/5249413/blog_images/2011/05/MG_6240_thumb.jpg)](http://dl.dropbox.com/u/5249413/blog_images/2011/05/MG_6240.jpg)
 
 这是待机页面的显示效果，跟报纸差不多。
 
-[![_MG_6241](http://qingpei.me/wordpress/wp-content/uploads/2011/05/MG_6241_thumb.jpg)](http://qingpei.me/wordpress/wp-content/uploads/2011/05/MG_6241.jpg)
+[![_MG_6241](http://dl.dropbox.com/u/5249413/blog_images/2011/05/MG_6241_thumb.jpg)](http://dl.dropbox.com/u/5249413/blog_images/2011/05/MG_6241.jpg)
 
 这是中文的显示效果，没有用多看系统，这是原生系统，改了locale之后的中文显示。
 
