@@ -1,4 +1,4 @@
-body{font-family:"Helvetica Neue", Helvetica, Arial, sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;margin:0;}
+body{font-family:"Lucida Grande", "Lucida Sans Unicode", Helvetica, Arial, Verdana, sans-serif;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;margin:0;}
 a{color:#227CE8;}
 p code,li code{background-color:#F9F9F9;border:1px solid #eee;font-size:12px;-webkit-border-radius:4px;-moz-border-radius:4px;padding:2px 3px;}
 hr{border:0;height:1px;background-color:#ccc;margin:2em 1em;}
@@ -10,12 +10,12 @@ hr{border:0;height:1px;background-color:#ccc;margin:2em 1em;}
 .related li{font-size:15px;list-style:none;color:#777;border-bottom:1px solid #eee;margin:0;padding:5px 3px;}
 .related li span{float:right;}
 .related a:hover{text-decoration:underline;}
-h1,h2,h3,h4{color:#333;font-family:'Merriweather', 'Hoefler Text', georgia, serif;font-weight:400;border-bottom:1px solid #ccc;}
+h1,h2,h3,h4{color:#333;font-weight:400;border-bottom:1px solid #ccc;}
 h1 a,h2 a,h3 a,h4 a{color:#111;text-decoration:none;}
-h1{font-size:36px;margin-top:18px;margin-bottom:.15em;}
-h2{font-size:30px;margin-bottom:15px;}
-h3{color:#777;font-size:25px;padding-bottom:5px;margin-bottom:10px;}
-#header{position:fixed;left:15px;top:15px;width:80px;font-family:'Merriweather', 'Hoefler Text', georgia, serif;}
+h1{font-size:2em;margin-top:18px;margin-bottom:.15em;}
+h2{font-size:1.7em;margin-bottom:15px;}
+h3{color:#777;font-size:1.3em;padding-bottom:5px;margin-bottom:10px;}
+#header{position:fixed;left:15px;top:15px;width:80px;}
 #header .avatar{margin-left:2px;-webkit-border-radius:5px;-moz-border-radius:5px;-webkit-box-shadow:0 0 15px #ccc;opacity:.8;}
 #header .avatar:hover{opacity:1px;}
 #header #me{text-transform:uppercase;margin:10px 0 20px;}
@@ -36,7 +36,7 @@ h3{color:#777;font-size:25px;padding-bottom:5px;margin-bottom:10px;}
 #post img{display:block;margin-left:auto;margin-right:auto;max-width:610px;-webkit-border-radius:8px;-webkit-box-shadow:0 0 5px #555;}
 #post img.noclip{max-width:650px !important;-webkit-box-shadow:none;}
 #post .aside{background-color:#eee;font-size:14px;line-height:1.6em;margin:5px 0 15px;padding:14px;}
-#post .authoring{margin-bottom:17px;font-family:'Merriweather', 'Hoefler Text', georgia, serif;padding-left:0;font-size:17px;color:#777;}
+#post .authoring{margin-bottom:17px;padding-left:0;font-size:17px;color:#777;}
 #post blockquote{font-style:italic;font-size:14px;color:#444;margin:1em 1em 0;padding:.25em 1em;}
 #post blockquote cite:before{content:'— ';}
 #post blockquote cite{display:block;margin-top:.5em;text-align:right;color:#111;font-style:normal;}
