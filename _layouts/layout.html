@@ -20,7 +20,11 @@
       $('#rss').mouseout(function() {$('#mousing').html("&nbsp;");});
     });
     </script>
-    <script type="text/javascript">$(document).ready(function() {{{ page.script }}});</script>
+    <script type="text/javascript">
+      $(document).ready(function() {
+	    {{ page.script }}
+	  });
+	</script>
   </head>
   <body>
     <p>{% include ga.html %}</p>
