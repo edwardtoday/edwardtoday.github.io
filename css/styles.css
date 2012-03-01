@@ -14,7 +14,7 @@ h1,h2,h3,h4{color:#333;font-weight:400;border-bottom:1px solid #ccc;}
 h1 a,h2 a,h3 a,h4 a{color:#111;text-decoration:none;}
 h1{font-size:2em;margin-top:18px;margin-bottom:.15em;}
 h2{font-size:1.7em;margin-bottom:15px;}
-h3{color:#777;font-size:1.3em;padding-bottom:5px;margin-bottom:10px;}
+h3{font-size:1.3em;padding-bottom:5px;margin-bottom:10px;}
 #header{position:fixed;left:15px;top:15px;width:80px;}
 #header .avatar{margin-left:2px;-webkit-border-radius:5px;-moz-border-radius:5px;-webkit-box-shadow:0 0 15px #ccc;opacity:.8;}
 #header .avatar:hover{opacity:1px;}
@@ -67,4 +67,46 @@ h1,h2,h3{font-size: 3.5em;}
 .related li{font-size: 3em;}
 #whoring{font-size:0.9em;}
 #header #me,#header #sections div{display:inline;}
+}
+/* syntax */
+.highlight{background-color:#eee;font-family:'monaco', 'andale mono', 'consolas', monospace;font-size:12px;-webkit-border-radius:10px;-moz-border-radius:10px;overflow:hidden;text-shadow:none;color:#111;margin:0;padding:0 15px;}
+.hightlight code{float:left;}
+.highlight:hover{overflow:auto;}
+.highlight .hll{background-color:#ffc;}
+/* Comment  */.highlight .err{color:#a61717;background-color:#e3d2d2;}
+/* Comment.Multiline  */.highlight .cp{color:#c00;font-weight:700;}
+/* Comment.Single  */.highlight .cs{color:#c00;font-weight:700;background-color:#fff0f0;}
+/* Comment.Special  */.highlight .gd{color:#000;background-color:#fdd;}
+/* Generic.Deleted  */.highlight .ge{font-style:italic;}
+/* Generic.Error  */.highlight .gh{color:#303030;}
+/* Generic.Heading  */.highlight .gi{color:#000;background-color:#dfd;}
+/* Generic.Prompt  */.highlight .gs{font-weight:700;}
+/* Generic.Strong  */.highlight .gu{color:#606060;}
+/* Keyword.Reserved  */.highlight .kt{color:#888;font-weight:700;}
+/* Name.Class  */.highlight .no{color:#036;font-weight:700;}
+/* Name.Exception  */.highlight .nf{color:#06b;font-weight:700;}
+/* Name.Function  */.highlight .nl{color:#369;font-style:italic;}
+/* Name.Namespace  */.highlight .py{color:#369;font-weight:700;}
+/* Operator.Word  */.highlight .w{color:#bbb;}
+/* Literal.String.Double  */.highlight .se{color:#04d;background-color:#fff0f0;}
+/* Literal.String.Heredoc  */.highlight .si{color:#33b;background-color:#fff0f0;}
+/* Literal.String.Interpol  */.highlight .sx{color:#2b2;background-color:#f0fff0;}
+/* Literal.String.Other  */.highlight .sr{color:#080;background-color:#fff0ff;}
+/* Literal.String.Single  */.highlight .ss{color:#a60;background-color:#fff0f0;}
+/* Name.Variable.Class  */.highlight .vg{color:#d70;}
+/* Name.Variable.Global  */.highlight .vi{color:#33b;}
+.highlight .c,.highlight .cm,.highlight .c1,.highlight .go{color:#888;}
+.highlight .k,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kr{color:#080;font-weight:700;}
+.highlight .gr,.highlight .gt{color:#a00;}
+.highlight .gp,.highlight .nd{color:#555;}
+.highlight .kp,.highlight .ow{color:#080;}
+.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#00D;font-weight:700;}
+.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .sh,.highlight .s1{color:#d20;background-color:#fff0f0;}
+.highlight .na,.highlight .nv,.highlight .vc{color:#369;}
+.highlight .nb,.highlight .bp{color:#038;}
+.highlight .nc,.highlight .ne,.highlight .nn,.highlight .nt{color:#b06;font-weight:700;}
+/* PRINT */
+@media print {
+body, .content li, .related li, h1,h2,h3,h4, #header #pei, #header #qing, #post li, #post .authoring, #post blockquote, #post blockquote cite { color: #000 !important; }
+a, h1 a,h2 a,h3 a,h4 a { color: #000 !important; text-decoration:none !important; }
 }
