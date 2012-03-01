@@ -51,3 +51,20 @@ h3{color:#777;font-size:1.3em;padding-bottom:5px;margin-bottom:10px;}
 .boastful .boastful_tweet{position:absolute;z-index:999;left:-9999px;background-color:#222;opacity:.8;width:250px;font-size:11px;text-shadow:1px 1px 0 #000;color:#eee;-webkit-border-radius:7px;-moz-border-radius:7px;padding:5px;}
 .boastful .boastful_handle{font-size:13px;font-weight:700;}
 a:hover,.related a,#header a{text-decoration:none;}
+/* iPhone */
+@media screen and (max-device-width: 480px) {
+#header{position:relative;width:inherit;left:inherit;top:inherit;padding:15px;}
+#header .site{display:none;}
+#header .avatar{width:50px;height:50px;margin-bottom:-10px;margin-right:5px;}
+#header #pei,#header #qing{font-size:3em;color:#000;font-family:sans-serif;font-weight:400;text-transform:none;padding-right:3px;}
+#header #sections{margin:0;}
+#header #sections a{font-size:2em}
+.content{margin-left:0;width:inherit;padding:0 15px;}
+.authoring{font-size:2em !important;}
+h1,h2,h3{font-size: 3.5em;}
+.content p,#post p{font-size:2em;}
+.content .copy{line-height:3em;}
+.related li{font-size: 3em;}
+#whoring{font-size:0.9em;}
+#header #me,#header #sections div{display:inline;}
+}
