@@ -1,58 +1,46 @@
-<!DOCTYPE html>
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN">
 <html>
-<head>
-<title>{{ page.title }}</title>
-<meta name="author" content="QING Pei" />
-<meta name="description" content="A blog of QING Pei (@edwardtoday). Since 2006." />
-<meta name="keywords" content="HTML,CSS,XML,JavaScript" />
-<meta http-equiv="content-type" content="text/html; charset=UTF-8">
-<link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/qingpei" />
-<link rel="stylesheet" href="/css/styles.css" type="text/css"/>
-<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.4.1/jquery.min.js"></script>
-<script type="text/javascript" src="/javascript/application.js"></script>
-<script type="text/javascript">
-$(document).ready(function() {
-{{ page.script }}
-});
-</script>
-{% include ga.html %}
-</head>
-<body>
-
-<div id="header">
-  <a href="/">
-  <img src="/images/avatar_75.png" height="75" width="75" class="avatar" />
-  </a>
-
-<div id="me">
-  <a href="/">
-  <span id="qing">QING</span>
-  <span id="pei">Pei</span>
-  </a>
-</div>
-
-<div id="mousing">&nbsp;</div>
-<div class="site">
-  <a href="https://github.com/edwardtoday" id="github">
-  <img src="/images/github.png" alt="github" title="@edwardtoday on GitHub" height="16" width="16" />
-  </a>
-  <a href="https://twitter.com/edwardtoday" id="twitter">
-  <img src="/images/twitter.png" alt="twitter" title="@edwardtoday on Twitter" height="16" width="16" />
-  </a>
-  <a href="http://feeds.feedburner.com/qingpei" id="rss">
-  <img src="/images/rss.png" alt="rss" title="Subscribe to this blog's RSS feed" height="16" width="16" />
-  </a>
-</div>
-
-<div id="sections">
-<div><a href="/about">about</a></div>
-<div><a href="/blog">blog</a></div>
-</div>
-
-</div>
-
-{{ content }}
-
-</body>
+  <head>
+    <title>{{ page.title }}</title>
+    <meta name="author" content="QING Pei">
+    <meta name="description" content="A blog of QING Pei (@edwardtoday). Since 2006.">
+    <meta name="keywords" content="HTML,CSS,XML,JavaScript">
+    <meta http-equiv="content-type" content="text/html; charset=utf-8">
+    <link rel="alternate" type="application/rss+xml" href="http://feeds.feedburner.com/qingpei">
+    <link rel="stylesheet" href="/css/styles.css" type="text/css">
+    <link rel="apple-touch-icon" href="/apple-touch-icon.png">
+    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js"></script>
+    <script type="text/javascript">
+    jQuery(document).ready(function($) {
+      $('#github').mouseover(function() {$('#mousing').text("GitHub");});
+      $('#github').mouseout(function() {$('#mousing').html("&nbsp;");});
+      $('#twitter').mouseover(function() {$('#mousing').text("Twitter");});
+      $('#twitter').mouseout(function() {$('#mousing').html("&nbsp;");});
+      $('#rss').mouseover(function() {$('#mousing').text("RSS");});
+      $('#rss').mouseout(function() {$('#mousing').html("&nbsp;");});
+    });
+    </script>
+    <script type="text/javascript">$(document).ready(function() {{{ page.script }}});</script>
+  </head>
+  <body>
+    <p>{% include ga.html %}</p>
+    <div id="header">
+      <a href="/"><img src="/images/avatar_75.png" height="75" width="75" class="avatar"></a>
+      <div id="me">
+        <a href="/"><span id="qing">QING</span>
+        <span id="pei">Pei</span></a>
+      </div>
+      <div id="mousing">&nbsp;</div>
+      <div class="site">
+        <a href="https://github.com/edwardtoday" id="github" name="github"><img src="/images/github.png" alt="github" title="@edwardtoday on GitHub" height="16" width="16"></a>
+        <a href="https://twitter.com/edwardtoday" id="twitter" name="twitter"><img src="/images/twitter.png" alt="twitter" title="@edwardtoday on Twitter" height="16" width="16"></a>
+        <a href="http://feeds.feedburner.com/qingpei" id="rss" name="rss"><img src="/images/rss.png" alt="rss" title="Subscribe to this blog's RSS feed" height="16" width="16"></a>
+      </div>
+      <div id="sections">
+        <div><a href="/about">about</a></div>
+        <div><a href="/blog">blog</a></div>
+      </div>
+    </div>
+    <p>{{ content }}</p>
+  </body>
 </html>
