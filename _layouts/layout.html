@@ -7,6 +7,7 @@
     <meta name="description" content="A blog of QING Pei (@edwardtoday). Since 2006." />
     <meta name="keywords" content="HTML,CSS,XML,JavaScript"/>
 	<title>{{ page.title }}</title>
+	<link rel="dns-prefetch" href="//ajax.googleapis.com" />
     <link rel="alternate" type="application/rss+xml" title="RSS" href="http://feeds.feedburner.com/qingpei" />
     <link rel="stylesheet" href="/css/styles.css" type="text/css" />
     <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
@@ -26,9 +27,9 @@
 	    {{ page.script }}
 	  });
 	</script>
+	{% include ga.html %}
   </head>
-  <body>
-    <p>{% include ga.html %}</p>
+  <body onload="onload()">
     <div id="header">
       <a href="/"><img src="/images/avatar_75.png" height="75" width="75" class="avatar"></a>
       <div id="me">
