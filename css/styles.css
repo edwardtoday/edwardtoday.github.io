@@ -340,8 +340,13 @@ text-decoration:none
 /* iPhone */
 @media screen and (max-device-width:480px) {
 	body {
-	-webkit-overflow-scrolling: touch;
+	-webkit-overflow-scrolling: touch
 	}
+	
+	a {
+	font-size: 1em
+	}
+	
 	#header {
 	position:relative;
 	width:inherit;
