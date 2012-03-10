@@ -158,7 +158,7 @@ margin:25px 0 0 -15px
 }
 
 #header #sections div {
-margin-bottom:7px
+margin-bottom:14px
 }
 
 #header #sections a {
@@ -210,7 +210,7 @@ max-width:610px
 
 #post img.noclip {
 -webkit-box-shadow:none;
-max-width:650px!important
+max-width:650px
 }
 
 #post .aside {
@@ -282,7 +282,7 @@ display:inline
 -moz-border-radius:7px;
 -webkit-border-radius:7px;
 border:0;
-display:inline!important;
+display:inline !important;
 height:32px;
 width:32px;
 margin:1px 2px
@@ -326,98 +326,170 @@ a:hover,.related a,#header a {
 text-decoration:none
 }
 
-@media print{
-	body,.content li,.related li,h1,h2,h3,h4,#header #pei,#header #qing,#post li,#post .authoring,#post blockquote,#post blockquote cite {
-		color:#000!important
-	}
+@media print {
+body,.content li,.related li,h1,h2,h3,h4,#header #pei,#header #qing,#post li,#post .authoring,#post blockquote,#post blockquote cite {
+color:#000 !important
+}
 
-	a,h1 a,h2 a,h3 a,h4 a {
-		color:#000!important;
-		text-decoration:none!important
-	}
+a,h1 a,h2 a,h3 a,h4 a {
+color:#000 !important;
+text-decoration:none !important
+}
 }
 
 /* iPhone */
-@media screen and (max-device-width:480px) {
-	body {
-	-webkit-overflow-scrolling: touch
-	}
-	
-	a {
-	font-size: 1em
-	}
-	
-	#header {
-	position:relative;
-	width:inherit;
-	left:inherit;
-	top:inherit;
-	padding:15px
-	}
-
-	#header .site {
-	display:none
-	}
-
-	#header .avatar {
-	width:75px;
-	height:75px;
-	margin-bottom:-10px;
-	margin-right:5px
-	}
-
-	#header #pei,#header #qing {
-	font-size:75px;
-	color:#000;
-	font-family:sans-serif;
-	font-weight:900;
-	text-transform:none;
-	padding-right:3px
-	}
-
-	#header #sections {
-	margin:0
-	}
-
-	.content {
-	margin-left:0;
-	width:inherit;
-	padding:0 15px
-	}
-
-	.authoring {
-	font-size:2em!important
-	}
-
-	h1,h2,h3 {
-	font-size:3.5em
-	}
-
-	.content .copy {
-	line-height:3em
-	}
-
-	.related li {
-	font-size:3em
-	}
-	
-	.related li a{
-	font-size:1em
-	}
-
-	#whoring {
-	font-size:.9em
-	}
-
-	#header #me,#header #sections div {
-	display:inline
-	}
-
-	#header #sections a,.content p,#post p {
-	font-size:2em
-	}
-
+@media screen and max-device-width480px  {
+body {
+-webkit-overflow-scrolling:touch
 }
+
+#header {
+position:relative;
+width:inherit;
+left:inherit;
+top:inherit;
+padding:15px
+}
+
+#header .site {
+display:none
+}
+
+#header .avatar {
+width:75px;
+height:75px;
+margin-bottom:-10px;
+margin-right:5px
+}
+
+#header #pei,#header #qing {
+font-size:75px;
+color:#000;
+font-family:sans-serif;
+font-weight:900;
+text-transform:none;
+padding-right:3px
+}
+
+#header #sections {
+margin:0
+}
+
+#header #sections div {
+margin-right:14px
+}
+
+.content {
+margin-left:0;
+width:inherit;
+padding:0 15px
+}
+
+h1,h2,h3 {
+font-size:3.5em
+}
+
+.content .copy {
+line-height:3em
+}
+
+#whoring {
+font-size:.9em
+}
+
+#header #me,#header #sections div {
+display:inline
+}
+
+a,.related li a {
+font-size:1em
+}
+
+#header #sections a,.related li {
+font-size:3em
+}
+
+.authoring,.content p,#post p {
+font-size:2em
+}
+}
+
+/* iPad */
+@media only screen and (device-width: 768px) {
+/* For general iPad layouts */
+body {-webkit-overflow-scrolling: touch}
+
+a {font-size: 1em}
+
+.related li a{font-size:1em}
+
+#whoring {font-size:.8em}
+
+.content .copy {line-height:1.5em}
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
+/* For portrait layouts only */
+#header {
+position:relative;
+width:inherit;
+left:inherit;
+top:inherit;
+padding:15px
+}
+
+#header .site {display:none}
+
+#header .avatar {
+width:64px;
+height:64px;
+margin-bottom:-10px;
+margin-right:5px
+}
+
+#header #pei,#header #qing {font-size:64px;}
+
+#header #sections {margin:0}
+
+#header #sections div {margin-right:14px}
+
+#header #sections a {font-size:2em}
+
+.content {
+margin-left:0;
+width:inherit;
+padding:0 15px
+}
+
+.authoring {font-size:1.5em!important}
+
+h1,h2,h3 {font-size:2.5em}
+
+.related li {font-size:1.7em}
+
+#header #me,#header #sections div {display:inline}
+
+.content p,#post p {font-size:1.5em}
+}
+
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
+/* For landscape layouts only */
+.content {
+margin-left:150px;
+width:768px
+}
+
+.authoring {font-size:1.2em!important}
+
+h1,h2,h3 {font-size:2em}
+
+#header #pei,#header #qing {font-size:1.8em;}
+
+.related li {font-size:1.3em}
+
+#header #sections a,.content p,#post p {font-size:1.2em}
+}
+
 
 /* syntax */
 .highlight{background-color:#eee;font-family:'monaco', 'andale mono', 'consolas', monospace;font-size:12px;-webkit-border-radius:10px;-moz-border-radius:10px;overflow:hidden;text-shadow:none;color:#111;margin:0;padding:0 15px;}
