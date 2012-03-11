@@ -373,6 +373,10 @@ text-decoration:none
 	#header #sections {
 	margin:0
 	}
+	
+	#header #sections div {
+	margin-right:14px
+	}
 
 	.content {
 	margin-left:0;
