@@ -31,4 +31,4 @@ tags:
 
 
 
-![Home network](/images/in_post/qingnetwork.png)
+![Home network](http://qingpei.me/images/in_post/qingnetwork.png)

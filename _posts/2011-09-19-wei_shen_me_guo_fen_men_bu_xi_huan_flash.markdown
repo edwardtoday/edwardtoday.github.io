@@ -12,7 +12,7 @@ tags:
 - 内存
 ---
 
-![Flash Player CPU Usage](/images/in_post/Flash-Player-CPU-Usage.png)
+![Flash Player CPU Usage](http://qingpei.me/images/in_post/Flash-Player-CPU-Usage.png)
 
 
 

@@ -14,7 +14,7 @@ categories:
 
 
 
-![Result](/images/in_post/result.png)
+![Result](http://qingpei.me/images/in_post/result.png)
 
 
 
@@ -24,4 +24,4 @@ categories:
 
 
 
-![Stat](/images/in_post/stat.png)
+![Stat](http://qingpei.me/images/in_post/stat.png)

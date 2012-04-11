@@ -15,7 +15,7 @@ tags:
 - Steve Jobs
 ---
 
-![The Hero](/images/in_post/t_hero1.png)
+![The Hero](http://qingpei.me/images/in_post/t_hero1.png)
 
 
 

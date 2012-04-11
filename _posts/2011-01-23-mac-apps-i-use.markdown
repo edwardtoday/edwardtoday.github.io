@@ -71,7 +71,7 @@ I use this for texting. Video chats? Go for Skype.
 
 
 
-![Adium.png](/images/in_post/adium.png)
+![Adium.png](http://qingpei.me/images/in_post/adium.png)
 
 
 
@@ -86,7 +86,7 @@ Find updates of installed applications and let you download/install these update
 
 
 
-![AppFresh.png](/images/in_post/appfresh.png)
+![AppFresh.png](http://qingpei.me/images/in_post/appfresh.png)
 
 
 
@@ -101,7 +101,7 @@ Incremental backup. Using rsync as backend. Fast and stable.
 
 
 
-![CarbonCopyCloner.png](/images/in_post/carboncopycloner.png)
+![CarbonCopyCloner.png](http://qingpei.me/images/in_post/carboncopycloner.png)
 
 
 
@@ -116,7 +116,7 @@ FTP client. I tried Transmit and ForkLift and finally chose this one.
 
 
 
-![Cyberduck.png](/images/in_post/cyberduck.png)
+![Cyberduck.png](http://qingpei.me/images/in_post/cyberduck.png)
 
 
 
@@ -136,7 +136,7 @@ Automatically syncs everything in the Dropbox folder.
 
 
 
-![Dropbox.png](/images/in_post/dropbox.png)
+![Dropbox.png](http://qingpei.me/images/in_post/dropbox.png)
 
 
 
@@ -156,7 +156,7 @@ I use Evernote for Windows, Mac, iPhone/iPad and Blackberry.
 
 
 
-![Evernote.png](/images/in_post/evernote.png)
+![Evernote.png](http://qingpei.me/images/in_post/evernote.png)
 
 
 
@@ -171,7 +171,7 @@ The built-in screen shot is very powerful, but video capture is missing before Q
 
 
 
-![Screenflow.png](/images/in_post/screenflow.png)
+![Screenflow.png](http://qingpei.me/images/in_post/screenflow.png)
 
 
 
@@ -186,7 +186,7 @@ PDF reader. Faster than Adobe Reader. Very useful notes feature which does not a
 
 
 
-![Skim.png](/images/in_post/skim.png)
+![Skim.png](http://qingpei.me/images/in_post/skim.png)
 
 
 
@@ -201,7 +201,7 @@ GTD tool. Syncs with iCal and iPhone client.
 
 
 
-![Things.png](/images/in_post/things.png)
+![Things.png](http://qingpei.me/images/in_post/things.png)
 
 
 
@@ -216,7 +216,7 @@ Award winning Subversion client. As DVCS is more popular these days, try MacHG a
 
 
 
-![Versions.png](/images/in_post/versions.png)
+![Versions.png](http://qingpei.me/images/in_post/versions.png)
 
 
 
@@ -231,4 +231,4 @@ Terminal app I use for BBS.
 
 
 
-![Welly.png](/images/in_post/welly.png)
+![Welly.png](http://qingpei.me/images/in_post/welly.png)

@@ -83,7 +83,7 @@ tags:
 
 
 
-这家伙也是个披着羊皮的rsync。不过对我来说比Time Machine好用些。![Carbon copy cloner logo](/images/in_post/carbon_copy_cloner_logo.jpg)
+这家伙也是个披着羊皮的rsync。不过对我来说比Time Machine好用些。![Carbon copy cloner logo](http://qingpei.me/images/in_post/carbon_copy_cloner_logo.jpg)
 
 
 

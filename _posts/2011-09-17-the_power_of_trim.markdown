@@ -24,7 +24,7 @@ tags:
 
 
 
-![SSD Space Used](/images/in_post/Screen-Shot-2011-09-17-at-4.13.04-AM.png)
+![SSD Space Used](http://qingpei.me/images/in_post/Screen-Shot-2011-09-17-at-4.13.04-AM.png)
 
 
 
@@ -34,7 +34,7 @@ tags:
 
 
 
-![Disk Speed Test](/images/in_post/Screen-Shot-2011-09-17-at-4.04.48-AM.png)
+![Disk Speed Test](http://qingpei.me/images/in_post/Screen-Shot-2011-09-17-at-4.04.48-AM.png)
 
 
 

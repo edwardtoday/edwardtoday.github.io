@@ -21,7 +21,7 @@ tags:
 
 
 
-![RandyPausch](/images/in_post/newimage.jpg)
+![RandyPausch](http://qingpei.me/images/in_post/newimage.jpg)
 
 
 

@@ -16,7 +16,7 @@ tags:
 换过一次电池了，下次就该换整机了……
 
 
-![Poor battery health: 5%](/images/in_post/poorbattery.png)
+![Poor battery health: 5%](http://qingpei.me/images/in_post/poorbattery.png)
 
 
 

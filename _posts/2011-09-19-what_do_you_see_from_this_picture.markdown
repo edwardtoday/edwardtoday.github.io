@@ -14,7 +14,7 @@ categories:
 
 
 
-![EIZO](/images/in_post/EIZO.png)
+![EIZO](http://qingpei.me/images/in_post/EIZO.png)
 
 
 

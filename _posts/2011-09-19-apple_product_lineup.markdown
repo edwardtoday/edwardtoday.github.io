@@ -36,7 +36,7 @@ tags:
 
 
 
-![Overview hero](/images/in_post/overview_hero.png)
+![Overview hero](http://qingpei.me/images/in_post/overview_hero.png)
 
 
 
@@ -71,7 +71,7 @@ tags:
 
 
 
-![Overview hero1 20110606](/images/in_post/overview_hero1_20110606.png)![Overview performance 20110302](/images/in_post/overview_performance_20110302.jpg)![Design unibody2](/images/in_post/design_unibody2.jpg)![Overview software2 20110720](/images/in_post/overview_software2_20110720.png)
+![Overview hero1 20110606](http://qingpei.me/images/in_post/overview_hero1_20110606.png)![Overview performance 20110302](http://qingpei.me/images/in_post/overview_performance_20110302.jpg)![Design unibody2](http://qingpei.me/images/in_post/design_unibody2.jpg)![Overview software2 20110720](http://qingpei.me/images/in_post/overview_software2_20110720.png)
 
 
 
