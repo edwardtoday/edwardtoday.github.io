@@ -28,7 +28,7 @@ title: 清理相机CMOS和键盘
 
 然后开始刷，擦，吹，拍，把灰尘消灭。键帽就放盆里清水洗洗了。
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0321.jpg)
+![image](http://qingpei.me/images/in_post/2012/05/IMG_0322.jpg)
 
 所有键帽归位，又是一条好汉啊。
 
