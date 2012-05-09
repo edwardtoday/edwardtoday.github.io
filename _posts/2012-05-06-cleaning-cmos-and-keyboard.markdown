@@ -9,12 +9,12 @@ title: 清理相机CMOS和键盘
 
 清洁前是这样的：
 
-![image](http://qingpei.me/images/in_post/2012/05/_MG_7222.jpg)
+![image](http://qingpei.me/images/in_post/2012/05/IMG_7222.jpg)
 
 几个黑点实在是很碍眼。然后用各种姿势摧残CMOS，最终达到以下效果：
 
 
-![image](http://qingpei.me/images/in_post/2012/05/_MG_7252.jpg)
+![image](http://qingpei.me/images/in_post/2012/05/IMG_7252.jpg)
 
 看起来清静多了。
 
