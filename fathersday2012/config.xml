@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery
+
+	maxImageWidth="1024"
+	maxImageHeight="768"
+	imageQuality="80"
+	thumbWidth="75"
+	thumbHeight="75"
+	thumbQuality="90"
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	galleryTitle="2012父亲节"
+	backgroundColor="rgba(100,100,100,1)"
+	showExpandButton="true"
+	showThumbsButton="true"
+	indexPageName="index.html"
+
+>
+  <image imageURL="images/1993 photo003.jpg"
+	thumbURL="thumbs/1993 photo003.jpg"
+	linkURL="images/1993 photo003.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[1993 photo003]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1997 photo004.jpg"
+	thumbURL="thumbs/1997 photo004.jpg"
+	linkURL="images/1997 photo004.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[1997 photo004]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1998-06-15 photo013.jpg"
+	thumbURL="thumbs/1998-06-15 photo013.jpg"
+	linkURL="images/1998-06-15 photo013.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[1998-06-15 photo013]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1998-06-22 photo012.jpg"
+	thumbURL="thumbs/1998-06-22 photo012.jpg"
+	linkURL="images/1998-06-22 photo012.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[1998-06-22 photo012]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/1999-10-06 _MG_7542.jpg"
+	thumbURL="thumbs/1999-10-06 _MG_7542.jpg"
+	linkURL="images/1999-10-06 _MG_7542.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[1999-10-06 _MG_7542]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2000-05-02 photo002.jpg"
+	thumbURL="thumbs/2000-05-02 photo002.jpg"
+	linkURL="images/2000-05-02 photo002.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2000-05-02 photo002]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2000-05-02 photo005.jpg"
+	thumbURL="thumbs/2000-05-02 photo005.jpg"
+	linkURL="images/2000-05-02 photo005.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2000-05-02 photo005]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2000-10-27 photo008.jpg"
+	thumbURL="thumbs/2000-10-27 photo008.jpg"
+	linkURL="images/2000-10-27 photo008.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2000-10-27 photo008]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2002 photo010.jpg"
+	thumbURL="thumbs/2002 photo010.jpg"
+	linkURL="images/2002 photo010.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2002 photo010]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2004-04-25 DSC06311.jpg"
+	thumbURL="thumbs/2004-04-25 DSC06311.jpg"
+	linkURL="images/2004-04-25 DSC06311.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2004-04-25 DSC06311]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2004-10-14 AFS 11.jpg"
+	thumbURL="thumbs/2004-10-14 AFS 11.jpg"
+	linkURL="images/2004-10-14 AFS 11.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2004-10-14 AFS 11]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2005-02-19 DSC00400.jpg"
+	thumbURL="thumbs/2005-02-19 DSC00400.jpg"
+	linkURL="images/2005-02-19 DSC00400.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2005-02-19 DSC00400]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2005-12-17 DSC01360.jpg"
+	thumbURL="thumbs/2005-12-17 DSC01360.jpg"
+	linkURL="images/2005-12-17 DSC01360.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2005-12-17 DSC01360]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-03-17 18th Birthday 05.jpg"
+	thumbURL="thumbs/2006-03-17 18th Birthday 05.jpg"
+	linkURL="images/2006-03-17 18th Birthday 05.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-03-17 18th Birthday 05]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-03-17 18th Birthday 11.jpg"
+	thumbURL="thumbs/2006-03-17 18th Birthday 11.jpg"
+	linkURL="images/2006-03-17 18th Birthday 11.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-03-17 18th Birthday 11]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-06-09 高考 008.jpg"
+	thumbURL="thumbs/2006-06-09 高考 008.jpg"
+	linkURL="images/2006-06-09 高考 008.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-06-09 高考 008]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-06-16 九华山 002.jpg"
+	thumbURL="thumbs/2006-06-16 九华山 002.jpg"
+	linkURL="images/2006-06-16 九华山 002.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-06-16 九华山 002]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-06-16 九华山 042.jpg"
+	thumbURL="thumbs/2006-06-16 九华山 042.jpg"
+	linkURL="images/2006-06-16 九华山 042.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-06-16 九华山 042]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-08-16 DSC02546.jpg"
+	thumbURL="thumbs/2006-08-16 DSC02546.jpg"
+	linkURL="images/2006-08-16 DSC02546.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-08-16 DSC02546]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-10-03 圆明园 - 14.jpg"
+	thumbURL="thumbs/2006-10-03 圆明园 - 14.jpg"
+	linkURL="images/2006-10-03 圆明园 - 14.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-10-03 圆明园 - 14]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-10-04 Great-Wall---024.jpg"
+	thumbURL="thumbs/2006-10-04 Great-Wall---024.jpg"
+	linkURL="images/2006-10-04 Great-Wall---024.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-10-04 Great-Wall---024]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-10-05 --028.jpg"
+	thumbURL="thumbs/2006-10-05 --028.jpg"
+	linkURL="images/2006-10-05 --028.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-10-05 --028]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2006-10-05 Tsinghua - 06.jpg"
+	thumbURL="thumbs/2006-10-05 Tsinghua - 06.jpg"
+	linkURL="images/2006-10-05 Tsinghua - 06.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2006-10-05 Tsinghua - 06]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2008-05-23 上海火炬传递 051.jpg"
+	thumbURL="thumbs/2008-05-23 上海火炬传递 051.jpg"
+	linkURL="images/2008-05-23 上海火炬传递 051.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2008-05-23 上海火炬传递 051]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2008-05-23 上海火炬传递 060.jpg"
+	thumbURL="thumbs/2008-05-23 上海火炬传递 060.jpg"
+	linkURL="images/2008-05-23 上海火炬传递 060.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2008-05-23 上海火炬传递 060]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2008-06-24 IMG_3659.jpg"
+	thumbURL="thumbs/2008-06-24 IMG_3659.jpg"
+	linkURL="images/2008-06-24 IMG_3659.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2008-06-24 IMG_3659]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2008-06-24 IMG_3664.jpg"
+	thumbURL="thumbs/2008-06-24 IMG_3664.jpg"
+	linkURL="images/2008-06-24 IMG_3664.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2008-06-24 IMG_3664]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2008-06-25 pku 008.jpg"
+	thumbURL="thumbs/2008-06-25 pku 008.jpg"
+	linkURL="images/2008-06-25 pku 008.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2008-06-25 pku 008]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2008-10-16 100_6220.jpg"
+	thumbURL="thumbs/2008-10-16 100_6220.jpg"
+	linkURL="images/2008-10-16 100_6220.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2008-10-16 100_6220]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2008-10-18 20081018yangsu 045.jpg"
+	thumbURL="thumbs/2008-10-18 20081018yangsu 045.jpg"
+	linkURL="images/2008-10-18 20081018yangsu 045.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2008-10-18 20081018yangsu 045]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2009-01-25 _MG_7422.jpg"
+	thumbURL="thumbs/2009-01-25 _MG_7422.jpg"
+	linkURL="images/2009-01-25 _MG_7422.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2009-01-25 _MG_7422]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2009-01-25 _MG_7499.jpg"
+	thumbURL="thumbs/2009-01-25 _MG_7499.jpg"
+	linkURL="images/2009-01-25 _MG_7499.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2009-01-25 _MG_7499]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2009-02-02 IMG_7602.jpg"
+	thumbURL="thumbs/2009-02-02 IMG_7602.jpg"
+	linkURL="images/2009-02-02 IMG_7602.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2009-02-02 IMG_7602]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2009-05-07 P1000278.jpg"
+	thumbURL="thumbs/2009-05-07 P1000278.jpg"
+	linkURL="images/2009-05-07 P1000278.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2009-05-07 P1000278]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2009-09-08 DSC06303.jpg"
+	thumbURL="thumbs/2009-09-08 DSC06303.jpg"
+	linkURL="images/2009-09-08 DSC06303.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2009-09-08 DSC06303]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2010-02-08 DSC_5010.jpg"
+	thumbURL="thumbs/2010-02-08 DSC_5010.jpg"
+	linkURL="images/2010-02-08 DSC_5010.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2010-02-08 DSC_5010]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2010-02-22 _MG_0298.jpg"
+	thumbURL="thumbs/2010-02-22 _MG_0298.jpg"
+	linkURL="images/2010-02-22 _MG_0298.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2010-02-22 _MG_0298]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/2012-01-23 _MG_6322.jpg"
+	thumbURL="thumbs/2012-01-23 _MG_6322.jpg"
+	linkURL="images/2012-01-23 _MG_6322.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[2012-01-23 _MG_6322]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
