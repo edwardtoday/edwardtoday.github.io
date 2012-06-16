@@ -1,82 +1,83 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<title>Happy Father's Day!</title>
-		<meta charset="utf-8" />
-		<meta name="apple-mobile-web-app-capable" content="yes" />
-		<meta name="description" content="Happy Father's Day 2012!" />
-		<link type="text/css" rel="stylesheet" href="style.css" />
-		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
-		<script src="js/jquery.lettering.js"></script>
-		<script src="js/modernizr-1.7.min.js"></script>
-		<script src="js/color.js"></script>
-		<script src="js/textshadow.js"></script>
-		<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
-		<script src="http://vjs.zencdn.net/c/video.js"></script>
-		<script>
-		 $(function() {
+<head>
+<title>Happy Father's Day!</title>
+<meta charset="utf-8" />
+<meta name="apple-mobile-web-app-capable" content="yes" />
+<meta name="description" content="Happy Father's Day 2012!" />
+<link type="text/css" rel="stylesheet" href="style.css" />
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.5.2/jquery.min.js"></script>
+<script src="js/jquery.lettering.js"></script>
+<script src="js/modernizr-1.7.min.js"></script>
+<script src="js/color.js"></script>
+<script src="js/textshadow.js"></script>
+<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
+<script src="http://vjs.zencdn.net/c/video.js"></script>
+<script>
+$(function() {
+// apply spans
+$("h2").lettering();
 
-		  // apply spans
-	      $("h2").lettering();
+// hack to get animations to run again
+$(".redraw").click(function() {
+var el = $(this),
+prev = el.prev(),
+newone = prev.clone();
+el.before(newone);
+$("." + prev.attr("class") + ":first").remove();
+});
 
-	      // hack to get animations to run again
-	      $(".redraw").click(function() {
-	        var el = $(this),
-	           prev = el.prev(),
-	           newone = prev.clone();
-	        el.before(newone);
-	        $("." + prev.attr("class") + ":first").remove();
-	      });
+var text = $("#jquerybuddy"),
+numLetters = text.find("span").length;
 
-		  var text = $("#jquerybuddy"),
-			  numLetters = text.find("span").length;
+function randomBlurize() {
+text.find("span:nth-child(" + (Math.floor(Math.random()*numLetters)+1) + ")")
+.animate({
+'textShadowBlur': Math.floor(Math.random()*25)+4,
+'textShadowColor': 'rgba(0,100,0,' + (Math.floor(Math.random()*200)+55) + ')'
+});
+// Call itself recurssively
+setTimeout(randomBlurize, 100);
+} // Call once
+randomBlurize();
 
-		  function randomBlurize() {
-			text.find("span:nth-child(" + (Math.floor(Math.random()*numLetters)+1) + ")")
-			    .animate({
-			      'textShadowBlur': Math.floor(Math.random()*25)+4,
-			      'textShadowColor': 'rgba(0,100,0,' + (Math.floor(Math.random()*200)+55) + ')'
-			    });
-			// Call itself recurssively
-			setTimeout(randomBlurize, 100);
-		  } // Call once
-		  randomBlurize();
+});
+</script>
+</head>
 
-		 });
-		</script>
-	</head>
+<body>
 
-	<body>
+<h2 class="hovertown">Happy Father's Day!</h2>
 
-	  	<h2 class="hovertown">Happy Father's Day!</h2>
-
+<!-- Initially I embedded Youku Player. But it does not work on iOS platform. -->
 <!--
-		<embed src="http://player.youku.com/player.php/sid/XNDE0NjIxMDg0/v.swf" quality="high" width="854" height="570" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>
+<embed src="http://player.youku.com/player.php/sid/XNDE0NjIxMDg0/v.swf" quality="high" width="854" height="570" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>
 -->
 
-		<div class="video-js-box">
-		<video id="FathersDay2012" class="video-js vjs-default-skin" controls width="800" height="480" poster="http://storage.live.com/items/A0532FA9C7CF57AB%213038?filename=father_480p.png" preload="auto" data-setup="{}">
-<!-- 		  <source type="video/mp4" src="http://storage.live.com/items/A0532FA9C7CF57AB%?filename=father_480p.mp4"> -->
-<!-- 		  <source type="video/ogg" src="http://storage.live.com/items/A0532FA9C7CF57AB%?filename=father_480p.ogv"> -->
-		  <source type="video/webm" src="http://storage.live.com/items/A0532FA9C7CF57AB%213040?filename=father_480p.webm">
-		</video>
-		</div>
-		
-		<div style="margin-bottom:2em;"><span style="display:none;">.</span></div>
+<!-- Switch to HTML5 video -->
+<div class="video-js-box">
+  <video id="FathersDay2012" class="video-js vjs-default-skin" controls width="800" height="448" poster="http://storage.live.com/items/A0532FA9C7CF57AB%213038?filename=father_480p.png" preload="auto" data-setup="{}">
+  <source type="video/mp4" src="http://storage.live.com/items/A0532FA9C7CF57AB%213042?filename=father_480p.mp4">
+  <source type="video/ogg" src="http://storage.live.com/items/A0532FA9C7CF57AB%213041?filename=father_480p.ogv">
+  <source type="video/webm" src="http://storage.live.com/items/A0532FA9C7CF57AB%213040?filename=father_480p.webm">
+  </video>
+</div>
 
-		<!--START JUICEBOX EMBED-->
-		<script src="jbcore/juicebox.js"></script>
-		<script>
-			new juicebox({
-				containerId : 'juicebox-container',
-				galleryWidth: '800px',
-				galleryHeight: '640px',
-				backgroundColor: 'rgba(10,10,10,1)'
-			});
-		</script>
-		<div id="juicebox-container" style="margin: 0 auto;"></div>
-		<!--END JUICEBOX EMBED-->
+<div style="margin-bottom:2em;"><span style="display:none;">.</span></div>
 
-		<h3>&copy; 2012 <a href="http://qingpei.me">qingpei.me</a> . All rights reserved.</h3>
-	</body>
+<!--START JUICEBOX EMBED-->
+<script src="jbcore/juicebox.js"></script>
+<script>
+new juicebox({
+containerId : 'juicebox-container',
+galleryWidth: '800px',
+galleryHeight: '640px',
+backgroundColor: 'rgba(10,10,10,1)'
+});
+</script>
+<div id="juicebox-container" style="margin: 0 auto;"></div>
+<!--END JUICEBOX EMBED-->
+
+<h3>&copy; 2012 <a href="http://qingpei.me">qingpei.me</a> . All rights reserved.</h3>
+</body>
 </html>
