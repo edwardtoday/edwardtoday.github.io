@@ -4,7 +4,7 @@
 
 html {
     /*color:white;*/
-    background:#474747;
+    background:#C0C0C0;
 }
 
 body {
@@ -80,3 +80,13 @@ h2 {
 
 h3 {color:#222;}
 h3 a {text-decoration:none;color:#222;}
+
+.video-js-box{
+    position:auto;
+    margin:auto;
+/*    padding:0;*/
+/*    left:0;*/
+/*    top:0;*/
+    height:480px;
+    width:800px;
+}
