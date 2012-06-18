@@ -434,11 +434,11 @@ line-height:3em;
 
 #header {
 position:static;
-padding-bottom:5px;
+padding-bottom:1em;
 }
 	
 #header .site {
- margin-right: 1em;
+margin-right: 1em;
 }
 	
 #header .avatar {
