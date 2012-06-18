@@ -143,7 +143,7 @@ text-transform: none;
 height: inherit;
 }
 
-#header #name, #header #qing, #header #pei {
+#header #name {
 color:black;
 font-size:22px;
 font-weight: 900;
@@ -151,7 +151,7 @@ letter-spacing: 1px;
 text-shadow: 0px 2px 3px #555;
 }
 
-#header #name, #header #qing:hover, #header #pei:hover {
+#header #name:hover {
 color:#4183C4;
 }
 
