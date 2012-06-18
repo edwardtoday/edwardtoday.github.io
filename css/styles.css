@@ -1,7 +1,11 @@
 body {
 -webkit-font-smoothing:antialiased;
-font-family: Helvetica,Arial,Verdana,"Microsoft YaHei","Lucida Grande",sans-serif;
+font-family: Helvetica,"Lucida Grande",Arial,Verdana,"Microsoft YaHei",sans-serif;
 text-rendering:optimizeLegibility;
+}
+
+#post p {
+font-family: Georgia,SimSun,serif;
 }
 
 #outer-container {  
