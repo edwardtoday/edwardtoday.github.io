@@ -434,7 +434,7 @@ line-height:3em;
 
 #header {
 position:static;
-padding-bottom:1em;
+height:75px;
 }
 	
 #header .site {
