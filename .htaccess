@@ -1,0 +1,17 @@
+# activate mod_expires
+ExpiresActive On
+
+# 30 DAYS
+<filesMatch "\.(ico|pdf|flv|jpg|jpeg|png|gif|js|css|swf)$">
+Header set Cache-Control "max-age=2592000, public"
+</filesMatch>
+ 
+# 2 DAYS
+<filesMatch "\.(xml|txt)$">
+Header set Cache-Control "max-age=172800, public, must-revalidate"
+</filesMatch>
+ 
+# 2 HOURS
+<filesMatch "\.(html|htm)$">
+Header set Cache-Control "max-age=7200, must-revalidate"
+</filesMatch>
