@@ -19,8 +19,7 @@ font-size:14px
 }
 
 p code,li code {
--moz-border-radius:4px;
--webkit-border-radius:4px;
+border-radius:4px;
 background:#f9f9f9;
 border:1px solid #eee;
 font-size:12px;
@@ -125,10 +124,6 @@ padding-bottom: 20px;
 }
 
 #header .avatar {
-/* -moz-border-radius:5px; */
-/* -webkit-border-radius:5px; */
-/* -webkit-box-shadow:0 0 15px #ccc; */
-/* margin-left:2px; */
 float: left; 
 opacity:.8
 }
@@ -256,7 +251,7 @@ margin-top:0
 }
 
 #post img {
--webkit-border-radius:8px;
+border-radius:8px;
 display:block;
 margin-left:auto;
 margin-right:auto;
@@ -264,7 +259,7 @@ max-width:610px
 }
 
 #post img.noclip {
--webkit-box-shadow:none;
+box-shadow:none;
 max-width:650px
 }
 
@@ -310,9 +305,8 @@ font-size:1em
 }
 
 #whoring img {
--webkit-border-radius:0;
--webkit-box-shadow:0 0 0 #000;
 border-radius:0;
+box-shadow:0 0 0 #000;
 float:left;
 position:relative;
 margin:-2px auto 0;
@@ -334,8 +328,7 @@ display:inline
 }
 
 .boastful img {
--moz-border-radius:7px;
--webkit-border-radius:7px;
+border-radius:7px;
 border:0;
 display:inline !important;
 height:32px;
@@ -358,8 +351,7 @@ z-index:999
 }
 
 .boastful .boastful_tweet {
--moz-border-radius:7px;
--webkit-border-radius:7px;
+border-radius:7px;
 background:#222;
 color:#eee;
 font-size:11px;
@@ -382,7 +374,7 @@ text-decoration:none
 }
 
 /* syntax */
-.highlight{background-color:#eee;font-family:'monaco', 'andale mono', 'consolas', monospace;font-size:inherit;-webkit-border-radius:10px;-moz-border-radius:10px;overflow:hidden;text-shadow:none;color:#111;margin:0;padding:0 15px;}
+.highlight{background-color:#eee;font-family:'monaco', 'andale mono', 'consolas', monospace;font-size:inherit;border-radius:10px;overflow:hidden;text-shadow:none;color:#111;margin:0;padding:0 15px;}
 .hightlight code{float:left;}
 .highlight:hover{overflow:auto;}
 .highlight .hll{background-color:#ffc;}
