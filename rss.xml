@@ -1,0 +1,27 @@
+---
+layout: nil
+---
+<?xml version="1.0" encoding="utf-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>QING Pei</title>
+    <link>http://qingpei.me</link>
+    <atom:link href="http://qingpei.me/rss.xml" rel="self" type="application/rss+xml" />
+    <description>A blog of edwardtoday. Since 2006.</description>
+    <language>en-us</language>
+    <pubDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+    <lastBuildDate>{{ site.time | date: "%a, %d %b %Y %H:%M:%S %z" }}</lastBuildDate>
+
+    {% for post in site.posts limit:20 %}
+    <item>
+      <title>{{ post.title }}</title>
+      <link href="http://qingpei.me{{ post.url }}"/>
+      <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
+      <author>edwardtoday@gmail.com (QING Pei)</author>
+      <guid>http://qingpei.me{{ post.id }}</guid>
+      <description>{{ post.content | xml_escape }}</description>
+    </item>
+    {% endfor %}
+
+  </channel>
+</rss>
