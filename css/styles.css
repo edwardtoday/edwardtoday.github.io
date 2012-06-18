@@ -1,6 +1,6 @@
 body {
 -webkit-font-smoothing:antialiased;
-font-family: Helvetica,"Lucida Grande",Arial,Verdana,"Microsoft YaHei",sans-serif;
+font-family: Helvetica,"Microsoft YaHei",arial,freesans,clean,sans-serif;
 text-rendering:optimizeLegibility;
 }
 
@@ -14,8 +14,8 @@ margin:0 auto;
 }
 
 a {
-color:#227ce8;
-font-size:14px
+color:#4183C4;
+font-size:14px;
 }
 
 p code,li code {
@@ -23,7 +23,7 @@ border-radius:4px;
 background:#f9f9f9;
 border:1px solid #eee;
 font-size:12px;
-padding:2px 3px
+padding:2px 3px;
 }
 
 hr {
@@ -114,16 +114,18 @@ text-decoration:none
 }
 
 #header {
-background-color: white;
-max-height: 35px;
-height: 35px;
+background:-moz-linear-gradient(#f5f5f5,#e5e5e5);
+background:-webkit-linear-gradient(#f5f5f5,#e5e5e5);
+max-height: 48px;
+height: 48px;
 position:fixed;
 width:inherit;
 top:0;
-padding-bottom: 20px;
 }
 
 #header .avatar {
+width: 48px;
+height: 48px;
 float: left; 
 opacity:.8
 }
@@ -133,51 +135,30 @@ opacity:1
 }
 
 #header #me {
-margin-top: 4px;
-padding-left: 10px;
+margin-top: 9px;
+margin-left: 10px;
 float: left;
 display:inline;
 text-transform: none;
 height: inherit;
 }
 
-#header #pei {
-text-transform: capitalize;
-padding-right: 20px;
-color:#666;
+#header #qing, #header #pei {
+color:black;
 font-size:22px;
-font-weight: 500;
+font-weight: 900;
 letter-spacing: 1px;
-padding-left:1px
+text-shadow: 0px 2px 3px #555;
 }
 
-#header #pei:hover {
-color:#000
-}
-
-#header #qing {
-text-transform: uppercase;
-color:#000;
-font-size:22px;
-font-weight:900;
-letter-spacing:1px
-}
-
-#header #qing:hover {
-font-style: italic;
-text-transform: uppercase;
-color:#000;
-font-size:22px;
-font-weight: bold;
-letter-spacing:1px
+#header #qing:hover, #header #pei:hover {
+color:#4183C4;
 }
 
 #header .site {
-padding-top: 10px;
-padding-left: 10px;
+padding-top: 14px;
 float: right;
 display:inline;
-height: 25px;
 }
 
 #header .site img {
@@ -208,16 +189,14 @@ float: left;
 font-size: 20px;
 font-weight:700;
 height: 30px;
-padding-top: 5px;
-padding-right: 5px;
-padding-left: 5px;
+padding: 9px 6px;
 margin-left: 3px;
 margin-right: 3px;
 }
 
 #header #sections a:hover {
 background-color: black;
-color: white
+color:#4183C4;
 }
 
 #post {
