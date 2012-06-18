@@ -20,7 +20,7 @@ title: 父亲节
 
 制作用的是Adobe Audition，录上个五遍六遍的，就开始挑选。我不喜欢一句句拼，整首歌顶多三四段，分别来自效果相对较好的某一轨。早上五点钟左右开始录，大概八九点钟完成导出。
 
-<audio src="http://7insmw.bay.livefilestore.com/y1pkivqLDGcnZEt8vLjUqbgSa_WbREqmoFeRyixz6KoDDQjN3l_IoC6vRjtqDR-qxgGU8NQzhsx7jopAwfVlWMAZQ/father_edwardtoday.mp3" controls>
+<audio src="http://7insmw.bay.livefilestore.com/y1pEtVENnXtBVyZUyaxJKMk-ugM5fzDptLroKEXTXeQQJXfy0ZM3PGAUHwrzVwFt5de8UaSzcuRGw3xc4rS6CBTaA/father_edwardtoday.mp3" controls>
 Your browser does not support the audio element.
 </audio>
 
