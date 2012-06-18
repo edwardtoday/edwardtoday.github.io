@@ -428,55 +428,56 @@ width:auto;
 padding:1em;
 }
 
-	.content .copy {
-	line-height:3em;
-	}
+.content .copy {
+line-height:3em;
+}
 
-	#header {
-	position:static;
-	}
+#header {
+position:static;
+padding-bottom:25px;
+}
 	
-	#header .site {
-  margin-right: 1em;
-	}
+#header .site {
+margin-right: 1em;
+}
 	
-	#header .avatar {
-	width:75px;
-	height:75px;
-	margin-right:5px;
-	}
+#header .avatar {
+width:75px;
+height:75px;
+margin-right:5px;
+}
 	
-	#post p{
-	font-size: 1.2em;
-	}
+#post p{
+font-size: 1.2em;
+}
 	
-	#post p a {font-size: 1em;}
+#post p a {font-size: 1em;}
 	
-  h1,h2,h3,h4 {
-	font-size:2em;
-	}
-	
-	h1 a,h2 a,h3 a,h4 a {
-	font-size:1em;
-	}
-	
-	#whoring {
-	font-size:.9em;
-	}
-	
-	.related li {
-	font-size:1.5em;
-	}
+h1,h2,h3,h4 {
+font-size:2em;
+}
 
-	.related li a{
-	font-size:1em;
-	}
+h1 a,h2 a,h3 a,h4 a {
+font-size:1em;
+}
+
+#whoring {
+font-size:.9em;
+}
+
+.related li {
+font-size:1.5em;
+}
+
+.related li a{
+font-size:1em;
+}
 
 }
 
 /* iPad */
+/* For general iPad layouts */
 @media only screen and (device-width: 768px) {
-	/* For general iPad layouts */
 #outer-container {
 width:100%;
 margin: 0 auto;
@@ -496,39 +497,35 @@ padding-right: 1em;
 }
 
 #post p{
-	font-size: 1.2em;
-	}
-	
-	#post p a {font-size: 1em;}
-	
-  h1,h2,h3,h4 {
-	font-size:2em;
-	}
-	
-	h1 a,h2 a,h3 a,h4 a {
-	font-size:1em;
-	}
-	
-	#whoring {
-	font-size:.9em;
-	}
-	
-	.related li {
-	font-size:1.5em;
-	}
+font-size: 1.2em;
+}
 
-	.related li a{
-	font-size:1em;
-	}
+#post p a {font-size: 1em;}
+
+h1,h2,h3,h4 {
+font-size:2em;
+}
+
+h1 a,h2 a,h3 a,h4 a {
+font-size:1em;
+}
+
+#whoring {
+font-size:.9em;
+}
+
+.related li {
+font-size:1.5em;
+}
+
+.related li a{
+font-size:1em;
+}
 
 }
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {
-	/* For portrait layouts only */
-	
-	}
+/* For portrait layouts only */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:portrait) {}
 
-@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {
-	/* For landscape layouts only */
-
-}
+/* For landscape layouts only */
+@media only screen and (min-device-width: 481px) and (max-device-width: 1024px) and (orientation:landscape) {}
