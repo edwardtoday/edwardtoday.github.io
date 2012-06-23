@@ -4,10 +4,6 @@ font-family: Helvetica,"Microsoft YaHei",arial,freesans,clean,sans-serif;
 text-rendering:optimizeLegibility;
 }
 
-#post p {
-font-family: Georgia,SimSun,serif;
-}
-
 #outer-container {  
 width: 640px;
 margin:0 auto;
@@ -16,6 +12,11 @@ margin:0 auto;
 a {
 color:#4183C4;
 font-size:14px;
+}
+
+
+a:hover,.related a,#header a {
+text-decoration:none
 }
 
 p code,li code {
@@ -289,104 +290,6 @@ position:relative;
 margin:-2px auto 0;
 padding:0 4px 0 0
 }
-
-#boastful {
-margin:30px 0 7em
-}
-
-#boastful .twitter-share-button {
-float:right;
-margin-right:13px;
-padding-top:3px
-}
-
-.boastful {
-display:inline
-}
-
-.boastful img {
-border-radius:7px;
-border:0;
-display:inline !important;
-height:32px;
-width:32px;
-margin:1px 2px
-}
-
-.boastful .boastful_pointer {
-border-bottom:10px solid #000;
-border-left:10px solid transparent;
-border-right:10px solid transparent;
-border-top:0;
-display:none;
-height:0;
-left:-9999px;
-opacity:.7;
-position:absolute;
-width:0;
-z-index:999
-}
-
-.boastful .boastful_tweet {
-border-radius:7px;
-background:#222;
-color:#eee;
-font-size:11px;
-left:-9999px;
-opacity:.8;
-position:absolute;
-text-shadow:1px 1px 0 #000;
-width:250px;
-z-index:999;
-padding:5px
-}
-
-.boastful .boastful_handle {
-font-size:13px;
-font-weight:700
-}
-
-a:hover,.related a,#header a {
-text-decoration:none
-}
-
-/* syntax */
-.highlight{background-color:#eee;font-family:'monaco', 'andale mono', 'consolas', monospace;font-size:inherit;border-radius:10px;overflow:hidden;text-shadow:none;color:#111;margin:0;padding:0 15px;}
-.hightlight code{float:left;}
-.highlight:hover{overflow:auto;}
-.highlight .hll{background-color:#ffc;}
-/* Comment  */.highlight .err{color:#a61717;background-color:#e3d2d2;}
-/* Comment.Multiline  */.highlight .cp{color:#c00;font-weight:700;}
-/* Comment.Single  */.highlight .cs{color:#c00;font-weight:700;background-color:#fff0f0;}
-/* Comment.Special  */.highlight .gd{color:#000;background-color:#fdd;}
-/* Generic.Deleted  */.highlight .ge{font-style:italic;}
-/* Generic.Error  */.highlight .gh{color:#303030;}
-/* Generic.Heading  */.highlight .gi{color:#000;background-color:#dfd;}
-/* Generic.Prompt  */.highlight .gs{font-weight:700;}
-/* Generic.Strong  */.highlight .gu{color:#606060;}
-/* Keyword.Reserved  */.highlight .kt{color:#888;font-weight:700;}
-/* Name.Class  */.highlight .no{color:#036;font-weight:700;}
-/* Name.Exception  */.highlight .nf{color:#06b;font-weight:700;}
-/* Name.Function  */.highlight .nl{color:#369;font-style:italic;}
-/* Name.Namespace  */.highlight .py{color:#369;font-weight:700;}
-/* Operator.Word  */.highlight .w{color:#bbb;}
-/* Literal.String.Double  */.highlight .se{color:#04d;background-color:#fff0f0;}
-/* Literal.String.Heredoc  */.highlight .si{color:#33b;background-color:#fff0f0;}
-/* Literal.String.Interpol  */.highlight .sx{color:#2b2;background-color:#f0fff0;}
-/* Literal.String.Other  */.highlight .sr{color:#080;background-color:#fff0ff;}
-/* Literal.String.Single  */.highlight .ss{color:#a60;background-color:#fff0f0;}
-/* Name.Variable.Class  */.highlight .vg{color:#d70;}
-/* Name.Variable.Global  */.highlight .vi{color:#33b;}
-.highlight .c,.highlight .cm,.highlight .c1,.highlight .go{color:#888;}
-.highlight .k,.highlight .kc,.highlight .kd,.highlight .kn,.highlight .kr{color:#080;font-weight:700;}
-.highlight .gr,.highlight .gt{color:#a00;}
-.highlight .gp,.highlight .nd{color:#555;}
-.highlight .kp,.highlight .ow{color:#080;}
-.highlight .m,.highlight .mf,.highlight .mh,.highlight .mi,.highlight .mo,.highlight .il{color:#00D;font-weight:700;}
-.highlight .s,.highlight .sb,.highlight .sc,.highlight .sd,.highlight .s2,.highlight .sh,.highlight .s1{color:#d20;background-color:#fff0f0;}
-.highlight .na,.highlight .nv,.highlight .vc{color:#369;}
-.highlight .nb,.highlight .bp{color:#038;}
-.highlight .nc,.highlight .ne,.highlight .nn,.highlight .nt{color:#b06;font-weight:700;}
 
 @media print{
     body,.content li,.related li,h1,h2,h3,h4,#header #pei,#header #qing,#post li,#post .authoring,#post blockquote,#post blockquote cite {
