@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    /*color:white;*/
+    background:#C0C0C0;
+}
+
+body {
+    font: 14px Georgia, serif;
+    text-align:center;
+    margin: 70px;
+}
+
+h1 {
+    font: bold 70px Tahoma, Helvetica, Arial, Sans-Serif;
+    text-align: center;
+    color: #222; text-shadow: 0px 2px 3px #555;
+}
+
+pre {
+    width: 500px; margin: 0 auto; background: #222; padding: 20px;
+    font-size: 22px; color: #555; text-shadow: 0px 2px 3px #171717;
+
+    -webkit-box-shadow: 0px 2px 3px #555;
+    -moz-box-shadow: 0px 2px 3px #555;
+    -webkit-border-radius: 10px;
+    -moz-border-radius: 10px;
+}
+
+article, aside, figure, footer, header, hgroup,
+menu, nav, section { display: block; }
+
+/*section { padding: 100px; }*/
+
+/*section:nth-child(odd) { background: #eee; }*/
+/*section:nth-child(even) { background: #333; }*/
+
+h2 {
+	color: #222;
+	display: block;
+	padding: 20px;
+	font: bold 70px Tahoma, Helvetica, Arial, Sans-Serif;
+	text-align: center;
+	/*text-transform: uppercase;*/
+	text-shadow: 0px 2px 3px #555;
+}
+
+.hovertown span {
+	-webkit-transition: all 0.9s ease;
+	-moz-transition:    all 0.9s ease;
+	-o-transition:      all 0.9s ease;
+	transition:         all 0.9s ease;
+}
+
+.hovertown span:hover {
+	text-shadow: 0 0 72px black;
+	color: transparent;
+	-webkit-transition: all 0.2s ease;
+	-moz-transition:    all 0.2s ease;
+	-o-transition:      all 0.2s ease;
+	transition:         all 0.2s ease;
+}
+
+@-webkit-keyframes blackblur {
+    from { text-shadow: 0 0 72px black; color: transparent; }
+    to   { text-shadow: 0;              color: black;       }
+}
+
+.textshadow .foreverblur {
+    text-shadow: 0 0 32px white;
+    color: transparent;
+}
+
+#jquerybuddy span {
+    text-shadow: 0 0 4px rgba(0,100,0,1);
+    color: transparent;
+}
+
+h3 {color:#222;}
+h3 a {text-decoration:none;color:#222;}
+
+.video-js-box{
+    position:auto;
+    margin:auto;
+/*    padding:0;*/
+/*    left:0;*/
+/*    top:0;*/
+    height: 448px;
+    width:800px;
+}

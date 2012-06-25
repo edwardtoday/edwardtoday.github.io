@@ -1,59 +1,40 @@
 <!DOCTYPE html>
 <html lang="zh">
-  <head>
+<head>
 	<meta http-equiv="content-type" content="text/html; charset=utf-8" />
 	<meta http-equiv="X-UA-Compatible" content="IE=EmulateIE7, IE=9" />
-    <meta name="author" content="QING Pei |  卿培"/>
-    <meta name="description" content="A blog of QING Pei 卿培 (@edwardtoday). Since 2006." />
-    <meta name="keywords" content="edwardtoday,qingpei,edwardtodayingq9,卿培"/>
+	<meta name="author" content="QING Pei |  卿培"/>
+	<meta name="description" content="A blog of QING Pei 卿培 (@edwardtoday). Since 2006." />
+	<meta name="keywords" content="edwardtoday,qingpei,edwardtodayingq9,卿培"/>
 	<title>{{ page.title }}</title>
 	<link rel="dns-prefetch" href="//ajax.googleapis.com" />
-    <link rel="alternate" type="application/rss+xml" title="Atom" href="http://qingpei.me/atom.xml" />
-    <link rel="alternate" type="application/rss+xml" title="RSS" href="http://qingpei.me/rss.xml" />
-    <link rel="stylesheet" href="/css/styles.css" type="text/css" />
-    <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
-    <script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" charset="utf-8"></script>
-<!--
-    <script type="text/javascript">
-    jQuery(document).ready(function($) {
-      $('#github').mouseover(function() {$('#mousing').text("GitHub");});
-      $('#github').mouseout(function() {$('#mousing').html("&nbsp;");});
-      $('#twitter').mouseover(function() {$('#mousing').text("Twitter");});
-      $('#twitter').mouseout(function() {$('#mousing').html("&nbsp;");});
-      $('#rss').mouseover(function() {$('#mousing').text("RSS");});
-      $('#rss').mouseout(function() {$('#mousing').html("&nbsp;");});
-    });
-    </script>
--->
-    <script type="text/javascript">
-      $(document).ready(function() {
-	    {{ page.script }}
-	  });
-	</script>
+	<link rel="alternate" type="application/rss+xml" title="Atom" href="http://qingpei.me/atom.xml" />
+	<link rel="alternate" type="application/rss+xml" title="RSS" href="http://qingpei.me/rss.xml" />
+	<link rel="stylesheet" href="/css/style.min.css" type="text/css" />
+	<link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+	<script type="text/javascript" src="http://ajax.googleapis.com/ajax/libs/jquery/1.7.1/jquery.min.js" charset="utf-8"></script>
+	<script type="text/javascript"> $(document).ready(function() {  {{ page.script }}  });</script>
 	{% include highlight.html %}
 	{% include ga.html %}
-  </head>
-  <body onload="onload()">
-  <div id="outer-container">
-    <div id="header">
-      <a href="/"><img src="/images/avatar_75.png" height="50" width="50" class="avatar"></a>
-      <div id="me">
-        <a href="/"><span id="name">QING Pei</span>
-      </div>
-<!--       <div id="mousing">&nbsp;</div> -->
-      <div id="sections">
-        <a href="/about">about</a>
-        <a href="/blog">blog</a>
-      </div>
-      <div class="site">
-        <a href="https://github.com/edwardtoday" id="github" name="github"><img src="/images/github.png" alt="github" title="@edwardtoday on GitHub" height="16" width="16"></a>
-        <a href="https://twitter.com/edwardtoday" id="twitter" name="twitter"><img src="/images/twitter.png" alt="twitter" title="@edwardtoday on Twitter" height="16" width="16"></a>
-        <a href="http://feeds.feedburner.com/qingpei" id="rss" name="rss"><img src="/images/rss.png" alt="rss" title="Subscribe to this blog's RSS feed" height="16" width="16"></a>
-      </div>
-    </div>
-  </div>
-  <div id="outer-container">
-    {{ content }}
-  </div>
-  </body>
+</head>
+<body onload="onload()">
+	<div id="outer-container">
+		<div id="header">
+			<a href="/"><img src="/images/avatar_75.png" height="50" width="50" class="avatar"></a>
+			<div id="me"><a href="/"><span id="name">QING Pei</span></div>
+			<div id="sections">
+				<a href="/about">about</a>
+				<a href="/blog">blog</a>
+			</div>
+			<div class="site">
+				<a href="https://github.com/edwardtoday" id="github" name="github"><img src="/images/github.png" alt="github" title="@edwardtoday on GitHub" height="16" width="16"></a>
+				<a href="https://twitter.com/edwardtoday" id="twitter" name="twitter"><img src="/images/twitter.png" alt="twitter" title="@edwardtoday on Twitter" height="16" width="16"></a>
+				<a href="http://feeds.feedburner.com/qingpei" id="rss" name="rss"><img src="/images/rss.png" alt="rss" title="Subscribe to this blog's RSS feed" height="16" width="16"></a>
+			</div>
+		</div>
+	</div>
+	<div id="outer-container">
+		{{ content }}
+	</div>
+</body>
 </html>

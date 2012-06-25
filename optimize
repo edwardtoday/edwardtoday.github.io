@@ -1,0 +1,11 @@
+#!/usr/bin/env sh
+
+SCSSIN="scss/style.scss"
+CSSIN="css/style.css"
+CSSOUT="css/style.min.css"
+
+echo "Generating css from scss"
+sass $SCSSIN $CSSIN
+
+echo "Optimizing css using r.js"
+node r.js -o cssIn=$CSSIN out=$CSSOUT optimizeCss=default

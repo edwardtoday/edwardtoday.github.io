@@ -5,4 +5,4 @@ auto: true
 rdiscount:
   extensions: [smart]
 include: [about, blog]
-exclude: [readme.markdown, Rakefile]
+exclude: [readme.markdown, Rakefile, r.js, optimize, scss]
