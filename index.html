@@ -5,15 +5,27 @@ title: "QING Pei | 卿培"
 {% include nav_home.html %}
 
 <!-- About Me -->
-<div class="hero-unit">
+<div class="jumbotron masthead">
 	<div class="inner">
 		<!-- TODO: Animate the name. Show it in different lang. -->
 		<h1>Hi, I'm QING Pei, a.k.a. edwardtoday.</h1>
-		<p>I am a MSc student in software technology at the Department of Computing, <a href="http://www.polyu.edu.hk/" title="香港理工大學">The Hong Kong Polytechnic University</a>. My supervisor is <a href="http://www4.comp.polyu.edu.hk/~csdzhang/" title="张大鹏">David Zhang</a>. I am associated with <a href="http://www4.comp.polyu.edu.hk/~biometrics/" title="人體生物特徵識別研究中心">Biometrics Research Center</a> at HKPU. </p>
-		<a href="/about/" class="btn">More about me.</a>
+		<p>I am an MSc student in software technology at the Department of Computing, <a href="http://www.polyu.edu.hk/" title="香港理工大學">The Hong Kong Polytechnic University</a>. My supervisor is <a href="http://www4.comp.polyu.edu.hk/~csdzhang/" title="张大鹏">David Zhang</a>. I am associated with <a href="http://www4.comp.polyu.edu.hk/~biometrics/" title="人體生物特徵識別研究中心">Biometrics Research Center</a> at HKPU. <a href="/about/" class="btn">More about me</a></p>
 	</div>
 </div>
 
-<div class="content">
-  {% include recent_posts.html %}
+<hr class="soften">
+
+<div class="row">
+	<div class="span8">
+		{% include recent_posts.html %}
+	</div>
+	<div class="span4">
+		<p>More contents coming soon.</p>
+		<div class="progress progress-striped
+     active">
+  		<div class="bar" style="width: 40%;"></div>
+		</div>
+	</div>
 </div>
+
+
