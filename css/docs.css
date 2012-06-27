@@ -666,6 +666,7 @@ form.well {
   h2 {
     margin-top: 27px;
   }
+
   h2 small {
     display: block;
     line-height: 18px;
@@ -688,6 +689,11 @@ form.well {
   .jumbotron h1 {
     font-size: 45px;
     margin-right: 0;
+  }
+  .jumbotron h2{
+    font-size: 30px;
+    margin-top:  0;
+    padding-bottom: 10px;
   }
   .jumbotron p {
     margin-right: 0;
