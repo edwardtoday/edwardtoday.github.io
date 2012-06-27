@@ -1,4 +1,5 @@
-<h1><a href="{{ page.url }}">{{ page.title }}</a></h1>
-<div class="authoring">
-  {{ page.date | date: "%B %e, %Y" }}
-</div>
+<header class="jumbotron subhead">
+	<h1>{{ page.title }}</h1>
+	<p class="lead">Posted on {{ page.date | date: "%B %e, %Y" }}</p>
+</header>
+<hr class="soften">
