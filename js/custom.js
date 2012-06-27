@@ -28,3 +28,14 @@ function onload() {
   .click(function(e) {
     e.preventDefault()
   })
+$('html').click(function(e) {
+    $('.popover-test').popover('hide');
+});
+
+$('.popover-test').popover({
+    html: true,
+    trigger: 'manual'
+}).click(function(e) {
+    $(this).popover('toggle');
+    e.stopPropagation();
+});
