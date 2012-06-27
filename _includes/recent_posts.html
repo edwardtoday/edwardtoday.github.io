@@ -1,6 +1,8 @@
-<div class="related">
-  <h1>Recent Posts</h1>
-  {% for post in site.posts limit:15 %}
-    <li><span>{{ post.date | date: "%b %e, %Y" }}</span> <a href="{{ post.url }}">{{ post.title }}</a></li>
-  {% endfor %}
-</div>
+<h1>Recent Posts <a class="btn btn-primary btn-small" href="/blog/">more</a></h1>
+
+<dl class="dl-horizontal">
+{% for post in site.posts limit:5 %}
+	<dt>{{ post.date | date: "%b %e, %Y" }}</dt>
+	<dd><a href="{{ post.url }}">{{ post.title }}</a></dd>
+{% endfor %}
+</dl>
