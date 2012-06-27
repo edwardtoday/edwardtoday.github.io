@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-SCSSIN="scss/style.scss"
+SCSSIN="css/imports.scss"
 CSSIN="css/style.css"
 CSSOUT="css/style.min.css"
 

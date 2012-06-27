@@ -1,8 +1,8 @@
-<script type="text/javascript">
-  function onload() {
+function onload() {
     // Your onload code goes here to initialize your page.
     // Finally, schedule a call for a second round of low-priority initialization.
     window.setTimeout(afterload, 1);
+    prettyPrint();
   }
 
   function afterload() {
@@ -15,4 +15,8 @@
   var _gaq = _gaq || [];
   _gaq.push(['_setAccount', 'UA-29345258-1']);
   _gaq.push(['_trackPageview']);
-</script>
+
+  // Reset dynamo span height
+  $(window).resize(function() {
+
+  });
