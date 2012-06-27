@@ -21,9 +21,13 @@ a{
   color: #FF0044;
 }
 
-
 a:hover {
   color: #FF2222;
+}
+
+.navbar .brand {
+  padding-top: 0;
+  padding-bottom: 0;
 }
 
 
