@@ -30,6 +30,10 @@ a:hover {
   padding-bottom: 0;
 }
 
+dd, dt {
+  line-height:28px;
+}
+
 
 /* Tweak navbar brand link to be super sleek
 -------------------------------------------------- */

@@ -20,3 +20,11 @@ function onload() {
   $(window).resize(function() {
 
   });
+
+  // Enable popovers
+  $('.popover-test').popover()
+  $("a[rel=popover]")
+  .popover()
+  .click(function(e) {
+    e.preventDefault()
+  })
