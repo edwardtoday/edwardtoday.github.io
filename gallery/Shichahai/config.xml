@@ -1,0 +1,185 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<juiceboxgallery 
+
+	maxImageWidth="1280"
+	maxImageHeight="800"
+	imageQuality="80"
+	thumbWidth="85"
+	thumbHeight="85"
+	thumbQuality="90"
+	useFlickr="false"
+	resizeOnImport="true"
+	cropToFit="false"
+	galleryTitle="什刹海"
+
+>
+  <image imageURL="images/01.jpg"
+	thumbURL="thumbs/01.jpg"
+	linkURL="images/01.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[01]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/02.jpg"
+	thumbURL="thumbs/02.jpg"
+	linkURL="images/02.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[02]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/03.jpg"
+	thumbURL="thumbs/03.jpg"
+	linkURL="images/03.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[03]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/04.jpg"
+	thumbURL="thumbs/04.jpg"
+	linkURL="images/04.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[04]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/05.jpg"
+	thumbURL="thumbs/05.jpg"
+	linkURL="images/05.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[05]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/06.jpg"
+	thumbURL="thumbs/06.jpg"
+	linkURL="images/06.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[06]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/07.jpg"
+	thumbURL="thumbs/07.jpg"
+	linkURL="images/07.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[07]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/08.jpg"
+	thumbURL="thumbs/08.jpg"
+	linkURL="images/08.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[08]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/09.jpg"
+	thumbURL="thumbs/09.jpg"
+	linkURL="images/09.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[09]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/10.jpg"
+	thumbURL="thumbs/10.jpg"
+	linkURL="images/10.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[10]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/11.jpg"
+	thumbURL="thumbs/11.jpg"
+	linkURL="images/11.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[11]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/12.jpg"
+	thumbURL="thumbs/12.jpg"
+	linkURL="images/12.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[12]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/13.jpg"
+	thumbURL="thumbs/13.jpg"
+	linkURL="images/13.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[13]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/14.jpg"
+	thumbURL="thumbs/14.jpg"
+	linkURL="images/14.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[14]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/15.jpg"
+	thumbURL="thumbs/15.jpg"
+	linkURL="images/15.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[15]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/16.jpg"
+	thumbURL="thumbs/16.jpg"
+	linkURL="images/16.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[16]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/17.jpg"
+	thumbURL="thumbs/17.jpg"
+	linkURL="images/17.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[17]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/18.jpg"
+	thumbURL="thumbs/18.jpg"
+	linkURL="images/18.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[18]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/19.jpg"
+	thumbURL="thumbs/19.jpg"
+	linkURL="images/19.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[19]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/20.jpg"
+	thumbURL="thumbs/20.jpg"
+	linkURL="images/20.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[20]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/21.jpg"
+	thumbURL="thumbs/21.jpg"
+	linkURL="images/21.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[21]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/22.jpg"
+	thumbURL="thumbs/22.jpg"
+	linkURL="images/22.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[22]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/23.jpg"
+	thumbURL="thumbs/23.jpg"
+	linkURL="images/23.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[23]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+  <image imageURL="images/24.jpg"
+	thumbURL="thumbs/24.jpg"
+	linkURL="images/24.jpg"
+	linkTarget="_blank">
+    <title><![CDATA[24]]></title>
+    <caption><![CDATA[]]></caption>
+  </image>
+</juiceboxgallery>
