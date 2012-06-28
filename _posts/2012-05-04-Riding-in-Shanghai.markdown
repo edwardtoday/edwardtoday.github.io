@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <i class="icon-camera"></i> 魔都骑行一小圈
+title: 魔都骑行一小圈
 ---
 
 5月5号的票回HK。4号父母都上班，外婆午睡，我干嘛好呢？骑着车子到进城转了一圈。

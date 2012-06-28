@@ -1,6 +1,6 @@
 ---
 layout: post
-title: <i class="icon-film"></i> <i class="icon-music"></i> 父亲节
+title: 父亲节
 ---
 今天父亲节。
 
