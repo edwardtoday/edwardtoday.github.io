@@ -3,7 +3,7 @@
 /*
   Bootstrap's documentation styles
   Special styles for presenting Bootstrap's documentation and examples
-*/
+  */
 
 
 /* Body and structure
@@ -48,6 +48,17 @@ dd, dt {
   padding-bottom: 15px;
 }
 
+.error404 {
+  text-align: center;
+}
+.error404 h1 {
+  font-size: 48px;
+  padding-bottom: 20px;
+}
+.error404 h2 {
+  font-size: 32px;
+}
+
 .abouthead {
   text-align: center;
 }
@@ -63,8 +74,8 @@ dd, dt {
   color: #EEE;
   text-shadow: 0 1px 0 rgba(255,255,255,.1), 0 0 30px rgba(255,255,255,.125);
   -webkit-transition: all .2s linear;
-     -moz-transition: all .2s linear;
-          transition: all .2s linear;
+  -moz-transition: all .2s linear;
+  transition: all .2s linear;
 }
 .navbar-fixed-top .brand:hover {
   text-decoration: none;
@@ -118,8 +129,8 @@ hr.soften {
   padding: 14px 24px;
   margin-right: 10px;
   -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 .jumbotron .btn-large small {
   font-size: 14px;
@@ -172,8 +183,8 @@ hr.soften {
   background-image: linear-gradient(top, #f5f5f5 0%,#eeeeee 100%); /* W3C */
   border: 1px solid #e5e5e5;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 .subnav .nav {
   margin-bottom: 0;
@@ -185,8 +196,8 @@ hr.soften {
   border-left: 1px solid #f5f5f5;
   border-right: 1px solid #e5e5e5;
   -webkit-border-radius: 0;
-     -moz-border-radius: 0;
-          border-radius: 0;
+  -moz-border-radius: 0;
+  border-radius: 0;
 }
 .subnav .nav > .active > a,
 .subnav .nav > .active > a:hover {
@@ -196,8 +207,8 @@ hr.soften {
   border-right-color: #ddd;
   border-left: 0;
   -webkit-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
-     -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
-          box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+  -moz-box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
+  box-shadow: inset 0 3px 5px rgba(0,0,0,.05);
 }
 .subnav .nav > .active > a .caret,
 .subnav .nav > .active > a:hover .caret {
@@ -208,16 +219,16 @@ hr.soften {
   border-left: 0;
   padding-left: 12px;
   -webkit-border-radius: 4px 0 0 4px;
-     -moz-border-radius: 4px 0 0 4px;
-          border-radius: 4px 0 0 4px;
+  -moz-border-radius: 4px 0 0 4px;
+  border-radius: 4px 0 0 4px;
 }
 .subnav .nav > li:last-child > a {
   border-right: 0;
 }
 .subnav .dropdown-menu {
   -webkit-border-radius: 0 0 4px 4px;
-     -moz-border-radius: 0 0 4px 4px;
-          border-radius: 0 0 4px 4px;
+  -moz-border-radius: 0 0 4px 4px;
+  border-radius: 0 0 4px 4px;
 }
 
 /* Fixed subnav on scroll, but only for 980px and up (sorry IE!) */
@@ -231,11 +242,11 @@ hr.soften {
     border-color: #d5d5d5;
     border-width: 0 0 1px; /* drop the border on the fixed edges */
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
     -webkit-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
-       -moz-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
-            box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+    -moz-box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
+    box-shadow: inset 0 1px 0 #fff, 0 1px 5px rgba(0,0,0,.1);
     filter: progid:DXImageTransform.Microsoft.gradient(enabled=false); /* IE6-9 */
   }
   .subnav-fixed .nav {
@@ -246,8 +257,8 @@ hr.soften {
   .subnav .nav > li:first-child > a,
   .subnav .nav > li:first-child > a:hover {
     -webkit-border-radius: 0;
-       -moz-border-radius: 0;
-            border-radius: 0;
+    -moz-border-radius: 0;
+    border-radius: 0;
   }
 }
 
@@ -320,6 +331,7 @@ hr.soften {
   margin-top: 45px;
   padding: 35px 0 36px;
   border-top: 1px solid #e5e5e5;
+  text-align: center;
 }
 .footer p {
   margin-bottom: 0;
@@ -338,8 +350,8 @@ hr.soften {
   background-color: #eee;
   text-align: center;
   -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   min-height: 30px;
   line-height: 30px;
 }
@@ -360,11 +372,11 @@ hr.soften {
 .mini-layout {
   border: 1px solid #ddd;
   -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
   -webkit-box-shadow: 0 1px 2px rgba(0,0,0,.075);
-     -moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
-          box-shadow: 0 1px 2px rgba(0,0,0,.075);
+  -moz-box-shadow: 0 1px 2px rgba(0,0,0,.075);
+  box-shadow: 0 1px 2px rgba(0,0,0,.075);
 }
 .mini-layout {
   height: 240px;
@@ -373,8 +385,8 @@ hr.soften {
 }
 .mini-layout div {
   -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 .mini-layout .mini-layout-body {
   background-color: #dceaf4;
@@ -457,8 +469,8 @@ hr.soften {
   color: #555;
   background-color: #f9f9f9;
   -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
   cursor: pointer;
 }
 .download .checkbox:hover {
@@ -501,8 +513,8 @@ hr.soften {
   line-height: 1;
   text-align: center;
   -webkit-border-radius: 6px;
-     -moz-border-radius: 6px;
-          border-radius: 6px;
+  -moz-border-radius: 6px;
+  border-radius: 6px;
 }
 
 
@@ -520,8 +532,8 @@ hr.soften {
   height: 20px;
   margin: -6px 0;
   -webkit-border-radius: 3px;
-     -moz-border-radius: 3px;
-          border-radius: 3px;
+  -moz-border-radius: 3px;
+  border-radius: 3px;
 }
 /* For white swatches, give a border */
 .swatch-bordered {
@@ -576,8 +588,8 @@ form.well {
 .focused {
   border-color: rgba(82,168,236,.8);
   -webkit-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
-     -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
-          box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
+  -moz-box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
+  box-shadow: inset 0 1px 3px rgba(0,0,0,.1), 0 0 8px rgba(82,168,236,.6);
   outline: 0;
 }
 
@@ -647,8 +659,8 @@ form.well {
   text-align: center;
   border: 1px solid #ddd;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 .responsive-utilities-test li + li {
   margin-left: 10px;
@@ -660,8 +672,8 @@ form.well {
   right:  -1px;
   bottom: -1px;
   -webkit-border-radius: 4px;
-     -moz-border-radius: 4px;
-          border-radius: 4px;
+  -moz-border-radius: 4px;
+  border-radius: 4px;
 }
 .responsive-utilities-test span {
   color: #468847;
@@ -790,6 +802,20 @@ form.well {
     margin-bottom: 10px;
   }
 
+  .error404 {
+    margin: 0;
+    padding: 0;
+  }
+  .error404 img {
+    width: 80%;
+  }
+  .error404 h1 {
+    font-size: 32px;
+  }
+  .error404 h2 {
+    font-size: 22px;
+  }
+
   /* Subnav */
   .subnav {
     position: static;
@@ -799,8 +825,8 @@ form.well {
     height: auto;
     background: #fff; /* whole background property since we use a background-image for gradient */
     -webkit-box-shadow: none;
-       -moz-box-shadow: none;
-            box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
   }
   .subnav .nav > li {
     float: none;
@@ -813,9 +839,9 @@ form.well {
   }
   .subnav .nav > li:first-child > a,
   .subnav .nav > li:first-child > a:hover {
-      -webkit-border-radius: 4px 4px 0 0;
-         -moz-border-radius: 4px 4px 0 0;
-              border-radius: 4px 4px 0 0;
+    -webkit-border-radius: 4px 4px 0 0;
+    -moz-border-radius: 4px 4px 0 0;
+    border-radius: 4px 4px 0 0;
   }
 
   /* Popovers */
@@ -856,6 +882,12 @@ form.well {
     margin-left: 0;
   }
 
+  .error404 h1 {
+    font-size: 36px;
+  }
+  .error404 h2 {
+    font-size: 24px;
+  }
 }
 
 
@@ -872,6 +904,13 @@ form.well {
   }
   .jumbotron h2 {
     font-size: 48px;
+  }
+
+  .error404 h1 {
+    font-size: 40px;
+  }
+  .error404 h2 {
+    font-size: 28px;
   }
 
   .abouthead img {
