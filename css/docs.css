@@ -34,6 +34,10 @@ dd, dt {
   line-height:28px;
 }
 
+.bottompadding30 {
+  padding-bottom: 30px;
+}
+
 
 /* Tweak navbar brand link to be super sleek
 -------------------------------------------------- */
