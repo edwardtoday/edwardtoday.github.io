@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 清理相机CMOS和键盘
+title: <i class="icon-camera"></i> 清理相机CMOS和键盘
 ---
 
 用了多年的350D，CMOS上有几粒灰，得设法清掉。

@@ -1,6 +1,6 @@
 ---
 layout: post
-title: Notes on typesetting my thesis with latex
+title: <i class="icon-paste"></i>  Notes on typesetting my thesis with latex
 ---
 
 For my MSc dissertation, the official template is a Word document. For quite a long time, I have not used Word if I am the only one editing that document.
