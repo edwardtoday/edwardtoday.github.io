@@ -10,7 +10,7 @@ title: "QING Pei - Blog"
   {% for post in site.posts %}
     {% unless post.next %}
       <div class="span2 columns">
-        <h1>{{ post.date | date: '%Y' }}</h1>
+        <h1><i class="icon-calendar icon-large"></i> {{ post.date | date: '%Y' }}</h1>
       </div>
       <div class="span10 columns">
         <dl class="dl-horizontal">
@@ -22,7 +22,7 @@ title: "QING Pei - Blog"
         </div>
         <hr class="soften">
         <div class="span2 columns">
-          <h1>{{ post.date | date: '%Y' }}</h1>
+          <h1><i class="icon-calendar icon-large"></i> {{ post.date | date: '%Y' }}</h1>
         </div>
         <div class="span10 columns">
           <dl class="dl-horizontal">
