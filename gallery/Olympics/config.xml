@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<juiceboxgallery 
+<juiceboxgallery
 
 	maxImageWidth="1280"
 	maxImageHeight="800"
@@ -82,13 +82,6 @@
 	linkURL="images/10.jpg"
 	linkTarget="_blank">
     <title><![CDATA[10]]></title>
-    <caption><![CDATA[]]></caption>
-  </image>
-  <image imageURL="images/11.jpg"
-	thumbURL="thumbs/11.jpg"
-	linkURL="images/11.jpg"
-	linkTarget="_blank">
-    <title><![CDATA[11]]></title>
     <caption><![CDATA[]]></caption>
   </image>
   <image imageURL="images/12.jpg"
