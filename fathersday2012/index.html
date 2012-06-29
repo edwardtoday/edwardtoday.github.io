@@ -1,101 +1,38 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-<title>Happy Father's Day!</title>
-<meta charset="utf-8" />
-<meta name="apple-mobile-web-app-capable" content="yes" />
-<meta name="description" content="Happy Father's Day 2012!" />
-<link type="text/css" rel="stylesheet" href="style.css" />
-<script src="/js/jquery.min.js"></script>
-<script src="js/jquery.lettering.js"></script>
-<script src="js/modernizr-1.7.min.js"></script>
-<script src="js/color.js"></script>
-<script src="js/textshadow.js"></script>
-<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet">
-<script src="http://vjs.zencdn.net/c/video.js"></script>
-<script>
-$(function() {
-// apply spans
-$("h2").lettering();
+---
+layout: fathersday
+title: "Happy Father's Day!"
+---
 
-// hack to get animations to run again
-$(".redraw").click(function() {
-var el = $(this),
-prev = el.prev(),
-newone = prev.clone();
-el.before(newone);
-$("." + prev.attr("class") + ":first").remove();
-});
+<section>
+	<div class="page-header">
+		<h1>Happy Father's Day!</h1>
+	</div>
 
-var text = $("#jquerybuddy"),
-numLetters = text.find("span").length;
-
-function randomBlurize() {
-text.find("span:nth-child(" + (Math.floor(Math.random()*numLetters)+1) + ")")
-.animate({
-'textShadowBlur': Math.floor(Math.random()*25)+4,
-'textShadowColor': 'rgba(0,100,0,' + (Math.floor(Math.random()*200)+55) + ')'
-});
-// Call itself recurssively
-setTimeout(randomBlurize, 100);
-} // Call once
-randomBlurize();
-
-});
-</script>
-<script type="text/javascript">
-  function onload() {
-    // Your onload code goes here to initialize your page.
-    // Finally, schedule a call for a second round of low-priority initialization.
-    window.setTimeout(afterload, 1);
-  }
-
-  function afterload() {
-    // Called a few ms after the page has loaded.
-    var ga = document.createElement('script'); ga.type = 'text/javascript'; ga.async = true;
-    ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
-    var s = document.getElementsByTagName('script')[0]; s.parentNode.insertBefore(ga, s);
-  }
-
-  var _gaq = _gaq || [];
-  _gaq.push(['_setAccount', 'UA-29345258-1']);
-  _gaq.push(['_trackPageview']);
-</script>
-</head>
-
-<body>
-
-<h2 class="hovertown">Happy Father's Day!</h2>
-
-<!-- Initially I embedded Youku Player. But it does not work on iOS platform. -->
-<!--
-<embed src="http://player.youku.com/player.php/sid/XNDE0NjIxMDg0/v.swf" quality="high" width="854" height="570" align="middle" allowScriptAccess="sameDomain" allowFullscreen="true" type="application/x-shockwave-flash"></embed>
--->
-
-<!-- Switch to HTML5 video -->
-<div class="video-js-box">
-  <video id="FathersDay2012" class="video-js vjs-default-skin" controls width="800" height="448" poster="http://files.qingpei.me/i/father_480p.png" preload="auto" data-setup="{}">
-  <source type="video/mp4" src="http://files.qingpei.me/v/father_480p.mp4">
-  <source type="video/ogg" src="http://files.qingpei.me/v/father_480p.ogv">
-  <source type="video/webm" src="http://files.qingpei.me/v/father_480p.webm">
-  </video>
+	<!-- Switch to HTML5 video -->
+	<div class="video-js-box">
+		<video id="FathersDay2012" class="video-js vjs-default-skin" controls preload="auto" width="800" height="448" poster="http://files.qingpei.me/i/father_480p.png" data-setup="{}"/>
+		<source type="video/mp4" src="http://files.qingpei.me/v/father_480p.mp4"/>
+		<source type="video/ogg" src="http://files.qingpei.me/v/father_480p.ogv"/>
+		<source type="video/webm" src="http://files.qingpei.me/v/father_480p.webm"/>
+	</video>
 </div>
 
 <div style="margin-bottom:2em;"><span style="display:none;">.</span></div>
 
 <!--START JUICEBOX EMBED-->
-<script src="jbcore/juicebox.js"></script>
 <script>
 new juicebox({
-containerId : 'juicebox-container',
-galleryWidth: '800px',
-galleryHeight: '640px',
-backgroundColor: 'rgba(10,10,10,1)'
+	containerId : 'juicebox-container',
+	galleryWidth: '800px',
+	galleryHeight: '570px',
+	backgroundColor: '#333'
 });
 </script>
-<div id="juicebox-container" style="margin: 0 auto;"></div>
+<div id="juicebox-container"></div>
 <!--END JUICEBOX EMBED-->
 
+<div style="margin-bottom:2em;"><span style="display:none;">.</span></div>
+
 <h3>&copy; 2012 <a href="http://qingpei.me">qingpei.me</a> . All rights reserved.</h3>
-</body>
-</html>
+
+</section>
