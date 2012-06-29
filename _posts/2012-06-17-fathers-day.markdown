@@ -6,7 +6,7 @@ title: 父亲节
 
 昨天从五点钟开始录音，然后After Effects做片头，再加入相片用Premiere Pro导出视频，最后再慢慢上传，做了一个独立的专题页面。
 
-[**http://qingpei.me/fathersday2012/**](http://qingpei.me/fathersday2012/)
+[**<i class="icon-facetime-video"></i> <i class="icon-film"></i> Happy Father's Day!**](/fathersday2012/)
 
 制作过程既自然而然又充满折腾，且听我一一道来。
 
