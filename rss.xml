@@ -17,7 +17,7 @@ layout: nil
       <title>{{ post.title }}</title>
       <link href="http://qingpei.me{{ post.url }}"/>
       <pubDate>{{ post.date | date: "%a, %d %b %Y %H:%M:%S %z" }}</pubDate>
-      <author>edwardtoday@gmail.com (QING Pei)</author>
+      <author>hello@qingpei.me (QING Pei)</author>
       <guid>http://qingpei.me{{ post.id }}</guid>
       <description>{{ post.content | xml_escape }}</description>
     </item>

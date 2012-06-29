@@ -10,7 +10,7 @@ layout: nil
  <id>http://qingpei.me</id>
  <author>
    <name>QING Pei</name>
-   <email>edwardtoday@gmail.com</email>
+   <email>hello@qingpei.me</email>
  </author>
  <rights>Copyright (c) 2006-2012 QING Pei</rights>
  {% for post in site.posts limit:20 %}
