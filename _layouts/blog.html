@@ -8,6 +8,7 @@
 	{% include atom_rss.html %}
 	{% include icons_in_header.html %}
 	{% include html5_ie.html %}
+	{% include typekit.html %}
 </head>
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50" onload="onload()">
@@ -15,7 +16,7 @@
 	<div class="container" style="max-width: 680px;">
 		{{ content }}
 	</div><!-- /container -->
-{% include footer.html %}
+	{% include footer.html %}
 	{% include script_common.html %}
 	<script src="/js/prettify.min.js"></script>
 </body>
