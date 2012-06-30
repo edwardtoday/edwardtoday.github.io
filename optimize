@@ -1,11 +1,6 @@
 #!/usr/bin/env sh
 
-SCSSIN="css/imports.scss"
-CSSIN="css/style.css"
-CSSOUT="css/style.min.css"
-
-echo "Generating css from scss"
-sass $SCSSIN $CSSIN
-
-echo "Optimizing css using r.js"
-node r.js -o cssIn=$CSSIN out=$CSSOUT optimizeCss=default
+node r.js -o cssIn="css/imports.css" out="css/style.scss"
+sass "css/style.scss" "css/style.css"
+rm "css/style.scss"
+yuicompressor "css/style.css" -o "css/style.min.css"
