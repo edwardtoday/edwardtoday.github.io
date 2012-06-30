@@ -12,11 +12,10 @@
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50" onload="onload()">
 	{% include nav_blog.html %}
-	<div class="container">
+	<div class="container" style="max-width: 680px;">
 		{{ content }}
-		{% include footer.html %}
 	</div><!-- /container -->
-
+{% include footer.html %}
 	{% include script_common.html %}
 	<script src="/js/prettify.min.js"></script>
 </body>
