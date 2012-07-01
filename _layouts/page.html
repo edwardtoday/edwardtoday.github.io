@@ -9,8 +9,6 @@
 	{% include html5_ie.html %}
 	{% include typekit.html %}
 	<script type="text/javascript" src="/js/jquery.min.js"></script>
-	<script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
-	<link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.min.css"/>
 </head>
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50" onload="onload()">
@@ -21,12 +19,5 @@
 
 	{% include script_common.html %}
 	<script src="/js/dynamo.min.js"></script>
-	<script>
-$('audio,video').mediaelementplayer({
-	success: function(player, node) {
-		$('#' + node.id + '-mode').html('mode: ' + player.pluginType);
-	}
-});
-</script>
 </body>
 </html>
