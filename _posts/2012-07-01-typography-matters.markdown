@@ -19,7 +19,7 @@ quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo
 consequat.
 </p>
 
-有部分人支持只指定serif或是sans-serif，并通过测试说这样的效果最好。下面是`font-family: sans-serif;`的样子，至少在我的lion+chrome下，明显不如上面的效果。
+有部分人支持只指定serif或是sans-serif，并通过测试说这样的效果最好。下面是`font-family: sans-serif;`的样子，至少在我的Lion+Chrome下，明显不如上面的效果。
 
 <p style="font-family:sans-serif">
 Lorem ipsum dolor sit amet, consectetur adipisicing elit, sed do eiusmod
