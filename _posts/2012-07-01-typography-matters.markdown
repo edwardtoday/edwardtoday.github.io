@@ -74,4 +74,4 @@ Typography matters
 
 我本地写文章的时候，Typekit字体看不到啊，上线就能看出具体什么差别了。我现在至少知道如果fallback到Arial的话，差别挺大。对于默默花钱买了Helvetica Neue的Mac用户们，这算是个小小安慰吧。
 
-最后呢，推荐两篇Calluna设计者的文章：[A guide to Web Typography](http://ilovetypography.com/2008/02/28/a-guide-to-web-typography/)以及[On Choosing Type](http://ilovetypography.com/2008/04/04/on-choosing-type/)。
+最后呢，推荐两篇Calluna设计者的文章：[A Guide to Web Typography](http://ilovetypography.com/2008/02/28/a-guide-to-web-typography/)以及[On Choosing Type](http://ilovetypography.com/2008/04/04/on-choosing-type/)。
