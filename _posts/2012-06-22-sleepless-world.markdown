@@ -11,7 +11,7 @@ tags:
 <div class="audiocontainer">
 	<div class="mc" style="margin-bottom: 2em;">
 	<audio src="http://files.qingpei.me/a/%E5%85%A8%E4%B8%96%E7%95%8C%E5%A4%B1%E7%9C%A0_edwardtoday.mp3" type="audio/mp3" controls="controls">
-	<itext id="lyrics_a" lang="zh" type="text/lrc" display="yes" src="/song/%E5%85%A8%E4%B8%96%E7%95%8C%E5%A4%B1%E7%9C%A0_edwardtoday.lrc" category="LRC"></itext>
+	<itext id="lyrics_a" lang="zh" type="text/lrc" display="yes" src="/song/lrc/%E5%85%A8%E4%B8%96%E7%95%8C%E5%A4%B1%E7%9C%A0_edwardtoday.lrc" category="LRC"></itext>
 	</audio>
 	<h1 id="lyricsline"></h1>
 	</div>
