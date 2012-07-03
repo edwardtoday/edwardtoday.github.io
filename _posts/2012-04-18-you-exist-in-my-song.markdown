@@ -8,14 +8,14 @@ tags:
   - Song
 ---
 
-<script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
-<link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.min.css"/>
-
-<audio id="player2" src="http://files.qingpei.me/a/%E6%88%91%E7%9A%84%E6%AD%8C%E5%A3%B0%E9%87%8C_remix_edwardtoday.mp3" type="audio/mp3" controls="controls">
-
-<script>
-$('audio,video').mediaelementplayer();
-</script>
+<div class="audiocontainer">
+	<div class="mc" style="margin-bottom: 2em;">
+	<audio src="http://files.qingpei.me/a/%E6%88%91%E7%9A%84%E6%AD%8C%E5%A3%B0%E9%87%8C_remix_edwardtoday.mp3" type="audio/mp3" controls="controls">
+	<itext id="lyrics_a" lang="zh" type="text/lrc" display="yes" src="/song/lrc/%E6%88%91%E7%9A%84%E6%AD%8C%E5%A3%B0%E9%87%8C_remix_edwardtoday.lrc" category="LRC"></itext>
+	</audio>
+	<h1 id="lyricsline"></h1>
+	</div>
+</div>
 
 原唱：曲婉婷 Wanting
 
@@ -84,3 +84,25 @@ $('audio,video').mediaelementplayer();
 你存在我深深的脑海里
 
 我的梦里　我的心里　我的歌声里
+
+<!--[if lt IE 9]>
+	<script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
+	<link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.min.css"/>
+	<script>
+		$('audio,video').mediaelementplayer();
+	</script>
+<![endif]-->
+
+<script type="text/javascript" src="/js/itext/itext.min.js"></script>
+<script type="text/javascript">
+var audio = document.getElementsByTagName("audio")[0];
+  // parse itexts and create an invisible menu for them
+  var itexts=new ItextCollection(jQuery(audio), "lyricsline");
+  // set callback for audio
+  audio.addEventListener("timeupdate", function() {
+  	if (audio.paused || audio.ended) {
+  		return;
+  	}
+  	itexts.show(self.audio.currentTime);
+  }, false);
+</script>
