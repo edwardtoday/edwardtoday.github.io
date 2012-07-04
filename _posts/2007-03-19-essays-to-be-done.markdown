@@ -15,13 +15,10 @@ By Week 8:
 1 for Western Literature
 
 
-1 for Priciples of Circuit
+1 for Principles of Circuit
 
 
 1 for Resources, Energy and Society
-
-
- 
 
 
 By Week 15
@@ -36,13 +33,10 @@ By Week 15
 1 for Electronic Technique Practice
 
 
- 
-
-
 By Week 16
 
 
-1 for Priciples of Circuit
+1 for Principles of Circuit
 
 
 1 for History
@@ -50,8 +44,6 @@ By Week 16
 
 1 for Works and Streams of Western Literature
 
-
- 
 
 
 Hurry up...
