@@ -19,8 +19,6 @@ tags:
 	</div>
 </div>
 
-Songwriters: SCHLESINGER, ADAM L.
-
 <br/>
 作词：文雅
 
