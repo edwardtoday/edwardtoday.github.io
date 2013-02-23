@@ -133,7 +133,7 @@ textarea {
 
 body {
   margin: 0;
-  font-family: "calluna-1", "calluna-2", georgia, serif;
+  font-family: georgia, serif;
   font-size: 16px;
   font-weight: 400;
   line-height: 26px;
@@ -362,7 +362,7 @@ h4,
 h5,
 h6 {
   margin: 0;
-  font-family: "nimbus-sans-1", "nimbus-sans-2", "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
+  font-family: "Helvetica Neue", Helvetica, Arial, "Microsoft YaHei", sans-serif;
   font-weight: 700;
   color: inherit;
   text-rendering: optimizelegibility; }
