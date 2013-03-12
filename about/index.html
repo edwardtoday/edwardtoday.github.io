@@ -4,88 +4,66 @@ title: "About"
 ---
 {% include nav_about.html %}
 <audio id="audio-name" preload="meta">
-	<source src="http://files.qingpei.me/a/name.mp3" type='audio/mpeg"'/>
-	<source src="http://files.qingpei.me/a/name.wav" type='audio/wav'/>
-	<!-- add your fallback solution here -->
+<source src="http://files.qingpei.me/a/name.mp3" type='audio/mpeg"'/>
+<source src="http://files.qingpei.me/a/name.wav" type='audio/wav'/>
+<!-- add your fallback solution here -->
 </audio>
 
 <!-- About me
-	================================================== -->
-	<div class="row abouthead">
+ ================================================== -->
+<div class="row abouthead">
+<div class=".span4 columns"><img src="/images/qp2_bw.png" width="360px" height="auto"></div>
+<div class=".span7 colomns jumbotron masthead">
+<h2>Hi, I'm <a class="btn btn-success btn-small" onclick="document.getElementById('audio-name').play()" rel="popover" title="The Pronounciation" data-content="This is a recording of 'say' command under OS X Lion with Chinese voice named 'Ting-ting'."><i class="icon-play"></i> Listen</a></h2>
+<h1><span class="dynamo" data-lines="Qīng Péi,卿培" data-center="true">QING Pei</span>,</h1><h2>a.k.a.</h2><h1>edwardtoday.</h1>
+</div>
+</div>
+<!-- <hr class="soften"> -->
+<div class="row">
+<!-- Education & Career
+ ================================================== -->
+<div class="span4 columns bottompadding30"><h1>Education &amp; Career</h1></div>
+<div class="span7 columns bottompadding30">
+<p>I am a research assistant at the Department of Computing, <a href="http://www.polyu.edu.hk/" title="香港理工大學">The Hong Kong Polytechnic University</a>. My supervisor is <a href="http://www4.comp.polyu.edu.hk/~csdzhang/" title="张大鹏">David Zhang</a>. I am associated with <a href="http://www4.comp.polyu.edu.hk/~biometrics/" title="人體生物特徵識別研究中心">Biometrics Research Center</a> at HKPU.</p>
+<p>My current research interest include: pattern recognition, image processing and biometrics.</p>
+<p>I worked for <a href="http://www.virtuosgames.com/">Virtuos Games</a> as a software engineer during 2010 and 2011. I crafted games for PS3, Xbox360, Wii and also for iPhone/iPad.</p>
+<p>Before that, I have been studying computer science at <a href="http://www.tsinghua.edu.cn/" title="">Tsinghua University</a> where I graduated in July 2010. My BA thesis "Real-time parallel decoding of multi-view coding video" was supervised by <a href="http://media.cs.tsinghua.edu.cn/en/sunlf" title="孙立峰">Lifeng Sun</a>.</p>
+</div>
 
-	<div class=".span4 columns">
-		<img src="/images/qp2_bw.png" width="360px" height="auto">
-	</div>
-	<div class=".span7 colomns jumbotron masthead">
-		<h2>Hi, I'm <a class="btn btn-success btn-small" onclick="document.getElementById('audio-name').play()" rel="popover" title="The Pronounciation" data-content="This is a recording of 'say' command under OS X Lion with Chinese voice named 'Ting-ting'."><i class="icon-play"></i> Listen</a></h2>
-		<h1><span class="dynamo" data-lines="Qīng Péi,卿培" data-center="true">QING Pei</span>,</h1>
-		<h2>a.k.a.</h2>
-		<h1>edwardtoday.</h1>
-	</div>
+<!-- Places
+ ================================================== -->
+<div class="span4 columns bottompadding30"><h1><i class="icon-map-marker"></i> Location</h1></div>
+<div class="span7 columns bottompadding30"><img src="http://maps.googleapis.com/maps/api/staticmap?center=22.303813,114.180425&size=670x300&sensor=true&zoom=14&markers=22.303813,114.180425" alt="My location"></div>
 
-	</div>
-
-	<!-- <hr class="soften"> -->
-
-	<div class="row">
-
-		<!-- Education & Career
-		================================================== -->
-		<div class="span4 columns bottompadding30">
-			<h1>Education &amp; Career</h1>
-		</div>
-		<div class="span7 columns bottompadding30">
-			<p>I am a research assistant at the Department of Computing, <a href="http://www.polyu.edu.hk/" title="香港理工大學">The Hong Kong Polytechnic University</a>. My supervisor is <a href="http://www4.comp.polyu.edu.hk/~csdzhang/" title="张大鹏">David Zhang</a>. I am associated with <a href="http://www4.comp.polyu.edu.hk/~biometrics/" title="人體生物特徵識別研究中心">Biometrics Research Center</a> at HKPU. </p>
-			<p>My current research interest include: pattern recognition, image processing and biometrics.</p>
-			<p>I worked for <a href="http://www.virtuosgames.com/">Virtuos Games</a> as a software engineer during 2010 and 2011. I crafted games for PS3, Xbox360, Wii and also for iPhone/iPad.</p>
-			<p>Before that, I have been studying computer science at <a href="http://www.tsinghua.edu.cn/" title="">Tsinghua University</a> where I graduated in July 2010. My BA thesis "Real-time parallel decoding of multi-view coding video" was supervised by <a href="http://media.cs.tsinghua.edu.cn/en/sunlf" title="孙立峰">Lifeng Sun</a>.</p>
-		</div>
-
-		<!-- Places
-		================================================== -->
-		<div class="span4 columns bottompadding30">
-			<h1><i class="icon-map-marker"></i> Location</h1>
-		</div>
-		<div class="span7 columns bottompadding30">
-			<img src="http://maps.googleapis.com/maps/api/staticmap?center=22.303813,114.180425&size=670x300&sensor=true&zoom=14&markers=22.303813,114.180425" alt="My location">
-		</div>
-
-	<!-- Find me on the Internet
-	================================================== -->
-	<div class="span4 columns bottompadding30">
-		<h1><i class="icon-search"></i> Me on the Internet</h1>
-	</div>
-	<div class="span7 columns bottompadding30">
-		<p>Here are some links to find me elsewhere on the web.</p>
-		<div class="iconlist">
-			<a href="http://www.facebook.com/qingpei"><i class="icon-facebook icon-large"></i></a>
-			<a href="http://twitter.com/#!/edwardtoday"><i class="icon-twitter icon-large"></i></a>
-			<a href="https://github.com/edwardtoday"><i class="icon-github icon-large"></i></a>
-			<a href="http://www.linkedin.com/in/qingpei"><i class="icon-linkedin icon-large"></i></a>
-			<a href="http://plus.google.com/106786533173713776977"><i class="icon-google-plus icon-large"></i></a>
-			<a href="http://weibo.com/edwardtoday9"><img src="/images/weibo.png"></a>
-		</div>
-	</div>
-
+<!-- Find me on the Internet
+ ================================================== -->
+<div class="span4 columns bottompadding30"><h1><i class="icon-search"></i> Me on the Internet</h1></div>
+<div class="span7 columns bottompadding30">
+<p>Here are some links to find me elsewhere on the web.</p>
+<div class="iconlist">
+<a href="http://www.facebook.com/qingpei"><i class="icon-facebook icon-large"></i></a>
+<a href="http://twitter.com/#!/edwardtoday"><i class="icon-twitter icon-large"></i></a>
+<a href="https://github.com/edwardtoday"><i class="icon-github icon-large"></i></a>
+<a href="http://www.linkedin.com/in/qingpei"><i class="icon-linkedin icon-large"></i></a>
+<a href="http://plus.google.com/106786533173713776977"><i class="icon-google-plus icon-large"></i></a>
+<a href="http://weibo.com/edwardtoday9"><img src="/images/weibo.png"></a>
+</div>
+</div>
 <!-- This site
-	================================================== -->
-	<div class="span4 columns bottompadding30">
-		<h1>This Site</h1>
-	</div>
-	<div class="span7 columns bottompadding30">
-		<p>I've owned the domain <a href="http://qingpei.me" title="qingpei.me">qingpei.me</a> since 2011. It was a Wordpress mirror of <a href="http://edwardtoday.wordpress.com" title="my wordpress blog">my wordpress blog</a> with all my earlier posts from Windows Live Spaces.</p>
-		<p>In Feb 2012, I switched to GitHub Pages and Jekyll. Having a static site is good. Having all my posts version controlled using git is even better. Not to mention the benefits of writing in markdown.</p>
-		<p>I decided to make this site more than just a blog in June 2012. With Twitter Bootstrap, the site became more readable especially on mobile devices.</p>
-	</div>
+ ================================================== -->
+<div class="span4 columns bottompadding30"><h1>This Site</h1></div>
+<div class="span7 columns bottompadding30">
+<p>I've owned the domain <a href="http://qingpei.me" title="qingpei.me">qingpei.me</a> since 2011. It was a Wordpress mirror of <a href="http://edwardtoday.wordpress.com" title="my wordpress blog">my wordpress blog</a> with all my earlier posts from Windows Live Spaces.</p>
+<p>In Feb 2012, I switched to GitHub Pages and Jekyll. Having a static site is good. Having all my posts version controlled using git is even better. Not to mention the benefits of writing in markdown.</p>
+<p>I decided to make this site more than just a blog in June 2012. With Twitter Bootstrap, the site became more readable especially on mobile devices.</p>
+</div>
 
-		<!-- Contact
-		================================================== -->
-		<div class="span4 columns bottompadding30">
-			<h1>Contact</h1>
-		</div>
-		<div class="span7 columns bottompadding30">
-			<p><i class="icon-envelope"></i> Email: <a href="mailto:hello@qingpei.me">QING Pei</a></p>
-			<p>Emails are pushed to me in almost no time. That is really an efficient way to get in touch with me.</p>
-		</div>
-	<!-- Signature image -->
+<!-- Contact
+ ================================================== -->
+<div class="span4 columns bottompadding30"><h1>Contact</h1></div>
+<div class="span7 columns bottompadding30">
+<p><i class="icon-envelope"></i> Email: <a href="mailto:hello@qingpei.me">QING Pei</a></p>
+<p>Emails are pushed to me in almost no time. That is really an efficient way to get in touch with me.</p>
+</div>
+<!-- Signature image -->
 </div>

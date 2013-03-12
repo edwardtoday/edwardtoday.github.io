@@ -1,38 +1,27 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	<meta charset="UTF-8" />
-	<title>{{ page.title }} - QING Pei</title>
-	{% include meta_common.html %}
-	<link rel="stylesheet" href="/css/style.min.css"/>
-	{% include icons_in_header.html %}
-	{% include html5_ie.html %}
-	<style type="text/css">
-	body {
-		margin: 0px;
-		background-color: #222222;
-	}
-	</style>
-	<script type="text/javascript" src="/js/jquery.min.js"></script>
+{% include head_common.html %}
+<style type="text/css">body {margin: 0px;background-color: #222222;}</style>
 </head>
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50" onload="onload()">
-	{% include nav_gallery.html %}
-	<div class="container">
-		<div id="juicebox-container"></div>
-		<!-- {{ content }} -->
-		{% include footer.html %}
-	</div><!-- /container -->
+{% include nav_gallery.html %}
+<div class="container">
+<div id="juicebox-container"></div>
+<!-- {{ content }} -->
+{% include footer.html %}
+</div><!-- /container -->
 
-	{% include script_common.html %}
-	<script src="/js/jbcore/juicebox.js"></script>
-	<script>
-	new juicebox({
-		containerId : 'juicebox-container',
-		galleryWidth: '100%',
-		galleryHeight: '80%',
-		backgroundColor: '#222222'
-	});
-	</script>
+{% include script_common.html %}
+<script src="/js/jbcore/juicebox.js"></script>
+<script>
+new juicebox({
+	containerId : 'juicebox-container',
+	galleryWidth: '100%',
+	galleryHeight: '80%',
+	backgroundColor: '#222222'
+});
+</script>
 </body>
 </html>

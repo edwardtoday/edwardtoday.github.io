@@ -1,23 +1,17 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	<meta charset="UTF-8" />
-	<title>{{ page.title }} - QING Pei</title>
-	{% include meta_common.html %}
-	<link rel="stylesheet" href="/css/style.min.css"/>
-	{% include atom_rss.html %}
-	{% include icons_in_header.html %}
-	{% include html5_ie.html %}
-	<script type="text/javascript" src="/js/jquery.min.js"></script>
+{% include head_common.html %}
+{% include atom_rss.html %}
 </head>
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50" onload="onload()">
-	{% include nav_blog.html %}
-	<div class="container" style="max-width: 680px;">
-		{{ content }}
-	</div><!-- /container -->
-	{% include footer.html %}
-	{% include script_common.html %}
-	<script src="/js/prettify.min.js"></script>
+{% include nav_blog.html %}
+<div class="container" style="max-width: 680px;">
+{{ content }}
+</div><!-- /container -->
+{% include footer.html %}
+{% include script_common.html %}
+<script src="/js/prettify.min.js"></script>
 </body>
 </html>

@@ -1,22 +1,15 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-	<meta charset="UTF-8" />
-	<title>{{ page.title }} - QING Pei</title>
-	{% include meta_common.html %}
-	<link rel="stylesheet" href="/css/style.min.css"/>
-	{% include icons_in_header.html %}
-	{% include html5_ie.html %}
-	<script type="text/javascript" src="/js/jquery.min.js"></script>
+{% include head_common.html %}
 </head>
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50" onload="onload()">
-	<div class="container">
-		{{ content }}
-		{% include footer.html %}
-	</div><!-- /container -->
-
-	{% include script_common.html %}
-	<script src="/js/dynamo.min.js"></script>
+<div class="container">
+{{ content }}
+{% include footer.html %}
+</div><!-- /container -->
+{% include script_common.html %}
+<script src="/js/dynamo.min.js"></script>
 </body>
 </html>
