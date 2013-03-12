@@ -2,7 +2,6 @@ function onload() {
     // Your onload code goes here to initialize your page.
     // Finally, schedule a call for a second round of low-priority initialization.
     window.setTimeout(afterload, 1);
-    prettyPrint();
   }
 
   function afterload() {
