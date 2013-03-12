@@ -1,7 +1,7 @@
 ---
 date: '2007-02-22 01:46:38'
 layout: post
-slug: '%e6%95%a3'
+slug: mutter
 status: publish
 title: 散
 wordpress_id: '9774'

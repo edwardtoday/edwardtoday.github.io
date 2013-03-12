@@ -1,7 +1,7 @@
 ---
 date: '2008-03-16 23:53:01'
 layout: post
-slug: march-16-2008-todayu002639s-lectures
+slug: march-16-2008-todays-lectures
 status: publish
 title: March 16, 2008 今天的党课
 wordpress_id: '9858'

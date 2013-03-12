@@ -1,7 +1,7 @@
 ---
 date: '2007-01-19 00:41:20'
 layout: post
-slug: iu002639m-back
+slug: im-back
 status: publish
 title: 我回来了
 wordpress_id: '9744'
