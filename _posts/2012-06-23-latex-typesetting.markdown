@@ -20,7 +20,7 @@ Various packages are used, if you are new to latex, read [the tex environment pa
 
 Most of the changes are straightforward. Just search the need in natural language, e.g. "how to change chapter heading font size" and you get an answer. Some require a more recursive searching process. You look for a specific setting. Someone replies with an keyword and left. Follow that keyword and you may find a more detailed description.
 
-<a id="latexenv"></a> <!--just an anchor for internal link-->
+<a id="latexenv"></a>
 # The latex environment that works for me
 There are various tex distributions. I have the following setup for my computers.
 
@@ -61,97 +61,122 @@ Shortcuts
 * [Turn on/off code highlighting](#bw)
 * [Specify a TeX root document](#root)
 
-<a id="pdf14"></a> <!--just an anchor for internal link-->
+<a id="pdf14"></a>
 ## Create PDF outputs compatible with Acrobat 5.x or above
 
 The default PDF version of pdflatex output is 1.5 (Acrobat 6.x+). To go back and use PDF 1.4, add this:
+
 
 ```latex
 \pdfminorversion=4
 ```
 
 Alternatively, there is a package for this issue. Simply put the following line right after the `\documentclass` declaration. Some say that putting this after using other packages leads to errors. I am not sure about that. I am happy with the `\pdfminorversion` one and am not interested in moving the line around to get things broken...
-<pre class="prettyprint linenums"><code class="lang-tex">\RequirePackage{pdf14}
-</code></pre>
 
-<a id="eps"></a> <!--just an anchor for internal link-->
+```latex
+\RequirePackage{pdf14}
+```
+
+<a id="eps"></a>
 ## Use EPS images with pdflatex
 
 Being able to use PNGs or JPEGs is handy. But when you already have those EPS images, converting them to raster images does not sound good. You may use tools to convert them to PDF images which pdflatex does support. Or you could use the `epstopdf` package.
-<pre class="prettyprint linenums"><code class="lang-tex">\usepackage{epstopdf}
-</code></pre>
+
+```latex
+\usepackage{epstopdf}
+```
 
 Then it will automatically do the conversion when a EPS image is specified in `\includegraphics{}`.
 
-<a id="tab"></a> <!--just an anchor for internal link-->
+<a id="tab"></a>
 ## Move table captions from bottom to top
 
 The way people read tables and figures might be different. Some say that table captions should appear before the reader gets to the rows and columns.
-<pre class="prettyprint linenums"><code class="lang-tex">\usepackage[tableposition=top]{caption}
-</code></pre>
+
+```latex
+\usepackage[tableposition=top]{caption}
+```
 
 ## Change the separator (default is colon) in table caption
 
 The template has a sample table whose caption is "Table #.# some text". With default settings I get "Table #.#: some text". With the `caption` package, change the `labelsep` will do.
-<pre class="prettyprint linenums"><code class="lang-tex">\captionsetup[table]{labelsep=period}
-</code></pre>
 
-<a id="linespace"></a> <!--just an anchor for internal link-->
+```latex
+\captionsetup[table]{labelsep=period}
+```
+
+<a id="linespace"></a>
 ## Change line spacing
 
 The template use different line spacings here and there. Normal text use 1.5 line spacing. So I make it the global setting.
-<pre class="prettyprint linenums"><code class="lang-tex">\usepackage{setspace}
+
+```latex
+\usepackage{setspace}
 \onehalfspacing
-</code></pre>
+```
 
 When something should be double spacing, I wrap it with
-<pre class="prettyprint linenums"><code class="lang-tex">\begin{doublespacing}
+
+```latex
+\begin{doublespacing}
 \end{doublespacing}
-</code></pre>
+```
 
 For table of contents or bibliography, you might want `\singlespacing`.
 
-<a id="parskip"></a> <!--just an anchor for internal link-->
+<a id="parskip"></a>
 ## Get rid of indent for first line
 No first-line indent.
-<pre class="prettyprint linenums"><code class="lang-tex">\usepackage{parskip}
-</code></pre>
+
+```latex
+\usepackage{parskip}
+```
 
 ## A blank line between paragraphs
 The template specifically requite that there should be an empty line between paragraphs. I do not know why. I thought it should be a `padding-bottom` thing after each paragraph. With the `parskip` package, I can set the spacing between paragraphs.
-<pre class="prettyprint linenums"><code class="lang-tex">\setlength{\parskip}{18pt}
-</code></pre>
+
+```latex
+\setlength{\parskip}{18pt}
+```
 
 The length is chosen by comparing the outputs at actual sizes. Change that for different fonts or font sizes.
 
-<a id="pageno"></a> <!--just an anchor for internal link-->
+<a id="pageno"></a>
 ## Page number at bottom right
 Page numbers are by default centered.
-<pre class="prettyprint linenums"><code class="lang-tex">\usepackage{fancyhdr}
+
+```latex
+\usepackage{fancyhdr}
 \fancyhf{} % clear all header and footers
 \renewcommand{\headrulewidth}{0pt} % remove the header rule
 \rfoot{
 	\fancyplain{\minsize\thepage\hspace{1.8em}}
 	{\minsize\thepage\hspace{1.8em}}}
 \pagestyle{fancyplain}
-</code></pre>
+```
 
 `\minsize` is the 10pt specified in the template. (`12pt` is the skip, i.e. distance between lines.)
-<pre class="prettyprint linenums"><code class="lang-tex">\newcommand{\minsize}{\fontsize{10pt}{12pt}\selectfont}
-</code></pre>
 
-<a id="margin"></a> <!--just an anchor for internal link-->
+```latex
+\newcommand{\minsize}{\fontsize{10pt}{12pt}\selectfont}
+```
+
+<a id="margin"></a>
 ## Set the page margins
 Set margins at edges.
-<pre class="prettyprint linenums"><code class="lang-tex">\usepackage[top=1in, left=1.8in, bottom=1.4in, right=1.1in]{geometry}
-</code></pre>
+
+```latex
+\usepackage[top=1in, left=1.8in, bottom=1.4in, right=1.1in]{geometry}
+```
 
 For some reason, the spacing is not as semantic as it should be. The `\parskip` set above might be the cause. I'll check for it later. -->
 
-<a id="chap"></a> <!--just an anchor for internal link-->
+<a id="chap"></a>
 ## Change chapter title format
 I personally like text shadows for top level headings on webpages it they are rendered beautifully. But I do not know why this should be the case with headings in my dissertation.
-<pre class="prettyprint linenums"><code class="lang-tex">\usepackage{shadowtext}
+
+```latex
+\usepackage{shadowtext}
 \shadowoffsetx{1pt}
 \shadowoffsety{.7pt}
 \usepackage{titlesec}
@@ -165,16 +190,20 @@ I personally like text shadows for top level headings on webpages it they are re
 \vspace*{22pt}
 }
 \makeatother
-</code></pre>
+```
 
 The `\chaptersize` command is defined as
-<pre class="prettyprint linenums"><code class="lang-tex">\newcommand{\chaptersize}{\fontsize{22pt}{28pt}\selectfont\bfseries}
-</code></pre>
 
-<a id="headings"></a> <!--just an anchor for internal link-->
+```latex
+\newcommand{\chaptersize}{\fontsize{22pt}{28pt}\selectfont\bfseries}
+```
+
+<a id="headings"></a>
 ## Change section headings format
 I used the following to set the font size and spacing of section, subsection, subsubsection titles.
-<pre class="prettyprint linenums"><code class="lang-tex">% change fontsize for section/subsection/subsubsection headings
+
+```latex
+% change fontsize for section/subsection/subsubsection headings
 \titleformat{\section}{\normalfont\sectionsize}{\thesection}{1em}{}
 \titleformat{\subsection}{\normalfont\subsectionsize}{\thesubsection}{1em}{}
 \titleformat{\subsubsection}{\normalfont\subsubsectionsize}{\thesubsection}{1em}{}
@@ -184,12 +213,14 @@ I used the following to set the font size and spacing of section, subsection, su
 \titlespacing*{\section}{0pt}{-12pt}{6pt}
 \titlespacing*{\subsection}{0pt}{-14pt}{6pt}
 \titlespacing*{\subsubsection}{0pt}{-16pt}{6pt}
-</code></pre>
+```
 
-<a id="bib"></a> <!--just an anchor for internal link-->
+<a id="bib"></a>
 ## Set the heading format for bibliography
 It seems the command I set above does not affect the heading format for bibliography. And I need to change the heading from "Bibliography" to "References". The following chunk of code does this.
-<pre class="prettyprint linenums"><code class="lang-tex">\renewcommand*{\bibname}{References}
+
+```latex
+\renewcommand*{\bibname}{References}
 \makeatletter
 \renewenvironment{thebibliography}[1]{
 \clearpage
@@ -222,12 +253,14 @@ It seems the command I set above does not affect the heading format for bibliogr
 	{\@latex@warning{Empty `thebibliography' environment}}%
 	\endlist}
  \makeatother
-</code></pre>
+```
 
-<a id="appdix"></a> <!--just an anchor for internal link-->
+<a id="appdix"></a>
 ## And also the heading for Appendix
 As I mentioned, all the `vspace`s are set because those values make the output look the same as the template.
-<pre class="prettyprint linenums"><code class="lang-tex">\usepackage{appendix}
+
+```latex
+\usepackage{appendix}
 \makeatletter
 \newcommand\appendix@chapter[1]{
 	\refstepcounter{chapter}
@@ -241,12 +274,14 @@ As I mentioned, all the `vspace`s are set because those values make the output l
 \let\orig@chapter\chapter
 \g@addto@macro\appendix{\let\chapter\appendix@chapter}
 \makeatother
-</code></pre>
+```
 
-<a id="toc"></a> <!--just an anchor for internal link-->
+<a id="toc"></a>
 ## Table of Contents, List of Figures, List of Tables
 Formatting the titles and entries.
-<pre class="prettyprint linenums"><code class="lang-tex">%%% Set Table of Contents format
+
+```latex
+%%% Set Table of Contents format
 \renewcommand\contentsname{Table of Contents}
 \usepackage[subfigure]{tocloft}
 \renewcommand{\cftbeforechapskip}{0pt}
@@ -271,28 +306,34 @@ Formatting the titles and entries.
 \renewcommand\cftlottitlefont{\subsectionsize\bfseries}
 \renewcommand\cfttabpresnum{Table }	 % prefix "Table " to entries in LoT
 \cftsetindents{table}{0em}{5em}      % set amount of indenting
-</code></pre>
+```
 
-<a id="bw"></a> <!--just an anchor for internal link-->
+<a id="bw"></a>
 ## Turnoff code highlighting for print
 I am using the `minted` package for code listings. When I wrote my bachelor's thesis, I used `listings`. `minted` is not better or worse. I just want to try something new.
 
 If the PDF is for screen, highlighting code snippets makes sense. For hardcopies, the colored text is even harder to read.
-<pre class="prettyprint linenums"><code class="lang-tex">\ifdefined\printmode
+
+```latex
+\ifdefined\printmode
 \usepackage{minted}
 \usemintedstyle{bw}		% turn off code highlighting
 \else
 % Online copy
 \usepackage{minted}
 \usemintedstyle{tango}	% turn on code highlighting
-</code></pre>
+```
 
 Before this block, comment or uncomment the `printmode` declaration to turn print mode on and off.
-<pre class="prettyprint linenums"><code class="lang-tex">% \newcommand{\printmode}{}
-</code></pre>
 
-<a id="root"></a> <!--just an anchor for internal link-->
+```latex
+% \newcommand{\printmode}{}
+```
+
+<a id="root"></a>
 ## Specify a root document
 I have separate .tex files for each chapter, section and sometimes subsections. Then it is easier to include or exclude some of them for output. In TextMate, I hit ⌘+R to compile the document. But the sections does not have a complete document structure. The processor will stop with errors on that. Specifying a root document tells the tex command which file to process.
-<pre class="prettyprint linenums"><code class="lang-tex">%!TEX root = ../thesis.tex
-</code></pre>
+
+```latex
+%!TEX root = ../thesis.tex
+```
