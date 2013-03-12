@@ -65,8 +65,10 @@ Shortcuts
 ## Create PDF outputs compatible with Acrobat 5.x or above
 
 The default PDF version of pdflatex output is 1.5 (Acrobat 6.x+). To go back and use PDF 1.4, add this:
-<pre class="prettyprint linenums"><code class="lang-tex">\pdfminorversion=4
-</code></pre>
+
+```latex
+\pdfminorversion=4
+```
 
 Alternatively, there is a package for this issue. Simply put the following line right after the `\documentclass` declaration. Some say that putting this after using other packages leads to errors. I am not sure about that. I am happy with the `\pdfminorversion` one and am not interested in moving the line around to get things broken...
 <pre class="prettyprint linenums"><code class="lang-tex">\RequirePackage{pdf14}
