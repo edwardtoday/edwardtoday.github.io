@@ -1,36 +1,8 @@
-<!-- Navbar for gallery
-	=================================================== -->
-	<div class="navbar navbar-fixed-top">
-		<div class="navbar-inner">
-			<div class="container">
-				<button type="button" class="btn btn-navbar" data-toggle="collapse" data-target=".nav-collapse">
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-          <span class="icon-bar"></span>
-        </button>
-        <a class="brand" href="/"><img class="logo" width="195" height="48px" src="/images/brand.png" alt="qingpei.me"></a>
-        <div class="nav-collapse collapse">
-            <ul class="nav">
-              <li class="">
-                <a href="/index.html"><i class="icon-home"></i> Home</a>
-              </li>
-              <li class="">
-                <a href="/about/"><i class="icon-user"></i> About</a>
-              </li>
-              <li class="">
-                <a href="/blog/"><i class="icon-book"></i> Blog</a>
-              </li>
-              <li class="active">
-                <a href="/gallery/"><i class="icon-camera-retro"></i> Gallery</a>
-              </li>
-              <li class="">
-                <a href="/project/"><i class="icon-tasks"></i> Project</a>
-              </li>
-              <li class="">
-                <a href="/song/"><i class="icon-music"></i> Songs</a>
-              </li>
-            </ul>
-          </div>
-			</div>
-		</div>
-	</div>
+{% include nav_bar_pre.html %}
+<li class=""><a href="/index.html"><i class="icon-home"></i> Home</a></li>
+<li class=""><a href="/about/"><i class="icon-user"></i> About</a></li>
+<li class=""><a href="/blog/"><i class="icon-book"></i> Blog</a></li>
+<li class="active"><a href="/gallery/"><i class="icon-camera-retro"></i> Gallery</a></li>
+<li class=""><a href="/project/"><i class="icon-tasks"></i> Project</a></li>
+<li class=""><a href="/song/"><i class="icon-music"></i> Songs</a></li>
+{% include nav_bar_post.html %}
