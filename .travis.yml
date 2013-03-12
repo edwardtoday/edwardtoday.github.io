@@ -1,9 +1,10 @@
 language: ruby
 rvm:
   - 1.9.3
-before_install:
-  - gem update --system
-  - gem --version
+  - 2.0.0
+# before_install:
+  #- gem update --system
+  #- gem --version
   # - gem install jekyll
   
 script: bundle exec rake
