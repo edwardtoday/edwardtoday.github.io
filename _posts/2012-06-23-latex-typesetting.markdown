@@ -67,24 +67,18 @@ Shortcuts
 The default PDF version of pdflatex output is 1.5 (Acrobat 6.x+). To go back and use PDF 1.4, add this:
 
 
-```latex
-\pdfminorversion=4
-```
+<script src="https://gist.github.com/edwardtoday/5143689.js"></script>
 
 Alternatively, there is a package for this issue. Simply put the following line right after the `\documentclass` declaration. Some say that putting this after using other packages leads to errors. I am not sure about that. I am happy with the `\pdfminorversion` one and am not interested in moving the line around to get things broken...
 
-```latex
-\RequirePackage{pdf14}
-```
+<script src="https://gist.github.com/edwardtoday/5143690.js"></script>
 
 <a id="eps"></a>
 ## Use EPS images with pdflatex
 
 Being able to use PNGs or JPEGs is handy. But when you already have those EPS images, converting them to raster images does not sound good. You may use tools to convert them to PDF images which pdflatex does support. Or you could use the `epstopdf` package.
 
-```latex
-\usepackage{epstopdf}
-```
+<script src="https://gist.github.com/edwardtoday/5143694.js"></script>
 
 Then it will automatically do the conversion when a EPS image is specified in `\includegraphics{}`.
 
@@ -93,34 +87,24 @@ Then it will automatically do the conversion when a EPS image is specified in `\
 
 The way people read tables and figures might be different. Some say that table captions should appear before the reader gets to the rows and columns.
 
-```latex
-\usepackage[tableposition=top]{caption}
-```
+<script src="https://gist.github.com/edwardtoday/5143697.js"></script>
 
 ## Change the separator (default is colon) in table caption
 
 The template has a sample table whose caption is "Table #.# some text". With default settings I get "Table #.#: some text". With the `caption` package, change the `labelsep` will do.
 
-```latex
-\captionsetup[table]{labelsep=period}
-```
+<script src="https://gist.github.com/edwardtoday/5143705.js"></script>
 
 <a id="linespace"></a>
 ## Change line spacing
 
 The template use different line spacings here and there. Normal text use 1.5 line spacing. So I make it the global setting.
 
-```latex
-\usepackage{setspace}
-\onehalfspacing
-```
+<script src="https://gist.github.com/edwardtoday/5143712.js"></script>
 
 When something should be double spacing, I wrap it with
 
-```latex
-\begin{doublespacing}
-\end{doublespacing}
-```
+<script src="https://gist.github.com/edwardtoday/5143714.js"></script>
 
 For table of contents or bibliography, you might want `\singlespacing`.
 
@@ -128,16 +112,12 @@ For table of contents or bibliography, you might want `\singlespacing`.
 ## Get rid of indent for first line
 No first-line indent.
 
-```latex
-\usepackage{parskip}
-```
+<script src="https://gist.github.com/edwardtoday/5143717.js"></script>
 
 ## A blank line between paragraphs
 The template specifically requite that there should be an empty line between paragraphs. I do not know why. I thought it should be a `padding-bottom` thing after each paragraph. With the `parskip` package, I can set the spacing between paragraphs.
 
-```latex
-\setlength{\parskip}{18pt}
-```
+<script src="https://gist.github.com/edwardtoday/5143720.js"></script>
 
 The length is chosen by comparing the outputs at actual sizes. Change that for different fonts or font sizes.
 
@@ -145,168 +125,53 @@ The length is chosen by comparing the outputs at actual sizes. Change that for d
 ## Page number at bottom right
 Page numbers are by default centered.
 
-```latex
-\usepackage{fancyhdr}
-\fancyhf{} % clear all header and footers
-\renewcommand{\headrulewidth}{0pt} % remove the header rule
-\rfoot{
-	\fancyplain{\minsize\thepage\hspace{1.8em}}
-	{\minsize\thepage\hspace{1.8em}}}
-\pagestyle{fancyplain}
-```
+<script src="https://gist.github.com/edwardtoday/5143722.js"></script>
 
 `\minsize` is the 10pt specified in the template. (`12pt` is the skip, i.e. distance between lines.)
 
-```latex
-\newcommand{\minsize}{\fontsize{10pt}{12pt}\selectfont}
-```
+<script src<script src="https://gist.github.com/edwardtoday/5143725.js"></script>ipt>
 
-<a id="margin"></a>
+<a id="margin"></a><script src="https://gist.github.com/edwardtoday/5143725.js"></script>
 ## Set the page margins
 Set margins at edges.
 
-```latex
-\usepackage[top=1in, left=1.8in, bottom=1.4in, right=1.1in]{geometry}
-```
+<script src="https://gist.github.com/edwardtoday/5143728.js"></script>
 
-For some reason, the spacing is not as semantic as it should be. The `\parskip` set above might be the cause. I'll check for it later. -->
+For some reason, the spacing is not as semantic as it should be. The `\parskip` set above might be the cause. I'll check for it later.
 
 <a id="chap"></a>
 ## Change chapter title format
 I personally like text shadows for top level headings on webpages it they are rendered beautifully. But I do not know why this should be the case with headings in my dissertation.
 
-```latex
-\usepackage{shadowtext}
-\shadowoffsetx{1pt}
-\shadowoffsety{.7pt}
-\usepackage{titlesec}
-\makeatletter
-\renewcommand{\@makechapterhead}[1]{
-	\vspace*{-6pt}
-	{\setlength{\parindent}{0pt}\raggedright
-	\normalfont \chaptersize
-	\shadowtext{\chaptertitlename\ \thechapter \quad\ #1}
-	}
-\vspace*{22pt}
-}
-\makeatother
-```
+<script src="https://gist.github.com/edwardtoday/5143737.js"></script>
 
 The `\chaptersize` command is defined as
 
-```latex
-\newcommand{\chaptersize}{\fontsize{22pt}{28pt}\selectfont\bfseries}
-```
+<script src="https://gist.github.com/edwardtoday/5143741.js"></script>
 
 <a id="headings"></a>
 ## Change section headings format
 I used the following to set the font size and spacing of section, subsection, subsubsection titles.
 
-```latex
-% change fontsize for section/subsection/subsubsection headings
-\titleformat{\section}{\normalfont\sectionsize}{\thesection}{1em}{}
-\titleformat{\subsection}{\normalfont\subsectionsize}{\thesubsection}{1em}{}
-\titleformat{\subsubsection}{\normalfont\subsubsectionsize}{\thesubsection}{1em}{}
-
-% Change spacing for headings. Please ignore the actual numbers.
-% They are tweaked by comparing PDF outputs to the Word template. --!
-\titlespacing*{\section}{0pt}{-12pt}{6pt}
-\titlespacing*{\subsection}{0pt}{-14pt}{6pt}
-\titlespacing*{\subsubsection}{0pt}{-16pt}{6pt}
-```
+<script src="https://gist.github.com/edwardtoday/5143744.js"></script>
 
 <a id="bib"></a>
 ## Set the heading format for bibliography
 It seems the command I set above does not affect the heading format for bibliography. And I need to change the heading from "Bibliography" to "References". The following chunk of code does this.
 
-```latex
-\renewcommand*{\bibname}{References}
-\makeatletter
-\renewenvironment{thebibliography}[1]{
-\clearpage
-\ifdefined\phantomsection
-\phantomsection
-\else
-\fi
-\addcontentsline{toc}{chapter}{\bibname}
-\vspace*{-12pt}
-\begin{doublespace}
-	{\subsectionsize\bfseries \bibname}
-\end{doublespace}
-\vspace*{6pt}
-\onehalfspacing
-\@mkboth{\MakeUppercase\bibname}{\MakeUppercase\bibname}%
-\list{\@biblabel{\@arabic\c@enumiv}}{
-	\settowidth\labelwidth{\@biblabel{#1}}%
-	\leftmargin\labelwidth
-	\advance\leftmargin\labelsep
-	\@openbib@code
-	\usecounter{enumiv}%
-	\let\p@enumiv\@empty
-	\renewcommand\theenumiv{\@arabic\c@enumiv}}%
-\sloppy
-\clubpenalty4000
-\@clubpenalty \clubpenalty
-\widowpenalty4000%
-\sfcode`\.\@m}{
-	\def\@noitemerr
-	{\@latex@warning{Empty `thebibliography' environment}}%
-	\endlist}
- \makeatother
-```
+<script src="https://gist.github.com/edwardtoday/5143749.js"></script>
 
 <a id="appdix"></a>
 ## And also the heading for Appendix
 As I mentioned, all the `vspace`s are set because those values make the output look the same as the template.
 
-```latex
-\usepackage{appendix}
-\makeatletter
-\newcommand\appendix@chapter[1]{
-	\refstepcounter{chapter}
-	\orig@chapter*{
-		\vspace*{-72pt}
-		\subsectionsize\bfseries Appendix \@Alph\c@chapter: #1
-		\vspace*{-36pt}
-	}
-	\addcontentsline{toc}{chapter}{Appendix \@Alph\c@chapter: #1}
-}
-\let\orig@chapter\chapter
-\g@addto@macro\appendix{\let\chapter\appendix@chapter}
-\makeatother
-```
+<script src="https://gist.github.com/edwardtoday/5143753.js"></script>
 
 <a id="toc"></a>
 ## Table of Contents, List of Figures, List of Tables
 Formatting the titles and entries.
 
-```latex
-%%% Set Table of Contents format
-\renewcommand\contentsname{Table of Contents}
-\usepackage[subfigure]{tocloft}
-\renewcommand{\cftbeforechapskip}{0pt}
-\renewcommand{\cftbeforetoctitleskip}{6pt}
-\renewcommand{\cftaftertoctitleskip}{12pt}
-% Set ToC heading size the same as that of Abstract
-\renewcommand\cfttoctitlefont{\subsectionsize\bfseries}
-\renewcommand\cftchapfont{\tocchapsize\bfseries}
-\renewcommand\cftchappresnum{Chapter } % prefix "Chapter " to chapters in ToC
-\cftsetindents{chapter}{0em}{5em}      % set amount of indenting
-\makeatletter \renewcommand{\@dotsep}{1} \makeatother
-\renewcommand{\cftchapdotsep}{\cftdotsep}
-
-\renewcommand{\cftbeforeloftitleskip}{6pt}
-\renewcommand{\cftafterloftitleskip}{18pt}
-\renewcommand\cftloftitlefont{\subsectionsize\bfseries}
-\renewcommand\cftfigpresnum{Figure }  % prefix "Figure " to entries in LoF
-\cftsetindents{figure}{0em}{5em}      % set amount of indenting
-
-\renewcommand{\cftbeforelottitleskip}{6pt}
-\renewcommand{\cftafterlottitleskip}{18pt}
-\renewcommand\cftlottitlefont{\subsectionsize\bfseries}
-\renewcommand\cfttabpresnum{Table }	 % prefix "Table " to entries in LoT
-\cftsetindents{table}{0em}{5em}      % set amount of indenting
-```
+<script src="https://gist.github.com/edwardtoday/5143755.js"></script>
 
 <a id="bw"></a>
 ## Turnoff code highlighting for print
@@ -314,26 +179,14 @@ I am using the `minted` package for code listings. When I wrote my bachelor's th
 
 If the PDF is for screen, highlighting code snippets makes sense. For hardcopies, the colored text is even harder to read.
 
-```latex
-\ifdefined\printmode
-\usepackage{minted}
-\usemintedstyle{bw}		% turn off code highlighting
-\else
-% Online copy
-\usepackage{minted}
-\usemintedstyle{tango}	% turn on code highlighting
-```
+<script src="https://gist.github.com/edwardtoday/5143757.js"></script>
 
 Before this block, comment or uncomment the `printmode` declaration to turn print mode on and off.
 
-```latex
-% \newcommand{\printmode}{}
-```
+<script src="https://gist.github.com/edwardtoday/5143760.js"></script>
 
 <a id="root"></a>
 ## Specify a root document
 I have separate .tex files for each chapter, section and sometimes subsections. Then it is easier to include or exclude some of them for output. In TextMate, I hit ⌘+R to compile the document. But the sections does not have a complete document structure. The processor will stop with errors on that. Specifying a root document tells the tex command which file to process.
 
-```latex
-%!TEX root = ../thesis.tex
-```
+<script src="https://gist.github.com/edwardtoday/5143762.js"></script>
