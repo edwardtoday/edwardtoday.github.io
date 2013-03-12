@@ -20,8 +20,6 @@ tags:
 
 今天晚上要交一个送审的版本，查重复率，我觉得过是一定的，但是我很想知道查出来的重复是啥样的……
 
- 
-
 看各种文档和自己论文的时候发现skim这个免费的pdf阅读器真是个神奇的工具：
 
 [![skim](https://lh6faa.bay.livefilestore.com/y1m_RCgkNKulM5EqdO2rAeMmnAkjWj5-CZA53HdACTS3ayWXZKqIU-5F5qZHfdLUfmvZ6wTbK20uyrxGZqLZHVQhlUhvs1AdGLIXm7Nmqm8_CmqcS4VIx7GDNJ-tm9lZlOq0MWmLgTJS3ufkVldS_2w4w/skim_thumb[2].png?download&psid=1)](https://lh6faa.bay.livefilestore.com/y1mNlvjrMeJbCo599A92gfzpefkXUZG_p8_PZETJLsJV4bfHbcxS89K_6JakUY3luZEgw14RoxOWAZkflUC1e0GZ3r2W2L0wbRu94QhwFeLiTNGUymiyWDkA73HyvejTK5pWENe6vf9-I0MOzFpcaVH3g/skim[4].png?download&psid=1)

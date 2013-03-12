@@ -22,7 +22,6 @@ tags:
 - Work
 ---
 
-
   system login: sysadmin@5umrn3t!  
 
     
@@ -35,7 +34,6 @@ tags:
 # 
     **Unix/IP Preparation Course**
   
-
 
   _    [hervey@nsrc.org](mailto:hervey@nsrc.org)  
 
@@ -59,7 +57,6 @@ tags:
     **Introduction to Campus Network Design**
   
 
-
     
 
   REN - Research and Education Network  
@@ -73,7 +70,6 @@ tags:
 ## 
     Core Network:
   
-
 
       **_Reliability_** is the key - reliable power, reliable air conditioning  
 
@@ -95,27 +91,13 @@ tags:
 
     
 
-
-
-
-
-
 # 
   Structured Network Cabling
-
-
-
-
 
 ## 
   [Unshielded Twisted Pair Cable](http://en.wikipedia.org/wiki/Twisted_pair#Unshielded_twisted_pair_.28UTP.29)
 
-
-
     2+ cables to every outlet; 4 recommended; 6 if the dist is less than 90 meters  
-
-
-
 
       Strongly recommend [category 5e cabling](http://en.wikipedia.org/wiki/Category_5_cable#Category_5e)  
 
@@ -127,7 +109,6 @@ tags:
     [Fiber Optic Cabling](http://en.wikipedia.org/wiki/Optical_fiber_cable)
   
 
-
       **Multi Mode** : 2km@100Mbps. 62.5/50 micron core  
 
       _versus_  
@@ -135,7 +116,6 @@ tags:
       **Single Mode** : 70km@virtually unlimited speed.  
 
   
-
 
     
   * 
@@ -149,8 +129,6 @@ tags:
     
 
   
-
-
 
 Physics of Fiber: see this [link](http://en.wikipedia.org/wiki/Optical_fiber)  
 
@@ -166,9 +144,6 @@ Physics of Fiber: see this [link](http://en.wikipedia.org/wiki/Optical_fiber)
 
 **Star** configuration:  
 
-
-
-
   
   * 
     from core network to individual buildings
@@ -180,15 +155,11 @@ Physics of Fiber: see this [link](http://en.wikipedia.org/wiki/Optical_fiber)
 
   
 
-
 Outdoor cable between buildings: armored & loose cube  
 
 Indoor cable inside buildings: tight buffer  
 
 Standardize on Connectors:  
-
-
-
 
   
   * 
@@ -217,9 +188,6 @@ If the cable needs to bend in its path, make sure the diameter of the path is at
 
 For cable installed in underground conduit:  
 
-
-
-
   
   * 
     no more than 200m between pull points
@@ -229,7 +197,6 @@ For cable installed in underground conduit:
   * 
     reduce distance by 50m for every 90 degrees of bend
   
-
 
 Leave [slack loops](http://tnrcommunications.com/index_files/Page1111.htm).  
 
@@ -242,9 +209,6 @@ Leave [slack loops](http://tnrcommunications.com/index_files/Page1111.htm).
 [WDM](http://en.wikipedia.org/wiki/Wavelength-division_multiplexing) - Wave Division Multiplexing  
 
     using different colors of light 不同波长的光信号共享同一根光缆传输信号  
-
-
-
 
   
   * 
@@ -269,19 +233,14 @@ Leave [slack loops](http://tnrcommunications.com/index_files/Page1111.htm).
 
   
 
-
 UADM?? what is this..  
 
 -  
 
 July 21, 2009  
 
-
-
 # 
   Layer 2 Network Design
-
-
 
 Carlos Vicente  
 
@@ -297,9 +256,6 @@ Redundant
 
 In-Building and Layer 2  
 
-
-
-
   
   * 
     Switching inside a building: small network  
@@ -312,20 +268,14 @@ In-Building and Layer 2
 
   
 
-
 Layer 2 Concepts: Layer 2 protocols control access to a shared medium  
 
 Ethernet Functions  
-
-
-
 
   
   * 
     Source and Destination id - MAC address
   
-
-
 
   
   * 
@@ -349,9 +299,6 @@ Ethernet Frame
 
 Evolution of Ethernet Topologies  
 
-
-
-
   
   * 
     Bus    
@@ -364,7 +311,6 @@ Evolution of Ethernet Topologies
 
   
 
-
   
 
 [Hub](http://en.wikipedia.org/wiki/Network_hub): receives information and sends it to all ports (集线器)  
@@ -372,9 +318,6 @@ Evolution of Ethernet Topologies
 [Switch](http://en.wikipedia.org/wiki/Network_switch): learns the location of each node by looking at the source address of each incoming frame, and builds a forwarding table（交换机）  
 
 A switch broadcasts come frames:  
-
-
-
 
   
   * 
@@ -397,11 +340,7 @@ A switch broadcasts come frames:
 
   
 
-
 Switch vs. Router  
-
-
-
 
   
   * 
@@ -423,11 +362,7 @@ Switch vs. Router
     Switches do not usually know about IP, they only deal with Ethernet frames
   
 
-
 Routers do not forward Ethernet broadcasts. So:  
-
-
-
 
   
   * 
@@ -439,11 +374,7 @@ Routers do not forward Ethernet broadcasts. So:
     Routers reduce the broadcast domain
   
 
-
 Traffic Domains  
-
-
-
 
   
   * 
@@ -464,9 +395,6 @@ Traffic Domains
   
 
 Layer 2 Network Design Guidelines  
-
-
-
 
   
   * 
@@ -491,7 +419,6 @@ Layer 2 Network Design Guidelines
 
   
 
-
   
   * 
     Minimize path between elements (star better than chain)
@@ -501,8 +428,6 @@ Layer 2 Network Design Guidelines
   * 
     Build incrementally
   
-
-
 
   
     
@@ -526,10 +451,7 @@ Layer 2 Network Design Guidelines
     Do not daisy-chain, connect buildings hierarchically
   
 
-
 [VLAN](http://en.wikipedia.org/wiki/VLAN)
-
-
 
   
   * 
@@ -546,17 +468,12 @@ Layer 2 Network Design Guidelines
     Reason of virtualization: reduce the cost of devices.
   
 
-
-
   
   * 
     Inter-switch links are configured as **trunks**, carrying frames from all or a subset of a switch’s VLANs
   
 
-
 [802.1Q](http://en.wikipedia.org/wiki/802.1Q)
-
-
 
   
   * 
@@ -578,18 +495,12 @@ Layer 2 Network Design Guidelines
     VLAN + 802.1Q Trunk -> VLAN [Trunking](http://en.wikipedia.org/wiki/Trunking)
   
 
-
 Tagged vs. Untagged  
-
-
-
 
   
   * 
     edge ports are not tagged, they are just “members” of a VLAN
   
-
-
 
   
   * 
@@ -597,14 +508,10 @@ Tagged vs. Untagged
 
   
 
-
-
   
   * 
     a trunk can transport both tagged and untagged VLANs
   
-
-
 
   
     
@@ -614,37 +521,24 @@ Tagged vs. Untagged
 
   
 
-
-
 VLANS increase complexity  
-
-
-
 
   
   * 
     You can no longer “just replace” a switch
   
 
-
-
   
   * 
     You have to make sure that all the switch- to-switch trunks are carrying all the necessary VLANs
   
 
-
 Good reasons to use VLANs  
-
-
-
 
   
   * 
     You want to segment your network into multiple subnets, but can’t buy enough switches
   
-
-
 
   
     
@@ -653,7 +547,6 @@ Good reasons to use VLANs
     
 
   
-
 
   
   * 
@@ -671,9 +564,6 @@ Good reasons to use VLANs
 
 Bad reasons to use VLANs  
 
-
-
-
   
   * 
     Because you can, and you feel cool...
@@ -685,13 +575,10 @@ Bad reasons to use VLANs
 
   
 
-
-
   
   * 
     Because they allow you to extend the same IP network over multiple separate buildings
   
-
 
 Do not build “VLAN spaghetti”  
 
@@ -703,12 +590,7 @@ Link Aggregation_
 
     increased capacity and redundancy  
 
-
-
-
   
-
-
 
 [LACP](http://en.wikipedia.org/wiki/Link_Aggregation_Control_Protocol#Link_Aggregation_Control_Protocol)  
 
@@ -730,21 +612,15 @@ Good Switching Loops: Redundant paths
 
 [Spanning Tree Protocol](http://en.wikipedia.org/wiki/Spanning_tree_protocol)
 
-
-
   
   * 
     to have bridges _dynamically_ discover a subset of the topology that is loop-free (a tree) and yet has just _enough connectivity_ so that where physically possible, there is a path between every switch
   
 
-
-
   
   * 
     Several flavors:
   
-
-
 
   
     
@@ -786,8 +662,6 @@ Good Switching Loops: Redundant paths
 
     
 
-
-
   
     
   * 
@@ -801,8 +675,6 @@ Good Switching Loops: Redundant paths
       
 
     
-
-
 
   
     
@@ -818,37 +690,21 @@ Good Switching Loops: Redundant paths
 
     
 
-
   
 
   
 
 July 22, 2009  
 
-
-
 # 
   Core Network Design
 
-
-
-
-
-
   José Domínguez  
-
-
-
-
-
-
 
   
   * 
     Routing Architectures
   
-
-
 
   
     
@@ -884,7 +740,6 @@ July 22, 2009
     
 
     
-
 
       
   * 
@@ -942,7 +797,6 @@ July 22, 2009
 
       
 
-
         
   * 
           Goals  
@@ -973,7 +827,6 @@ July 22, 2009
 
         
 
-
           
   * 
             Route summarization
@@ -991,13 +844,7 @@ July 22, 2009
         Core layer
       
 
-
-
-
                                     where you spend most of the money for performance  
-
-
-
 
   
     
@@ -1020,7 +867,6 @@ July 22, 2009
         
 
         
-
 
           
   * 
@@ -1050,15 +896,12 @@ July 22, 2009
 
           
 
-
-
     
 * 
       Depending in how large your campus is
     
 
     
-
 
       
   * 
@@ -1093,7 +936,6 @@ July 22, 2009
 
     
 
-
       
   * 
         First come, first serve
@@ -1116,14 +958,10 @@ July 22, 2009
 
     
 
-
-
   
   * 
     High Availability and Fast Convergence
   
-
-
 
   
     
@@ -1155,14 +993,10 @@ July 22, 2009
 
     
 
-
-
   
   * 
     Campus Routing Protocols
   
-
-
 
   
     
@@ -1171,7 +1005,6 @@ July 22, 2009
     
 
   
-
 
   
     
@@ -1207,9 +1040,6 @@ July 22, 2009
 
       
 
-
-
-
   
     
   * 
@@ -1218,12 +1048,10 @@ July 22, 2009
 
   
 
-
   
   * 
     Routing Protocols and security considerations
   
-
 
 为啥今天的课听得格外艰难。。。。。。  
 

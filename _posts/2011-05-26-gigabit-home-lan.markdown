@@ -27,7 +27,6 @@ With a [new desktop](/?p=38000), I have [turned the old MacBook into an HTPC](/?
 
 So the new design could be:
 
-
 Internet
 │
 Router
@@ -38,18 +37,8 @@ Room1           Room2               Room3    MacBook
 │                     │                         │                   │
 My Desktop         N/A           Desktop 2   TV & AMP
 
-
-
-
 Desktops will have wired connections to boost media sharing performance. Wireless speed is limited by the 100Mbps LAN port of the router.
 
-
-
-
 One more thing. Use [DD-WRT firmware](http://www.dd-wrt.com) with the TP-Link WR-941N wireless router. [autoddvpn](http://code.google.com/p/autoddvpn/) is the reason.
-
-
-
-
 
 │

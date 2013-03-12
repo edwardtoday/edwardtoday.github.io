@@ -31,32 +31,24 @@ tags:
 
 有PC、Mac、Linux，也有iPhone、iPad、Android、Blackberry版本。基本上一网打尽了。
 
-
 # 只有一个文件夹，会不会太少了？
-
 
 有这个想法，很可能没有用过hard link、symbolic link之类的功能，一句“ln -s source target”就可以把任何一个文件夹包含到dropbox目录里面。Windows用户可能会对[Junction](http://technet.microsoft.com/en-us/sysinternals/bb896768)感兴趣，NTFS也是可以做链接的。
 
 几个月前有篇文章，是分析Dropbox为什么成功的，其中一点就是因为Dropbox只同步一个文件夹。有很多功能vs一个完美的功能，后者更有可能成功，Dropbox就是一个例子，稳定而快速地同步仅仅一个文件夹。
 
-
 ## More on Symbolic Links
-
 
 以我同步Safari的书签、历史记录等信息为例，这些内容Safari存在~/Library/Safari下面。我的Dropbox目录就在~/Dropbox。
 
 于是在一台机器A上，执行
-
 
     
     
     ln -s ~/Library/Safari ~/Dropbox/Safari
     
 
-
-
 Dropbox目录里就会出现一个Safari目录，并将其同步到服务器上。另一台机器B上，过一会也会在Dropbox目录下出现这个Safari目录。假设机器B上的Dropbox目录在~/Documents/Dropbox/，在机器B上执行
-
 
     
     
@@ -64,26 +56,17 @@ Dropbox目录里就会出现一个Safari目录，并将其同步到服务器上�
     ln -s ~/Documents/Dropbox/Safari ~/Library/Safari
     
 
-
-
-
 再打开Safari，就能看到机器A上的书签和历史记录了。
 
 如果仅仅想要同步书签，那么不用对整个目录做链接，只链接Bookmarks.plist就可以了。
 
-
 # 我在墙内，怎么办⋯⋯
-
 
 墙内同步我记得只要[改hosts文件](http://forums.dropbox.com/topic.php?id=19830&page=2)就可以了，下载dropbox的话，墙内有个很强悍的东西叫做迅雷！
 
-
 # 同步什么东西呢？
 
-
 我同步了不少东西：
-
-
 
 	
   * 各种IM的聊天记录
@@ -105,6 +88,5 @@ Dropbox目录里就会出现一个Safari目录，并将其同步到服务器上�
 
 	
   * reading list。一个专门放近期要读的文件，可能是论文，可能是某个manual，也可能是某篇blog文章save as的。相当于GTD里面的inbox，只不过专门对付阅读任务。
-
 
 其实还有很多其他东西可以同步的，比如游戏存档、replay之类的。只要个人有需求，用链接也好，移动也罢，总能通过Dropbox同步。

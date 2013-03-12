@@ -17,13 +17,11 @@ Total distance:
 
   
 
-
 Total time:
 
 15h26m
 
   
-
 
 Avg Speed:
 
@@ -31,13 +29,11 @@ Avg Speed:
 
   
 
-
 Max Speed:
 
 39.00km/h
 
   
-
 
 今天发现莲花路有一段修路……都是碎石，骑得小心翼翼，生怕扎胎……
 

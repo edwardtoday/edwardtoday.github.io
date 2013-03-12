@@ -13,7 +13,6 @@ title: 清理相机CMOS和键盘
 
 几个黑点实在是很碍眼。然后用各种姿势摧残CMOS，最终达到以下效果：
 
-
 ![image](http://qingpei.me/images/in_post/2012/05/IMG_7252.jpg)
 
 看起来清静多了。

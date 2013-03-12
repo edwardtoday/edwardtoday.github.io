@@ -26,9 +26,7 @@ Advice From An Old Programmer
 
 [http://www.aqee.net/advice-from-an-old-programmer/](http://www.aqee.net/advice-from-an-old-programmer/)
 
-
 ## 重点在解决实际问题的思路而非语言
-
 
 至于它怎么有道理，首先是作者提到的programming和programming language的关系。
 
@@ -38,9 +36,7 @@ CSDN上昨天还有一篇文问你能写出多少C++关键字的，我实在想�
 
 有些人说computer science is not a science，估计就是因为其中掺杂了太多工程的内容，很多确实跟science没有半点关系。但是归根到底，将这些对现实的妥协抛开，剩下的还有很多是science……
 
-
 ## 换个行业，摇身一变
-
 
 作者又说，在科技公司里会编程的太多了，这个技能没什么大不了的。但是倘若你是研究生物学的、政府工作人员、钻研数学物理的，那么会编程序解决问题可能就脱颖而出了。
 
@@ -48,9 +44,7 @@ TED不久前有一个talk是关于算法的，说到了算法在华尔街究竟�
 
 如果不喜欢不适应IT界的生活，何苦要闷死在这个领域内呢？
 
-
 ## 编程改变你的生活
-
 
 学编程，会编程，就已经改变了一个人的生活。就像很多人的生活被互联网改变了一样，编程让人思考问题的方式默默转变。
 

@@ -19,8 +19,6 @@ tags:
 
 去年国庆的时候重做了一次系统，当时是Snow Leopard + Windows 7 dual-boot。后来因为win 7的频频蓝屏让我不得不将其格掉换成win xp，顿时一切都安定了（VPN的连接稳定了，不过外接显示器的配置又繁琐了）。等到后半学期开始做各个大作业的时候，我发现让Linux蜗居在VMware里实在是有些影响速度：一来F1-F12被Mac占了，功能键得靠Fn搭配实现，麻烦；二来Mac以及一堆后台服务占了1g多内存，对于几个很能吃内存的工程，剩下的2g兼任cache和虚拟机RAM有些力不从心，而且我不能保证我需要放在RAM中的数据没有被VMware自动请到虚存里，对性能的测试就只好将就看看了。
 
- 
-
 这次回来，查了[相关文档](https://help.ubuntu.com/community/MactelSupportTeam/AppleIntelInstallation)，立即动手将整个硬盘格掉重新分区装系统做triple-boot，具体步骤如下：
 
   1. Boot with Snow Leopard Installation DVD. Use Disk Utility to re-partition the internal hard disk to get only 1 partition for Mac OS X.  

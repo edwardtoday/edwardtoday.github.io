@@ -19,16 +19,13 @@ categories:
 
   
 
-
 中午吃饭路上看到一辆老款的Audi S4敞篷，真是丑到极致了……
 
   
 
-
 目前待选的表有四款：
 
   
-
 
 [http://www.iwatch365.net/thread-16122042-1-2.html](http://www.iwatch365.net/thread-16122042-1-2.html)
 
@@ -39,6 +36,5 @@ categories:
 [http://www.iwatch365.net/thread-16232164-1-1.html](http://www.iwatch365.net/thread-16232164-1-1.html)
 
   
-
 
 各位给点意见？

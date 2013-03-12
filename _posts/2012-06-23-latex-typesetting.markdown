@@ -66,7 +66,6 @@ Shortcuts
 
 The default PDF version of pdflatex output is 1.5 (Acrobat 6.x+). To go back and use PDF 1.4, add this:
 
-
 <script src="https://gist.github.com/edwardtoday/5143689.js"></script>
 
 Alternatively, there is a package for this issue. Simply put the following line right after the `\documentclass` declaration. Some say that putting this after using other packages leads to errors. I am not sure about that. I am happy with the `\pdfminorversion` one and am not interested in moving the line around to get things broken...

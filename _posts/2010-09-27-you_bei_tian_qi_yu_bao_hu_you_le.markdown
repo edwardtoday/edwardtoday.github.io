@@ -15,6 +15,4 @@ tags:
 
 结果没下雨，还堵成这样…
 
-
-
 Posted with WordPress for BlackBerry.

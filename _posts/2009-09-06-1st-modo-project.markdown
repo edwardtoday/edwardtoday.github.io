@@ -22,30 +22,13 @@ Perspective:
 
 Views:
 
-
-
-
-
-
-
-
 [![Back](https://wlsanw.bay.livefilestore.com/y1myn7kuigvimZ9FlyDhKO7KYApbkFoPjTkUgAHD_MTZkFSA7ScowZ1KBm6OMkjtRy-D6371uolMQr0IY38SigHuyw8XWWscgBIATjK2j9CYw4vS7-PLduozv897Le7lyaYpX9lQT81l1uuDl7gmfjh3g/Back_thumb.png)](https://wlsanw.bay.livefilestore.com/y1mx8RhMbbYQyJTPp1v08xMC76mb5ZHXlKR68HEl54u4ZveQD2Ae48uvGVqWpz6TcalbsiufTAZ-P-azjhuPUEijcLItoTZObUy2bYvyEqWYEMs34Co-y7YwRPJvs7KTvmOtbKaW28LRVw74SF71_-fYw/Back[2].png)
-
 
 [![Front](https://wlsanw.bay.livefilestore.com/y1mUUevpdB3E0NGXmfvLD_1lahMTUjoXiihGwMsXf3faqF-shwmo8QTiStxgtgJFoBc6PFzigi4tJhUIVch0LjUFfWRJ_awP97HzZW4YyfKCNioxHg-7NzmsWmXHvf7YaIxkhDxMi3eoIEinVD9zep_kQ/Front_thumb.png)](https://wlsanw.bay.livefilestore.com/y1mtAbZ6cWJlTQTtqFRsvzBPo3hzMs7x08Ut4qSWRvx6FnJCd8aFHxE268xpLASF94vJKqmTULmvQ6St6klnvo2kY-RIicmMcx-Wq9EqLqsovLDrVazhrlSHWU99Yw0mpy8sEhXKOcN0PGWFFAFteNVMQ/Front[2].png)
 
-
-
-
-
-
 [![Left](https://wlsanw.bay.livefilestore.com/y1mI3QdZYEH4p0EwBrMajH_N6f9nvKNNksqNN8JQr-zS5eP8I_UCC0fSDemtC9JUsmhf-8WWah2SgACgrBeP9XT9jeMiZXGQ6wi3YLap56vXbkhozNmmj_iOX067WjYfFcBWh4p5wmCLXlVFVRzWBp8sg/Left_thumb.png)](https://wlsanw.bay.livefilestore.com/y1mwS2xIEST8ClEBbgQ6u_rL3q6VOjuT9fBRsLHkMLmpCpyukzbxBF6rUscb8ymYBW2_m-cBubb29Gg0-7a0PqQ0uVskPKJ-YIKk-43r0kSPlw3qc7eW8QUrz22gDGl-_fdHYtuEvsfLqnTqkblL-EN6A/Left[2].png)
 
-
 [![Top](https://wlsanw.bay.livefilestore.com/y1mtBes1X86tE5XcgEnTJJVMBitUYxA1kzT47Xn40uEiH102W-RUsJ47nlYIkVOgzGzAr0ooN9-4iBnafeBsC6IoOhjkHwVpJQGxy2isyF_81Gu0zb_JbZqugIQ2h87UDZ6RS9NjZ_S0eoC9i9dtYjcRA/Top_thumb.png)](https://wlsanw.bay.livefilestore.com/y1moCy1i_ElvrEcx7_OQSUHyaJNYd4I940dQjtA94qt0NnMTlNIs76UfABo2hCRFFx4O3UD0322D4gecMJ4AenJ4z8coM0LgzGHf72o8jfSW8OGOKGXg1eZznHmD8vAbfUMX2z5yF-PHUVdDYHcjjb9vw/Top[2].png)
-
-
-
 
 之前只有2G RAM，开个modo再开几个pdf就得频繁访问虚拟内存。
 
@@ -62,6 +45,5 @@ Views:
 双核和8核的应用方向是完全不同的，双核试图篡位的举动是不会有好结果的；
 
 GMA950和Quadro FX、FireGL的应用方向也是完全不同的，想安安静静又省电地渲染场景就得付出无尽的时间！
-
 
 Technorati Tags: [modo](http://technorati.com/tags/modo),[E+H](http://technorati.com/tags/E%2bH)

@@ -34,20 +34,13 @@ If I were under some linux distribution, it would be even easier to get everythi
 
 I am currently using a 2007 MacBook with Mac OS Lion. With the following steps, I have got an OpenGL programming environment with Xcode.
 
-
 # Get Xcode
-
 
 Start the Mac App Store by clicking the top left  icon and then click "App Store…".
 
-
 ![Start Mac App Store](http://qingpei.me/images/in_post/macappstore.png)
 
-
-
-
 Search for "Xcode".
-
 
 ![Search Xcode](http://qingpei.me/images/in_post/searchxcode.png)The first hit should be the Xcode.
 
@@ -55,202 +48,85 @@ Search for "Xcode".
 
 If you are using Lion, it should be free. Click "INSTALL" and after the download finishes, there should be a "Install Xcode" in your Application folder. Install it with the default settings should be fine.
 
-
 # Create a New Xcode Project
-
-
-
 
 Start Xcode and a welcome screen will pop up.
 
-
-
-
 ![Welcome to Xcode](http://qingpei.me/images/in_post/welcometoxcode.png)
-
-
-
 
 Click "Create a new Xcode project".
 
-
-
-
 ![Empty Mac OS X Project](http://qingpei.me/images/in_post/emptyproject.png)
-
-
-
 
 Select "Mac OS X" -> "Other" -> "Empty" to create an empty project to start with.
 
-
-
-
 Click "Next", enter the product name, "OpenGL001" for example.
-
-
-
 
 Click "Next" again and choose where to save the project. Note that we are selecting the parent folder of the project, i.e. you choose Desktop, the project will be saved in Desktop/OpenGL001/. A source control option is provided here. If you know what git is, you know whether or not you are using it. Otherwise, unchecking it would be fine and won't have any negative effect.
 
-
-
-
 ![Git Source Control](http://qingpei.me/images/in_post/sourcecontrol.png)
-
-
-
 
 Now we have an empty project.
 
-
-
-
-
 # Add a Target
-
-
-
 
 Click ![Add Target](http://qingpei.me/images/in_post/addtarget.png) button to add a target. What is a "target"? When you create an application, you may expecting it to be run on different platforms, iPhones, Macs, PCs or Linux hosts and so on. They may need different tools/configurations to build, and this is the moment that we need to define what platform we need our OpenGL app to be running on.
 
-
-
-
 Choose "Mac OS X" -> "Cocoa Application". (Command Line Tool works as well but adding frameworks is not as convinient.)
-
-
-
 
 ![Cocoa Application as target](http://qingpei.me/images/in_post/cocoaapplication.png)
 
-
-
-
 Click "Next". Fill the Product Name, Company Identifier and some other settings. If you are about to submit your application to the App Store, these information are critical. If not, it does not matter that much. Anyway, you can modify what you typed here later whenever you want to.
-
-
-
 
 ![Fill the target information](http://qingpei.me/images/in_post/targetinfo.png)
 
-
-
-
 Click "Finish" and a number of files will be automatically added to our project.
-
-
-
 
 ![Files added to project](http://qingpei.me/images/in_post/projectview.png)
 
-
-
-
 At this point, the app is actually runnable. By clicking the "Run" button, after compiling and linking, the app should be running and it is nothing but an empty window.
-
-
-
 
 ![Empty window](http://qingpei.me/images/in_post/cocoawindow.png)
 
-
-
-
-
 # Add Source Code to the Project
-
-
-
 
 Although there has been a GUI application running so far, it has nothing to do with OpenGL but based on NSWindow from Apple's framework. The next steps are to remove whatever we don't need and add OpenGL and GLUT to our app.
 
-
-
-
 Delete files that we do not need by selecting them (hold  to select multiple files), right click and "delete".
-
-
-
 
 ![Delete unnecessary files](http://qingpei.me/images/in_post/deletefiles.png)
 
-
-
-
 You have the choice to just keep those files out of the project or delete them and move the files to Trash. The safest way is "Remove References Only" and delete the actual files manually later when you are sure you have not delete anything you should not.
-
-
-
 
 ![Delete files dialog](http://qingpei.me/images/in_post/deletedialog.png)
 
-
-
-
 Then add the source code that uses OpenGL to the project. Either right click the project and select "Add Files to ...", or drag the files from a Finder window to the project. Use the default settings when Xcode ask you what to do with the added files.
-
-
-
 
 ![Add files to project](http://qingpei.me/images/in_post/addfiles.png)
 
-
-
-
 Here I have added a main.cpp to the project. As the code is from the professor and I do not have the copyright, a Gaussian blur is quite helpful.
-
-
-
 
 ![Main.cpp](http://qingpei.me/images/in_post/main.cpp_.png)
 
-
-
-
 Note the first 3 lines. It might be:
-
-
-
 
 #include <gl/gl.h>
 
-
-
-
 #include <gl/glu.h>
-
-
-
 
 #include <glut/glut.h>
 
-
-
-
 when you searched for OpenGL samples on the web. Change them to:
-
-
-
 
 #include <OpenGL/gl.h>
 
-
-
-
 #include <OpenGL/glu.h>
-
-
-
 
 #include <GLUT/GLUT.h>
 
-
 Or you would encounter compile errors later since Xcode cannot find those files.
 
-
 # Use OpenGL and GLUT Frameworks
-
 
 If you compile right now, there would be errors telling you that files including gl.h are missing. This is solved by adding frameworks to our project. Click the Project in the leftmost colomn to view the project "Summary" tab. In the middle, there is "Linked Frameworks and Libraries".
 
@@ -268,17 +144,13 @@ Add GLUT the same way.
 
 They should appear both in the "Linked Frameworks and Libraries" box and in the left column as part of the project.
 
-
 # Hello world!
-
 
 Click "Run" again and a window pops up with its content drawn with OpenGL. What you see in the window depends on what is in that main.cpp file.
 
 ![OpenGL Window](http://qingpei.me/images/in_post/openglwindow.png)
 
-
 # Afterword
-
 
 With the app successfully built and run, the next steps are all about applying what feel like drawing onto the window.
 

@@ -23,13 +23,6 @@ tags:
 
 留此一片日志，也许几个月后还得靠这个错误来过活……
 
-
-
-
-
 Technorati Tags:
 [TEDTalks](http://technorati.com/tag/TEDTalks)
-
-
-
 

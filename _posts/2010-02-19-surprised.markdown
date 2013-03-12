@@ -13,8 +13,6 @@ tags:
 
 用下来感觉还是不错的，当然前提是有WiFi。
 
- 
-
 今天居然找到一个FTP服务端……竟然是freeware……彻底被折服了。
 
 其实它不仅是个FTP Server，还可以做HTTP server，还可以做http/socks proxy，还可以做ssh tunnel。这简直就是万能嘛。
@@ -33,10 +31,6 @@ tags:
 
 看来不稳定，我换个22.14MB的文件测试，上行733.7KBps，下行760.5KBps，神速！
 
- 
-
 如上折腾耗电在5%到10%之间。
-
- 
 
 该神作名为[Wi-Fi Proxy + FTP/HTTP Servers](http://www.foryourblackberry.com)
