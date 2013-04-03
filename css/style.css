@@ -17,7 +17,8 @@ header,
 hgroup,
 nav,
 section {
-  display: block; }
+  display: block;
+  padding-top: 60px; }
 
 audio,
 canvas,
@@ -137,14 +138,15 @@ body {
   font-size: 16px;
   line-height: 26px;
   color: #333333;
-  background-color: #ffffff; }
+  background-color: #ffffff;
+  padding-top: 90px; }
 
 a {
-  color: #0088cc;
+  color: #FF0044;
   text-decoration: none; }
 
 a:hover {
-  color: #005580;
+  color: #FF2222;
   text-decoration: underline; }
 
 .row {
@@ -453,7 +455,7 @@ dl {
 
 dt,
 dd {
-  line-height: 22px; }
+  line-height: 28px; }
 
 dt {
   font-weight: bold;
@@ -3268,7 +3270,7 @@ input[type="submit"].btn.btn-mini {
 .navbar .brand {
   display: block;
   float: left;
-  padding: 8px 20px 12px;
+  padding: 0px 20px 0px;
   margin-left: -20px;
   font-size: 24px;
   font-weight: 200;
@@ -5509,26 +5511,6 @@ a.badge:hover {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important; } }
-body {
-  position: relative;
-  padding-top: 90px;
-  background-color: #EEE;
-  background-repeat: repeat-x;
-  background-position: 0 40px; }
-
-a {
-  color: #FF0044; }
-
-a:hover {
-  color: #FF2222; }
-
-.navbar .brand {
-  padding-top: 0;
-  padding-bottom: 0; }
-
-dd, dt {
-  line-height: 28px; }
-
 .bottompadding30 {
   padding-bottom: 30px; }
 
@@ -5568,9 +5550,6 @@ dd, dt {
 
 .navbar-fixed-top .brand:hover {
   text-decoration: none; }
-
-section {
-  padding-top: 60px; }
 
 hr.soften {
   height: 1px;
