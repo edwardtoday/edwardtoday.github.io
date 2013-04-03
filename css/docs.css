@@ -8,31 +8,6 @@
 
 /* Body and structure
 -------------------------------------------------- */
-body {
-  position: relative;
-  padding-top: 90px;
-  background-color: #EEE;
-  background-repeat: repeat-x;
-  background-position: 0 40px;
-}
-
-a{
-  color: #FF0044;
-}
-
-a:hover {
-  color: #FF2222;
-}
-
-.navbar .brand {
-  padding-top: 0;
-  padding-bottom: 0;
-}
-
-dd, dt {
-  line-height:28px;
-}
-
 .bottompadding30 {
   padding-bottom: 30px;
 }
@@ -78,13 +53,6 @@ dd, dt {
 }
 .navbar-fixed-top .brand:hover {
   text-decoration: none;
-}
-
-
-/* Space out sub-sections more
--------------------------------------------------- */
-section {
-  padding-top: 60px;
 }
 
 /* Faded out hr */
