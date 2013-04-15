@@ -4,3 +4,6 @@ node r.js -o cssIn="css/imports.css" out="css/style.scss"
 sass "css/style.scss" "css/style.css"
 rm "css/style.scss"
 yuicompressor "css/style.css" -o "css/style.min.css"
+
+cat js/custom.js js/dynamo.min.js js/itext/itext.min.js > js/combined.js
+closure-compiler --js js/combined.js --js_output_file js/combined.min.js

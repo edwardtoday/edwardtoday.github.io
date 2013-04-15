@@ -3,8 +3,6 @@ layout: page
 title: "Happy Father's Day!"
 ---
 
-<link href="http://vjs.zencdn.net/c/video-js.css" rel="stylesheet"/>
-<script src="http://vjs.zencdn.net/c/video.js"></script>
 <script src="/js/jbcore/juicebox.js"></script>
 
 <div class="page-header">
@@ -12,13 +10,12 @@ title: "Happy Father's Day!"
 </div>
 
 <!-- Switch to HTML5 video -->
-<div class="video-js-box">
-	<video id="FathersDay2012" class="video-js vjs-default-skin" controls preload="meta" width="800" height="448" data-setup="{}"/>
-		<source type="video/mp4" src="http://files.qingpei.me/v/father_480p.mp4"/>
-		<source type="video/ogg" src="http://files.qingpei.me/v/father_480p.ogv"/>
-		<source type="video/webm" src="http://files.qingpei.me/v/father_480p.webm"/>
-	</video>
-</div>
+<video id="FathersDay2012" id="player2" controls preload="meta" width="800" height="448"/>
+	<source type="video/mp4" src="http://files.qingpei.me/v/father_480p.mp4"/>
+	<source type="video/ogg" src="http://files.qingpei.me/v/father_480p.ogv"/>
+	<source type="video/webm" src="http://files.qingpei.me/v/father_480p.webm"/>
+</video>
+
 
 <div style="margin-bottom:2em;"><span style="display:none;">.</span></div>
 
