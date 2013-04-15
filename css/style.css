@@ -6242,3 +6242,9 @@ form.well {
 @media (min-width: 1210px) {
   .subnav-fixed .nav {
     width: 1168px; } }
+blockquote.pull-right p {
+  font-size: 85%; }
+
+blockquote.pull-right p,
+blockquote.pull-right small {
+  color: #AAA; }

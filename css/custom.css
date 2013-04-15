@@ -921,3 +921,11 @@ form.well {
   }
 
 }
+
+blockquote.pull-right p {
+  font-size: 85%;
+}
+
+blockquote.pull-right p,
+blockquote.pull-right small {
+  color: #AAA; }
