@@ -3,21 +3,12 @@ layout: post
 title: Way Back Into Love
 description:
 keywords: 
-date: 2012-12-09 15:34:40
+date: 2012-11-04 15:34:40
 tags:
 - Song
 ---
 
-<!-- <br></br> -->
-
-<div class="audiocontainer">
-	<div class="mc" style="margin-bottom: 2em;">
-	<audio src="http://files.qingpei.me/a/WayBackIntoLove_edwardtoday.mp3" type="audio/mp3" controls="controls">
-	<itext id="lyrics_a" lang="zh" type="text/lrc" display="yes" src="/song/lrc/WayBackIntoLove_edwardtoday.lrc" category="LRC"></itext>
-	</audio>
-	<h1 id="lyricsline"></h1>
-	</div>
-</div>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase=" http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="250" height="34"><param name="allowScriptAccess" value="sameDomain"><param name="movie" value=" http://l.5sing.com/player.swf?songtype=fc&songid=7853082"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><embed src=" http://l.5sing.com/player.swf?songtype=fc&songid=7853082" quality="high" bgcolor="#ffffff" width="250" height="34" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage=" http://www.macromedia.com/go/getflashplayer" /></object>
 
 Songwriters: SCHLESINGER, ADAM L.
 
@@ -118,25 +109,3 @@ I'm hoping you'll show me what to do,
 And if you help me to start again, 
 
 You know that I'll be there for you in the end!
-
-<!--[if lt IE 9]>
-	<script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
-	<link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.min.css"/>
-	<script>
-		$('audio,video').mediaelementplayer();
-	</script>
-<![endif]-->
-
-<script type="text/javascript" src="/js/itext/itext.min.js"></script>
-<script type="text/javascript">
-var audio = document.getElementsByTagName("audio")[0];
-  // parse itexts and create an invisible menu for them
-  var itexts=new ItextCollection(jQuery(audio), "lyricsline");
-  // set callback for audio
-  audio.addEventListener("timeupdate", function() {
-  	if (audio.paused || audio.ended) {
-  		return;
-  	}
-  	itexts.show(self.audio.currentTime);
-  }, false);
-</script>

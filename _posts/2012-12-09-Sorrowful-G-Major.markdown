@@ -8,16 +8,7 @@ tags:
 - Song
 ---
 
-<!-- <br></br> -->
-
-<div class="audiocontainer">
-	<div class="mc" style="margin-bottom: 2em;">
-	<audio src="http://files.qingpei.me/a/G大调的悲伤_edwardtoday.mp3" type="audio/mp3" controls="controls">
-	<itext id="lyrics_a" lang="zh" type="text/lrc" display="yes" src="/song/lrc/G大调的悲伤_edwardtoday.lrc" category="LRC"></itext>
-	</audio>
-	<h1 id="lyricsline"></h1>
-	</div>
-</div>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase=" http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="250" height="34"><param name="allowScriptAccess" value="sameDomain"><param name="movie" value=" http://l.5sing.com/player.swf?songtype=fc&songid=7853082"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><embed src=" http://l.5sing.com/player.swf?songtype=fc&songid=7853082" quality="high" bgcolor="#ffffff" width="250" height="34" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage=" http://www.macromedia.com/go/getflashplayer" /></object>
 
 <br/>
 作词：文雅
@@ -77,25 +68,3 @@ tags:
 四季风景在我的窗前悬挂 人海涨落在我的心里变化
 
 当曲终人散场 我终于听懂G大调有多悲伤
-
-<!--[if lt IE 9]>
-	<script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
-	<link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.min.css"/>
-	<script>
-		$('audio,video').mediaelementplayer();
-	</script>
-<![endif]-->
-
-<script type="text/javascript" src="/js/itext/itext.min.js"></script>
-<script type="text/javascript">
-var audio = document.getElementsByTagName("audio")[0];
-  // parse itexts and create an invisible menu for them
-  var itexts=new ItextCollection(jQuery(audio), "lyricsline");
-  // set callback for audio
-  audio.addEventListener("timeupdate", function() {
-  	if (audio.paused || audio.ended) {
-  		return;
-  	}
-  	itexts.show(self.audio.currentTime);
-  }, false);
-</script>

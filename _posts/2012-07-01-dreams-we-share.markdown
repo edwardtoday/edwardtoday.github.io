@@ -101,25 +101,3 @@ tags:
 		<p>那些梦</p>
 	</div>
 </div>
-
-<!--[if lt IE 9]>
-	<script src="/js/mediaelement/mediaelement-and-player.min.js"></script>
-	<link rel="stylesheet" href="/js/mediaelement/mediaelementplayer.min.css"/>
-	<script>
-		$('audio,video').mediaelementplayer();
-	</script>
-<![endif]-->
-
-<script type="text/javascript" src="/js/itext/itext.min.js"></script>
-<script type="text/javascript">
-var audio = document.getElementsByTagName("audio")[0];
-  // parse itexts and create an invisible menu for them
-  var itexts=new ItextCollection(jQuery(audio), "lyricsline");
-  // set callback for audio
-  audio.addEventListener("timeupdate", function() {
-  	if (audio.paused || audio.ended) {
-  		return;
-  	}
-  	itexts.show(self.audio.currentTime);
-  }, false);
-</script>

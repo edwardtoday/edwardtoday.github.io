@@ -56,14 +56,3 @@ $('audio,video')
 			.html('mode: ' + player.pluginType);
 	}
 });
-
-var audio = document.getElementsByTagName("audio")[0];
-// parse itexts and create an invisible menu for them
-var itexts = new ItextCollection(jQuery(audio), "lyricsline");
-// set callback for audio
-audio.addEventListener("timeupdate", function() {
-	if (audio.paused || audio.ended) {
-		return;
-	}
-	itexts.show(self.audio.currentTime);
-}, false);

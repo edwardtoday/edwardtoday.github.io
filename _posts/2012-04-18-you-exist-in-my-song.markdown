@@ -8,14 +8,7 @@ tags:
   - Song
 ---
 
-<div class="audiocontainer">
-	<div class="mc" style="margin-bottom: 2em;">
-	<audio src="http://files.qingpei.me/a/%E6%88%91%E7%9A%84%E6%AD%8C%E5%A3%B0%E9%87%8C_remix_edwardtoday.mp3" type="audio/mp3" controls="controls">
-	<itext id="lyrics_a" lang="zh" type="text/lrc" display="yes" src="/song/lrc/%E6%88%91%E7%9A%84%E6%AD%8C%E5%A3%B0%E9%87%8C_remix_edwardtoday.lrc" category="LRC"></itext>
-	</audio>
-	<h1 id="lyricsline"></h1>
-	</div>
-</div>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase=" http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="250" height="34"><param name="allowScriptAccess" value="sameDomain"><param name="movie" value=" http://l.5sing.com/player.swf?songtype=fc&songid=7504281"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><embed src=" http://l.5sing.com/player.swf?songtype=fc&songid=7504281" quality="high" bgcolor="#ffffff" width="250" height="34" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage=" http://www.macromedia.com/go/getflashplayer" /></object>
 
 原唱：曲婉婷 Wanting
 
