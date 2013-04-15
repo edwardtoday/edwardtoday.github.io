@@ -1,3 +1,6 @@
 # robotstxt.org/
 
 User-agent: *
+Disallow: 
+
+User-agent: BaiduspiderDisallow: /User-agent: baiduspiderDisallow: /
