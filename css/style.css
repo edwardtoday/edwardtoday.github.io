@@ -5511,13 +5511,17 @@ a.badge:hover {
   .nav-collapse.collapse {
     height: auto !important;
     overflow: visible !important; } }
-.bottompadding30 {
-  padding-bottom: 30px; }
-
 .postcontent {
   max-width: 650px;
   margin: auto;
   float: center; }
+
+#bqmaxim p {
+  font-size: 85%; }
+
+#bqmaxim p,
+#bqmaxim small {
+  color: #AAA; }
 
 .iconlist, .iconlist a, .iconlist a:hover, .iconlist img {
   font-size: 32px;
@@ -5538,8 +5542,8 @@ a.badge:hover {
 .error404 h2 {
   font-size: 32px; }
 
-.abouthead {
-  text-align: center; }
+.aboutpage div {
+  padding-bottom: 30px; }
 
 .navbar-fixed-top .brand {
   padding-right: 0;
@@ -6243,9 +6247,3 @@ form.well {
 @media (min-width: 1210px) {
   .subnav-fixed .nav {
     width: 1168px; } }
-#bqmaxim p {
-  font-size: 85%; }
-
-#bqmaxim p,
-#bqmaxim small {
-  color: #AAA; }

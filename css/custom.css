@@ -8,14 +8,20 @@
 
 /* Body and structure
 -------------------------------------------------- */
-.bottompadding30 {
-  padding-bottom: 30px;
-}
-
 .postcontent {
   max-width: 650px;
   margin: auto;
   float: center;
+}
+
+
+#bqmaxim p {
+  font-size: 85%;
+}
+
+#bqmaxim p,
+#bqmaxim small {
+  color: #AAA;
 }
 
 .iconlist, .iconlist a, .iconlist a:hover, .iconlist img {
@@ -39,8 +45,8 @@
   font-size: 32px;
 }
 
-.abouthead {
-  text-align: center;
+.aboutpage div {
+  padding-bottom: 30px;
 }
 
 /* Tweak navbar brand link to be super sleek
@@ -922,11 +928,3 @@ form.well {
   }
 
 }
-
-#bqmaxim p{
-  font-size: 85%;
-}
-
-#bqmaxim p,
-#bqmaxim small {
-  color: #AAA; }
