@@ -1,16 +1,22 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
 <head>
-{% include head_common.html %}
+	{% include head_common.html %}
+	{% include atom_rss.html %}
 </head>
 
 <body data-spy="scroll" data-target=".subnav" data-offset="50">
-<div class="container">
-<blockquote class="pull-right"><p class="maxim"></p></blockquote>	
-{{ content }}
-{% include footer.html %}
-</div><!-- /container -->
-{% include script_common.html %}
+	{% include nav_noactive.html %}
+	<div class="container-fluid">
+		<div class="span12">
+			<blockquote class="pull-right" id="bqmaxim"><p class="maxim"></p></blockquote>
+		</div>
+		<div class="span12">
+			{{ content }}
+		</div>
+	</div>
+	{% include footer.html %}
+	{% include script_common.html %}
 <script src="/js/dynamo.min.js"></script>
 </body>
 </html>
