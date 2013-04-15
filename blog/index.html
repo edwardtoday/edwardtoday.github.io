@@ -3,7 +3,6 @@ layout: page
 title: "Blog"
 ---
 
-{% include nav_blog.html %}
 {% for post in site.posts %}
 {% unless post.next %}
 <section id="{{ post.date | date: '%Y' }}">
