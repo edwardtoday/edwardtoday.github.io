@@ -1,8 +1,6 @@
 ---
 layout: post
 title: G大调的悲伤
-description:
-keywords: 
 date: 2012-12-09 23:43:40
 tags:
 - Song

@@ -1,8 +1,6 @@
 ---
 layout: post
 title: The Show
-description:
-keywords: 
 date: 2012-08-16 15:16:40
 tags:
 - Song

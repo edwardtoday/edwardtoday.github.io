@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 我终于失去了你
-description:
-keywords: 
 date: 2013-04-13 22:34:40
 tags:
 - Song

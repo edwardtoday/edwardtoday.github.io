@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 我使用的付费服务与应用
-description:
-keywords: 
 date: 2013-04-02 20:15:00
 tags:
 ---

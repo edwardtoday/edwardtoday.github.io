@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 暗香
-description:
-keywords: 
 date: 2012-08-22 15:55:33
 tags:
 - Song

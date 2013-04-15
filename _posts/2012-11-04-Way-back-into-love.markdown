@@ -1,8 +1,6 @@
 ---
 layout: post
 title: Way Back Into Love
-description:
-keywords: 
 date: 2012-11-04 15:34:40
 tags:
 - Song

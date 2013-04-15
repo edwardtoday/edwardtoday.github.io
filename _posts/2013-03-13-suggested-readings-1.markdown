@@ -1,8 +1,6 @@
 ---
 layout: post
 title: 阅读推荐第一辑
-description:
-keywords: 
 date: 2013-03-13 16:43:35
 tags:
 - zhihu
