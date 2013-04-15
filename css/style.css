@@ -5516,7 +5516,8 @@ a.badge:hover {
 
 .postcontent {
   max-width: 650px;
-  margin: auto; }
+  margin: auto;
+  float: center; }
 
 .iconlist, .iconlist a, .iconlist a:hover, .iconlist img {
   font-size: 32px;
@@ -5598,7 +5599,7 @@ hr.soften {
   font-size: 14px; }
 
 .masthead {
-  padding-top: 90px;
+  padding-top: 60px;
   margin-bottom: 72px; }
 
 .masthead h1,
@@ -5616,7 +5617,7 @@ hr.soften {
   line-height: 36px; }
 
 .subhead {
-  padding-bottom: 0;
+  padding: 0;
   margin-bottom: 9px; }
 
 .subhead h1 {
@@ -6242,9 +6243,9 @@ form.well {
 @media (min-width: 1210px) {
   .subnav-fixed .nav {
     width: 1168px; } }
-blockquote.pull-right p {
+#bqmaxim p {
   font-size: 85%; }
 
-blockquote.pull-right p,
-blockquote.pull-right small {
+#bqmaxim p,
+#bqmaxim small {
   color: #AAA; }

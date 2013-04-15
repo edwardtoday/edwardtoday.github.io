@@ -15,6 +15,7 @@
 .postcontent {
   max-width: 650px;
   margin: auto;
+  float: center;
 }
 
 .iconlist, .iconlist a, .iconlist a:hover, .iconlist img {
@@ -110,7 +111,7 @@ hr.soften {
 
 /* Masthead (docs home) */
 .masthead {
-  padding-top: 90px;
+  padding-top: 60px;
   margin-bottom: 72px;
 }
 .masthead h1,
@@ -133,7 +134,7 @@ hr.soften {
 ------------------------- */
 /* supporting docs pages */
 .subhead {
-  padding-bottom: 0;
+  padding: 0;
   margin-bottom: 9px;
 }
 .subhead h1 {
@@ -922,10 +923,10 @@ form.well {
 
 }
 
-blockquote.pull-right p {
+#bqmaxim p{
   font-size: 85%;
 }
 
-blockquote.pull-right p,
-blockquote.pull-right small {
+#bqmaxim p,
+#bqmaxim small {
   color: #AAA; }
