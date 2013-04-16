@@ -1,0 +1,749 @@
+<html>
+<!DOCTYPE html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Remark</title>
+    <script src="http://gnab.github.com/remark/downloads/remark-0.4.6.min.js" type="text/javascript">
+      {"highlightStyle": "github"}
+    </script>
+	<script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured">
+	      remark.on('ready', function () {
+	        MathJax.Hub.Config({
+	          tex2jax: { skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] },
+			  "HTML-CSS": { linebreaks: { automatic: true } },
+			  SVG: { linebreaks: { automatic: true } }
+	        });
+	        MathJax.Hub.Queue(function() {
+	          $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+	            return(elem.SourceElement());
+	          }).parent().addClass('has-jax');
+	        });
+	        MathJax.Hub.Configured();
+	      });
+	    </script>
+	<script type="text/javascript">
+      var hljs = remark.highlighter.engine();
+    </script>
+    <script src="remark.language.js" type="text/javascript"></script>
+    <style type="text/css" media="screen">
+      @import url(http://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic);
+      @import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz);
+
+      body { font-family: 'Droid Serif'; }
+      h1, h2, h3 {
+        font-family: 'Yanone Kaffeesatz';
+        font-weight: 400;
+        margin-bottom: 0;
+      }
+      h1 { font-size: 4em; }
+      h2 { font-size: 2em; }
+      h3 { font-size: 1.6em; }
+      .footnote {
+        position: absolute;
+        bottom: 3em;
+      }
+      li p { line-height: 1.25em; }
+      .red { color: #fa0000; }
+      .large { font-size: 2em; }
+      a, a > code {
+        color: rgb(249, 38, 114);
+        text-decoration: none;
+      }
+      code {
+        -moz-border-radius: 5px;
+        -web-border-radius: 5px;
+        background: #e7e8e2;
+        border-radius: 5px;
+      }
+      .pull-left {
+        float: left;
+        width: 47%;
+      }
+      .pull-right {
+        float: right;
+        width: 47%;
+      }
+      .pull-right ~ p {
+        clear: both;
+      }
+      #slideshow .slide .content code {
+        font-size: 0.8em;
+      }
+      #slideshow .slide .content pre code {
+        font-size: 0.9em;
+        padding: 15px;
+      }
+      .inverse {
+        background: #272822;
+        color: #777872;
+        text-shadow: 0 0 20px #333;
+      }
+      .inverse h1, .inverse h2 {
+        color: #f3f3f3;
+        line-height: 0.8em;
+      }
+
+      /* Slide-specific styling */
+      #slide-inverse .footnote {
+        bottom: 12px;
+        left: 20px;
+      }
+      #slide-how .slides {
+        font-size: 0.9em;
+        position: absolute;
+        top:  151px;
+        right: 140px;
+      }
+      #slide-how .slides h3 {
+        margin-top: 0.2em;
+      }
+      #slide-how .slides .first, #slide-how .slides .second {
+        padding: 1px 20px;
+        height: 90px;
+        width: 120px;
+        -moz-box-shadow: 0 0 10px #777;
+        -webkit-box-shadow: 0 0 10px #777;
+        box-shadow: 0 0 10px #777;
+      }
+      #slide-how .slides .first {
+        background: #fff;
+        position: absolute;
+        top: 20%;
+        left: 20%;
+        z-index: 1;
+      }
+      #slide-how .slides .second {
+        position: relative;
+        background: #fff;
+        z-index: 0;
+      }
+
+      /* Two-column layout */
+      .left-column {
+        color: #777;
+        width: 20%;
+        height: 92%;
+        float: left;
+      }
+        .left-column h2:last-of-type, .left-column h3:last-child {
+          color: #000;
+        }
+      .right-column {
+        width: 75%;
+        float: right;
+        padding-top: 2em;
+      }
+    </style>
+  </head>
+  <body>
+    <textarea id="source">
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+name: cover
+
+# Notes on KDD
+
+QING Pei
+<small>
+[edwardtoday@gmail.com](mailto:edwardtoday@gmail.com)
+</small>
+
+.footnote[View the [notes page](http://qingpei.me/BioFeatureFusion/kdd_notes.html) directly.]
+
+---
+name: agenda
+layout: false
+
+.left-column[
+## Agenda
+]
+
+.right-column[
+This is mainly my notes during reading *Data Mining: Concepts and Techniques*  by J. Han. M. Kamber, and J. Pei.
+
+1. What is KDD?
+
+2. What can be discovered?
+
+3. Interestingness
+
+4. Data preprocessing
+
+5. Data transformation
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+]
+
+.right-column[
+What is KDD?
+
+- KDD is a process that attempts to discover **patterns** in large data sets
+
+- KDD's overall goal is to extract information from a data set and
+transform it into an **understandable structure** for further use,
+e.g. a decision support system.
+
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+]
+
+.right-column[
+KDD process can be shown as an iterative sequence of the following
+steps [@Han:2011wk]:
+
+1. Data cleaning
+
+2. Data integration
+
+3. Data selection
+
+4. Data transformation
+
+5. Data mining
+
+6. Pattern evaluation
+
+7. Knowledge presentation
+
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+### Associations and Correlations
+
+* **Apriori** [@Agrawal:1994ut]: Finding frequent itemsets by confined candidate generation
+  1. Hashing itemsets into buckets [PCY95a]
+  2. transaction reduction
+  3. partitioning the data to find candidate itemsets [SON95]
+  4. sampling: mining on a subset of the given data [Toi96]
+  5. dynamic itemset counting: start with count-so-far; fewer database scans [BMUT97]
+  6. parallel and distributed association mining [PCY95b] [AS96] [CHN+96] [ZPOL97]
+* **A-Close** [PBTL99]: Finding frequent closed itemsets
+* **FPgrowth** [HPY00]: Pattern-growth approach for mining frequent itemsets
+* **CLOSET** [PHM00]: Closed itemset mining based on FPgrowth
+* **Eclat** (Equivalence Class Transformation) [Zak00]: mining frequent itemsets using the vertical data format
+
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+Interestingness
+
+A pattern is interesting if it is
+
+1. *easily understood* by humans
+
+2. *valid* on new or test data with some degree of *certainty*
+
+3. potentially *useful*
+
+4. *novel*
+
+or if it validates a hypothesis that the user *sought to confirm*.
+
+An interesting pattern represents **knowledge**.
+
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+Interestingness of association rules
+
+* **Lift** assesses the degree to which the occurrence of `\(A\)` “lifts” the occurrence of `\(B\)`. [AY99]
+
+$$lift(A,B) = \frac{P(A∪B)}{P(A)P(B)}$$
+
+*Lift* is sensitive to transactions that do not contain the itemsets of interest (**null-transaction**); it would generate unstable results.
+
+Therefore we need other measures which are **null-invariant**.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+
+* **All confidence**
+
+$$all\\_conf(A,B) = \frac{sup(A∪B)}{max(sup(A), sup(B))} = min(P(A|B),P(B|A))$$
+
+> `\(all\_conf(A,B)\)` is the minimum confidence of the two association rules related to `\(A\)` and `\(B\)`, namely, `\(A ⇒ B\)` and `\(B ⇒ A\)`. [Omi03; LKCH03]
+
+* **Max confidence**
+
+$$max\\_conf(A,B) = max(P(A|B),P(B|A))$$
+
+> `\(max\_conf(A,B)\)` measure is the maximum confidence of the two association rules, `\(A ⇒ B\)` and `\(B ⇒ A\)`.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+
+* **Kulczynski** [WCH10]
+
+$$Kulc(A,B) = \frac{1}{2} (P(A|B) + P(B|A))$$
+
+* **Cosine**
+
+$$cosine(A,B)
+= \frac{P(A∪B)}{\sqrt{P(A) \times P(B)}}
+= \frac{sup(A∪B)}{\sqrt{sup(A) \times sup(B)}}
+= \sqrt{P(A|B) \times P(B|A})$$
+
+> The cosine measure can be viewed as a *harmonized lift* measure.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+### Classification and Regression: Decision Tree
+
+A **decision tree** is a flowchart-like tree structure, where each
+**internal node** (non- leaf node) denotes a test on an attribute,
+each **branch** represents an outcome of the test, and each **leaf
+node** (or terminal node) holds a class label.
+
+* ID3, *information gain*
+
+* C4.5, *gain ratio*
+
+* CART, *Gini index*
+
+* CHAID, *a measure based on ChiSquare test* .red[*]
+
+* Minimum Description Length (MDL)
+
+.footnote[.red[*] popular in marketing]
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+Problems with decision trees:
+
+* **Repetition**: The same attribute may be tested repeatedly along a
+branch. E.g. "price > 50?", then "price < 100?", followed by
+"100 > price > 80", ...
+
+* **Replication**: Duplicate subtrees exist within the tree (,
+possibly in different branches.)
+
+Use multivariate splits .red[*] to relieve these problems. Or use a rule-based
+classifier instead of a decision tree classifier.
+
+.footnote[.red[*] CART can find multivariate splits based on a linear combination of attributes. This is a form of attribute construction.]
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+
+* **Scalability**: ID3, C4.5 and CART works for small data sets. What if
+the data set is disk-resident?
+
+  + RainForest: maintains an AVC-set (attribute-value, classlabel)
+
+  + BOAT (Bootstrapped Optimistic Algorithm for Tree
+Construction)
+
+   -  2~3x faster than RainForest while constructing exactly the same tree.
+
+   -  Incremental updates. BOAT can take new insertions and
+deletions for the training data without having to reconstruct
+the tree.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+### Classification and Regression: Bayesian Classification
+
+`\(P(H)\)`, `\(P(X|H)\)` and `\(P(X)\)` may be estimated from the given data. The
+posterior probability, `\(P(H|X)\)`, can be calculated from them. Bayes's
+theorem:
+
+$$P(H|X) = \frac{P(X|H)P(H)}{P(X)}$$
+
+Naive Bayesian Classifier
+
+* assumption: **class-conditional independence**
+
+* maximize `\(P(X|C_i)\)`
+
+* Note: If we have a probability of zero, **Laplacian correction** can help.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+### Classification and Regression: Rule-based Classification
+
+An IF-THEN rule:
+
+> IF *condition* THEN *conclusion*.
+
+A rule `\(R\)` can be assessed by its **coverage**
+
+$$coverage(R) = \frac{n\_{covers}}{|D|}$$
+
+and **accuracy**
+
+$$accuracy(R) = \frac{n\_{correct}}{n\_{covers}}$$
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+]
+
+.right-column[
+Rule quality measures
+
+- Accuracy alone is not a good measure. A rule can sacrifice coverage for higher accuracy.
+
+- Entropy, or information gain measure, is better.
+
+- Another measure based on information gain is First Order Inductive Learner (FOIL).
+
+Conditions that does not improve estimated accuracy of a given rule are pruned.
+
+Rules that do not improve estimated accuracy of the rule set are pruned.
+
+After pruning, rule ordering matters. C4.5 adopts a **class-based ordering scheme**.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+Terminology
+
+* **positive tuples** (P): Tuples of the main class of interest.
+
+* **negative tuples** (N): All other tuples.
+
+* **True positives** (TP): Positive tuples that were correctly labeled
+by the classifier.
+
+* **True negatives** (TN): Negative tuples that were correctly labeled
+by the classifier.
+
+* **False positives** (FP): Negative tuples that were incorrectly
+labeled as positive.
+
+* **False negatives** (FN): Positive tuples that were mislabeled as
+negative.
+
+We have `\(P = TP + FN, N = FP + TN\)`.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+Evaluation measures
+
+* accuracy $$accuracy = \frac{TP + TN}{P + N}$$
+
+* error rate, `\(1 - accuracy\)`
+$$error\ rate = \frac{FP + FN}{P + N}$$
+
+  + If we use the training set to estimate the error rate of a model,
+this quantity is known as **resubstitution error**
+
+* sensitivity, or true positive rate, recall
+$$sensitivity = \frac{TP}{P}$$
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+
+* specificity, or true negative rate
+$$specificity = \frac{TN}{N}$$
+
+  + Sensitivity and specificity can be used to solve class imbalance problem.
+
+* precision $$precision = \frac{TP}{TP+FP}$$
+
+  + Precision can be thought of a measure of *exactness* (i.e., what
+percentage of tuples labeled as positive are actually such),
+whereas recall is a measure of *completeness* (what percentage of
+positive tuples are labeled as such.)
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+
+* `\(F_{1}\)` is harmonic mean of precision and recall
+
+$$F_{1} = \frac{2 \times precision \times recall}{precision +
+recall}$$
+
+* `\(F_{\beta}\)`, where `\(\beta\)` is a non-negative real number
+
+$$F_{\beta} = \frac{(1 + {\beta}^{2}) \times precision \times
+recall}{{\beta}^{2} \times precision + recall}$$
+
+  - Combine precision and recall into a single measure. Commonly
+used `\(F_{\beta}\)` measures are `\(F_{2}\)` and `\(F_{0.5}\)`.
+
+If tuples can belong to multiple classes, the accuracy measure is not
+appropriate. It is useful to return a **probability class distribution**.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+In addition to accuracy-based measures, classifiers can also be
+compared with respect to the following additional aspects:
+
+* **Speed**: computational cost to generate or use the classifier
+
+* **Robustness**: ability to make correct predictions given noisy data
+or missing values
+
+* **Scalability**: ability to construct the classifier efficiently
+given large amounts of data.
+
+* **Interpretability**: level of understanding and insight that is
+provided by the classifier or predictor. This is subjective and
+therefore difficult to assess.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+### Cross-validation and Statistical Tests of Significance
+
+10-fold cross-validation recommended
+
+Question: 
+> We have two different models to compare.
+
+> Is the difference **statistically significant**?
+
+> (Otherwise we should not claim that one is better.)
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+Suppose we have trained and tested two models, `\(M_1\)` and `\(M_2\)`.
+
+In such cases, we do a **pairwise comparison** of the two models for *each* 10-fold cross-validation round.
+
+> That is, for the `\(i\)`th round of 10-fold cross-validation, the *same cross-validation partitioning* is used to obtain an error rate for `\(M_1\)` and for `\(M_2\)`.
+
+Let `\(err(M_1)_i\)` (or `\(err(M_2)_i\)`) be the error rate of model `\(M_1\)` (or `\(M_2\)` on round `\(i\)`. The error rates for `\(M_1\)` are averaged to obtain a mean error rate for `\(M_1\)`, denoted `\(\overline{err}(M_1)\)`. Similarly, we can obtain `\(\overline{err}(M_2)\)`.
+
+The variance of the difference between the two models is denoted `\(var(M_1 - M_2)\)`.
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+The *t*-test computes the *t-statistic with `\(k-1\)` degrees of freedom* for `\(k\)` samples.
+
+> In our example, we have `\(k=10\)`.
+
+The *t*-statistic for pairwise comparison is computed as follows:
+
+$$t = \frac{\overline{err}(M_1)-\overline{err}(M_2)}{\sqrt{var(M_1 - M_2)/k}},$$
+
+where
+
+$$var(M\_1 - M\_2) = \frac{1}{k} \sum\_{i=1}^{k}{[err(M\_1)\_i - err(M\_2)\_i - (\overline{err}(M\_1) - \overline{err}(M\_2))]^2}.$$
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+Compute `\(t\)`, select a *significance level* .red[\*] and consult a table for *t-distribution*.
+
+Then we shall tell whether the difference between `\(M_1\)` and `\(M_2\)` is statistically significant.
+
+Nonpaired version:
+
+$$var(M_1 - M_2) = \sqrt{\frac{var(M_1)}{k_1} + \frac{var(M_2}{k_2}},$$
+
+where `\(k_1\)` and `\(k_2\)` are the number of cross-validation samples used for `\(M_1\)` and `\(M_2\)`, respectively.
+
+> When consulting the table of *t-distribution*, the number of freedom used is taken as the minimum number of degrees of the two models.
+
+.footnote[.red[\*] usually 5% or 1% in practice]
+]
+
+---
+.left-column[
+## Agenda
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+]
+
+.right-column[
+### ROC Curve
+
+![ROC Curve](http://upload.wikimedia.org/wikipedia/commons/6/6b/Roccurves.png)
+
+]
+
+---
+.left-column[
+## What is KDD?
+## Kinds of Patterns
+## Classifier Evaluation
+## Improving Classifiers
+## Next time
+]
+
+.right-column[
+Topics to be covered:
+
+- Ensemble methods
+
+- Cluster analysis
+
+- Outlier analysis
+
+- Data preprocessing
+
+  + Cleaning
+  
+  + Reduction
+  
+  + Discretization
+
+]
+
+---
+name: last-page
+template: inverse
+
+## That's all (for now)!
+
+.footnote[Slideshow created using [remark](http://github.com/gnab/remark).]
+
+    </textarea>
+    <div id="slideshow"></div>
+  </body>
+</html>
