@@ -7,3 +7,5 @@ yuicompressor "css/style.css" -o "css/style.min.css"
 
 cat js/custom.js js/dynamo.min.js > js/combined.js
 closure-compiler --js js/combined.js --js_output_file js/combined.min.js
+
+# curl http://www.cleancss.com/css_optimiser.php?url=http://qingpei.me/css/style.min.css&template=3&merge_selectors=2&optimise_shorthands=1&timestamp=1&file_output=1
