@@ -5506,6 +5506,12 @@ a.badge:hover {
 html {
   -webkit-font-smoothing: antialiased; }
 
+body {
+  background-color: #f0f0f0; }
+
+blockquote.pull-right {
+  border-right: 5px solid #ccc; }
+
 .postcontent {
   max-width: 650px;
   margin: auto;
