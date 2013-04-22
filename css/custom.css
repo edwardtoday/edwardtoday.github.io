@@ -9,7 +9,11 @@
 /* Body and structure
 -------------------------------------------------- */
 html {
-	-webkit-font-smoothing:antialiased;
+  -webkit-font-smoothing:antialiased;
+}
+
+body {
+  background-image: /images/furley_bg.png;
 }
 
 .postcontent {
