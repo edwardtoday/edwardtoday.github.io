@@ -1,0 +1,441 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Finding the Optimal Odor Feature Subset for Diabetes Prediction</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://gnab.github.com/remark/downloads/remark-0.4.6.min.js" type="text/javascript">
+      {
+      "highlightStyle": "github"
+    }
+    </script>
+    <link rel="stylesheet" href="../css/talks.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <textarea id="source">
+
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+name: cover
+
+# Finding the Optimal Odor Feature Subset for Diabetes Prediction
+
+QING Pei
+<small>
+[edwardtoday@gmail.com](mailto:edwardtoday@gmail.com)
+</small>
+
+.footnote[March 6, 2013 @ PolyU BRC]
+
+---
+name: agenda
+layout: false
+
+.left-column[
+## Agenda
+]
+
+.right-column[
+
+1. Problem Statement
+
+2. Pre-process
+
+3. Algorithm Selection
+
+4. Experiment
+
+5. Conclusions
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+]
+
+.right-column[
+Odor feature vector is 931-dimensional.
+]
+
+--
+.right-column[
+
+* .red[slow] regression / learning
+
+* .red[huge] storage space
+
+* .red[noisy] due to correlation
+]
+
+--
+.right-column[
+Find an .red[optimal subset] of feature columns that works best for .red[selected algorithms].
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+]
+
+.right-column[
+
+* Calculate Correlation Coefficient
+
+  - 931*931 matrix, [0,1]
+
+]
+
+--
+.right-column[
+
+* Remove Most Correlated Column
+
+  - max column sum -> most correlated
+
+  - snapshots for 10 removals
+
+  - 93 sets for experiment
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+]
+
+.right-column[
+
+* Regression
+
+* Machine Learning
+
+* Neural Network
+
+* Probabilistic Graphical Model
+
+* Boosting
+
+* Meta Algorithms
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+]
+
+.right-column[
+
+* Regression
+
+  - Logistic Regression
+
+    - Simple Logistic
+
+  - Classification and Regression Tree
+
+    - ADTree
+
+    - SimpleCART
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+]
+
+.right-column[
+
+* Machine Learning
+
+  - Naive Bayes
+
+  - Support Vector Machine
+
+    - SVM
+
+    - SMO
+
+  - Kernel Estimation
+
+    - KNN
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+]
+
+.right-column[
+
+* Neural Network
+
+  - Multilayer Perceptron
+
+    - too slow & low accuracy ~70%
+
+  - Radial Basis Function Network
+
+    - low accuracy ~65%
+
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+]
+
+.right-column[
+
+* Probabilistic Graphical Model
+
+  - Bayesian Network
+
+  - <s>Hidden Markov Model</s>
+
+    - to be tried
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+]
+
+.right-column[
+
+* Boosting
+
+  - AdaBoostM1
+
+    - little gain from 96.07% to 96.42%
+
+    - considerably slower
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+]
+
+.right-column[
+
+* Meta Algorithms
+
+  - Bagging with REPTree
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+## Experiment
+]
+
+.right-column[
+### 10 times 10-fold cross-validation
+]
+
+--
+.right-column[
+A one-time 10-fold cross-validation works as the following:
+
+- Ten labeled train/test set pairs are generated.
+
+- Train a classifier with an algorithm from a train set containing 90% labeled data from the entire input. Test the classifier performance using the rest 10% data which is the test set.
+
+- Repeat step 2 with the 2nd to 10th train/test set pairs.
+
+- Take the average performance as output.
+
+This is repeated 10 times to make sure our results are statistically significant.
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+## Experiment
+]
+
+.right-column[
+### Results
+
+* Accuracy
+
+* Training Time
+
+* Testing Time
+
+* Model Size
+
+]
+
+---
+
+![](percent_correct.svg)
+
+---
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+## Experiment
+]
+
+.right-column[
+
+* Bayesian algorithms are vulnerable to noise. They lose a bit accuracy after the feature vector length is larger than 400.
+
+* Some machine learning algorithms, such as SVM, tend to ignore the negative impacts of noise. The accuracy do not drop when lots of noises are added. It does not goes any higher either.
+
+* The highest accuracy (.red[97%]) is achieved by BayesNet with a very short feature vector length of around .red[70].
+
+* Most algorithms peak at [250,300].
+Several tree-based algorithms step up a lot from 260 to 270.
+
+  * Therefore .red[270] appears to be an optimal choice.
+]
+
+---
+
+![](cpu_time_training.svg)
+
+---
+
+![](cpu_time_testing.svg)
+
+---
+
+![](model_size.svg)
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+## Experiment
+## Conclusions
+]
+
+.right-column[
+
+* BayesNet provides highest accuracy.
+
+* Tree-based algorithms are fast. They are optimal with 270-dimensional feature.
+
+* AI algorithms (abandoned during algorithm selection phase) are a order of magnitude slower. They do not, however, provide lower error.
+
+* Wrong cases will be inspected to find outliers or to improve current models.
+
+]
+
+---
+
+.left-column[
+## Agenda
+## Problem
+## Pre-process
+## Algorithms
+## Experiment
+## Conclusions
+]
+
+.right-column[
+
+* Finally, the optimal choices.
+
+<table id="hor-minimalist-b">
+  <thead>
+    <tr>
+      <th scope="col">Algorithm</th>
+      <th scope="col">Feature Vector Length</th>
+      <th scope="col">Accuracy (%)</th>
+      <th scope="col">Training Time (s)</th>
+      <th scope="col">Testing Time (s)</th>
+      <th scope="col">Model Size (B)</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>BayesNet</td>
+      <td>70</td>
+      <td>0.97</td>
+      <td>0.03</td>
+      <td>0</td>
+      <td>5.2e5</td>
+    </tr>
+    <tr>
+      <td>Bagging</td>
+      <td>270</td>
+      <td>96.07</td>
+      <td>1.02</td>
+      <td>0</td>
+      <td>4.7e4</td>
+    </tr>
+    <tr>
+      <td>SMO w/Polykernel</td>
+      <td>440</td>
+      <td>96.9</td>
+      <td>0.67</td>
+      <td>0</td>
+      <td>2.8e6</td>
+    </tr>
+  </tbody>
+</table>
+
+]
+
+---
+name: last-page
+template: inverse
+
+# Thank you.
+
+.footnote[Slideshow created using [remark](http://github.com/gnab/remark).]
+
+    </textarea>
+    <div id="slideshow"></div>
+  </body>
+</html>
