@@ -32,16 +32,15 @@ task :new do
       f.puts "---"
       f.puts "layout: post"
       f.puts "title: #{title}"
-      f.puts "description: "
-      f.puts "keywords: "
       f.puts "date: #{now.strftime('%F %T')}"
+      f.puts "published: false"
       f.puts "tags:"
       f.puts "  - "
       f.puts "---"
       f.puts ""
       f.puts ""
     end
-    
+
     `subl #{path}`
     exit
 end
