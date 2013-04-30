@@ -14,11 +14,11 @@ tags:
 
 ImageOptim里对JPEG的优化用到两个工具：JpegOptim和Jpegtran，跟PNG优化那几个工具类似，多次尝试不同的编码方式，找一个效率最高的。从下图可以看出来，大约把110G的图片缩到55G。
 
-![Network Traffic ](/images/in_post/imageoptim_net.png)
+![Network Traffic ](http://qingpei.me/images/in_post/imageoptim_net.png)
 
 可是搜索最优编码可是耗费了大量的磁盘写操作，1.71TB！每张图都不大，为什么要写到磁盘，而不是内存里面暂存着，找到最优直接写最优结果呢……MLC的SSD伤不起啊。
 
-![Disk Read/Write](/images/in_post/imageoptim_disk.png)
+![Disk Read/Write](http://qingpei.me/images/in_post/imageoptim_disk.png)
 
 估计把/tmp映射到内存盘，可以解决这个问题。
 
