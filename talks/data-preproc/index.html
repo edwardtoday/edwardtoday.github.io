@@ -3,12 +3,27 @@
   <head>
     <meta http-equiv="content-type" content="text/html; charset=utf-8" />
     <title>Data Preprocessing</title>
-  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
     <script src="http://gnab.github.com/remark/downloads/remark-0.4.6.min.js" type="text/javascript">
       {
       "highlightStyle": "github",
       "ratio":"16:9"
     }
+    </script>
+    <script type="text/javascript" src="http://cdn.mathjax.org/mathjax/latest/MathJax.js?config=TeX-AMS_HTML&delayStartupUntil=configured">
+      remark.on('ready', function () {
+      MathJax.Hub.Config({
+      tex2jax: { skipTags: ['script', 'noscript', 'style', 'textarea', 'pre'] },
+      "HTML-CSS": { linebreaks: { automatic: true } },
+      SVG: { linebreaks: { automatic: true } }
+      });
+      MathJax.Hub.Queue(function() {
+      $(MathJax.Hub.getAllJax()).map(function(index, elem) {
+      return(elem.SourceElement());
+      }).parent().addClass('has-jax');
+      });
+      MathJax.Hub.Configured();
+      });
     </script>
     <link rel="stylesheet" href="../css/talks.css" type="text/css" media="screen" />
   </head>
@@ -130,6 +145,7 @@ Therefore I decided to apply .red[discretization] and .red[reduction].
 ]
 
 .right-column[
+### Discretization
 
 .green[Supervised discretization] - uses the values of the class variable.
 
@@ -160,6 +176,7 @@ If we do not have class labels available, unsupervised discretization is worth t
 ]
 
 .right-column[
+### Data reduction
 
 Apart from reducing the number of attribute values, data reduction can have other approaches.
 
@@ -178,6 +195,186 @@ Apart from reducing the number of attribute values, data reduction can have othe
 The number of samples we have is in hundreds, which is not a large number. Attribute selection is adopted in addition to discretization to further reducing the data set.
 
 ]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+### Approaches of attribute selection
+
+1. Wrapper
+
+  - A *wrapper* uses the intended learning algorithm itself to evaluate the usefulness of features.
+  - Slow
+
+2. Filter
+
+  - A *filter* evaluates features according to heuristics based on general characteristics of the data.
+  - Fast
+
+I have tried both in previous experiments. (Wrapper approach for Simple Logistics and filter approach for odor feature optimization.)
+
+This time, I use  a Correlation-based Filter Approach .red[*] by Mark A. Hall.
+
+.footnote[ .red[*] Hall, Mark A. _Correlation-based feature selection for machine learning_. Diss. The University of Waikato, 1999.]
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+### Correlation-based Filter Approach
+
+- Hypothesis on which the heuristic is based:
+
+> _Good feature subsets contain features highly correlated with (predictive of) the class, yet uncorrelated with (not predictive of) each other._
+
+In my [last presentation](/talks/odor-optim/), I calculated Pearson's correlation coefficient to represent the usefulness of feature columns. Now I know this work has been formally investigated by Ghiselli, Hogarth and Zajonc.
+
+- Ghiselli, Edwin Ernest. _Theory of psychological measurement_. Vol. 13. New York: McGraw-Hill, 1964.
+
+- Hogarth, Robert M. _Methods for aggregating opinions_. Springer Netherlands, 1977.
+
+- Zajonc, Robert B. "A note on group judgments and group size." Human Relations (1962).
+
+Dr. Mark Hall uses three different measures, **minimum description length (MDL)**, **symmetrical uncertainty** and **relief**.
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+#### Symmetric Uncertainty
+
+The entropy (uncertainty of unpredictability) of feature `\(Y\)` is given by
+
+$$H(Y)=-\sum\_{y\in Y} p(y) log\_{2}(p(y))$$
+
+If the observed values of `\(Y\)` in the training data are partitioned according to the values of a second feature `\(X\)`, and the entropy of `\(Y\)` with respect to the partitions induced by `\(X\)` is less the the entropy of `\(Y\)` prior to partitioning, then there is a relationship between features `\(Y\)` and `\(X\)`. Entropy of `\(Y\)` after observing `\(X\)` is given by
+
+$$H(Y|X)=-\sum\_{x\in X} p(x) \sum\_{y\in Y} p(y|x) log\_{2} (p(y|x))$$
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+
+The amount by which the entropy of `\(Y\)` decreases reﬂects additional information about `\(Y\)`provided by `\(X\)` and is called the *information gain* or *mutual information*. Information gain is given by
+
+$$gain = H(Y) - H(Y|X) = H(X) - H(X|Y) = H(Y) + H(X) - H(X,Y)$$
+
+Symmetrical uncertainty .red[*] compensates for information gain's bias toward attributes with more values and normalizes its value to the range [0,1]:
+
+$$symmetrical\ uncertainty\ coefficient = 2.0 \times \left[\frac{gain}{H(Y) + H(X)} \right]$$
+
+.footnote[.red[*] W. H. Press, B. P. Flannery, S. A. Teukolsky, and W. T. Vetterling. _Numerical Recipes in C_. Cambridge University Press, Cambridge, 1988. ]
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+#### Relief
+
+RELIEF .red[*] is a feature weighting algorithm that is sensitive to feature interactions.
+
+$$Relief\_{X} = P(different\ value\ of\ X | \ different\ class) - P(different\ value\ of\ X | \ same\ class)$$
+
+which can be reformulated as
+
+$$Relief\_{X} = \frac{Gini' \times \sum\_{x\in X} p(x)^2}{(1-\sum\_{c\in C}p(c)^2)\sum\_{c\in C}p(c)^2}$$
+
+where `\(C\)` is the class variable and
+
+$$Gini' = \left[\sum\_{c \in C}p(c)(1-p(c))\right] - \sum\_{x \in X} \left(\frac{p(x)^2}{\sum\_{x\in X} p(x)^2}\sum\_{c \in C}p(c|x)(1-p(c|x))\right)$$
+
+To use *relief* symmetrically for two features, the measure can be calculated twice (each feature is treated in turn as the "class"), and the results averaged.
+
+.footnote[.red[*] Kira, Kenji, and Larry A. Rendell. "A practical approach to feature selection." _Proceedings of the ninth international workshop on Machine learning_. Morgan Kaufmann Publishers Inc., 1992.]
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+#### MDL
+
+The minimum description length (MDL) principle states that the “best” theory to infer from training data is the one that minimizes the length (complexity) of the theory and the length of the data encoded with respect to the theory.
+
+More formally, if `\(T\)` is a theory inferred from data `\(D\)`, then the total description length is given by
+
+$$DL(T,D) = DL(T) + DL(D|T)$$
+
+The best models (according to the MDL principle) are those which are predictive of the data and, at the same time, have captured the underlying structure in a compact fashion.
+
+Kononenko defines an MDL measure of attribute quality:
+
+$$MDL =\frac{Prior\\_MDL - Post\\_MDL}{n}$$
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+
+![Prior_MDL](prior_mdl.svg)
+
+![Post_MDL](post_mdl.svg)
+
+where `\(n\)` is the number of training instances, `\(C\)` is the number of class values, `\(n_i\)` is the number of training instances from class `\(C_i\)`, `\(n_j\)` is the number of training instances with the j-th value of the given attribute, and `\(n_{ij}\)` is the number of training instances of class `\(C_i\)` having the j-th value for the given attribute.
+
+To obtain a measure that lies between 0 and 1, the first equation can be normalized by dividing by `\(Prior\_MDL /n\)`.
+
+This gives the **fraction** by which the *average description length* of the class label is **reduced** through partitioning on the values of an attribute.
+
+MDL is asymmetric. To use the measure symmetrically, it can be calculated twice (treating each feature in turn as the "class") and the results averaged.
+
+]
+
+
+
 
 ---
 .left-column[
@@ -208,7 +405,8 @@ The number of samples we have is in hundreds, which is not a large number. Attri
       <td>1.1737</td>
       <td>0.7042</td>
       <td>5.6338</td>
-      <td>5.1643</td>
+      <td>5.1643</td>More formally, if
+T is a theory inferred from data D, then the total description length is given by
     </tr>
     <tr>
       <td>face-d</td>
