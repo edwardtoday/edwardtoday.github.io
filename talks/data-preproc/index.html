@@ -1,0 +1,574 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset=utf-8" />
+    <title>Data Preprocessing</title>
+  <script src="//cdnjs.cloudflare.com/ajax/libs/jquery/1.9.1/jquery.min.js"></script>
+    <script src="http://gnab.github.com/remark/downloads/remark-0.4.6.min.js" type="text/javascript">
+      {
+      "highlightStyle": "github",
+      "ratio":"16:9"
+    }
+    </script>
+    <link rel="stylesheet" href="../css/talks.css" type="text/css" media="screen" />
+  </head>
+  <body>
+    <textarea id="source">
+
+name: inverse
+layout: true
+class: center, middle, inverse
+---
+name: cover
+
+# Data Preprocessing
+
+QING Pei
+<small>
+[edwardtoday@gmail.com](mailto:edwardtoday@gmail.com)
+</small>
+
+.footnote[June 5, 2013 @ PolyU BRC]
+
+---
+name: agenda
+layout: false
+
+.left-column[
+## Agenda
+]
+
+.right-column[
+
+1. Why?
+
+2. How?
+
+3. Data sets
+
+4. Experiments
+
+5. Summary
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+]
+
+.right-column[
+
+Real world data are
+
+- incomplete
+
+- noisy
+
+- inconsistent
+
+- redundant
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+]
+
+.right-column[
+
+Tasks in data preprocessing
+
+- Data cleaning: filling missing values, smooth noisy data, identify or remove outliers, and resolve inconsistencies.
+
+- Data integration: using multiple databases, data cubes, or files.
+
+- Data transformation: normalization and aggregation.
+
+- Data reduction: reducing the volume but producing the same or similar analytical results.
+
+- Data discretization: part of data reduction, replacing numerical attributes with nominal ones.
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+
+4 datasets
+
+- Face
+
+- Merged pulse
+
+- Odor
+
+- Tongue
+
+Those are not raw data. They are complete and consistent.
+
+Therefore I decided to apply .red[discretization] and .red[reduction].
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+
+.green[Supervised discretization] - uses the values of the class variable.
+
+- Using class boundaries. Three steps:
+
+  1. Sort values.
+
+  2. Place breakpoints between values belonging to different classes.
+
+  3. If too many intervals, merge intervals with equal or similar class distributions.
+
+If we do not have class labels available, unsupervised discretization is worth trying.
+
+- Equal-interval (equiwidth) binning: split the whole range of numbers in intervals with equal size.
+
+- Equal-frequency (equidepth) binning: use intervals containing equal number of values.
+
+*Discretization is also a kind of data reduction. It reduces the number of attribute values from many sampled values to a much smaller number of bins.*
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+]
+
+.right-column[
+
+Apart from reducing the number of attribute values, data reduction can have other approaches.
+
+- Reducing the number of instances
+
+  - Sampling
+
+- Reducing the number of attributes
+
+  - Data cube aggregation: applying roll-up, slice or dice operations.
+
+  - Removing irrelevant attributes: attribute selection (filtering and wrapper methods), searching the attribute space.
+
+  - Principle component analysis (numeric attributes only): searching for a lower dimensional space that can best represent the data..
+
+The number of samples we have is in hundreds, which is not a large number. Attribute selection is adopted in addition to discretization to further reducing the data set.
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+## Experiment
+]
+
+.right-column[
+### Discretization
+
+<table id="hor-minimalist-b">
+  <caption>Error rate in classification and clustering</caption>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">BayesNet</th>
+      <th scope="col">J48</th>
+      <th scope="col">EM</th>
+      <th scope="col">K-means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>face</td>
+      <td>1.1737</td>
+      <td>0.7042</td>
+      <td>5.6338</td>
+      <td>5.1643</td>
+    </tr>
+    <tr>
+      <td>face-d</td>
+      <td>.green[0.939]</td>
+      <td>.green[0.4695]</td>
+      <td>.green[0.939]</td>
+      <td>.green[1.4085]</td>
+    </tr>
+    <tr>
+      <td>pulse</td>
+      <td>26.7267</td>
+      <td>28.8288</td>
+      <td>37.8378</td>
+      <td>40.2402</td>
+    </tr>
+    <tr>
+      <td>pulse-d</td>
+      <td>.green[24.6246]</td>
+      <td>.green[23.4234]</td>
+      <td>.green[30.03]</td>
+      <td>.green[25.5255]</td>
+    </tr>
+  </tbody>
+</table>
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+## Experiments
+]
+
+.right-column[
+### Attribute Selection
+
+<table id="hor-minimalist-b">
+  <caption>Error rate in classification and clustering</caption>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">BayesNet</th>
+      <th scope="col">J48</th>
+      <th scope="col">EM</th>
+      <th scope="col">K-means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>face</td>
+      <td>1.1737</td>
+      <td>0.7042</td>
+      <td>5.6338</td>
+      <td>5.1643</td>
+    </tr>
+    <tr>
+      <td>face-as</td>
+      <td>.green[0.4695]</td>
+      <td>0.7042</td>
+      <td>.green[1.8779]</td>
+      <td>.red[12.2066]</td>
+    </tr>
+    <tr>
+      <td>pulse</td>
+      <td>26.7267</td>
+      <td>28.8288</td>
+      <td>37.8378</td>
+      <td>40.2402</td>
+    </tr>
+    <tr>
+      <td>pulse-as</td>
+      <td>.green[24.6246]</td>
+      <td>.green[24.9249]</td>
+      <td>.green[24.6246]</td>
+      <td>.green[39.9399]</td>
+    </tr>
+  </tbody>
+</table>
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+## Experiments
+]
+
+.right-column[
+### Discretization + Attribute Selection
+
+<table id="hor-minimalist-b">
+  <caption>Error rate in classification and clustering</caption>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">BayesNet</th>
+      <th scope="col">J48</th>
+      <th scope="col">EM</th>
+      <th scope="col">K-means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>face</td>
+      <td>1.1737</td>
+      <td>0.7042</td>
+      <td>5.6338</td>
+      <td>5.1643</td>
+    </tr>
+    <tr>
+      <td>face-d-as</td>
+      <td>.green[0.2347]</td>
+      <td>.green[0.4695]</td>
+      <td>.green[0.2347]</td>
+      <td>.green[0.939]</td>
+    </tr>
+    <tr>
+      <td>pulse</td>
+      <td>26.7267</td>
+      <td>28.8288</td>
+      <td>37.8378</td>
+      <td>40.2402</td>
+    </tr>
+    <tr>
+      <td>pulse-d-as</td>
+      <td>.green[23.7237]</td>
+      <td>.green[21.9219]</td>
+      <td>.green[23.4234]</td>
+      <td>.red[48.6486]</td>
+    </tr>
+  </tbody>
+</table>
+
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+## Experiments
+## Overall Comparison
+]
+
+.right-column[
+<table id="hor-minimalist-b">
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">BayesNet</th>
+      <th scope="col">J48</th>
+      <th scope="col">EM</th>
+      <th scope="col">K-means</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>face</td>
+      <td>1.1737</td>
+      <td>0.7042</td>
+      <td>5.6338</td>
+      <td>5.1643</td>
+    </tr>
+    <tr>
+      <td>face-d</td>
+      <td>0.939</td>
+      <td>.green[0.4695]</td>
+      <td>0.939</td>
+      <td>1.4085</td>
+    </tr>
+    <tr>
+      <td>face-as</td>
+      <td>0.4695</td>
+      <td>0.7042</td>
+      <td>1.8779</td>
+      <td>.red[12.2066]</td>
+    </tr>
+    <tr>
+      <td>face-d-as</td>
+      <td>.green[0.2347]</td>
+      <td>.green[0.4695]</td>
+      <td>.green[0.2347]</td>
+      <td>.green[0.939]</td>
+    </tr>
+    <tr>
+      <td>pulse</td>
+      <td>26.7267</td>
+      <td>28.8288</td>
+      <td>37.8378</td>
+      <td>40.2402</td>
+    </tr>
+    <tr>
+      <td>pulse-d</td>
+      <td>24.6246</td>
+      <td>23.4234</td>
+      <td>30.03</td>
+      <td>.green[25.5255]</td>
+    </tr>
+    <tr>
+      <td>pulse-as</td>
+      <td>24.6246</td>
+      <td>24.9249</td>
+      <td>24.6246</td>
+      <td>39.9399</td>
+    </tr>
+    <tr>
+      <td>pulse-d-as</td>
+      <td>.green[23.7237]</td>
+      <td>.green[21.9219]</td>
+      <td>.green[23.4234]</td>
+      <td>.red[48.6486]</td>
+    </tr>
+    <tr>
+      <td>odor</td>
+      <td>6.4362</td>
+      <td>8.1049</td>
+      <td>48.0334</td>
+      <td>48.8677</td>
+    </tr>
+    <tr>
+      <td>odor-d</td>
+      <td>4.41</td>
+      <td>.green[3.8141]</td>
+      <td>27.2944</td>
+      <td>34.2074</td>
+    </tr>
+    <tr>
+      <td>odor-as</td>
+      <td>3.0989</td>
+      <td>4.7676</td>
+      <td>.red[48.3909]</td>
+      <td>47.0799</td>
+    </tr>
+    <tr>
+      <td>odor-d-as</td>
+      <td>.green[2.9797]</td>
+      <td>.green[3.8141]</td>
+      <td>.green[2.9797]</td>
+      <td>.green[4.1716]</td>
+    </tr>
+    <tr>
+      <td>tongue</td>
+      <td>27.4648</td>
+      <td>27.23</td>
+      <td>40.1408</td>
+      <td>43.4272</td>
+    </tr>
+    <tr>
+      <td>tongue-d</td>
+      <td>24.8826</td>
+      <td>24.8826</td>
+      <td>36.6197</td>
+      <td>.red[44.3662]</td>
+    </tr>
+    <tr>
+      <td>tongue-as</td>
+      <td>23.0047</td>
+      <td>27.23</td>
+      <td>.red[48.8263]</td>
+      <td>.red[43.8967]</td>
+    </tr>
+    <tr>
+      <td>tongue-d-as</td>
+      <td>.green[22.3005]</td>
+      <td>.green[24.4131]</td>
+      <td>.green[22.5352]</td>
+      <td>.green[25.8216]</td>
+    </tr>
+  </tbody>
+</table>
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+## Experiments
+## Overall Comparison
+]
+
+.right-column[
+<table id="hor-minimalist-b">
+  <caption>Number of features</caption>
+  <thead>
+    <tr>
+      <th scope="col"></th>
+      <th scope="col">Original</th>
+      <th scope="col">Attribute Selection</th>
+      <th scope="col">Discretization + Attribute Selection</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr>
+      <td>face</td>
+      <td>24</td>
+      <td>10</td>
+      <td>7</td>
+    </tr>
+    <tr>
+      <td>merged_pulse</td>
+      <td>51</td>
+      <td>13</td>
+      <td>10</td>
+    </tr>
+    <tr>
+      <td>odor</td>
+      <td>931</td>
+      <td>17</td>
+      <td>20</td>
+    </tr>
+    <tr>
+      <td>tongue</td>
+      <td>41</td>
+      <td>8</td>
+      <td>8</td>
+    </tr>
+  </tbody>
+</table>
+]
+
+---
+.left-column[
+## Agenda
+## Why?
+## How?
+## Data sets
+## Experiments
+## Overall Comparison
+## Summary
+]
+
+.right-column[
+By preprocessing data, we successfully
+
+- improved classification / clustering performance
+
+  - in some cases, quite dramatically
+
+- reduced data computation time / storage space
+
+]
+
+---
+name: last-page
+template: inverse
+
+## Thank you.
+
+.footnote[Slideshow created using [remark](http://github.com/gnab/remark).]
+
+    </textarea>
+    <div id="slideshow"></div>
+  </body>
+</html>
