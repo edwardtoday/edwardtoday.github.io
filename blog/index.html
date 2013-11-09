@@ -3,13 +3,11 @@ layout: page
 title: "Blog"
 ---
 
-<hr class="soften" />
-
 {% for post in site.posts %}
 {% unless post.next %}
 <section id="{{ post.date | date: '%Y' }}">
     
-<h1><i class="icon-calendar icon-large"></i>
+<h1><i class="fa fa-calendar fa fa-large"></i>
 	{{ post.date | date: '%Y' }}
 </h1>
     <dl class="dl-horizontal">
@@ -24,7 +22,7 @@ title: "Blog"
 </section>
 <!-- <hr class="soften"> -->
 <section id="{{ post.date | date: '%Y' }}">
-    	<h1><i class="icon-calendar icon-large"></i> {{ post.date | date: '%Y' }}</h1>
+    	<h1><i class="fa fa-calendar fa fa-large"></i> {{ post.date | date: '%Y' }}</h1>
     <dl class="dl-horizontal">
 	{% endif %}
 {% endunless %}
