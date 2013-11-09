@@ -14,6 +14,7 @@ html {
 
 body {
   background-color: #f0f0f0;
+  font-size: 16px;
 }
 
 blockquote.pull-right {
@@ -57,9 +58,6 @@ blockquote.pull-right {
   font-size: 32px;
 }
 
-.aboutpage div {
-  padding-bottom: 30px;
-}
 
 /* Tweak navbar brand link to be super sleek
 -------------------------------------------------- */
