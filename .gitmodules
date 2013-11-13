@@ -1,3 +1,6 @@
 [submodule "talks"]
 	path = talks
 	url = https://github.com/edwardtoday/talks.git
+[submodule "notes"]
+	path = notes
+	url = https://github.com/edwardtoday/notes.git
