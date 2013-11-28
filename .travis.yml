@@ -6,7 +6,10 @@ before_install:
 rvm:
   - 2.0.0
 
-script: ! bundle exec rake | grep 'error'
+script:
+  - bundle exec rake > rake.log
+  - cat rake.log
+  - ! grep -i 'error'
 
 notifications:
   email:
