@@ -1,15 +1,10 @@
 language: ruby
-
-branches:
-  only:
-    - source
     
 before_install:
   - gem install bundler --pre
   - gem --version
 
 rvm:
-  - 1.9.3
   - 2.0.0
 
 script: bundle exec rake
