@@ -6,7 +6,7 @@ task :default => :build
 
 desc "Build _site/"
 task :build do
-  system('jekyll --no-auto')
+  system('jekyll')
 end
 
 desc "Clean up _site/"
