@@ -6,7 +6,7 @@ task :default => :build
 
 desc "Build _site/"
 task :build do
-  system('jekyll')
+  system('jekyll build')
 end
 
 desc "Clean up _site/"
@@ -16,7 +16,7 @@ end
 
 desc "Start local server localhost:4000 and continuously build changed files"
 task :serve => :clean do
-  system('jekyll --server --auto')
+  system('jekyll --server')
 end
 
 desc "Draft a new post"
