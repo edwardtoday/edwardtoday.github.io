@@ -9,8 +9,6 @@ rvm:
 script:
   - bundle exec rake > rake.log
   - cat rake.log
-  - checkerror(){if grep -i 'error' rake.log; then return "1" else return "0" fi}
-  - checkerror
 
 notifications:
   email:
