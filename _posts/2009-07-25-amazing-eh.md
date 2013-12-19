@@ -3,7 +3,7 @@ layout: post
 title: '神奇诶'
 date: 2009-07-25 05:49
 comments: false
-categories: 
+category: 
 ---
     
 

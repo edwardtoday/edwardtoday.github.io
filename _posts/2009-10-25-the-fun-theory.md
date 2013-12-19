@@ -3,7 +3,7 @@ layout: post
 title: 'The fun theory'
 date: 2009-10-25 16:53
 comments: false
-categories: 
+category: 
 ---
     
 

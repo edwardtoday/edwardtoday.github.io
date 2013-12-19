@@ -3,7 +3,7 @@ layout: post
 title: '最近零碎的发现、看法等等'
 date: 2010-08-30 23:42
 comments: false
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: 'ThuThesis封面隶书设置'
 date: 2010-06-23 15:43
 comments: false
-categories: 
+category: 
 ---
     
 

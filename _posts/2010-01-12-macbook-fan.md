@@ -3,7 +3,7 @@ layout: post
 title: 'MacBook Fan'
 date: 2010-01-12 23:46
 comments: false
-categories: 
+category: 
 ---
     
 

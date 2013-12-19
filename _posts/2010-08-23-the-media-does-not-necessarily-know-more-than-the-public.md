@@ -3,7 +3,7 @@ layout: post
 title: '媒体不一定比公众知道的多'
 date: 2010-08-23 23:05
 comments: false
-categories: 
+category: 
 ---
     
 

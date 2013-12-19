@@ -3,7 +3,7 @@ layout: post
 title: '权限控制与RSS'
 date: 2008-08-02 13:48
 comments: false
-categories: 
+category: 
 ---
     
 

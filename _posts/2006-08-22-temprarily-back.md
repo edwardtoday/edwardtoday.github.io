@@ -3,7 +3,7 @@ layout: post
 title: 'Temprarily Back'
 date: 2006-08-22 20:59
 comments: false
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: '横跨6个Sprint的任务'
 date: 2011-05-25 20:04
 comments: false
-categories: 
+category: 
 ---
     
 

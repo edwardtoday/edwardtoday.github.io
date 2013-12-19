@@ -3,7 +3,7 @@ layout: post
 title: '2008年2月3日 Victory!'
 date: 2008-02-03 19:00
 comments: false
-categories: 
+category: 
 ---
     
 

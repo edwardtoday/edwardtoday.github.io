@@ -3,7 +3,7 @@ layout: post
 title: '时隔一年，又要开学了'
 date: 2011-08-29 17:30
 comments: false
-categories: 
+category: 
 ---
     
 

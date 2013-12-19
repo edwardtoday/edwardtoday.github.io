@@ -3,7 +3,7 @@ layout: post
 title: 'Qibao半日游'
 date: 2007-01-19 23:33
 comments: false
-categories: 
+category: 
 ---
     
 

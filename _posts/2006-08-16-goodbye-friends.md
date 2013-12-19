@@ -3,7 +3,7 @@ layout: post
 title: '再见啦！'
 date: 2006-08-16 00:00
 comments: false
-categories: 
+category: 
 ---
     
 

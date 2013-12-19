@@ -3,7 +3,7 @@ layout: post
 title: '做产品'
 date: 2011-05-11 16:08
 comments: false
-categories: 
+category: 
 ---
     
 

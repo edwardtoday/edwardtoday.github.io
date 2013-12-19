@@ -3,7 +3,7 @@ layout: post
 title: '父亲节'
 date: 2012-06-17 21:36
 comments: true
-categories: 
+category: 
 ---
     
 今天父亲节。

@@ -3,7 +3,7 @@ layout: post
 title: '错得离谱'
 date: 2009-09-27 18:26
 comments: false
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: 'Mac App Store'
 date: 2011-01-11 23:37
 comments: false
-categories: 
+category: 
 ---
     
 

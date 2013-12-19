@@ -3,7 +3,7 @@ layout: post
 title: '阅读推荐第二辑'
 date: 2013-04-14 22:58
 comments: true
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: '稍息 立正 大家排好队!'
 date: 2008-02-03 03:04
 comments: false
-categories: 
+category: 
 ---
     
 

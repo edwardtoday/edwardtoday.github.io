@@ -3,7 +3,7 @@ layout: post
 title: 'Notes on typesetting my thesis with latex'
 date: 2012-06-23 22:36
 comments: true
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: '一篇流水帐'
 date: 2009-10-21 17:51
 comments: false
-categories: 
+category: 
 ---
     
 

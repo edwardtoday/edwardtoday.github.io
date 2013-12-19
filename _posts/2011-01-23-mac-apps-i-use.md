@@ -3,7 +3,7 @@ layout: post
 title: 'Mac Apps I use'
 date: 2011-01-23 21:57
 comments: false
-categories: 
+category: 
 ---
     
 

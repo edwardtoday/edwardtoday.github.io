@@ -3,7 +3,7 @@ layout: post
 title: 'Typography matters'
 date: 2012-07-01 17:47
 comments: true
-categories: 
+category: 
 ---
     
 

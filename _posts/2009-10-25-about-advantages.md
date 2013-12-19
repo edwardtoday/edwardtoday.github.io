@@ -3,7 +3,7 @@ layout: post
 title: '关于优点'
 date: 2009-10-25 22:04
 comments: false
-categories: 
+category: 
 ---
     
 

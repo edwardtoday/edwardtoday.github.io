@@ -3,7 +3,7 @@ layout: post
 title: '中宣部啊。。。'
 date: 2008-01-19 16:32
 comments: false
-categories: 
+category: 
 ---
     
 

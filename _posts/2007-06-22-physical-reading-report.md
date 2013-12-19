@@ -3,7 +3,7 @@ layout: post
 title: '物理读数报告'
 date: 2007-06-22 21:12
 comments: false
-categories: 
+category: 
 ---
     
 

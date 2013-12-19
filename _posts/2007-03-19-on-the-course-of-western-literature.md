@@ -3,7 +3,7 @@ layout: post
 title: 'On the course of Western Literature'
 date: 2007-03-19 12:58
 comments: false
-categories: 
+category: 
 ---
     
 

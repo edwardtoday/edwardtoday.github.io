@@ -3,7 +3,7 @@ layout: post
 title: '开学一个月·杂'
 date: 2009-03-28 22:39
 comments: false
-categories: 
+category: 
 ---
     
 

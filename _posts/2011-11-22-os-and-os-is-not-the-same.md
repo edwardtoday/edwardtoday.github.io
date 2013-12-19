@@ -3,7 +3,7 @@ layout: post
 title: 'OS和OS是不一样的'
 date: 2011-11-22 12:06
 comments: false
-categories: 
+category: 
 ---
     
 

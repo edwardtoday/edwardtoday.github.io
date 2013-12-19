@@ -3,7 +3,7 @@ layout: post
 title: 'ThunderBolt Cinema Display'
 date: 2011-09-16 22:21
 comments: false
-categories: 
+category: 
 ---
     
 

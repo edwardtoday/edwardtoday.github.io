@@ -3,7 +3,7 @@ layout: post
 title: '选课马拉松'
 date: 2007-06-21 23:25
 comments: false
-categories: 
+category: 
 ---
     
 

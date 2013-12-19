@@ -3,7 +3,7 @@ layout: post
 title: 'Apple Product Lineup'
 date: 2011-09-19 19:16
 comments: false
-categories: 
+category: 
 ---
     
 

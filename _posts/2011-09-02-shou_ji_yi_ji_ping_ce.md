@@ -3,7 +3,7 @@ layout: post
 title: '手机以及评测'
 date: 2011-09-02 21:06
 comments: false
-categories: 
+category: 
 ---
     
 

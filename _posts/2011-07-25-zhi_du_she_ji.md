@@ -3,7 +3,7 @@ layout: post
 title: '制度设计'
 date: 2011-07-25 01:09
 comments: false
-categories: 
+category: 
 ---
     
 

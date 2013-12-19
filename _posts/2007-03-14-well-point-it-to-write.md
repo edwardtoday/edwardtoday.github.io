@@ -3,7 +3,7 @@ layout: post
 title: '算了,再写点吧'
 date: 2007-03-14 21:47
 comments: false
-categories: 
+category: 
 ---
     
 

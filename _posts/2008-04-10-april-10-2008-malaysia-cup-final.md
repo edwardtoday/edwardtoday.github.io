@@ -3,7 +3,7 @@ layout: post
 title: 'April 10, 2008 马杯决赛'
 date: 2008-04-10 18:27
 comments: false
-categories: 
+category: 
 ---
     
 

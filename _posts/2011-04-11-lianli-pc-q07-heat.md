@@ -3,7 +3,7 @@ layout: post
 title: 'LianLi PC-Q07散热'
 date: 2011-04-11 00:15
 comments: false
-categories: 
+category: 
 ---
     
 

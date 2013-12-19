@@ -3,7 +3,7 @@ layout: post
 title: 'Data preprocessing'
 date: 2012-12-09 15:48
 comments: true
-categories: 
+category: 
 ---
     
 

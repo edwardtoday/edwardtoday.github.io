@@ -3,7 +3,7 @@ layout: post
 title: 'on the course'
 date: 2009-07-24 05:16
 comments: false
-categories: 
+category: 
 ---
     
 

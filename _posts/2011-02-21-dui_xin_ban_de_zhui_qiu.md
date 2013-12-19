@@ -3,7 +3,7 @@ layout: post
 title: '对新版的追求'
 date: 2011-02-21 22:14
 comments: false
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: '这已经考过的'
 date: 2009-01-07 20:45
 comments: false
-categories: 
+category: 
 ---
     
 

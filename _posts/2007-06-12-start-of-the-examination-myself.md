@@ -3,7 +3,7 @@ layout: post
 title: '考试开始喽'
 date: 2007-06-12 22:39
 comments: false
-categories: 
+category: 
 ---
     
 

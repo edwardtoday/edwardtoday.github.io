@@ -3,7 +3,7 @@ layout: post
 title: 'March 16, 2008 今天的党课'
 date: 2008-03-16 23:53
 comments: false
-categories: 
+category: 
 ---
     
 

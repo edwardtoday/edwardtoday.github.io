@@ -3,7 +3,7 @@ layout: post
 title: '某人的遗书'
 date: 2008-01-20 00:48
 comments: false
-categories: 
+category: 
 ---
     
 

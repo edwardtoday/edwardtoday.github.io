@@ -3,7 +3,7 @@ layout: post
 title: '生活可不是多项式'
 date: 2010-08-09 22:42
 comments: false
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: 'CPU与内存配置的平衡'
 date: 2011-04-07 20:35
 comments: false
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: '你信或不信，我是觉得有道理了'
 date: 2011-08-30 11:06
 comments: false
-categories: 
+category: 
 ---
     
 

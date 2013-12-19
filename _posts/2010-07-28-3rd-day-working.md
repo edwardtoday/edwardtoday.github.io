@@ -3,7 +3,7 @@ layout: post
 title: '3rd Day Working'
 date: 2010-07-28 15:51
 comments: false
-categories: 
+category: 
 ---
     
 

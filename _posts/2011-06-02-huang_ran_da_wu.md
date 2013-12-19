@@ -3,7 +3,7 @@ layout: post
 title: '恍然大悟'
 date: 2011-06-02 23:13
 comments: false
-categories: 
+category: 
 ---
     
 

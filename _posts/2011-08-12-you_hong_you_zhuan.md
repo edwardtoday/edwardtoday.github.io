@@ -3,7 +3,7 @@ layout: post
 title: '这就是所谓的又红又专么'
 date: 2011-08-12 15:17
 comments: false
-categories: 
+category: 
 ---
     
 

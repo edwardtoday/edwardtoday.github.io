@@ -3,7 +3,7 @@ layout: post
 title: '从全能到专用的转变'
 date: 2011-03-15 23:28
 comments: false
-categories: 
+category: 
 ---
     
 

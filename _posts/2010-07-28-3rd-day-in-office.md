@@ -3,7 +3,7 @@ layout: post
 title: '3rd Day in Office'
 date: 2010-07-28 15:35
 comments: false
-categories: 
+category: 
 ---
     
 

@@ -3,7 +3,7 @@ layout: post
 title: '看到了一个东西'
 date: 2008-07-24 22:17
 comments: false
-categories: 
+category: 
 ---
     
 

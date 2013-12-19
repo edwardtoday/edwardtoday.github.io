@@ -3,7 +3,7 @@ layout: post
 title: 'Thinking of Getting a New Lens'
 date: 2011-03-05 23:18
 comments: false
-categories: 
+category: 
 ---
     
 

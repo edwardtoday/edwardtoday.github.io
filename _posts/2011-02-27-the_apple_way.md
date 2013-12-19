@@ -3,7 +3,7 @@ layout: post
 title: 'The Apple Way'
 date: 2011-02-27 13:41
 comments: false
-categories: 
+category: 
 ---
     
 

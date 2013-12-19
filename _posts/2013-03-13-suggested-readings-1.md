@@ -3,7 +3,7 @@ layout: post
 title: '阅读推荐第一辑'
 date: 2013-03-13 16:43
 comments: true
-categories: 
+category: 
 ---
     
 
