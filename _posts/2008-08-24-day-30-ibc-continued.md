@@ -2,7 +2,7 @@
 layout: post
 title: 'Day 30 @ IBC 续'
 date: 2008-08-24 03:54
-comments: false
+comments: true
 category: 
 ---
     

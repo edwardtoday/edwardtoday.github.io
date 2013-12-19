@@ -2,7 +2,7 @@
 layout: post
 title: '2008第一天写的东西'
 date: 2008-01-02 00:21
-comments: false
+comments: true
 category: 
 ---
     

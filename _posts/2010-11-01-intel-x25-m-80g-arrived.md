@@ -2,7 +2,7 @@
 layout: post
 title: 'Intel X25-M 80G arrived'
 date: 2010-11-01 22:14
-comments: false
+comments: true
 category: 
 ---
     

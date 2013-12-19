@@ -2,7 +2,7 @@
 layout: post
 title: '开学第一天'
 date: 2007-03-05 21:37
-comments: false
+comments: true
 category: 
 ---
     

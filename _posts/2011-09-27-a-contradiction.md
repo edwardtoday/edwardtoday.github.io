@@ -2,7 +2,7 @@
 layout: post
 title: '一个矛盾'
 date: 2011-09-27 09:37
-comments: false
+comments: true
 category: 
 ---
     

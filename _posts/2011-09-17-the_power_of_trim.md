@@ -2,7 +2,7 @@
 layout: post
 title: 'The Power of Trim'
 date: 2011-09-17 04:21
-comments: false
+comments: true
 category: 
 ---
     

@@ -2,7 +2,7 @@
 layout: post
 title: 'New External Harddrive'
 date: 2010-08-02 23:44
-comments: false
+comments: true
 category: 
 ---
     

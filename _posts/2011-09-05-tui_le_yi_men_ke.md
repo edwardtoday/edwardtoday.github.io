@@ -2,7 +2,7 @@
 layout: post
 title: '退了一门课'
 date: 2011-09-05 16:16
-comments: false
+comments: true
 category: 
 ---
     

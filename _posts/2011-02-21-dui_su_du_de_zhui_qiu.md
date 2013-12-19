@@ -2,7 +2,7 @@
 layout: post
 title: '对速度的追求'
 date: 2011-02-21 21:46
-comments: false
+comments: true
 category: 
 ---
     

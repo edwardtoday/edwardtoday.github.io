@@ -2,7 +2,7 @@
 layout: post
 title: 'MacBook as HTPC'
 date: 2010-10-21 00:54
-comments: false
+comments: true
 category: 
 ---
     

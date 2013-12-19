@@ -2,7 +2,7 @@
 layout: post
 title: '没挂^^'
 date: 2007-03-16 19:53
-comments: false
+comments: true
 category: 
 ---
     

@@ -2,7 +2,7 @@
 layout: post
 title: 'March 9, 2008 党课归来'
 date: 2008-03-09 21:25
-comments: false
+comments: true
 category: 
 ---
     

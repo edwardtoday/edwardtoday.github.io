@@ -2,7 +2,7 @@
 layout: post
 title: 'On Goodbye, Lenin!'
 date: 2007-05-12 15:16
-comments: false
+comments: true
 category: 
 ---
     

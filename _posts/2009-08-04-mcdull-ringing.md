@@ -2,7 +2,7 @@
 layout: post
 title: '麦兜响当当'
 date: 2009-08-04 22:49
-comments: false
+comments: true
 category: 
 ---
     

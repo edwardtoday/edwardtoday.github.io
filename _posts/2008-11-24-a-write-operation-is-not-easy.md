@@ -2,7 +2,7 @@
 layout: post
 title: '写个作业不容易阿'
 date: 2008-11-24 16:42
-comments: false
+comments: true
 category: 
 ---
     

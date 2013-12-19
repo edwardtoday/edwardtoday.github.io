@@ -2,7 +2,7 @@
 layout: post
 title: 'Git server on a mac'
 date: 2011-01-03 23:46
-comments: false
+comments: true
 category: 
 ---
     

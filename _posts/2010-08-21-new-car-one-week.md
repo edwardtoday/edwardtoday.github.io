@@ -2,7 +2,7 @@
 layout: post
 title: '新车一周'
 date: 2010-08-21 23:34
-comments: false
+comments: true
 category: 
 ---
     

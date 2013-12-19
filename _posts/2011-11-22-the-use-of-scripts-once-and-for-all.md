@@ -2,7 +2,7 @@
 layout: post
 title: '利用脚本，一劳永逸'
 date: 2011-11-22 12:20
-comments: false
+comments: true
 category: 
 ---
     

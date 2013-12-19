@@ -2,7 +2,7 @@
 layout: post
 title: 'Application Proc / 1'
 date: 2009-09-24 00:35
-comments: false
+comments: true
 category: 
 ---
     

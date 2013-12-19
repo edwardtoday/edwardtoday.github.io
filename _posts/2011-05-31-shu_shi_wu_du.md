@@ -2,7 +2,7 @@
 layout: post
 title: '熟视无睹'
 date: 2011-05-31 22:34
-comments: false
+comments: true
 category: 
 ---
     

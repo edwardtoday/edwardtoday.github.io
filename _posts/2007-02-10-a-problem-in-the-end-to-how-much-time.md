@@ -2,7 +2,7 @@
 layout: post
 title: '一道题到底要多少时间???'
 date: 2007-02-10 15:53
-comments: false
+comments: true
 category: 
 ---
     

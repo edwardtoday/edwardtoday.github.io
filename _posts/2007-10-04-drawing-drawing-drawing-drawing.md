@@ -2,7 +2,7 @@
 layout: post
 title: '画图画图画图画图~~~'
 date: 2007-10-04 22:45
-comments: false
+comments: true
 category: 
 ---
     

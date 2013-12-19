@@ -2,7 +2,7 @@
 layout: post
 title: 'Gigabit Home LAN'
 date: 2011-05-26 13:27
-comments: false
+comments: true
 category: 
 ---
     

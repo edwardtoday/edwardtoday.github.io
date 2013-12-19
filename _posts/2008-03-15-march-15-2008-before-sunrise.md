@@ -2,7 +2,7 @@
 layout: post
 title: 'March 15, 2008 Before Sunrise'
 date: 2008-03-15 11:08
-comments: false
+comments: true
 category: 
 ---
     

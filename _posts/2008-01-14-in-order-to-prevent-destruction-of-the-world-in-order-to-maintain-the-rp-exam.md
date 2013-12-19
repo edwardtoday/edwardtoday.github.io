@@ -2,7 +2,7 @@
 layout: post
 title: '为了防止世界被破坏，为了维持考试时的RP'
 date: 2008-01-14 02:16
-comments: false
+comments: true
 category: 
 ---
     

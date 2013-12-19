@@ -2,7 +2,7 @@
 layout: post
 title: 'After Deadlines'
 date: 2009-06-09 22:35
-comments: false
+comments: true
 category: 
 ---
     

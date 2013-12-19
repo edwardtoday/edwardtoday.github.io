@@ -2,7 +2,7 @@
 layout: post
 title: '关于地震'
 date: 2008-05-13 11:19
-comments: false
+comments: true
 category: 
 ---
     

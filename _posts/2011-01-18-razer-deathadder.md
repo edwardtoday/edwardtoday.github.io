@@ -2,7 +2,7 @@
 layout: post
 title: 'Razer DeathAdder'
 date: 2011-01-18 21:41
-comments: false
+comments: true
 category: 
 ---
     

@@ -2,7 +2,7 @@
 layout: post
 title: '明天要去北京?!'
 date: 2007-02-27 14:57
-comments: false
+comments: true
 category: 
 ---
     

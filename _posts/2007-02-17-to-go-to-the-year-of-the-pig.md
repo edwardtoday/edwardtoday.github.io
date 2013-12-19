@@ -2,7 +2,7 @@
 layout: post
 title: '猪年要到了'
 date: 2007-02-17 23:44
-comments: false
+comments: true
 category: 
 ---
     

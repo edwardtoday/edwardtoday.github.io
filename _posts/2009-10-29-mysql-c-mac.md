@@ -2,7 +2,7 @@
 layout: post
 title: 'MySQL C++ mac...'
 date: 2009-10-29 17:13
-comments: false
+comments: true
 category: 
 ---
     

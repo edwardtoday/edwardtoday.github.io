@@ -2,7 +2,7 @@
 layout: post
 title: '6 Days Left Here'
 date: 2006-08-10 00:00
-comments: false
+comments: true
 category: 
 ---
     

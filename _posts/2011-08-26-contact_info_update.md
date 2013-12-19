@@ -2,7 +2,7 @@
 layout: post
 title: 'Contact Info Update'
 date: 2011-08-26 18:40
-comments: false
+comments: true
 category: 
 ---
     

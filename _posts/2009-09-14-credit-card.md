@@ -2,7 +2,7 @@
 layout: post
 title: '信用卡'
 date: 2009-09-14 19:10
-comments: false
+comments: true
 category: 
 ---
     

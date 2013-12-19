@@ -2,7 +2,7 @@
 layout: post
 title: '公平使用原则'
 date: 2011-08-31 13:54
-comments: false
+comments: true
 category: 
 ---
     

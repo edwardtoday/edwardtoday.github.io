@@ -2,7 +2,7 @@
 layout: post
 title: '一篇流水帐'
 date: 2009-11-08 01:11
-comments: false
+comments: true
 category: 
 ---
     

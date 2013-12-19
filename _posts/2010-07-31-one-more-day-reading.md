@@ -2,7 +2,7 @@
 layout: post
 title: 'One more day reading'
 date: 2010-07-31 00:53
-comments: false
+comments: true
 category: 
 ---
     

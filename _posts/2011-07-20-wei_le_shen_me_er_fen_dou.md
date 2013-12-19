@@ -2,7 +2,7 @@
 layout: post
 title: '为了什么而奋斗'
 date: 2011-07-20 15:25
-comments: false
+comments: true
 category: 
 ---
     

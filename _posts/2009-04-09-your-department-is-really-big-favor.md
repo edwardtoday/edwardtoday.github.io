@@ -2,7 +2,7 @@
 layout: post
 title: '贵系真是忙啊'
 date: 2009-04-09 23:01
-comments: false
+comments: true
 category: 
 ---
     

@@ -2,7 +2,7 @@
 layout: post
 title: 'Plantronics Voyager PRO'
 date: 2009-09-16 22:38
-comments: false
+comments: true
 category: 
 ---
     

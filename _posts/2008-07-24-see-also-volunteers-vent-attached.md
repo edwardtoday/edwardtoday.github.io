@@ -2,7 +2,7 @@
 layout: post
 title: '又见志愿者发泄贴'
 date: 2008-07-24 22:15
-comments: false
+comments: true
 category: 
 ---
     

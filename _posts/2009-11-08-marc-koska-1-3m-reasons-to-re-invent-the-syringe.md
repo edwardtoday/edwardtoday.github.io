@@ -2,7 +2,7 @@
 layout: post
 title: 'Marc Koska: 1.3m reasons to re-invent the syringe'
 date: 2009-11-08 01:13
-comments: false
+comments: true
 category: 
 ---
     

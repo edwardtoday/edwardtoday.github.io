@@ -2,7 +2,7 @@
 layout: post
 title: '由奢入俭难（solid state vs spinning）'
 date: 2011-12-04 18:42
-comments: false
+comments: true
 category: 
 ---
     

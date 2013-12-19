@@ -2,7 +2,7 @@
 layout: post
 title: 'The Old Summer Palace'
 date: 2007-06-13 00:48
-comments: false
+comments: true
 category: 
 ---
     

@@ -2,7 +2,7 @@
 layout: post
 title: '每个人都是收藏家'
 date: 2007-11-09 18:45
-comments: false
+comments: true
 category: 
 ---
     

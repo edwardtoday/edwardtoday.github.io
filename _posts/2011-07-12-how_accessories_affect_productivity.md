@@ -2,7 +2,7 @@
 layout: post
 title: 'How Accessories Affect Productivity'
 date: 2011-07-12 23:02
-comments: false
+comments: true
 category: 
 ---
     

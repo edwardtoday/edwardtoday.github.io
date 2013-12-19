@@ -2,7 +2,7 @@
 layout: post
 title: '通宵'
 date: 2007-06-21 23:57
-comments: false
+comments: true
 category: 
 ---
     

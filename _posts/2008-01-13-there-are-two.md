@@ -2,7 +2,7 @@
 layout: post
 title: '还有两门'
 date: 2008-01-13 21:35
-comments: false
+comments: true
 category: 
 ---
     

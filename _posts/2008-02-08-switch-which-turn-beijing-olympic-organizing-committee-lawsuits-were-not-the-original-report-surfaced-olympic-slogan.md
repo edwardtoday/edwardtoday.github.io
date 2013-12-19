@@ -2,7 +2,7 @@
 layout: post
 title: '[转哪转]北京奥组委惹上官司未报道 奥运口号原创者浮出水面'
 date: 2008-02-08 00:56
-comments: false
+comments: true
 category: 
 ---
     

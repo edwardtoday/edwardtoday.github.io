@@ -2,7 +2,7 @@
 layout: post
 title: 'What is a MACHINE?'
 date: 2011-06-08 23:36
-comments: false
+comments: true
 category: 
 ---
     

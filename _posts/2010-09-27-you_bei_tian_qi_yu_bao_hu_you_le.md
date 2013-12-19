@@ -2,7 +2,7 @@
 layout: post
 title: '又被天气预报忽悠了'
 date: 2010-09-27 21:10
-comments: false
+comments: true
 category: 
 ---
     

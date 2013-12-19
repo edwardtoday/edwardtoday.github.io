@@ -2,7 +2,7 @@
 layout: post
 title: '升级强迫症'
 date: 2011-12-06 21:32
-comments: false
+comments: true
 category: 
 ---
     

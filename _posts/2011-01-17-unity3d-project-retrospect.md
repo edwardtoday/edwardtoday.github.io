@@ -2,7 +2,7 @@
 layout: post
 title: 'Unity3D Project Retrospect'
 date: 2011-01-17 23:02
-comments: false
+comments: true
 category: 
 ---
     

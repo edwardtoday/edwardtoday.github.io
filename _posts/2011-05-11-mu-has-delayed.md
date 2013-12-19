@@ -2,7 +2,7 @@
 layout: post
 title: 'MU又延误了'
 date: 2011-05-11 16:39
-comments: false
+comments: true
 category: 
 ---
     

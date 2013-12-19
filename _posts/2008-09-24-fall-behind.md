@@ -2,7 +2,7 @@
 layout: post
 title: '不进则退'
 date: 2008-09-24 22:49
-comments: false
+comments: true
 category: 
 ---
     

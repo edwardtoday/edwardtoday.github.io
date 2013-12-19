@@ -2,7 +2,7 @@
 layout: post
 title: 'Workflow: Use Homebrew for Missing Unix Tools in OS X'
 date: 2011-09-27 10:46
-comments: false
+comments: true
 category: 
 ---
     

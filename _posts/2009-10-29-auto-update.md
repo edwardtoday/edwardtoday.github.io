@@ -2,7 +2,7 @@
 layout: post
 title: 'auto update'
 date: 2009-10-29 17:17
-comments: false
+comments: true
 category: 
 ---
     

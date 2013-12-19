@@ -2,7 +2,7 @@
 layout: post
 title: '@SPR Coffee'
 date: 2009-10-25 21:17
-comments: false
+comments: true
 category: 
 ---
     

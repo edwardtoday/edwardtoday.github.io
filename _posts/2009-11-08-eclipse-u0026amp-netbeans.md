@@ -2,7 +2,7 @@
 layout: post
 title: 'eclipse & netbeans'
 date: 2009-11-08 01:18
-comments: false
+comments: true
 category: 
 ---
     

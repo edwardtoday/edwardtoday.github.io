@@ -2,7 +2,7 @@
 layout: post
 title: 'Sweave果然是个利器'
 date: 2011-11-10 16:57
-comments: false
+comments: true
 category: 
 ---
     

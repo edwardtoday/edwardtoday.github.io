@@ -2,7 +2,7 @@
 layout: post
 title: '秋天到啦'
 date: 2010-09-25 16:45
-comments: false
+comments: true
 category: 
 ---
     
