@@ -3,9 +3,9 @@ layout: post
 title: 'Typography matters'
 date: 2012-07-01 17:47
 comments: true
-category: 
+category: views
 tagline: 
-tags:
+tags: [typography]
 ---
     
 

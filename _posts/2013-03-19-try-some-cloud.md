@@ -3,9 +3,9 @@ layout: post
 title: '试试云服务'
 date: 2013-03-19 15:36
 comments: true
-category: 
+category: network
 tagline: 
-tags:
+tags: [cloud, travis, aws, domain]
 ---
     
 

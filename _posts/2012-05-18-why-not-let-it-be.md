@@ -3,9 +3,9 @@ layout: post
 title: '不如这样'
 date: 2012-05-18 19:01
 comments: true
-category: 
+category: song
 tagline: 
-tags:
+tags: [iphone]
 ---
     
 

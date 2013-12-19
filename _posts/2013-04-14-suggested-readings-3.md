@@ -3,9 +3,9 @@ layout: post
 title: '阅读推荐第三辑'
 date: 2013-04-14 23:28
 comments: true
-category: 
+category: reading
 tagline: 
-tags:
+tags: [zhihu]
 ---
     
 

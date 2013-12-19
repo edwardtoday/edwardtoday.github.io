@@ -3,9 +3,9 @@ layout: post
 title: 'Symbol Lookup Error'
 date: 2013-12-18 16:00
 comments: true
-category: 
+category: programming
 tagline: 
-tags:
+tags: [error, lib]
 ---
 
 This post shows how to solve (partially) the "Symbol loopup error: undefined symbol ..." error.

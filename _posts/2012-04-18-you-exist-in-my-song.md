@@ -3,9 +3,9 @@ layout: post
 title: '我的歌声里'
 date: 2012-04-18 21:31
 comments: true
-category: 
+category: song
 tagline: 
-tags:
+tags: [iphone]
 ---
     
 

@@ -3,9 +3,9 @@ layout: post
 title: 'How to open UTF-8 encoded data files in Weka for OS X'
 date: 2013-06-03 16:47
 comments: true
-category: 
+category: programming
 tagline: 
-tags:
+tags: [weka, utf8]
 ---
     
 

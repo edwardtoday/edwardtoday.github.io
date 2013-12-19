@@ -3,9 +3,9 @@ layout: post
 title: '清理相机CMOS和键盘'
 date: 2012-05-06 18:36
 comments: true
-category: 
+category: DIY
 tagline: 
-tags:
+tags: [camera, keyboard]
 ---
     
 

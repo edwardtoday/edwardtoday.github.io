@@ -3,9 +3,9 @@ layout: post
 title: 'App与教育'
 date: 2012-04-24 18:36
 comments: true
-category: 
+category: views
 tagline: 
-tags:
+tags: [app, edu]
 ---
     
 
