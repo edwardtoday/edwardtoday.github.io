@@ -4,6 +4,7 @@ title: 'Day 32 @ IBC 最后一班岗'
 date: 2008-08-26 22:21
 comments: true
 category: 
+tags:
 ---
     
 

@@ -4,6 +4,7 @@ title: 'Step by step'
 date: 2009-08-05 18:45
 comments: true
 category: 
+tags:
 ---
     
 

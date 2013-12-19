@@ -4,6 +4,7 @@ title: '这毕业旅行，终生难忘！'
 date: 2010-07-16 21:38
 comments: true
 category: 
+tags:
 ---
     
 
