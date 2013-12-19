@@ -4,6 +4,7 @@ title: '1st modo project'
 date: 2009-09-06 19:18
 comments: true
 category: 
+tagline: 
 tags:
 ---
     

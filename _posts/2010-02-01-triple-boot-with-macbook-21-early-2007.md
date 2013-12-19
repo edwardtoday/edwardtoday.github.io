@@ -4,6 +4,7 @@ title: 'Triple-boot with MacBook (2,1 early 2007)'
 date: 2010-02-01 23:00
 comments: true
 category: 
+tagline: 
 tags:
 ---
     

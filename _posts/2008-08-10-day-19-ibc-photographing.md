@@ -4,6 +4,7 @@ title: 'Day 19 @ IBC - Photographing'
 date: 2008-08-10 23:32
 comments: true
 category: 
+tagline: 
 tags:
 ---
     

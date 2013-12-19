@@ -4,6 +4,7 @@ title: 'MacBook Pro or Thinkpad T'
 date: 2011-02-27 14:38
 comments: true
 category: 
+tagline: 
 tags:
 ---
     

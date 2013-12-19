@@ -4,6 +4,7 @@ title: 'Hard drive erased, new OS from now on'
 date: 2010-08-06 00:18
 comments: true
 category: 
+tagline: 
 tags:
 ---
     

@@ -4,6 +4,7 @@ title: 'Knowledge is power'
 date: 2011-09-07 15:54
 comments: true
 category: 
+tagline: 
 tags:
 ---
     

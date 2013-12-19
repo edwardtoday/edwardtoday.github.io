@@ -4,6 +4,7 @@ title: 'Plantronics Voyager PRO'
 date: 2009-09-16 22:38
 comments: true
 category: 
+tagline: 
 tags:
 ---
     

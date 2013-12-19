@@ -4,6 +4,7 @@ title: 'BlackBerry Bold 9000 with OS 5.0.0.411'
 date: 2010-02-02 00:06
 comments: true
 category: 
+tagline: 
 tags:
 ---
     
