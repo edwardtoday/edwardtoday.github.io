@@ -3,11 +3,10 @@ layout: post
 title: '1st modo project'
 date: 2009-09-06 19:18
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 花了半个月时间从头开始学用modo
 

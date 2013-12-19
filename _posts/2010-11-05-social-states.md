@@ -3,11 +3,10 @@ layout: post
 title: '层'
 date: 2010-11-05 12:10
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 出来吃饭，看到公司门口一位送快递的小伙子枕着包裹就睡了。
 

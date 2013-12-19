@@ -3,11 +3,10 @@ layout: post
 title: '碳刀'
 date: 2010-10-28 19:47
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 等车的时候一辆公路车从面前闪过。
 

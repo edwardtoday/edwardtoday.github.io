@@ -4,10 +4,9 @@ title: 'Notes on typesetting my thesis with latex'
 date: 2012-06-23 22:36
 comments: true
 category: programming
-tagline: 
+tagline:
 tags: [tex]
 ---
-    
 
 For my MSc dissertation, the official template is a Word document. For quite a long time, I have not used Word if I am the only one editing that document.
 

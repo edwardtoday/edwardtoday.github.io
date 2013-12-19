@@ -3,11 +3,10 @@ layout: post
 title: 'auto update'
 date: 2009-10-29 17:17
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 之前在win下一直无法刷303版的系统，装上ROM安装包之后DM始终提示没有更新。
 

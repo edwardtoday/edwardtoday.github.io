@@ -3,11 +3,10 @@ layout: post
 title: '明天要去北京?!'
 date: 2007-02-27 14:57
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 估计第一批人都是1号到吧.该死的THU居然停暖气到28号.
 

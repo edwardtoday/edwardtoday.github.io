@@ -4,10 +4,9 @@ title: '试试云服务'
 date: 2013-03-19 15:36
 comments: true
 category: network
-tagline: 
+tagline:
 tags: [cloud, travis, aws, domain]
 ---
-    
 
 （现在正事处在一个等数据的状态，一边根据已有的数据优化代码，一边把各种数据处理、实验、报告生成都尽量自动化）
 

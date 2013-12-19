@@ -3,11 +3,10 @@ layout: post
 title: 'MU又延误了'
 date: 2011-05-11 16:39
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 MU出来，坐上飞机等。MU回去，打登机牌就已经显示延误了。
 

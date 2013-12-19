@@ -3,11 +3,10 @@ layout: post
 title: 'Demo之后的想法 & 一个MIT OCW课程推荐'
 date: 2010-05-25 19:01
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 上午被Sunlf来电话叫我准备demo，于是我去了。
 

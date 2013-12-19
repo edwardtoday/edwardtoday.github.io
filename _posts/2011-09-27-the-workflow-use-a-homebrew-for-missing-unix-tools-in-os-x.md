@@ -3,11 +3,10 @@ layout: post
 title: 'Workflow: Use Homebrew for Missing Unix Tools in OS X'
 date: 2011-09-27 10:46
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 虽然OS X希望将用户任务变得简单，不用面对命令行，但有时候难免会觉得特定任务用命令行比上网找个专门的GUI软件好多了。
 
@@ -19,7 +18,6 @@ tags: []
 
 就一句话，命令行执行：
 
-    
     /usr/bin/ruby -e "$(curl -fsSL "
 
 当然了，从参数也看出来需要网络连接了。我之前装了Xcode，于是我确实没在意究竟需不需要gcc之类的东西。
@@ -28,9 +26,7 @@ tags: []
 
 以前面说的下载某路径下全部文件为例：
 
-    
     brew install wget
     wget -r --no-parent http://qingpei.me
-    
 
 就可以下载一个离线站点了（前提是这站是静态的，wordpress数据库这样室抓不来的）。

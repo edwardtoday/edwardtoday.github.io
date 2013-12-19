@@ -3,11 +3,10 @@ layout: post
 title: 'Really Achieving Your Childhood Dreams'
 date: 2011-01-23 20:21
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 早上打开Google Reader，看到VeryCD终于被和谐了。最后从VeryCD上拖下来的东西就是Randy Pausch的最后一课了。
 

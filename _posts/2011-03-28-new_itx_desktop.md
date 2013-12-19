@@ -3,11 +3,10 @@ layout: post
 title: 'New ITX Desktop'
 date: 2011-03-28 00:25
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 MacBook四周岁了，换上固态硬盘后是个性能出众的上网本，主要功能为连着电视看优酷和高清电影。
 

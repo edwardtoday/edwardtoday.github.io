@@ -3,11 +3,10 @@ layout: post
 title: 'Dropbox新功能——导入相片'
 date: 2012-02-07 20:39
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Dropbox的空间停留在18.9GB已经很久了，最近发现了这个[测试版的活动](http://forums.dropbox.com/topic.php?id=53106)，最多可以额外获得5GB空间。
 

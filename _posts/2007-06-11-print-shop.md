@@ -3,11 +3,10 @@ layout: post
 title: '打印店'
 date: 2007-06-11 01:01
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 来也匆匆
 

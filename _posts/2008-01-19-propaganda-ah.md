@@ -3,11 +3,10 @@ layout: post
 title: '中宣部啊。。。'
 date: 2008-01-19 16:32
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 【来源：中国青年报】 【作者：袁伟时】
 原题：现代化与历史教科书　作者：中山大学教授 袁伟时

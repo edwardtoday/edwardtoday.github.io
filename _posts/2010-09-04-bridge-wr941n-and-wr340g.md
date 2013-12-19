@@ -3,11 +3,10 @@ layout: post
 title: 'WR941N和WR340G的桥接'
 date: 2010-09-04 15:04
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 家里的TP-LINK WR340G已经用了几年了，这无线路由挺实惠的，只可惜把它放在书房之后，信号穿过两堵墙到客厅已经很不稳定了。经常会断线，而且还非得重启路由才能恢复，很是麻烦。
 

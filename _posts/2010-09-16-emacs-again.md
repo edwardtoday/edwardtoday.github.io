@@ -3,11 +3,10 @@ layout: post
 title: '还是Emacs'
 date: 2010-09-16 20:46
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 最近写python，Eclipse慢，wing ide收费，最后还是回归emacs。
 

@@ -3,11 +3,10 @@ layout: post
 title: 'CPU与内存配置的平衡'
 date: 2011-04-07 20:35
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 前段时间装了个i5+8G RAM的机器自用，装机前定配置的时候看了不少帖子，主流意见就是内存4G就够，2G到4G变化明显，4G到8G则不然，于是就出现了很多i7+4G的游戏机配置。
 

@@ -3,11 +3,10 @@ layout: post
 title: 'Workflow: Use Carbon Copy Cloner to Backup'
 date: 2011-09-20 13:38
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 在renren上发了个状态问大家的意见，longbow说写写Time Machine。
 

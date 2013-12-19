@@ -3,11 +3,10 @@ layout: post
 title: 'MySQL C++ mac...'
 date: 2009-10-29 17:13
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 近日着手数据库大作业。
 首次使用MySQLd的C++ Connector，能找到的教程统统是leopard甚至tiger下的。折腾了一整个晚上还是不断向我报error。不管是eclipse还是xcode。

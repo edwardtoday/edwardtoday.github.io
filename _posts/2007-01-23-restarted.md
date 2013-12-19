@@ -3,11 +3,10 @@ layout: post
 title: 'Restarted'
 date: 2007-01-23 15:24
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 今天终于把Microsoft Visual Studio 2005 Express Edition给装上了,68MB的安装程序下了那么久...这哪是宽带啊!尝试了一下"Hello world!",挺方便的,待会再把课本上一些东西练练,程设虽然开学才考,可是居然不用平时的提交系统,难保不会到时候挂个彻底......现在赶紧练~
 

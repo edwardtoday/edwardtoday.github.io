@@ -3,11 +3,10 @@ layout: post
 title: 'BlackBerry Bold 9000 with OS 5.0.0.411'
 date: 2010-02-02 00:06
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Â  è¿ç§firmware updateå°±è¯¥æ¾åäºåï¼
 
@@ -25,7 +24,7 @@ tags: []
 
 å¯å¨ä¸åæ¯ä¸ä¸ªå°å¾ä¸è½åå°çè½¬çå¨ä¸­é´èªå¨±èªä¹äºï¼èæ¯BlackBerryåæ å ä¸ä¸ä¸ªè¿åº¦æ¡ãè¿è®©æç»­å åéçå¯å¨çèµ·æ¥ä¸é£ä¹æ¢äºï¼å¥½æ­¹ç»äºä¸ªç¼å¤´ãèä¸ä¹ä¸ä¼æå¾åä¸ªå·¥ç¨ç¨æºäºï¼æ¯ä¸ªæç»äº§åäºã
 
-çé¢å4.6å·®å«ä¸å¤§ï¼å¦å¾ï¼ 
+çé¢å4.6å·®å«ä¸å¤§ï¼å¦å¾ï¼
 
 [![1265025191234](https://lh6faa.bay.livefilestore.com/y1mjHkdPA_X1nhKh9Dg5IVpOcHvXWuzqVejJupX5Br9v9rGV4KUMDWbI4sQGj0UmBBCvOYmxalIQDq4O4SUtUZNlyf6OblgEDNMxbJXWNm88n7RXjlkPDi7u3lx_D1rbP0vc5EEcTuXVavLZTHJqqD0Jg/1265025191234_thumb.png)](https://lh6faa.bay.livefilestore.com/y1m2pIOhu1AsrX1gTSv9qoXfcBdGyBs6FAhTvTISsJO7My24eAVwpJcdswLAayJXovuPu3i85f7U7W0O-YNUeIR8WEh_OlfwN23N0RfFaNk1jC19rWftni3aIKRuJL7Ai0RYrpkU5UfGW7Q9Vew_noRCg/1265025191234[2].png)[![1265025130116](https://lh6faa.bay.livefilestore.com/y1mD0WyjvirjhiW9U4ioDH68uOghS9xZyz7Ig1MWkXwttib-HFJr6v7Meo1FVF2K0VLTyLYc0kOwC9_yibB9uFySFH7DdY5ziIWurI1iE6Qt7IKSx1848AEtZLhta8bNzUaTON2ovW37zQdBNAaygHeEg/1265025130116_thumb.png)](https://lh6faa.bay.livefilestore.com/y1m-RROKKkqUoNcsklBpYTB0H5nIMqJ-YOfEXaiZGgrAxeKhRME6vdydqlrW69k6XZGXXbebHSLe_JHbMt4vXEG6nB0fCF7d3HSfGGDva1oHl574aBa16Y5M_FmRyFTulwhvWkaMkeAzP8B6dQbZLKVhw/1265025130116[2].png)
 

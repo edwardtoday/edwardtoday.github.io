@@ -3,11 +3,10 @@ layout: post
 title: 'First Build'
 date: 2010-10-25 22:20
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 今天终于把第一个发行版交给用户了。
 

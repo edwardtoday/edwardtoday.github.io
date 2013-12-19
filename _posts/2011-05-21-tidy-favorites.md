@@ -3,11 +3,10 @@ layout: post
 title: '整理一下收藏夹'
 date: 2011-05-21 23:53
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 发现了不少404，也有一些依然可以访问，但是早已不是当初收藏的页面了。
 

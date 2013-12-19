@@ -3,11 +3,10 @@ layout: post
 title: 'New External Harddrive'
 date: 2010-08-02 23:44
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 下班回家刚进门就发现昨天在新蛋上下单的LaCie送到了。
 

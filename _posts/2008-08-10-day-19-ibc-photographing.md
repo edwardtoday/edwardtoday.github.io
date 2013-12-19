@@ -3,11 +3,10 @@ layout: post
 title: 'Day 19 @ IBC - Photographing'
 date: 2008-08-10 23:32
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 吃过晚饭后
 
@@ -79,4 +78,4 @@ tags: []
 
 毕竟我也没有1T的硬盘
 
-JPEG目前还是够用的 
+JPEG目前还是够用的

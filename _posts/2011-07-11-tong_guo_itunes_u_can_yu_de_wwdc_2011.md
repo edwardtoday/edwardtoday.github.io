@@ -3,11 +3,10 @@ layout: post
 title: '通过iTunes U参与的WWDC 2011'
 date: 2011-07-11 22:24
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 自从春节后，因为项目的原因，就很少做iOS上的开发了。上个礼拜一直没更新blog，每天挑WWDC 2011中我感兴趣的几个session看。一周下来也看了三分之一了。
 

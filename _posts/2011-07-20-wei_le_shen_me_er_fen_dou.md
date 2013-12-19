@@ -3,11 +3,10 @@ layout: post
 title: '为了什么而奋斗'
 date: 2011-07-20 15:25
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 为中华之崛起而读书的不多吧？敢于把这个目标当众说出来的就更少了。说出来还被大家记住的貌似就只有一个了。
 

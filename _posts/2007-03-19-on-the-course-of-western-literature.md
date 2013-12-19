@@ -3,11 +3,10 @@ layout: post
 title: 'On the course of Western Literature'
 date: 2007-03-19 12:58
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Selected the Western Literature, cuz it is taught by an Englishman, unlike many other similar courses almost sharing the same name as this one.
 

@@ -3,11 +3,10 @@ layout: post
 title: 'Bold电池短命的罪魁祸首'
 date: 2010-02-18 18:16
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 自从手机到手，从来没有享受过号称的3～4天的待机时间。往往是12小时就game over了。
 

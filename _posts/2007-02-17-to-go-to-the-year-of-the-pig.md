@@ -3,11 +3,10 @@ layout: post
 title: '猪年要到了'
 date: 2007-02-17 23:44
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 要把学分绩拉到85+
 

@@ -3,11 +3,10 @@ layout: post
 title: 'At Mid-term'
 date: 2012-03-12 18:36
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 一学期很短，很快就到期中。其实已经过了不止一半了，眼看着就该期末复习了吧。
 

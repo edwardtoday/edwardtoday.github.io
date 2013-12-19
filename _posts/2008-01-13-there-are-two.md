@@ -3,11 +3,10 @@ layout: post
 title: '还有两门'
 date: 2008-01-13 21:35
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 考试两周，一共6门，不算多也不算少。少的前天已经考完了；多的，20号晚上最后一门。唉，我们寝那可怜的娃。。。
 

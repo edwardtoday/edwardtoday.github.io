@@ -3,11 +3,10 @@ layout: post
 title: 'What is a MACHINE?'
 date: 2011-06-08 23:36
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 周末看了3 Idiots，里面有一段就是教授让学生给machine一个定义。
 

@@ -3,11 +3,10 @@ layout: post
 title: '升级强迫症'
 date: 2011-12-06 21:32
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 世上有一群人，装Windows的时候，习惯性地在任何空闲时间去看看Windows Update；装linux的时候，会不由自主地去sudo apt-get update && sudo apt-get upgrade；装Mac OS则不停地去尝试Software Update（现在可能还要刷一下App Store的那个更新页面了）。
 

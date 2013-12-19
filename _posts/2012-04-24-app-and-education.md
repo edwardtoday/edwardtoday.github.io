@@ -4,10 +4,9 @@ title: 'App与教育'
 date: 2012-04-24 18:36
 comments: true
 category: views
-tagline: 
+tagline:
 tags: [app, edu]
 ---
-    
 
 昨天晚上复习之余，在Google Reader里又发现了译言上的一篇[不能指望APP教孩子儿歌](http://article.yeeyan.org/view/99966/243876)。
 

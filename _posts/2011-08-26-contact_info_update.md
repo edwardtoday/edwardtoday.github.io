@@ -3,11 +3,10 @@ layout: post
 title: 'Contact Info Update'
 date: 2011-08-26 18:40
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 如果近期要联系我的话，除了email和各种页面的留言这种不保证立即回复的途径之外，最直接的就是手机了。
 

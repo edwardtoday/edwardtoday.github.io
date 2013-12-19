@@ -3,11 +3,10 @@ layout: post
 title: 'What do you see from this picture?'
 date: 2011-09-19 16:06
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 昨天在论坛上看到这么一张图，时间是晚上，设备是air，标题是显示器灰阶测试。
 

@@ -3,11 +3,10 @@ layout: post
 title: 'MacBook Fan'
 date: 2010-01-12 23:46
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 这风扇真是一年一坏。
 

@@ -3,11 +3,10 @@ layout: post
 title: '一个矛盾'
 date: 2011-09-27 09:37
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 人到底是喜欢从众还是喜欢个性化？
 

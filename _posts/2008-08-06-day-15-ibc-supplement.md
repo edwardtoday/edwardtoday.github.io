@@ -3,11 +3,10 @@ layout: post
 title: 'Day 15 @ IBC 补'
 date: 2008-08-06 23:02
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 夜班就是没什么事情的班次
 

@@ -3,11 +3,10 @@ layout: post
 title: '错得离谱'
 date: 2009-09-27 18:26
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 最近又开始阶段性地消灭积攒已久的TEDTalks video podcast
 每次总会有很多有趣的想法和实验

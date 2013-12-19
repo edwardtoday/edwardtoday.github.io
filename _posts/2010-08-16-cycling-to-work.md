@@ -3,11 +3,10 @@ layout: post
 title: '骑车上班'
 date: 2010-08-16 23:53
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 从7:15出门推迟到7:45出门。
 

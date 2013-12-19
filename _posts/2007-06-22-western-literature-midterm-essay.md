@@ -3,11 +3,10 @@ layout: post
 title: 'Western Literature - Midterm Essay'
 date: 2007-06-22 21:07
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 The story of Joseph in the Bible is a well-formed, coherent narrative. Intending to tell us why bad things happen to good people, the writer uses the way of storytelling, which is often used in the Bible to convey the message from God to people through the words of different persons, to embed the answer into the lifelong experience of Joseph. In this way, the story is easier to understand and is able to draw more people’s interest.
 

@@ -3,11 +3,10 @@ layout: post
 title: 'Thinking of Getting a New Lens'
 date: 2011-03-05 23:18
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 从06年开始接触单反，到现在依然用着Canon 350D和一代的EF-S 18-55，没有爱死，不是据说素质有不小提升的二代。镜头的消费只有小痰盂，理由是没有比它再便宜的了。
 

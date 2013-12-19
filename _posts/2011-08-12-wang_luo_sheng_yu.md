@@ -3,11 +3,10 @@ layout: post
 title: '网络声誉'
 date: 2011-08-12 17:32
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 刚才在Google Reader里又看到一篇文章提到一个不算新的建议：在使用社交网络的时候，要时刻注意，你的老板可能也在看这些内容。
 

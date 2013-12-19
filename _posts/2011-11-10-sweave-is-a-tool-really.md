@@ -3,11 +3,10 @@ layout: post
 title: 'Sweave果然是个利器'
 date: 2011-11-10 16:57
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 距离上一篇日志已经有三周了。现在各种课程的小组作业都已经开始，外加依旧繁琐的数据挖掘作业。我有些不理解，为什么数据挖掘作业要求手算的题目，维度那么高，记录条数那么多，非得我们计算器按到手抽筋才能摆平它。
 
@@ -23,11 +22,15 @@ tags: []
 
   * 距离矩阵太宽了，tex默认又不作处理，一开始我是把表格转90度的，但是实在是太浪费纸了⋯⋯后来把整个tabular环境放到\resizebox {\textwidth}{!}{}里面，就顺眼多了。
 
-  * 插入的表格茫茫多，tex引擎报错说float太多。于是加了  
-\usepackage{etex}  
-\reserveinserts{18}  
-\usepackage{morefloats}  
-三行，我实在是不想固定每张表的位置，那样各种空白一样浪费纸。 
+  * 插入的表格茫茫多，tex引擎报错说float太多。于是加了
+
+\usepackage{etex}
+
+\reserveinserts{18}
+
+\usepackage{morefloats}
+
+三行，我实在是不想固定每张表的位置，那样各种空白一样浪费纸。
 
 暂时，看上去是这样的：
 

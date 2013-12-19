@@ -3,11 +3,10 @@ layout: post
 title: 'Mac Apps I use'
 date: 2011-01-23 21:57
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Mac apps are known for beautiful graphical user interfaces and good human-computer-interaction design. Some, however, are still better than their competitors, at least from my point of view.
 

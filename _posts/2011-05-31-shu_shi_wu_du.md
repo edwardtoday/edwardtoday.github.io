@@ -3,11 +3,10 @@ layout: post
 title: '熟视无睹'
 date: 2011-05-31 22:34
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 进入到了Alpha-Beta-…的被版本追赶的阶段，昨天上午有个搁置了一段时间没有修掉的beta blocker突然被置成最高优先级assign给我了。
 

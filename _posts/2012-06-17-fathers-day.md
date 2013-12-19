@@ -3,11 +3,11 @@ layout: post
 title: '父亲节'
 date: 2012-06-17 21:36
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: [Ae, Pr, Au]
 ---
-    
+
 今天父亲节。
 
 昨天从五点钟开始录音，然后After Effects做片头，再加入相片用Premiere Pro导出视频，最后再慢慢上传，做了一个独立的专题页面。

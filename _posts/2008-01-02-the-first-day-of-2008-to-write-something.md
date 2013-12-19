@@ -3,11 +3,10 @@ layout: post
 title: '2008第一天写的东西'
 date: 2008-01-02 00:21
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 今天写了政治经济学的论文，97%是自己写的，只引了三处地方，而且很不情愿。。。不是自己没想到，而是我上个月毕竟看到了这些观点
 

@@ -3,11 +3,10 @@ layout: post
 title: 'Apple Product Lineup'
 date: 2011-09-19 19:16
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 之前那篇关于ThunderBolt Cinema Display的文章已经隐含了一部分本文的意思了：看待一个产品，可以把它当做独立的个体，也可以将它放到市场上的其它产品当中去观察它。
 

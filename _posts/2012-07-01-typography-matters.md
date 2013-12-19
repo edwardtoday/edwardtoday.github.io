@@ -4,10 +4,9 @@ title: 'Typography matters'
 date: 2012-07-01 17:47
 comments: true
 category: views
-tagline: 
+tagline:
 tags: [typography]
 ---
-    
 
 网站换了字体，很久以前就用上了Typekit，以Wordpress插件的形式。但后来不用Wordpress，改用Jekyll了，也就一直没关注这个事情。
 

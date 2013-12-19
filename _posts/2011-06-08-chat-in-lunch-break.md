@@ -3,11 +3,10 @@ layout: post
 title: '今日午休言论'
 date: 2011-06-08 22:59
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 自从搬进一个十几平的小房间参与新项目之后，中午午休的时间，一屋子人时常聚在一起聊些跟IT根本不沾边的事情。在搬到开放的办公环境之后，这个习惯被压制了一段时间，最近又开始抬头了。
 

@@ -3,11 +3,10 @@ layout: post
 title: 'The Power of Trim'
 date: 2011-09-17 04:21
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 这个新的SSD已经塞了不少东西了，不过Apple出厂配的SSD默认都是启用了Trim的。不像之前装上M4的老本，还得手动enable之。
 

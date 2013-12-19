@@ -3,11 +3,10 @@ layout: post
 title: '选课马拉松'
 date: 2007-06-21 23:25
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 每到选课就是3个礼拜的事情
 

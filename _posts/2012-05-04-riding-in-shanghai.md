@@ -4,10 +4,9 @@ title: '魔都骑行一小圈'
 date: 2012-05-04 18:35
 comments: true
 category: tour
-tagline: 
+tagline:
 tags: [cycling, shanghai]
 ---
-    
 
 5月5号的票回HK。4号父母都上班，外婆午睡，我干嘛好呢？骑着车子到进城转了一圈。
 

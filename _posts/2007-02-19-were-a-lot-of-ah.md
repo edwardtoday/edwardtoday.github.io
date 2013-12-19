@@ -3,11 +3,10 @@ layout: post
 title: '人好多啊...'
 date: 2007-02-19 20:26
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 昨晚开始,家里多了5个人,本来安安静静的家里一下子热闹了.
 

@@ -4,11 +4,9 @@ title: '优化图片该充分利用内存'
 date: 2013-04-29 17:30
 comments: true
 category: utility
-tagline: 
+tagline:
 tags: [image]
 ---
-    
-
 
 上个月硬盘空间吃紧，于是把不值得保留的电影删了，不常听的音乐上传到Google Play，并且把许多FLAC和APE转成320Kbps的MP3了……
 

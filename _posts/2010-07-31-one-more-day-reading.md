@@ -3,11 +3,10 @@ layout: post
 title: 'One more day reading'
 date: 2010-07-31 00:53
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 今天又是一个reading day。
 

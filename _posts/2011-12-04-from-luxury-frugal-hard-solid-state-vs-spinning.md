@@ -3,11 +3,10 @@ layout: post
 title: '由奢入俭难（solid state vs spinning）'
 date: 2011-12-04 18:42
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 这学期的数据挖掘实验，一直是在虚拟机里跑的。
 

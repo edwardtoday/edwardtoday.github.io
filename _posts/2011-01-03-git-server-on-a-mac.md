@@ -3,11 +3,10 @@ layout: post
 title: 'Git server on a mac'
 date: 2011-01-03 23:46
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 虽说现在工作的项目都不带回家来，不过自己的一些文档和代码也不仅需要单纯的备份，保存各个版本还是有必要的。
 

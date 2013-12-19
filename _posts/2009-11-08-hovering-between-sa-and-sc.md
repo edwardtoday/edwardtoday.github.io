@@ -3,11 +3,10 @@ layout: post
 title: '徘徊在Sa与sc之间'
 date: 2009-11-08 23:37
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 困扰了我两天的问题，为什么我写的基于倒排列表的搜索比线性搜索还要慢！
 

@@ -3,11 +3,10 @@ layout: post
 title: 'eclipse & netbeans'
 date: 2009-11-07 23:21
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 为了画一个界面，又把netbeans请出山来了。
 

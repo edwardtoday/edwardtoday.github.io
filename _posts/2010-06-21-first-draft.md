@@ -3,11 +3,10 @@ layout: post
 title: '论文初稿终于出炉了'
 date: 2010-06-21 02:08
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 从上上周四终于把实验做完之后，这两周都在忙着写论文。
 

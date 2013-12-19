@@ -3,11 +3,10 @@ layout: post
 title: 'Razer DeathAdder'
 date: 2011-01-18 21:41
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 已经习惯了大尺寸的触摸板，虽然老机器没有多点触控，但是两个手指上下左右滚动比鼠标控制起来还是方便些。陪伴了很久的V470虽然掉色严重，但是功能依然健全。
 

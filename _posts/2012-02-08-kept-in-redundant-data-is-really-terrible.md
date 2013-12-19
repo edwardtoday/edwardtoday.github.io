@@ -4,10 +4,9 @@ title: '冗余数据真可怕'
 date: 2012-02-08 20:14
 comments: true
 category: programming
-tagline: 
+tagline:
 tags: [dedup]
 ---
-    
 
 近日处理掌纹数据，前人工作的一部分就是采集了8000个掌纹样本。具体的扫描方法我就不细说了（我也没仔细研究那几篇文章），至少生成的3D掌纹样本文件是这样的：
 

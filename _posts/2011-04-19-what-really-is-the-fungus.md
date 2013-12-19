@@ -3,11 +3,10 @@ layout: post
 title: '真的是木耳么'
 date: 2011-04-19 16:23
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 这几天再看桌面无源系统，有个问题在各大HiFi论坛上总是被提起：320kbps的MP3和WAV/APE/FLAC之类的无损音频，你能听出差别么？
 如果讨论的是128甚至192kbps的MP3，我想一般没什么争议了，几十块的耳塞插到集成声卡上就听出来了。当MP3码率高到320kbps的时候，中频已经很难听出差别了。想听出差别就得从其他方面入手。
@@ -18,6 +17,6 @@ tags: []
 
   3. 测试曲目。用高频或者低频来对比吧，中频如果这么容易听出区别来，MP3的算法就彻底没用了。
 
- 
+
 
 Posted with WordPress for BlackBerry.

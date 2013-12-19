@@ -3,11 +3,10 @@ layout: post
 title: '6 Days Left Here'
 date: 2006-08-10 00:00
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 六天之后，即将远行。这里有太多的人值得我铭记，回来后，希望我们都过得很好。
 

@@ -3,11 +3,10 @@ layout: post
 title: 'Gigabit Home LAN'
 date: 2011-05-26 13:27
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 In my previous post [Redesigned Home Network](/?p=37867), I described the network structure with 2 wireless routers (one connected to WAN and another working as a wireless AP) and several devices. That does help to increase the speed of wireless network at corners or rooms without APs.
 

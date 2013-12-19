@@ -3,11 +3,10 @@ layout: post
 title: 'In the Summer Palace'
 date: 2007-04-08 21:20
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 －“靠～你会不会划船啊～”
 

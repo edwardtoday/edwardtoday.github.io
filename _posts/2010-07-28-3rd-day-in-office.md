@@ -3,11 +3,10 @@ layout: post
 title: '3rd Day in Office'
 date: 2010-07-28 15:35
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Oh, wordpress.com accessible in mainland now~
 

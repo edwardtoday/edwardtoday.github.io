@@ -4,11 +4,9 @@ title: 'How to open UTF-8 encoded data files in Weka for OS X'
 date: 2013-06-03 16:47
 comments: true
 category: programming
-tagline: 
+tagline:
 tags: [weka, utf8]
 ---
-    
-
 
 In the [Weka wiki](http://weka.wikispaces.com/Can+I+process+UTF-8+datasets+or+files%3F), it shows how to open data files with characters not in the default ANSI or whatever English encoding.
 

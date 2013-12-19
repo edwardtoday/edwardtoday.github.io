@@ -3,11 +3,10 @@ layout: post
 title: '横跨6个Sprint的任务'
 date: 2011-05-25 20:04
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 加入新项目到现在，是第7个sprint了，sprint一到两周一个。我拿到这样一个任务，在第2个sprint出现，在第7个sprint完成。
 

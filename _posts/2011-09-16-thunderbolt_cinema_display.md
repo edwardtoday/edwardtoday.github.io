@@ -3,11 +3,10 @@ layout: post
 title: 'ThunderBolt Cinema Display'
 date: 2011-09-16 22:21
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 上午在YouTube上看到ThunderBolt Cinema Display的一个视频，该MBP用家表示不理解为什么显示器后面需要一个Gigabit LAN口。他猜测是不是Apple将来会把这个显示器做成类似无盘终端那样的设备。
 

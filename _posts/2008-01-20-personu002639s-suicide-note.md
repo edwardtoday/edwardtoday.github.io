@@ -3,11 +3,10 @@ layout: post
 title: '某人的遗书'
 date: 2008-01-20 00:48
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 亲爱的聂司令员：
 

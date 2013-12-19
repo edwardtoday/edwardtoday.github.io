@@ -3,11 +3,10 @@ layout: post
 title: '生活可不是多项式'
 date: 2010-08-09 22:42
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 今天讨论最多的就是P和NP了吧。
 

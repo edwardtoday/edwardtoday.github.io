@@ -3,11 +3,10 @@ layout: post
 title: 'OS和OS是不一样的'
 date: 2011-11-22 12:06
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 为了网络实验，在系里机房霸占了一台机器，稳定的ping，几乎始终在3%之内的CPU占用率（因为不用被别人time sharing），独立IP。唯一遗憾的就是校外ping不到这台主机，只能ssh回去，而那个ssh gateway速度确实不尽人意。实验用的工具，官方说兼容linux 2.4和2.6，刚发布的Ubuntu 11.10已经3.0了，为了避免潜在的折腾，还是用了10.04，LTS的优势就是网上的讨论帖会丰富许多，各种问题很快就能找到解决方案。
 

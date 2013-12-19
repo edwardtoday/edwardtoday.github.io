@@ -3,11 +3,10 @@ layout: post
 title: '喜忧参半啊'
 date: 2011-05-28 00:53
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 交换机到了，现在内网传输有80MB/s以上了，并发的传输没测，交换机标称是16Gbps的处理能力，8口全双工的。
 

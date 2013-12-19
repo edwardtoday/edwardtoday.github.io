@@ -3,11 +3,10 @@ layout: post
 title: '算了,再写点吧'
 date: 2007-03-14 21:47
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
   1. 周六生日
   2. 周末有球赛

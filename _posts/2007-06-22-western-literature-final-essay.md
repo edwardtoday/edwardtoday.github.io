@@ -3,11 +3,10 @@ layout: post
 title: 'Western Literature - Final Essay'
 date: 2007-06-22 21:08
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 To See a World in a Chimney
 

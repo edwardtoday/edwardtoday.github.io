@@ -3,11 +3,10 @@ layout: post
 title: '我无话可说'
 date: 2008-05-20 01:08
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 历史告诉我们
 

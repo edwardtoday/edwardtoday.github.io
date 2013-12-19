@@ -3,11 +3,10 @@ layout: post
 title: 'Mac App Store'
 date: 2011-01-11 23:37
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 App Store迟到了，好在没有跳票太久。7号果断更新到10.6.6，开始体验App Store。
 

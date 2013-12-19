@@ -3,11 +3,10 @@ layout: post
 title: 'Marc Koska: 1.3m reasons to re-invent the syringe'
 date: 2009-10-23 10:37
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 刚才看了新鲜出炉的这个clip。
 美国人不是其政府能够代表的，有许许多多个体在关注着欠发达地区的种种问题。比如这回的注射器。

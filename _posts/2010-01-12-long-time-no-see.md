@@ -3,11 +3,10 @@ layout: post
 title: '很久没有上来冒泡了'
 date: 2010-01-12 23:38
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 进入考试周，就已经没有考试了。
 

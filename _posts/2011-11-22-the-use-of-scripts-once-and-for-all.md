@@ -3,11 +3,10 @@ layout: post
 title: '利用脚本，一劳永逸'
 date: 2011-11-22 12:20
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 网络实验要采集一段时间的数据。于是，
 

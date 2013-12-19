@@ -3,11 +3,10 @@ layout: post
 title: '百年校庆'
 date: 2011-04-24 21:09
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 虽然比隔壁晚了些，总算也百年了。
 

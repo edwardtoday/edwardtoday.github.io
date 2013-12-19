@@ -3,11 +3,10 @@ layout: post
 title: '西方文学思潮与作品 期中作业'
 date: 2007-06-22 21:05
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 我的生活如何做主
 
@@ -33,5 +32,6 @@ tags: []
 
 值得我一直思考。
 
-卿培  
+卿培
+
 2006011291

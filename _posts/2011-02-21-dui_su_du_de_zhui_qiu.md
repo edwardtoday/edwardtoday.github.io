@@ -3,11 +3,10 @@ layout: post
 title: '对速度的追求'
 date: 2011-02-21 21:46
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 SSD：系统盘和笔记本的首选
 

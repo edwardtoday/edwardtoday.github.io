@@ -3,11 +3,10 @@ layout: post
 title: 'LianLi PC-Q07散热'
 date: 2011-04-11 00:15
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 小机箱的主要问题之一就是散热。装机的时候我没怎么在意具体事宜，今天改造了一下发现散热有天壤之别。
 

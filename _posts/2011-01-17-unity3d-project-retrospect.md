@@ -3,49 +3,48 @@ layout: post
 title: 'Unity3D Project Retrospect'
 date: 2011-01-17 23:02
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Table of Contents
 
-  * 1 Version control 
+  * 1 Version control
 
-  * 2 Script performance tweak 
+  * 2 Script performance tweak
 
-  * 3 Graphics performance tweak 
+  * 3 Graphics performance tweak
 
-    * 3.1 Shader 
+    * 3.1 Shader
 
-    * 3.2 Draw call 
+    * 3.2 Draw call
 
-    * 3.3 3D models 
+    * 3.3 3D models
 
-    * 3.4 Textures/Materials 
+    * 3.4 Textures/Materials
 
-    * 3.5 Particle systems 
+    * 3.5 Particle systems
 
-    * 3.6 OpenGL ES 1.1/2.0 
+    * 3.6 OpenGL ES 1.1/2.0
 
-    * 3.7 Shadows 
+    * 3.7 Shadows
 
-  * 4 Memory consumption tweak 
+  * 4 Memory consumption tweak
 
-  * 5 Cross-platform issues 
+  * 5 Cross-platform issues
 
-    * 5.1 Textures 
+    * 5.1 Textures
 
-    * 5.2 Models 
+    * 5.2 Models
 
-    * 5.3 Videos 
+    * 5.3 Videos
 
-  * 6 Remaining issues 
+  * 6 Remaining issues
 
-    * 6.1 iOS4 multi-tasking support 
+    * 6.1 iOS4 multi-tasking support
 
-    * 6.2 Movie playback on iOS devices 
+    * 6.2 Movie playback on iOS devices
 
 ## 1 Version control
 
@@ -59,27 +58,27 @@ There is also an open source project that converts Unity scene file to plaintext
 
 Though scripts are not the performance bottle neck, there are something we can do to make it even faster.
 
-  * Calculation  
+  * Calculation
 
     * Replace / with * if possible.
 
     * Use less random/sin/cos/…
 
-  * Function call  
+  * Function call
 
-    * Get the script component and call the function directly. According to Unity documentation, this is 100x faster than sending a message to the game object to call that function. 
+    * Get the script component and call the function directly. According to Unity documentation, this is 100x faster than sending a message to the game object to call that function.
 
-  * Cache frequently used variables  
+  * Cache frequently used variables
 
-    * Cache positions, rotations or other properties of frequently accessed object to avoid time loss accessing these values. 
+    * Cache positions, rotations or other properties of frequently accessed object to avoid time loss accessing these values.
 
-  * Avoid finding game object  
+  * Avoid finding game object
 
-    * If there is a need to find some object, find it once during initializing. 
+    * If there is a need to find some object, find it once during initializing.
 
-  * Use triggers  
+  * Use triggers
 
-    * Do not manually check something every frame is it is possible to use a trigger function. 
+    * Do not manually check something every frame is it is possible to use a trigger function.
 
 ## 3 Graphics performance tweak
 
@@ -89,7 +88,7 @@ Graphics is the bottleneck of our project. We have spent much time on it and fin
 
   * Mobile vertex colored shader is 2x the speed of diffuse shader on iOS devices.
 
-  * Mobile background shader is ~3x the speed of default shader for the skybox. 
+  * Mobile background shader is ~3x the speed of default shader for the skybox.
 
 ### 3.2 Draw call
 
@@ -99,7 +98,7 @@ Graphics is the bottleneck of our project. We have spent much time on it and fin
 
   * The more textures, the more draw calls.
 
-  * The more objects, the more draw calls. 
+  * The more objects, the more draw calls.
 
 ### 3.3 3D models
 
@@ -107,17 +106,17 @@ Graphics is the bottleneck of our project. We have spent much time on it and fin
 
   * Combine small models together to cut the total number of objects.
 
-  * Cut large models into pieces to avoid rendering the whole object while only a small portion of it is visible. 
+  * Cut large models into pieces to avoid rendering the whole object while only a small portion of it is visible.
 
 ### 3.4 Textures/Materials
 
-  * Letting models which is placed in the scene near each other share a common texture saves draw calls. 
+  * Letting models which is placed in the scene near each other share a common texture saves draw calls.
 
 ### 3.5 Particle systems
 
   * This is also a critical performance issue. As in the test, a water fountain with ~400 particles with a default shader drained iPad's GPU to get 4~5 frames per second.
 
-  * To obtain 30 frames per second, keep the number of particles per frame under 50 and use simple shaders for the particles. 
+  * To obtain 30 frames per second, keep the number of particles per frame under 50 and use simple shaders for the particles.
 
 ### 3.6 OpenGL ES 1.1/2.0
 
@@ -131,7 +130,7 @@ Our game runs at 23~35 frames per second with OpenGL ES 1.1. With OpenGL ES 2.0,
 
 ### 3.7 Shadows
 
-  * Dynamic lights/shadows should be turned off on mobile devices for acceptable performance. 
+  * Dynamic lights/shadows should be turned off on mobile devices for acceptable performance.
 
 ## 4 Memory consumption tweak
 
@@ -139,13 +138,13 @@ Our final project which runs smoothly on a PC, without specific optimizations, c
 
 The following changes are made to save memory:
 
-  * Compress large textures.  
+  * Compress large textures.
 
     * Converting images to lower resolution. Background images are usually large in size. We have different images for menu and loading screen. They may have different versions for iPhone, iPad and PC. These files add up to about 10MB. 50~70% space can be saved after conversion.
 
     * Converting textures to lower color depth. Some UI textures uses very few colors but have 32-bit color depth. Using 16-bit color for these textures may not affect the quality much but save half the space.
 
-  * Compress audio files.  
+  * Compress audio files.
 
     * Background music are compressed to 64kbps mpeg audio from wav format.
 
@@ -161,13 +160,13 @@ Further profiling shows that if the game asked for more than 35MB memory, it wou
 
 ### 5.1 Textures
 
-  * Use TGA, not DDS. When converting a project to iOS platform, DDS files cannot be successfully imported. 
+  * Use TGA, not DDS. When converting a project to iOS platform, DDS files cannot be successfully imported.
 
-  * Only power-of-2 sized texture can use the PVRTC compression for iOS devices. Other aspect rations may lead to unwanted rendering results. Do not use compression on those textures. 
+  * Only power-of-2 sized texture can use the PVRTC compression for iOS devices. Other aspect rations may lead to unwanted rendering results. Do not use compression on those textures.
 
 ### 5.2 Models
 
-  * Use FBX, not MAX. iOS apps can only be compiled on a Mac. And Unity Mac version does not support MAX files. 
+  * Use FBX, not MAX. iOS apps can only be compiled on a Mac. And Unity Mac version does not support MAX files.
 
 ### 5.3 Videos
 

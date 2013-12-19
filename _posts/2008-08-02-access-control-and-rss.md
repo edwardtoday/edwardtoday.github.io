@@ -3,11 +3,10 @@ layout: post
 title: '权限控制与RSS'
 date: 2008-08-02 13:48
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Live Spaces可以对文章加上访问权限
 
@@ -45,5 +44,5 @@ RSS订阅中显示的还是全文
 
 希望Julian能意识到Space安全性不佳
 
-也送上祝福   
+也送上祝福
 

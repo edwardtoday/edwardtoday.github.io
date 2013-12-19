@@ -3,11 +3,10 @@ layout: post
 title: '今天中期答辩'
 date: 2010-04-29 15:01
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 通知早上八点半，我应该是8点就到了FIT吧。答辩地点和我的实验室就隔一堵墙，早早地坐下了等着。
 

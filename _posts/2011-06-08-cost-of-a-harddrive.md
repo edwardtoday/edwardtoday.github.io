@@ -3,11 +3,10 @@ layout: post
 title: '一块硬盘的成本'
 date: 2011-06-08 23:51
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 刚才一篇其实是想说另外一件事的，结果跑题了……
 

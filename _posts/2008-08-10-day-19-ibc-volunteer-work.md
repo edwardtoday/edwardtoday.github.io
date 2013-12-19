@@ -3,11 +3,10 @@ layout: post
 title: 'Day 19 @ IBC - Volunteer Work'
 date: 2008-08-10 23:32
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 8号下午到IBC
 

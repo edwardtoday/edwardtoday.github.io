@@ -4,10 +4,9 @@ title: '水果公司现金多'
 date: 2012-02-21 17:23
 comments: true
 category: views
-tagline: 
+tagline:
 tags: [Apple]
 ---
-    
 
 今天看到[水木有个帖子](http://www.newsmth.net/bbstcon.php?board=ITExpress&gid=1192075)比较水果和微软谷歌，按我的理解，总结楼主的论点如下：
 

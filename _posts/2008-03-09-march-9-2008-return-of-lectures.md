@@ -3,11 +3,10 @@ layout: post
 title: 'March 9, 2008 党课归来'
 date: 2008-03-09 21:25
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 《党的知识概论》是一门介绍中国化以后的马克思主义理论的课程
 我理解下来

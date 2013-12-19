@@ -3,11 +3,10 @@ layout: post
 title: '物理读数报告'
 date: 2007-06-22 21:12
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 What drives us to the future?
 
@@ -225,7 +224,8 @@ The earth receives solar energy in the form of electromagnetic radiation. The so
 
 #### How do we collect solar energy?
 
-If we just need heat, put something cool out in the sunshine and it will collect the energy. However, hot things cannot be heated this way. Neither can the process go far enough till it reaches the state we need. The efficiency of such a thermodynamic process is pretty low. The Carnot efficiency is  
+If we just need heat, put something cool out in the sunshine and it will collect the energy. However, hot things cannot be heated this way. Neither can the process go far enough till it reaches the state we need. The efficiency of such a thermodynamic process is pretty low. The Carnot efficiency is
+
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBtlEBOkc06c_F7KjPO7h8V8PC6HA4JM8hZ6n5Cg17WFfpuJMYt249NB)
 
 In the collection above, Thigh (temperature of the source) is not much higher than Tlow (temperature of the sink).
@@ -236,32 +236,40 @@ Electricity is easy to transmit and distribute. Solar energy, as a result, is ex
 
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBsb9qhK444T7Q73SNC_nAcqKdTsDW9trNa6R627IWMI-8wl4dIYPcXt)
 
-Suppose the efficiency of each step is η1, η2 …, the overall efficiency is  
+Suppose the efficiency of each step is η1, η2 …, the overall efficiency is
+
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBudT9FEAts8Yttctsgsus4I5dloSiQfR525gcPnwEQf6-nTH8IgkJkv)
 
-The final energy we have in the form of electricity is  
+The final energy we have in the form of electricity is
+
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBvrxLiGu2DBUjmz80oi9HyiMpUF7TsCeV_2X6Ln-4zvAU5HMOMZ-gQc)
 
-Let the efficiency of the direct conversion be η0. The final energy we have is  
+Let the efficiency of the direct conversion be η0. The final energy we have is
+
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBu2wuwMthnL1pu5JKR4ZkF3BVmo5PxJ4FmOrxTwn6tXsGDWcJb16VEm)
 
 We have to work to convert the energy from one form to another. Each process is not 100 percent efficient, either. Normally, the more process steps, the more energy is lost.
 
-We can draw a conclusion:  
+We can draw a conclusion:
+
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBvzw0o1UpfCV657EiaoNN9KmZ0nArn5aZ--kTfdlHndRiMoAK4OcbXM)
 
 Therefore, **the direct conversion is the choice**. (The technical problem is yet to be solved.)
 
 Photovoltaic cells, or solar cells, are usually used to convert solar energy to electricity. P-N junction solar cells catch the photons from sunlight. The energy absorbed makes hole-electron pairs near the P-N junction. The internal electric field forces the holes and electrons to displace in a certain direction. Voltage is generated. With the load connected, electron current flows and the load works.
 
-Loferski’s formulation describes the current-voltage relation of the P-N junction:  
+Loferski’s formulation describes the current-voltage relation of the P-N junction:
+
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBtlpbNYJqby2DFRLH5I7IeMbaHuZCpARajD1sMrBAwpE4JGzm5peIa_)
 
 where Isc is the current density; Nph the number of incident photons of frequency ν; EG the energy gap.
 
-The open circuit voltage is  
-![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3Kb4qoUw5WIVL5xAGrLddgoRjTaBud6F_y5oB-AgMHsZYZexab8k2qqx3WMIdpSxrbh8PW2_F2CMQ)  
-where I0 is the equal and opposite current in either direction at equilibrium and  
+The open circuit voltage is
+
+![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3Kb4qoUw5WIVL5xAGrLddgoRjTaBud6F_y5oB-AgMHsZYZexab8k2qqx3WMIdpSxrbh8PW2_F2CMQ)
+
+where I0 is the equal and opposite current in either direction at equilibrium and
+
 ![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3K_5qO-D3TYtgL18wGMezvIjpPSTnk0BdzBCeNfIVDY6LV3vsMTTNZlHpx03IMlBb4YXSOi4OHdJg)
 
 With the increase of EG, Voc increases while Isc decreases. A maximum value of ![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3Ks0jTeHfgCXIB24ZvSOSmmat79ebFbPGu2TZRE5UuLn3gN6PzJIZD_7T1oIntqdhwxWL1LsI7gRQ)is decided by EG. To get a cell with higher voltage, we link the cells.
@@ -278,28 +286,38 @@ The universe consists of more than 99% plasma[8] though it is only 3 Kelvin on a
 
 On Nov 1, 1952[9], the first hydrogen bomb exploded. Human beings began the use the energy of fusion reaction.
 
-The fusion of the hydrogen isotopes deuterium (D) and tritium (T) according to the reaction   
-![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3IvHvy2AAhHgOIj4r8ds5QgZvV3qjWVp8eNsw7jIEVxkgwpYZNn_oyaNSfRvfE8abv9kJIsw8MXjw)  
+The fusion of the hydrogen isotopes deuterium (D) and tritium (T) according to the reaction
+
+![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3IvHvy2AAhHgOIj4r8ds5QgZvV3qjWVp8eNsw7jIEVxkgwpYZNn_oyaNSfRvfE8abv9kJIsw8MXjw)
+
 produces 17.6MeV of energy.[10]
 
-Other fusion reactions include  
+Other fusion reactions include
+
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBtkz1hK5pHUa8hhFN5toudYiQ1JIkSlAQsg95I5OSKVJFU5hIvGIxv-)
 
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBugLOjQlrHBL2rwOubS2E6D3zUD9AmLNB-NRkN9kf6ULMRiRUx2LsZ6)
 
-The fusion reaction rate per unit volume can be written  
-![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBtc4JgjSUrfK7YRYn7xjiOyPZGRkCxG7Z4X8hKzMzFx95119gW1n8Df)  
-where n1 and n2 are the densities of species 1 and 2, respectively, and  
-![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3I7nmXvPho0jEocT2TXrU9eGsjVR1ZLKrFWXEuZz9_Cuhih_vVCpAIOqVzDztiiOzJExcna4LFQ7w)  
-is the fusion reactivity. Here _v_ is the velocity, _f_ is the velocity distribution function, and σ_f_ is the fusion cross section. It is usually adequate to use a Maxwellian distribution,   
-![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3Jk8VClcluWBjElDMIdDLVCt-u5yRBdRi5fI8F8QOxFJcjx-VRblFiyc6cw2ecfncR_-HeHvy9eHw)  
+The fusion reaction rate per unit volume can be written
+
+![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBtc4JgjSUrfK7YRYn7xjiOyPZGRkCxG7Z4X8hKzMzFx95119gW1n8Df)
+
+where n1 and n2 are the densities of species 1 and 2, respectively, and
+
+![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3I7nmXvPho0jEocT2TXrU9eGsjVR1ZLKrFWXEuZz9_Cuhih_vVCpAIOqVzDztiiOzJExcna4LFQ7w)
+
+is the fusion reactivity. Here _v_ is the velocity, _f_ is the velocity distribution function, and σ_f_ is the fusion cross section. It is usually adequate to use a Maxwellian distribution,
+
+![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3Jk8VClcluWBjElDMIdDLVCt-u5yRBdRi5fI8F8QOxFJcjx-VRblFiyc6cw2ecfncR_-HeHvy9eHw)
+
 to evaluate ⧼σ_v_⧽, in which case the value of the integral depends only upon the temperature _T _of the plasma.[11]
 
 The energy released in most fusion reaction, e.g. an H-bomb explosion, is too much to control. For peaceful use, the reaction must be under control. We have to make the energy flow stable. One method is the magnetic confinement.
 
 In magnetic confinement, the ions move in a toroidal path in the outer magnetic field. The Lorentz force propels them to orbit in a round path. The electric field force makes it move in the normal direction of the surface which includes the round path.
 
-![DSC01296.png](http://tk4.storage.msn.com/y1pWaMK8B9Rv3I9bhmsh93ce083KWoXUY_Akrsiv6TrgwlnffBgoEFVf32yUgikIdR-XTya7tP2Rv2zkV6fFTVe2Q)The movement can be described by the following equations:  
+![DSC01296.png](http://tk4.storage.msn.com/y1pWaMK8B9Rv3I9bhmsh93ce083KWoXUY_Akrsiv6TrgwlnffBgoEFVf32yUgikIdR-XTya7tP2Rv2zkV6fFTVe2Q)The movement can be described by the following equations:
+
 ![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3JSLbfIWvL4hob-w3eykQ4pdcfs8sdpR7e499FsFNm2rg2h1I02nppORFcavCWaVvKxERhi_t0UIQ)
 
 ![](http://tkfiles.storage.msn.com/y1pnytk7BNiQBtJkleQF7nk0ld2aH1eOfZLoZo01eOMka0D_CVEmrs7jcHsYPKDfxrl)
@@ -312,7 +330,8 @@ In magnetic confinement, the ions move in a toroidal path in the outer magnetic 
 
 ![Text Box: Figure 2 Closed toroidal confinement](http://tk4.storage.msn.com/y1pWaMK8B9Rv3Je6a_qd0SrOlLQS_Mc3AuUhTEIW903t5Eo-Wfwgyf1IG4zXBUKRxPVZ2AZKTAjQTArBqY5Y7PoTA)![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3JIm8EWTatC1bp4GxSz3hwGDmPOUuu0L2B3Bhrw35QRTrl8mcARrAvuiwrW2TzIWXAXjuLsnyKiWw)
 
-![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3KHxDN3FyeMRK_ZHM-N0ptxCl0kvlaWB9CegWwi9CYnzHEzBxi7-sMV78tXso-dpirGCKeRlJ3_eg)  
+![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3KHxDN3FyeMRK_ZHM-N0ptxCl0kvlaWB9CegWwi9CYnzHEzBxi7-sMV78tXso-dpirGCKeRlJ3_eg)
+
 where FE is the electric field force, FL the Lorentz force, q the charge of the ion, m the mass of the ion, B the magnetic field intensity. Its path is shown in Figure 2[12].![DSC01333.png](http://tk4.storage.msn.com/y1pWaMK8B9Rv3JyKdGu22FOjswx4dgpd_JY2DRBV1rH1JVi6CR1IBCvedg5g-im5Kg-VH3eXfq3TWkTa9x7RNVJ_g)
 
 Figure 3 Schematic design of stellerator plasma and magnetic coils**[13]**
@@ -323,8 +342,10 @@ Figure 4 Plasma in the ASDEX Upgrade tokamak**[14]**
 
 Another method is the inertial confinement. The principle is simple: let the reactants react before the explosion. The realization is, however, difficult.
 
-Unlike fission, fusion reaction has no critical mass. This makes small scale use of the energy of fusion reaction possible. Another problem comes: the Lawson Criterion for the commencement of fusion:   
-![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3LDGKtR7jRDcYSTmWrdLA1O8L0dEs95aKyKrkr4hFHrr6hCIY7X2zqK64jAa8fubE5M-2nj2DwFbw)  
+Unlike fission, fusion reaction has no critical mass. This makes small scale use of the energy of fusion reaction possible. Another problem comes: the Lawson Criterion for the commencement of fusion:
+
+![](http://tk4.storage.msn.com/y1pWaMK8B9Rv3LDGKtR7jRDcYSTmWrdLA1O8L0dEs95aKyKrkr4hFHrr6hCIY7X2zqK64jAa8fubE5M-2nj2DwFbw)
+
 where n is the density of the fuel (n particles per unit volume), and τ is the minimum time during which they are confined together.[15]
 
 **Confinement Method**

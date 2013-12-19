@@ -3,11 +3,10 @@ layout: post
 title: '开学第一天'
 date: 2007-03-05 21:37
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 除了这周六,最近再没这么早起来过了.
 

@@ -3,11 +3,10 @@ layout: post
 title: 'Restarted'
 date: 2007-07-09 21:43
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Now I have a reason to write in English, don't I^^
 

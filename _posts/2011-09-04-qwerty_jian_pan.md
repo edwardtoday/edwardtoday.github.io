@@ -3,11 +3,10 @@ layout: post
 title: 'QWERTY键盘'
 date: 2011-09-04 15:29
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 订阅了HowStuffWorks.com的podcast：The Stuff of Genius。昨天刚好看到“[The QWERTY Keyboard](http://videos.howstuffworks.com/howstuffworks/40391-the-stuff-of-genius-the-qwerty-keyboard-video.htm)”这一期。
 

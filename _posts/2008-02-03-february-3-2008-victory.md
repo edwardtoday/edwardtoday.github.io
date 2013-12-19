@@ -3,11 +3,10 @@ layout: post
 title: '2008年2月3日 Victory!'
 date: 2008-02-03 19:00
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 今天又遇到Leopard的bluescreen了,不过重回Unix命令行,三下五除二搞定
 
@@ -25,34 +24,32 @@ tags: []
 
 装Matlab遇到问题,没办法,改装Mathematica,顺便用Wine玩了一把Keygen.exe,真的可以用...只是在屏幕上的位置动不了...不像Darwin自带的那几个示例程序兼容性那么好
 
-这么短短几行  
+这么短短几行
 
-怎么之前就没效果呢?!?!?!?!?!  
+怎么之前就没效果呢?!?!?!?!?!
 
- /sbin/fsck -fy  
+ /sbin/fsck -fy
 
-/sbin/mount -uw /  
+/sbin/mount -uw /
 
-rm. -rf /System/Library/SystemConfiguration/ApplicationEnhancer.bundle  
+rm. -rf /System/Library/SystemConfiguration/ApplicationEnhancer.bundle
 
 Reboot
 
-附上Apple的[链接](http://docs.info.apple.com/article.html?artnum=306857)  
+附上Apple的[链接](http://docs.info.apple.com/article.html?artnum=306857)
 
-  
+前两个Option真是让我无语
 
-前两个Option真是让我无语  
+要么要求我有另一台Mac,要么得有Leopard的安装盘
 
-要么要求我有另一台Mac,要么得有Leopard的安装盘  
+Dual Layer的盘啊,这过两天就一个新版本,我刻得起么...
 
-Dual Layer的盘啊,这过两天就一个新版本,我刻得起么...  
-
-移动硬盘上有,不过在北京  
+移动硬盘上有,不过在北京
 
 iPod可以分一个区出来,可是iTunes不干,不认我让它存歌的区,偏偏要认那个安装盘的区,问我要不要Reset...
 
-反正这回顺便看了一遍Unix的命令手册  
+反正这回顺便看了一遍Unix的命令手册
 
-达到了当年DOS水准  
+达到了当年DOS水准
 
 见不到GUI也不慌了~~~

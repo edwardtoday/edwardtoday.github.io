@@ -3,11 +3,10 @@ layout: post
 title: 'Back to Ubuntu'
 date: 2011-08-04 23:32
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 离开了工作岗位，就不再被束缚在Windows平台上了。
 

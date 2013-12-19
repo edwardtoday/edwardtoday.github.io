@@ -3,11 +3,10 @@ layout: post
 title: '用户是一种神奇的对象'
 date: 2011-05-27 00:01
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 又要拿Apple说事了。
 

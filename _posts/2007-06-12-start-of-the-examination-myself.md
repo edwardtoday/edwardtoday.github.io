@@ -3,11 +3,10 @@ layout: post
 title: '考试开始喽'
 date: 2007-06-12 22:39
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 课差不多都到尾声了，陆陆续续开始考试
 

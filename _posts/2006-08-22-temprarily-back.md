@@ -3,11 +3,10 @@ layout: post
 title: 'Temprarily Back'
 date: 2006-08-22 20:59
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 几天都没找到机会来机房，今天终于成趁英语考试提早交卷来了。
 

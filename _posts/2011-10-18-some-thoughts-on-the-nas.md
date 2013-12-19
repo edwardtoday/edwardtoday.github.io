@@ -3,11 +3,10 @@ layout: post
 title: '关于NAS的一些想法'
 date: 2011-10-18 11:15
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 想把存储的任务分离出来交给一个独立的NAS设备处理。方便管理，方便备份，方便从多个设备访问。
 

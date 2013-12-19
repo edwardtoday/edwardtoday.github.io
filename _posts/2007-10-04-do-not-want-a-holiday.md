@@ -3,11 +3,10 @@ layout: post
 title: '不想要长假了'
 date: 2007-10-04 00:02
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 有了长假才知道有多不会安排时间
 

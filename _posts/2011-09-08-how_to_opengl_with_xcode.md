@@ -3,11 +3,10 @@ layout: post
 title: 'How to: OpenGL with Xcode'
 date: 2011-09-08 16:33
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 I selected an image processing course this semester, the labs of which are based on OpenGL.
 

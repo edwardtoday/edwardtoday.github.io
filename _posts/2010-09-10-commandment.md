@@ -3,11 +3,10 @@ layout: post
 title: '戒'
 date: 2010-09-10 09:01
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 路口停下准备左转，一中学生骑一XC经过，扭头看我，回头，发现路人甲闯红灯过马路，正好走到他车前，遂捏前闸，抱死。我就这样见证了一个前空翻。
 

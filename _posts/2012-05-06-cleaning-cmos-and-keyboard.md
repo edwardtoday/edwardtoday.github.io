@@ -4,10 +4,9 @@ title: '清理相机CMOS和键盘'
 date: 2012-05-06 18:36
 comments: true
 category: DIY
-tagline: 
+tagline:
 tags: [camera, keyboard]
 ---
-    
 
 用了多年的350D，CMOS上有几粒灰，得设法清掉。
 

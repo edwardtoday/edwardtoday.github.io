@@ -3,11 +3,10 @@ layout: post
 title: '一道题到底要多少时间???'
 date: 2007-02-10 15:53
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 又一个下午扑在C++上了
 

@@ -3,25 +3,24 @@ layout: post
 title: 'On Goodbye, Lenin!'
 date: 2007-05-12 15:16
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
-This movie is, rather than great, just a little thought-provoking.  
-  
-Is socialism(communism) that perfect?  
+This movie is, rather than great, just a little thought-provoking.
 
-Was all the work worthwhile?  
+Is socialism(communism) that perfect?
 
-Will I do so much for someone I love?  
+Was all the work worthwhile?
 
-...  
-  
-United we get power?  
+Will I do so much for someone I love?
 
-Divided we have different beliefs in our minds.  
-  
-Time will see what'll happen here.  
+...
+
+United we get power?
+
+Divided we have different beliefs in our minds.
+
+Time will see what'll happen here.
 

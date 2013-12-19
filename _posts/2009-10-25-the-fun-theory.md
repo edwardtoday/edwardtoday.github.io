@@ -3,11 +3,10 @@ layout: post
 title: 'The fun theory'
 date: 2009-10-25 16:53
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Best of YouTube昨日有更新，没来得及看。
 标题为Piano stairs，看了之后我觉得这个实验很有前途阿！

@@ -3,11 +3,10 @@ layout: post
 title: '不调休'
 date: 2010-09-24 12:56
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 别人放假我上班，我放假大家又上班了。被剥夺了聚众娱乐的权利。
 不过好处是这两天上下班的交通状况非常好。昨天公交几乎快了半个小时，今天骑车也很少用到刹车。

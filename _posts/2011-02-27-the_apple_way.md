@@ -3,11 +3,10 @@ layout: post
 title: 'The Apple Way'
 date: 2011-02-27 13:41
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 近期连续做了两个iOS上的项目，一个是内部自己研究，一个是给客户做的。
 

@@ -3,11 +3,10 @@ layout: post
 title: '手机以及评测'
 date: 2011-09-02 21:06
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 我用的前一部手机是Nokia 3250，它是被摔坏的。
 

@@ -3,11 +3,10 @@ layout: post
 title: 'Qibao半日游'
 date: 2007-01-19 23:33
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 今天终于看到七宝折腾了好久的校门了，没好看到哪里去嘛……
 

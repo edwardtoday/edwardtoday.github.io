@@ -4,13 +4,11 @@ title: '阅读推荐第二辑'
 date: 2013-04-14 22:58
 comments: true
 category: reading
-tagline: 
+tagline:
 tags: [zhihu]
 ---
-    
 
 整理一下上个月的收藏。
-
 
 - [一夜白头这种事情真的有吗？什么原因？](http://zhi.hu/QugV)
 - [哲学是否有意义？哲学家对社会的贡献在哪里？](http://zhi.hu/B0B2)

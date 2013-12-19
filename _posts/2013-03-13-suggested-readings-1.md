@@ -4,10 +4,9 @@ title: '阅读推荐第一辑'
 date: 2013-03-13 16:43
 comments: true
 category: reading
-tagline: 
+tagline:
 tags: [zhihu]
 ---
-    
 
 2013的前两个月一篇都没写，不过真是太充实了。来说说近期推荐阅读的内容吧。
 

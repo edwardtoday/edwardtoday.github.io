@@ -3,11 +3,10 @@ layout: post
 title: '10km左右的上班路线'
 date: 2010-08-08 00:50
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 趁着周末，把从家到公司的各种路线探索了一遍，看看究竟哪条路可以骑车来回。
 

@@ -3,11 +3,10 @@ layout: post
 title: 'The Old Summer Palace'
 date: 2007-06-13 00:48
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 Just seen the movie now
 

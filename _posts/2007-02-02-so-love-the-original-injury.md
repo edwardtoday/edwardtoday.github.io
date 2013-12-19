@@ -3,11 +3,10 @@ layout: post
 title: '原来爱情这么伤.'
 date: 2007-02-02 00:16
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 我睁开眼睛 却感觉不到天亮
 

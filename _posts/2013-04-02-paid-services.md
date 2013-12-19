@@ -4,10 +4,9 @@ title: '我使用的付费服务与应用'
 date: 2013-04-02 20:15
 comments: true
 category: network
-tagline: 
+tagline:
 tags: [app]
 ---
-    
 
 > 见到免费的东西，不管有没有用，先注册了或者下载了再说。
 
@@ -47,6 +46,5 @@ Kindle推送服务，一个月才3RMB，真是业界良心。
 
 * CNHD 捐了个id后面挂着的五角星。这站速度快，养号容易，新资源也挺快就能看到。
 * Vladstudio 买了Premium，我太喜欢他家的壁纸了。
-
 
 以后想到再补充。

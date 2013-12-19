@@ -3,11 +3,10 @@ layout: post
 title: 'Returning'
 date: 2007-01-08 17:03
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 还有不到10天就要回上海了，这些天已经考了计算机科学导轮和英语，前者OK，后者……
 

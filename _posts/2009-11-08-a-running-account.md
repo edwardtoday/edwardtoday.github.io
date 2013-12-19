@@ -3,11 +3,10 @@ layout: post
 title: '一篇流水帐'
 date: 2009-11-08 01:11
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 今天取成绩单 共计叠了100份
 谭总说叠到手抽筋 虽然夸张 但咱确实通过训练能够熟练地把各种文件叠到能装入信封了

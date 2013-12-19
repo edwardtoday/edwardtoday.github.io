@@ -3,11 +3,10 @@ layout: post
 title: '制度设计'
 date: 2011-07-25 01:09
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 看到一个状态，于是想写这篇文章。
 

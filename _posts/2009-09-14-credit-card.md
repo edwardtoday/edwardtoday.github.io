@@ -3,11 +3,10 @@ layout: post
 title: '信用卡'
 date: 2009-09-14 19:10
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 本来想办个招行的卡来付申请的钱的
 

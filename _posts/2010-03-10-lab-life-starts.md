@@ -3,11 +3,10 @@ layout: post
 title: '实验室生活开始了'
 date: 2010-03-10 15:07
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 这周正式开始实验室生活，这两天都在实验室坐到10pm才回来，今天更是10:30pm。
 

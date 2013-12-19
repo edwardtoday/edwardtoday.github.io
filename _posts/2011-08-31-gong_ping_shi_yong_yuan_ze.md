@@ -3,11 +3,10 @@ layout: post
 title: '公平使用原则'
 date: 2011-08-31 13:54
 comments: true
-category: 
-tagline: 
+category:
+tagline:
 tags: []
 ---
-    
 
 各个运营商的无线、有线网络协议里会提到“公平使用原则”。
 
