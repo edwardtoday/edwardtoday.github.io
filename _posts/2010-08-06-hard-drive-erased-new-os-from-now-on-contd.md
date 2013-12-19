@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 'Hard drive erased, new OS from now on (cont'd)'
+title: "Hard drive erased, new OS from now on (cont'd)"
 date: 2010-08-06 20:04
 comments: false
 categories: 
