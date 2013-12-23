@@ -58,7 +58,7 @@ But GCC's 0s are surprising.
 
 I modified the code further to change
 
-```cpp
+```c++
 for (unsigned i = 0; i < 100000; ++i)
 {
   sum += data[c];
@@ -67,7 +67,7 @@ for (unsigned i = 0; i < 100000; ++i)
 
 to
 
-```cpp
+```c++
 sum += data[c] * 100000;
 ```
 
