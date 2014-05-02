@@ -20,56 +20,24 @@ Here are the outputs:
 
 GCC 4.8.2 with `-O2`:
 
-```
-Sorted:
-2.43
-sum = 314931600000
-Unsorted:
-14.39
-sum = 314635000000
-Sorted swapped:
-0
-sum = 314226200000
-Unsorted swapped:
-0
-sum = 315452200000
-```
+{% gist 8cf4433bda639b8713e4 %}
 
 ICC 14.0.1 with `-O2`:
 
-```
-Sorted:
-0.3
-sum = 314931600000
-Unsorted:
-0.31
-sum = 314635000000
-Sorted swapped:
-0.3
-sum = 314226200000
-Unsorted swapped:
-0.31
-sum = 315452200000
-```
+{% gist 983aefcf84c8d0916390 %}
+
 
 I understand ICC's results now after reading Mysticial's answer. ICC swaps the inner and outer loops for me without having me to rewrite the code.
 
 But GCC's 0s are surprising.
 
-I modified the code further to change
+I modified the code further by changing
 
-```c++
-for (unsigned i = 0; i < 100000; ++i)
-{
-  sum += data[c];
-}
-```
+{% gist 4b774f96f056b42648a1 %}
 
 to
 
-```c++
-sum += data[c] * 100000;
-```
+{% gist 426f50024acdb58002fb %}
 
 and ICC gives me 0s just like GCC.
 
