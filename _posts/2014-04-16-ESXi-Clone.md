@@ -18,9 +18,4 @@ Dump the data with `sudo dd if=/dev/sdb of=/dev/sdc bs=512 count=1843200`. Note 
 
 Fix the partition table with
 
-```bash
-sudo gdisk /dev/sdc
-x
-e
-w
-```
+<script src="https://gist.github.com/edwardtoday/69772791d34678ee2c59.js"></script>
