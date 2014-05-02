@@ -651,7 +651,8 @@ button,
 input,
 select,
 textarea,
-.pure-g [class *= "pure-u"] {
+.pure-g [class *= "pure-u"],
+.pure-g-r [class *= "pure-u"] {
   font-family: "myriad-pro-1","myriad-pro-2", sans-serif;
 }
 
