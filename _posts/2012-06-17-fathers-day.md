@@ -39,7 +39,7 @@ Aperture里屯了许多照片，把以前的library一个个打开搜寻。好�
 片头很简单，就歌曲名、原唱和我自己的ID。在videocopilot.net上找到[一个教程](http://www.videocopilot.net/tutorials/procedural_crumble/)，就在其基础上改了改，做了三个片段。这么100帧视频，渲染将近300秒，导出来一个600多MB的AVI，真当硬盘不要钱。
 
 <video width="800" height="500" id="player2" controls="controls" preload="meta">
-    <source type="video/mp4" src="http://rawgithub.com/edwardtoday/edwardtoday.github.com/fathersday2012/videos/ae.mp4"></source>
+    <source type="video/mp4" src="http://www.qingpei.me/fathersday2012/videos/ae.mp4"></source>
 </video>
 
 
