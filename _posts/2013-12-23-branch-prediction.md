@@ -20,12 +20,11 @@ Here are the outputs:
 
 GCC 4.8.2 with `-O2`:
 
-{% gist 8cf4433bda639b8713e4 %}
+<script src="https://gist.github.com/edwardtoday/8cf4433bda639b8713e4.js"></script>
 
 ICC 14.0.1 with `-O2`:
 
-{% gist 983aefcf84c8d0916390 %}
-
+<script src="https://gist.github.com/edwardtoday/983aefcf84c8d0916390.js"></script>
 
 I understand ICC's results now after reading Mysticial's answer. ICC swaps the inner and outer loops for me without having me to rewrite the code.
 
@@ -33,11 +32,11 @@ But GCC's 0s are surprising.
 
 I modified the code further by changing
 
-{% gist 4b774f96f056b42648a1 %}
+<script src="https://gist.github.com/edwardtoday/4b774f96f056b42648a1.js"></script>
 
 to
 
-{% gist 426f50024acdb58002fb %}
+<script src="https://gist.github.com/edwardtoday/426f50024acdb58002fb.js"></script>
 
 and ICC gives me 0s just like GCC.
 
