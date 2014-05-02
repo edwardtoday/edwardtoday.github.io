@@ -25,9 +25,7 @@ tags: [Ae, Pr, Au]
 ![Audition](http://qingpei.me/images/in_post/adobe/Audition_CS6_mnemonic_RGB_50px.png)
 制作用的是Adobe Audition，录上个五遍六遍的，就开始挑选。我不喜欢一句句拼，整首歌顶多三四段，分别来自效果相对较好的某一轨。早上五点钟左右开始录，大概八九点钟完成导出。
 
-<audio src="http://files.qingpei.me/a/father_edwardtoday.mp3" controls>
-Your browser does not support the audio element.
-</audio>
+<object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase=" http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="250" height="34"><param name="allowScriptAccess" value="sameDomain"><param name="movie" value=" http://l.5sing.com/player.swf?songtype=fc&songid=7504370"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><embed src=" http://l.5sing.com/player.swf?songtype=fc&songid=7504370" quality="high" bgcolor="#ffffff" width="250" height="34" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage=" http://www.macromedia.com/go/getflashplayer" /></object>
 
 # 照片
 
@@ -40,11 +38,10 @@ Aperture里屯了许多照片，把以前的library一个个打开搜寻。好�
 ![AE](http://qingpei.me/images/in_post/adobe/After_Effects_CS6_mnemonic_RGB_50px.png)
 片头很简单，就歌曲名、原唱和我自己的ID。在videocopilot.net上找到[一个教程](http://www.videocopilot.net/tutorials/procedural_crumble/)，就在其基础上改了改，做了三个片段。这么100帧视频，渲染将近300秒，导出来一个600多MB的AVI，真当硬盘不要钱。
 
-<video autoplay loop tabindex="0" margin="0 auto">
-  <source type="video/mp4" src="http://files.qingpei.me/v/ae.mp4">
-  <source type="video/ogg" src="http://files.qingpei.me/v/ae.ogv">
-  <source type="video/webm" src="http://files.qingpei.me/v/ae.webm">
+<video width="800" height="500" id="player2" controls="controls" preload="meta">
+    <source type="video/mp4" src="http://rawgithub.com/edwardtoday/edwardtoday.github.com/fathersday2012/videos/ae.mp4"></source>
 </video>
+
 
 ![Ps](http://qingpei.me/images/in_post/adobe/Photoshop_CS6_mnemonic_RGB_50px.png)
 歌词手写，拍照，Photoshop切成条状，供视频使用。（我承认字没以前好看行不……）
