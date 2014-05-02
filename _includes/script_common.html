@@ -2,7 +2,33 @@
   ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
-<script src="http://cdn.jsdelivr.net/dynamo/0.1/dynamo.min.js"></script>
-<script src="/js/custom.js"></script>
-<script src="//rawgithub.com/edwardtoday/mymaxim/master/mymaxim.js"></script>
+<script async src="http://libs.baidu.com/jquery/2.0.0/jquery.min.js"></script>
+<script async src="http://cdn.jsdelivr.net/dynamo/0.1/dynamo.min.js"></script>
+<script async src="http://rawgit.com/edwardtoday/mymaxim/master/mymaxim.js"></script>
+<script type="text/javascript">
+    function onload() {
+        // Your onload code goes here to initialize your page.
+        // Finally, schedule a call for a second round of low-priority initialization.
+        window.setTimeout(afterload, 1);
+    }
+
+    function afterload() {
+        // Called a few ms after the page has loaded.
+        var ga = document.createElement('script');
+        ga.type = 'text/javascript';
+        ga.async = true;
+        ga.src = ('https:' == document.location.protocol ? 'https://ssl' : 'http://www') + '.google-analytics.com/ga.js';
+        var s = document.getElementsByTagName('script')[0];
+        s.parentNode.insertBefore(ga, s);
+    }
+
+    var _gaq = _gaq || [];
+    _gaq.push(['_setAccount', 'UA-29345258-1']);
+    _gaq.push(['_trackPageview']);
+
+    // Reset dynamo span height
+    $(window)
+        .resize(function() {
+
+    });
+</script>
