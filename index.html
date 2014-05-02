@@ -1,24 +1,23 @@
 ---
-layout: page
+layout: home
 title: "Home"
 ---
 <!-- About me==================================================-->
-
-<div class="jumbotron">
-	<div class="container">
-		<h2>Hi, I'm <span class="dynamo" data-lines="Qīng Péi,卿培" data-center="true">QING Pei</span>, a.k.a. edwardtoday.</h2>
-		<p>I am a research assistant at the Department of Computing, <a href="http://www.polyu.edu.hk/" title="香港理工大學">The Hong Kong Polytechnic University</a>. My supervisor is <a href="http://www4.comp.polyu.edu.hk/~csdzhang/" title="张大鹏">David Zhang</a>. I am associated with <a href="http://www4.comp.polyu.edu.hk/~biometrics/" title="人體生物特徵識別研究中心">Biometrics Research Center</a> at HKPU. <a href="/about/" class="btn btn-default btn-info">More about me</a></p>
-	</div>
+<div class="content">
+  <div class="hero">
+    <div class="hero-titles">
+      <h1 class="hero-site"><span class="dynamo" data-lines="Qīng Péi,卿培,edwardtoday" data-center="true">QING Pei</span></h1>
+      <h2 class="hero-tagline">Software engineer at Shanghai.</h2>
+    </div>
+  </div>
+  <div class="marketing l-wrap pure-g">
+    <div class="content pure-u-1 pure-u-sm-1-2 pure-u-xl-1-2">
+      <h3 class="marketing-header">Recent Posts</h3>
+      {% include recent_posts.html %}
+    </div>
+    <div class="content pure-u-1 pure-u-sm-1-2 pure-u-xl-1-2">
+      <h3 class="marketing-header">Recent Activities</h3>
+      {% include recent_activities.html %}
+    </div>
+  </div>
 </div>
-
-<hr class="soften" />
-
-<div class="row">
-	<div class="col-md-5 col-lg-offset-1">
-		{% include recent_posts.html %}
-	</div>
-	<div class="col-md-5">
-		{% include recent_activities.html %}
-	</div>
-</div>
-

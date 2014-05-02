@@ -23,36 +23,3 @@ $(window)
 	.resize(function() {
 
 });
-
-// Enable popovers
-$('.popover-test')
-	.popover()
-$("a[rel=popover]")
-	.popover()
-	.click(function(e) {
-	e.preventDefault()
-})
-$('html')
-	.click(function(e) {
-	$('.popover-test')
-		.popover('hide');
-});
-
-$('.popover-test')
-	.popover({
-	html: true,
-	trigger: 'manual'
-})
-	.click(function(e) {
-	$(this)
-		.popover('toggle');
-	e.stopPropagation();
-});
-
-$('audio,video')
-	.mediaelementplayer({
-	success: function(player, node) {
-		$('#' + node.id + '-mode')
-			.html('mode: ' + player.pluginType);
-	}
-});

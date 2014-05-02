@@ -1,25 +1,25 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-	{% include head_common.html %}
-	{% include atom_rss.html %}
-</head>
-
-<body data-spy="scroll" data-target=".subnav" data-offset="50">
-	{% include nav_noactive.html %}
-	<hr class="soften"/>
-	<div class="container">
-		<div class="row">
-			<!-- <embed src="http://files.qingpei.me/honehone_clock01.swf" height="68px"></embed> -->
-			<blockquote class="pull-right" id="bqmaxim"><p class="maxim"></p></blockquote>
-		</div>
-	</div>
-	<div class="container">
-		<div class="row">
-			{{ content }}
-		</div>
-	</div>
-	{% include footer.html %}
-	{% include script_common.html %}
-</body>
+  <head>
+    {% include head_common.html %}
+    {% include atom_rss.html %}
+  </head>
+  <body>
+    {% include nav_noactive.html %}
+    <div class="pure-g-r grid-example">
+      <div class="pure-u-1-1">
+        <blockquote class="pull-right" id="bqmaxim">
+          <p class="maxim"></p>
+        </blockquote>
+      </div>
+    </div>
+    <div class="header">
+      <h1>{{ page.title }}</h1>
+    </div>
+    <div class="content">
+      {{ content }}
+    </div>
+    {% include footer.html %}
+    {% include script_common.html %}
+  </body>
 </html>

@@ -8,4 +8,4 @@ redcarpet:
   extensions: [no_intra_emphasis, tables, fenced_code_blocks, disable_indented_code_blocks, autolink, strikethrough, space_after_headers, superscript]
 
 include: [about, blog, gallery, project, talks, notes]
-exclude: [readme.markdown, Rakefile, r.js, optimize, scss]
+exclude: [readme.markdown, Rakefile]

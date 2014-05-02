@@ -1,27 +1,26 @@
 <!DOCTYPE html>
 <html lang="zh-CN">
-<head>
-{% include head_common.html %}
-<style type="text/css">body {margin: 0px;background-color: #222222;}</style>
-</head>
-
-<body data-spy="scroll" data-target=".subnav" data-offset="50">
-{% include nav_noactive.html %}
-<div class="container">
-<div id="juicebox-container"></div>
-<!-- {{ content }} -->
-{% include footer.html %}
-</div><!-- /container -->
-
-{% include script_common.html %}
-<script src="/js/jbcore/juicebox.js"></script>
-<script>
-new juicebox({
-	containerId : 'juicebox-container',
-	galleryWidth: '100%',
-	galleryHeight: '80%',
-	backgroundColor: '#222222'
-});
-</script>
-</body>
+  <head>
+    {% include head_common.html %}
+    <style type="text/css">body {margin: 0px;background-color: #222222;}</style>
+  </head>
+  <body>
+    {% include nav_noactive.html %}
+    <div class="container">
+      <div id="juicebox-container"></div>
+      <!-- {{ content }} -->
+      {% include footer.html %}
+    </div>
+    <!-- /container -->
+    {% include script_common.html %}
+    <script src="/js/jbcore/juicebox.js"></script>
+    <script>
+      new juicebox({
+      	containerId : 'juicebox-container',
+      	galleryWidth: '100%',
+      	galleryHeight: '80%',
+      	backgroundColor: '#222222'
+      });
+    </script>
+  </body>
 </html>

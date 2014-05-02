@@ -1,13 +1,12 @@
-<h1>Recent Posts <a href="/blog/"><button type="button" class="btn btm-xs btn-info">more</button></a></h1>
-<dl class="dl-horizontal">
-{% for post in site.posts limit:5 %}
+<dl>
+  {% for post in site.posts limit:4 %}
   <dt>
     {{ post.date | date: "%b %e, %Y" }}
   </dt>
   <dd>
-	  <a href="{{ post.url }}">
-	  {{ post.title }}
-      </a>
+    <a href="{{ post.url }}">
+    {{ post.title }}
+    </a>
   </dd>
-	{% endfor %}
+  {% endfor %}
 </dl>
