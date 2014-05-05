@@ -869,7 +869,7 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
-    font-family: "myriad-pro-1","myriad-pro-2", sans-serif;
+    font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2", sans-serif;
 }
 
 
@@ -963,7 +963,7 @@ aside {
 */
 
 .header {
-     font-family: "myriad-pro-1","myriad-pro-2", sans-serif;
+     font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2", sans-serif;
      max-width: 768px;
      margin: 0 auto;
      padding: 1em;
@@ -1412,7 +1412,7 @@ a.pure-button-primary {
     text-align: center;
 }
     .hero-titles {
-        font-family: "myriad-pro-1","myriad-pro-2", sans-serif;
+        font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2", sans-serif;
         padding: 0 1em;
         margin: 2em auto;
         max-width: 768px;
