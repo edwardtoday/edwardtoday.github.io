@@ -9,7 +9,3 @@ redcarpet:
 
 include: [about, blog, gallery, project, talks, notes]
 exclude: [readme.markdown, Rakefile]
-
-gems:
-  - jekyll-sitemap
-
