@@ -998,6 +998,7 @@ aside {
     padding-right: 1em;
     max-width: 768px;
     font-size: 22px;
+    letter-spacing: 0.01rem;
 }
 
     .content .content-subhead {
