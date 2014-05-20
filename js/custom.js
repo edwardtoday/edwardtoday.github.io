@@ -15,6 +15,9 @@ function afterload() {
 }
 
 var _gaq = _gaq || [];
+var pluginUrl = 
+ '//www.google-analytics.com/plugins/ga/inpage_linkid.js';
+_gaq.push(['_require', 'inpage_linkid', pluginUrl]);
 _gaq.push(['_setAccount', 'UA-29345258-1']);
 _gaq.push(['_trackPageview']);
 
