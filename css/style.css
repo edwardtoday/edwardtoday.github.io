@@ -964,7 +964,7 @@ aside {
 
 .header {
      font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2", sans-serif;
-     max-width: 768px;
+     max-width: 900px;
      margin: 0 auto;
      padding: 1em;
      text-align: center;
@@ -996,7 +996,7 @@ aside {
     margin-right: auto;
     padding-left: 1em;
     padding-right: 1em;
-    max-width: 768px;
+    max-width: 900px;
     font-size: 18px;
     letter-spacing: 0.01rem;
 }
@@ -1418,7 +1418,7 @@ a.pure-button-primary {
         font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2", sans-serif;
         padding: 0 1em;
         margin: 2em auto;
-        max-width: 768px;
+        max-width: 900px;
     }
     .hero-site {
         font-size: 300%;
