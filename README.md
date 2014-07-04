@@ -1,6 +1,6 @@
 # edwardtoday.github.com
 
-Hi. This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted on [GitHub Pages](http://pages.github.com/) for [my personal site](http://qingpei.me).
+Hi. This is a [Jekyll](http://github.com/mojombo/jekyll)-powered blog hosted on [GitHub Pages](http://pages.github.com/) for [my personal site](http://www.qingpei.me).
 
 You are free to use this as a template for your site. Just don't forget to rip off all my posts, photos, etc.
 
