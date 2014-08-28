@@ -4,7 +4,7 @@ title: "8·27王自如与罗永浩「辩论」"
 description: ""
 tagline: ""
 category: "life"
-tags: "zealer", "smartisan"
+tags: [zealer,smartisan]
 published: true
 ---
 
