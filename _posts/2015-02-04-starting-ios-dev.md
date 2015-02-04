@@ -5,7 +5,7 @@ description: ""
 tagline: ""
 category: "programming"
 tags: [iOS]
-published: false
+published: true
 ---
 
 写在第一个 iOS App 上线前夕。
