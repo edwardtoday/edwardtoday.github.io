@@ -67,6 +67,7 @@ Shortcuts
 * [Specify a TeX root document](#root)
 
 <a id="pdf14"></a>
+
 ## Create PDF outputs compatible with Acrobat 5.x or above
 
 The default PDF version of pdflatex output is 1.5 (Acrobat 6.x+). To go back and use PDF 1.4, add this:
@@ -78,6 +79,7 @@ Alternatively, there is a package for this issue. Simply put the following line 
 <script src="https://gist.github.com/edwardtoday/5143690.js"></script>
 
 <a id="eps"></a>
+
 ## Use EPS images with pdflatex
 
 Being able to use PNGs or JPEGs is handy. But when you already have those EPS images, converting them to raster images does not sound good. You may use tools to convert them to PDF images which pdflatex does support. Or you could use the `epstopdf` package.
@@ -87,6 +89,7 @@ Being able to use PNGs or JPEGs is handy. But when you already have those EPS im
 Then it will automatically do the conversion when a EPS image is specified in `\includegraphics{}`.
 
 <a id="tab"></a>
+
 ## Move table captions from bottom to top
 
 The way people read tables and figures might be different. Some say that table captions should appear before the reader gets to the rows and columns.
@@ -100,6 +103,7 @@ The template has a sample table whose caption is "Table #.# some text". With def
 <script src="https://gist.github.com/edwardtoday/5143705.js"></script>
 
 <a id="linespace"></a>
+
 ## Change line spacing
 
 The template use different line spacings here and there. Normal text use 1.5 line spacing. So I make it the global setting.
@@ -113,12 +117,15 @@ When something should be double spacing, I wrap it with
 For table of contents or bibliography, you might want `\singlespacing`.
 
 <a id="parskip"></a>
+
 ## Get rid of indent for first line
+
 No first-line indent.
 
 <script src="https://gist.github.com/edwardtoday/5143717.js"></script>
 
 ## A blank line between paragraphs
+
 The template specifically requite that there should be an empty line between paragraphs. I do not know why. I thought it should be a `padding-bottom` thing after each paragraph. With the `parskip` package, I can set the spacing between paragraphs.
 
 <script src="https://gist.github.com/edwardtoday/5143720.js"></script>
@@ -126,17 +133,21 @@ The template specifically requite that there should be an empty line between par
 The length is chosen by comparing the outputs at actual sizes. Change that for different fonts or font sizes.
 
 <a id="pageno"></a>
+
 ## Page number at bottom right
+
 Page numbers are by default centered.
 
 <script src="https://gist.github.com/edwardtoday/5143722.js"></script>
 
 `\minsize` is the 10pt specified in the template. (`12pt` is the skip, i.e. distance between lines.)
 
-<script src<script src="https://gist.github.com/edwardtoday/5143725.js"></script>ipt>
+<script src="https://gist.github.com/edwardtoday/5143725.js"></script>
 
-<a id="margin"></a><script src="https://gist.github.com/edwardtoday/5143725.js"></script>
+<a id="margin"></a>
+
 ## Set the page margins
+
 Set margins at edges.
 
 <script src="https://gist.github.com/edwardtoday/5143728.js"></script>
@@ -144,7 +155,9 @@ Set margins at edges.
 For some reason, the spacing is not as semantic as it should be. The `\parskip` set above might be the cause. I'll check for it later.
 
 <a id="chap"></a>
+
 ## Change chapter title format
+
 I personally like text shadows for top level headings on webpages it they are rendered beautifully. But I do not know why this should be the case with headings in my dissertation.
 
 <script src="https://gist.github.com/edwardtoday/5143737.js"></script>
@@ -154,31 +167,41 @@ The `\chaptersize` command is defined as
 <script src="https://gist.github.com/edwardtoday/5143741.js"></script>
 
 <a id="headings"></a>
+
 ## Change section headings format
+
 I used the following to set the font size and spacing of section, subsection, subsubsection titles.
 
 <script src="https://gist.github.com/edwardtoday/5143744.js"></script>
 
 <a id="bib"></a>
+
 ## Set the heading format for bibliography
+
 It seems the command I set above does not affect the heading format for bibliography. And I need to change the heading from "Bibliography" to "References". The following chunk of code does this.
 
 <script src="https://gist.github.com/edwardtoday/5143749.js"></script>
 
 <a id="appdix"></a>
+
 ## And also the heading for Appendix
+
 As I mentioned, all the `vspace`s are set because those values make the output look the same as the template.
 
 <script src="https://gist.github.com/edwardtoday/5143753.js"></script>
 
 <a id="toc"></a>
+
 ## Table of Contents, List of Figures, List of Tables
+
 Formatting the titles and entries.
 
 <script src="https://gist.github.com/edwardtoday/5143755.js"></script>
 
 <a id="bw"></a>
+
 ## Turnoff code highlighting for print
+
 I am using the `minted` package for code listings. When I wrote my bachelor's thesis, I used `listings`. `minted` is not better or worse. I just want to try something new.
 
 If the PDF is for screen, highlighting code snippets makes sense. For hardcopies, the colored text is even harder to read.
@@ -190,7 +213,9 @@ Before this block, comment or uncomment the `printmode` declaration to turn prin
 <script src="https://gist.github.com/edwardtoday/5143760.js"></script>
 
 <a id="root"></a>
+
 ## Specify a root document
+
 I have separate .tex files for each chapter, section and sometimes subsections. Then it is easier to include or exclude some of them for output. In TextMate, I hit ⌘+R to compile the document. But the sections does not have a complete document structure. The processor will stop with errors on that. Specifying a root document tells the tex command which file to process.
 
 <script src="https://gist.github.com/edwardtoday/5143762.js"></script>
