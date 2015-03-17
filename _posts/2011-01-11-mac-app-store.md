@@ -10,7 +10,7 @@ tags: []
 
 App Store迟到了，好在没有跳票太久。7号果断更新到10.6.6，开始体验App Store。
 
-![AppStore.png](http://qingpei.me/images/in_post/appstore.png)
+![AppStore.png](https://dn-qingpei-image.qbox.me/in_post/appstore.png)
 
 其实就是个iTunes里App Store的Standalone版本。不过我自己既不用iPhone/iPad，iPod还是个5代的，没有iOS设备，所以除了开发时用用iPad之外，基本还是用macbook的。即便移动设备卖得再好，Mac用户群也是不能忽略的一个重要消费群体，尤其是习惯花钱买软件而不是花功夫找破解的那部分。
 
@@ -18,7 +18,7 @@ App Store迟到了，好在没有跳票太久。7号果断更新到10.6.6，开�
 
 App Store上有一些一直在用的freeware，比如Evernote、MindNode、TextWrangler之类。
 
-![AppStorePurchases.png](http://qingpei.me/images/in_post/appstorepurchases.png)
+![AppStorePurchases.png](https://dn-qingpei-image.qbox.me/in_post/appstorepurchases.png)
 
 再加上统一的Check for updates，对我这种不希望程序偷偷联网向娘家发数据h人是个不错的选择。在没有App Store之前，我是用AppFresh的来做这件事的，现在其实还得用，毕竟App Store上面东西还太少。
 

@@ -16,4 +16,4 @@ tags: []
 
 如此就可以把所有的视频音频放到台机的硬盘上了，笔记本现在沦为实验用机。
 
-![Home network](http://qingpei.me/images/in_post/qingnetwork.png)
+![Home network](https://dn-qingpei-image.qbox.me/in_post/qingnetwork.png)

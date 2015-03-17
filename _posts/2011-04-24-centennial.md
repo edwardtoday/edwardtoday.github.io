@@ -12,7 +12,7 @@ tags: []
 
 其实总有这么一天的。
 
-[![](http://qingpei.me/images/in_post/Tsinghua100_Logo.jpg)](/?p=38016)
+![](https://dn-qingpei-image.qbox.me/in_post/Tsinghua100_Logo.jpg)
 
 “清华的礼堂好气派啊，跟人民大会堂有一拼啊～”
 

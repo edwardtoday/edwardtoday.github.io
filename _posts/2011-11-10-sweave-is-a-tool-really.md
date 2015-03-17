@@ -34,6 +34,6 @@ tags: []
 
 暂时，看上去是这样的：
 
-[gview file="/images/in_post/11500811g_QING_Pei.pdf"]
+[gview file="https://dn-qingpei-file.qbox.me/post/11500811g_QING_Pei.pdf"]
 
 欢迎交流R、Sweave、TeX的各种神级应用，话说我这学期为了作业才开始接触R的，真是宝物啊。

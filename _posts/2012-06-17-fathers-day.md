@@ -22,7 +22,7 @@ tags: [Ae, Pr, Au]
 
 父亲节录什么歌是个问题。这年头恋上了、失恋了、三角恋了、同性恋了，都有许许多多流行歌曲适合，但是正经的唱给父母子女的歌，怎么搜都得回到十年前甚至更早期。经过一番试听，果断放弃了刘和刚的《父亲》，太专业了……感觉筷子兄弟的《父亲》挺好听，也不难学，就找了伴奏开始尝试。
 
-![Audition](http://qingpei.me/images/in_post/adobe/Audition_CS6_mnemonic_RGB_50px.png)
+![Audition](https://dn-qingpei-image.qbox.me/in_post/adobe/Audition_CS6_mnemonic_RGB_50px.png)
 制作用的是Adobe Audition，录上个五遍六遍的，就开始挑选。我不喜欢一句句拼，整首歌顶多三四段，分别来自效果相对较好的某一轨。早上五点钟左右开始录，大概八九点钟完成导出。
 
 <object classid="clsid:d27cdb6e-ae6d-11cf-96b8-444553540000" codebase=" http://fpdownload.macromedia.com/pub/shockwave/cabs/flash/swflash.cab#version=7,0,0,0" width="250" height="34"><param name="allowScriptAccess" value="sameDomain"><param name="movie" value=" http://l.5sing.com/player.swf?songtype=fc&songid=7504370"><param name="quality" value="high"><param name="bgcolor" value="#ffffff"><embed src=" http://l.5sing.com/player.swf?songtype=fc&songid=7504370" quality="high" bgcolor="#ffffff" width="250" height="34" allowScriptAccess="sameDomain" type="application/x-shockwave-flash" pluginspage=" http://www.macromedia.com/go/getflashplayer" /></object>
@@ -35,7 +35,7 @@ Aperture里屯了许多照片，把以前的library一个个打开搜寻。好�
 
 # 视频部分
 
-![AE](http://qingpei.me/images/in_post/adobe/After_Effects_CS6_mnemonic_RGB_50px.png)
+![AE](https://dn-qingpei-image.qbox.me/in_post/adobe/After_Effects_CS6_mnemonic_RGB_50px.png)
 片头很简单，就歌曲名、原唱和我自己的ID。在videocopilot.net上找到[一个教程](http://www.videocopilot.net/tutorials/procedural_crumble/)，就在其基础上改了改，做了三个片段。这么100帧视频，渲染将近300秒，导出来一个600多MB的AVI，真当硬盘不要钱。
 
 <video width="800" height="500" id="player2" controls="controls" preload="meta">
@@ -43,10 +43,10 @@ Aperture里屯了许多照片，把以前的library一个个打开搜寻。好�
 </video>
 
 
-![Ps](http://qingpei.me/images/in_post/adobe/Photoshop_CS6_mnemonic_RGB_50px.png)
+![Ps](https://dn-qingpei-image.qbox.me/in_post/adobe/Photoshop_CS6_mnemonic_RGB_50px.png)
 歌词手写，拍照，Photoshop切成条状，供视频使用。（我承认字没以前好看行不……）
 
-![Pr](http://qingpei.me/images/in_post/adobe/Premiere_Pro_CS6_mnemonic_RGB_50px.png)
+![Pr](https://dn-qingpei-image.qbox.me/in_post/adobe/Premiere_Pro_CS6_mnemonic_RGB_50px.png)
 用Premiere Pro做的slideshow，也没加什么特效，就根据音轨长度算了一下平均每张照片多少帧，然后导进去加到video track。
 
 导出视频的过程真叫一个纠结。因为是个slideshow，我估摸着合适的场景是接到电视上看，于是就用了1080p的尺寸。这个选择真是突出一个电脑龟速啊！5分01秒的视频，导出H.264视频花了整整三个小时啊！开始导出之后，我洗了衣服、出去吃了个饭、回来洗了个早、刮了胡子、刷了微博，还没有结束啊！这是在提示我CPU该升级了么……亏得我没有用Air做视频编辑，老老实实用的台式机，i5 2300的CPU按说不慢了吧？！？！

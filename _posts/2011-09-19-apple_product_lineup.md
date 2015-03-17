@@ -14,7 +14,7 @@ tags: []
 
 平时看到果粉和果黑的口水战已经见怪不怪了，各种网站上，尤其是cnbeta这个评论很丰富的站，每一篇关于apple的文章，不管内容如何，评论总是乱作一团。昨天水木有篇论战貌似上十大了，我看了几页，果然跟cnbeta一比，层次不同啊。cnbeta的评论，说mac不行，是拿Office和Office for Mac比较；水木上的高学历果黑，直接提出，cadence家的产品，只有win、linux、solaris版，没有mac版。看看，你们有多少人用cadence的产品的？我就没用过⋯⋯不过当初制板布线，确实是bootcamp windows做的。Mac下不是没有可能做到，不过企业级的这类应用，确实很少考虑发布mac版。
 
-![Overview hero](http://qingpei.me/images/in_post/overview_hero.png)
+![Overview hero](https://dn-qingpei-image.qbox.me/in_post/overview_hero.png)
 
 十大帖还有人提到，3800块，你能装一个性能不比mini差，体积和mini差不多的机器么？有人直接回帖说研究过，自己做不到，于是买了mini。也有人回帖说可以，然后贴了一个ITX主板链接，但是也就个主板链接了。因为一旦把整机配置都贴上，价格就超3800了。我去年装的台式机就是ITX的，已经很小了，不过还是有四五个mini的体积，虽说扩展性强很多（比如USB 3.0、共计10个USB口、ESATA口，还有一个PCIe槽等等），但要我放弃这些扩展功能，减小体积到接近mini，价格真就超mini了。
 
@@ -28,7 +28,7 @@ tags: []
 
 如果把选择限制在的产品，我之前考虑过两种方案：
 
-![Overview hero1 20110606](http://qingpei.me/images/in_post/overview_hero1_20110606.png)![Overview performance 20110302](http://qingpei.me/images/in_post/overview_performance_20110302.jpg)![Design unibody2](http://qingpei.me/images/in_post/design_unibody2.jpg)![Overview software2 20110720](http://qingpei.me/images/in_post/overview_software2_20110720.png)
+![Overview hero1 20110606](https://dn-qingpei-image.qbox.me/in_post/overview_hero1_20110606.png)![Overview performance 20110302](https://dn-qingpei-image.qbox.me/in_post/overview_performance_20110302.jpg)![Design unibody2](https://dn-qingpei-image.qbox.me/in_post/design_unibody2.jpg)![Overview software2 20110720](https://dn-qingpei-image.qbox.me/in_post/overview_software2_20110720.png)
 
   1. iPhone + iPad + iMac
 

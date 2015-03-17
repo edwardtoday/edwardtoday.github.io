@@ -12,7 +12,7 @@ tags: []
 
 [Randy的主页](http://www.cs.cmu.edu/~pausch/)上有视频和Slides，还有很多其他的资源。（also available in iTunesU,  in CMU's top download list）
 
-![RandyPausch](http://qingpei.me/images/in_post/newimage.jpg)
+![RandyPausch](https://dn-qingpei-image.qbox.me/in_post/newimage.jpg)
 
 视频非常值得一看，我的文字表达无法转述如此精辟的76分钟。
 

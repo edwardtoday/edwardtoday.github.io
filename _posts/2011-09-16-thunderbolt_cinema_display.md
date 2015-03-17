@@ -14,7 +14,7 @@ tags: []
 
 Apple官网的宣传图是这样的：
 
-![Thunderbolt Cinema Display](http://qingpei.me/images/in_post/overview_hero1.jpg)
+![Thunderbolt Cinema Display](https://dn-qingpei-image.qbox.me/in_post/overview_hero1.jpg)
 
 注意图中用的的Air而不是Pro。Air没有以太网口，于是显示器上做一个，可能Apple觉得会有一部分消费者会为了一个网口买个显示器？
 

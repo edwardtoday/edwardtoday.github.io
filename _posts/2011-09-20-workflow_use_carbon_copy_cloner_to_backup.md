@@ -34,7 +34,7 @@ tags: []
 
 # Carbon Copy Cloner
 
-这家伙也是个披着羊皮的rsync。不过对我来说比Time Machine好用些。![Carbon copy cloner logo](http://qingpei.me/images/in_post/carbon_copy_cloner_logo.jpg)
+这家伙也是个披着羊皮的rsync。不过对我来说比Time Machine好用些。![Carbon copy cloner logo](https://dn-qingpei-image.qbox.me/in_post/carbon_copy_cloner_logo.jpg)
 
 如果备份系统盘，那么这显然比Time Machine好使，因为备份结束后，那个备份盘可以启动，没什么区别。
 

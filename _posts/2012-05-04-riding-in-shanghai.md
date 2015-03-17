@@ -14,47 +14,47 @@ tags: [cycling, shanghai]
 
 莲花路，原先上班每天在莲花路上骑几公里，高峰时段电瓶小车横冲直撞，逆行摩托大灯晃眼，行人不走人行道而结对在非机动车道上手拉手散步。即便如此，骑车依然比公共交通快将近一倍，仅比打车慢个一刻钟（仅限上下班时间，半夜跟内燃机比马力的事情咱还是办不到的……）
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0266.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0266.jpg)
 
 下午四点的时候，莲花路看上去还挺空的，整条莲花路几乎都有隔离出来的非机动车道，所有骑起来相对安全。只是这个信号灯对两轮车很是不友好，等完一个红灯，必须马上加速到30km/h，然后保持这个速度，到下一个路口，方能看着闪烁的绿灯通过，不然，又是一轮左转灯，宜山路或者漕宝路的直行灯、再左转灯。要说不等红灯的人，其实也不少，看着绿灯变红，反正下一个是左转灯，就冲过去了，因为对面没有左转车辆嘛，自己后面来的左转车辆也不会突然右转的吧？！殊不知另一个方向的摩托车骑士们，也是这么的想的……各种险象环生。
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0285.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0285.jpg)
 
 新华路是一年前上班路上最惬意的一段。两边的梧桐几乎把阳光全部挡在大气层外了，夏天骑在这里跟乘凉一样。
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0279.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0279.jpg)
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0284.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0284.jpg)
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0286.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0286.jpg)
 
 路上的老建筑不少，据说弄堂里听不到车流的噪音？那真是挺难得的。嗯，难得，新华路一号查下来均价十万一平，当然很难得到啦。
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0288.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0288.jpg)
 
 一拐弯，就到淮海路武康路了，这个路口原来坐113路公交车上班是要路过的（谁让华山路路口修地铁封了呢）。
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0298.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0298.jpg)
 
 房子是真的挺老的，1924年建，至于建筑师的名字，和曾经住过的那些人名，我看完又忘了……
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0303.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0303.jpg)
 
 这是东安路上消防队日常训练么？
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0307.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0307.jpg)
 
 顺着东安路一直骑，就到黄浦江边了。（顺着很多路一直骑，都到黄浦江边，如来佛的手掌一样……）对面是浦东的世博园、东方体育中心，这边是一个个新楼盘，价格这几年飞涨。不得不说咱不是个炒房的料，不然世博申办成功，就该打探园区建设情况，然后跟家里建议把钱往这里投了呀。
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0309.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0309.jpg)
 
 至于这个风力发电，太假了吧！这是景观不是基础设施吧？
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0310.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0310.jpg)
 
 龙腾大道的自行车道，看起来挺像样的，骑起来，哼哼，比边上柏油路感觉差多了。果真是平时开四个轱辘的人设计出来的玩意。
 
-![image](http://qingpei.me/images/in_post/2012/05/IMG_0312.jpg)
+![image](https://dn-qingpei-image.qbox.me/in_post/2012/05/IMG_0312.jpg)
 
 五点半就拍夕阳了，上海的夏天还远，HK的夏天已经来了。
 
