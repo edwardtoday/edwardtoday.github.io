@@ -879,12 +879,12 @@ html, button, input, select, textarea,
 */
 
 html {
-    background: url(/images/grey.png);
+    background: url(https://dn-qingpei-image.qbox.me/grey.png);
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
     html {
-        background: url(/images/grey_@2x.png);
+        background: url(https://dn-qingpei-image.qbox.me/grey_@2x.png);
     }
 }
 
@@ -1037,13 +1037,13 @@ aside {
         display: block;
         height: 100%;
         width: 20px;
-        background: transparent url('/images/link-icon.png') no-repeat center center;
+        background: transparent url('https://dn-qingpei-image.qbox.me/link-icon.png') no-repeat center center;
         background-size: 20px 20px;
     }
 
     @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
         .content-link {
-            background-image: url('/images/link-icon@2x.png');
+            background-image: url('https://dn-qingpei-image.qbox.me/link-icon@2x.png');
         }
     }
 
