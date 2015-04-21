@@ -5,7 +5,8 @@ include: [about, blog, gallery, project, talks, notes]
 exclude: [readme.markdown, Rakefile]
 
 # markdown: redcarpet2
-markdown: kramdown
+markdown: redcarpet
+# markdown: kramdown
 
 kramdown:
   input: GFM
