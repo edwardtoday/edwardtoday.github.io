@@ -4,4 +4,5 @@ permalink: /posts/:title
 include: [about, blog, gallery, project, talks, notes]
 exclude: [readme.markdown, Rakefile]
 
-markdown: redcarpet2
+# markdown: redcarpet2
+markdown: kramdown
