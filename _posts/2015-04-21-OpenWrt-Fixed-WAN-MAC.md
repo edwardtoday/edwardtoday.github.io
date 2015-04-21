@@ -18,7 +18,7 @@ Web GUI 上的「Network - Interface - WAN - Advanced Settings」里面有一个
 
 网上有人说如下命令可以改 MAC 地址。
 
-```
+```bash
 uci set network.wan.macaddr=aa:bb:cc:dd:ee:ff
 uci commit network
 ifdown wan && ifup wan
@@ -28,7 +28,7 @@ ifdown wan && ifup wan
 
 网上还有人说这样可以，假设 WAN 口为 `eth0.2` 。
 
-```
+```bash
 ifconfig eth0.2 down
 ifconfig eth0.2 hw ether aa:bb:cc:dd:ee:ff
 ifconfig eth0.2 up
@@ -40,7 +40,7 @@ ifconfig eth0.2 up
 
 如下命令测试可行。
 
-```
+```bash
 ifconfig eth0.2 down
 ifconfig eth0 down
 ifconfig eth0 hw ether aa:bb:cc:dd:ee:ff
@@ -54,14 +54,14 @@ ifup wan
 
 下面设置启动后自动应用该 MAC 设置。
 
-```
+```bash
 touch /etc/init.d/clonemac
 chmod +x /etc/init.d/clonemac
 ```
 
 然后编辑 `/etc/init.d/clonemac`，内容如下。
 
-```
+```bash
 #!/bin/sh /etc/rc.common
 # Copyright (C) 2014 OpenWrt.org
 
@@ -87,7 +87,7 @@ stop() {
 
 最后设置启动时执行该脚本。
 
-```
+```bash
 /etc/init.d/clonemac enable
 ```
 
