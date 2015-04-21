@@ -1,12 +1,30 @@
+url: http://www.qingpei.me
+title: QING Pei
+author: edwardtoday
+
+# RSS feeds can list your email address if you like
+email: akkadotnet@gmail.com
+
 # For more see: http://jekyllrb.com/docs/permalinks/
 permalink: /posts/:title
 
 include: [about, blog, gallery, project, talks, notes]
 exclude: [readme.markdown, Rakefile]
 
-# markdown: redcarpet2
 markdown: redcarpet
-# markdown: kramdown
+
+redcarpet:
+  extensions: ["no_intra_emphasis", "fenced_code_blocks", "autolink", "strikethrough", "superscript","tables", "with_toc_data"]
+
+#markdown: kramdown
 
 kramdown:
   input: GFM
+  use_coderay: true
+  coderay:
+    coderay_line_numbers: true
+    coderay_css: class
+
+highlighter: pygments # default python pygments have been replaced by pygments.rb
+
+paginate: 10          # Posts per page on the blog index
