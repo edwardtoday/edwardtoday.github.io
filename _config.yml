@@ -6,3 +6,6 @@ exclude: [readme.markdown, Rakefile]
 
 # markdown: redcarpet2
 markdown: kramdown
+
+kramdown:
+  input: GFM
