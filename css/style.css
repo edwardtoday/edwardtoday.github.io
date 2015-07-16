@@ -879,7 +879,7 @@ html, button, input, select, textarea,
 */
 
 html {
-    background: url(https://dn-qingpei-image.qbox.me/grey.png);
+/*    background: url(https://dn-qingpei-image.qbox.me/grey.png);*/
 }
 
 @media (-webkit-min-device-pixel-ratio: 2), (min-resolution: 192dpi) {
@@ -1416,7 +1416,6 @@ a.pure-button-primary {
     text-align: center;
 }
     .hero-titles {
-        padding: 0 1em;
         margin: 2em auto;
         max-width: 900px;
     }

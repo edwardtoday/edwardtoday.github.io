@@ -1,0 +1,6 @@
+cat css/pure-min.css css/style.css > css/combined.css
+yuicompressor -o css/combined.min.css css/combined.css
+rm css/combined.css
+cat js/dynamo.js js/custom.js js/pangu.js > js/combined.js
+yuicompressor -o js/combined.min.js js/combined.js
+rm js/combined.js

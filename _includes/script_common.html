@@ -2,11 +2,24 @@
   ================================================== -->
 <!-- Placed at the end of the document so the pages load faster -->
 <!-- Include all compiled plugins (below), or include individual files as needed -->
-<script async src="//cdnjscn.b0.upaiyun.com/libs/jquery/2.1.1/jquery.min.js"></script>
-<script async src="http://cdn.jsdelivr.net/dynamo/0.1/dynamo.min.js"></script>
+<script src="/js/jquery-2.1.4.min.js"></script>
 <script async src="http://rawgit.com/edwardtoday/mymaxim/master/mymaxim.js"></script>
-<script async src="/js/custom.js"></script>
-<script src="/js/instantclick.min.js" data-no-instant></script>
+
+<!-- The following scripts are combined and compressed into combined.min.js -->
+<!-- <script async src="/js/dynamo.js"></script> -->
+<!-- <script async src="/js/custom.js"></script> -->
+<!-- <script src="/js/pangu.js"></script> -->
+<script async src="/js/combined.min.js"></script>
+<script async src="/js/instantclick.min.js" data-no-instant></script>
+
+<!-- The following function calls are moved to window.load -->
+<!--<script>pangu.page_spacing();</script>
 <script data-no-instant>InstantClick.init();</script>
-<script src="/js/pangu.js"></script>
-<script>pangu.page_spacing();</script>
+ -->
+
+<script type="text/javascript">
+	$(window).load(function(){
+		pangu.page_spacing();
+		InstantClick.init();
+	})
+</script>
