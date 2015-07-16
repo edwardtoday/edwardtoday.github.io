@@ -869,7 +869,7 @@
 html, button, input, select, textarea,
 .pure-g [class *= "pure-u"],
 .pure-g-r [class *= "pure-u"] {
-    font-family: "myriad-pro-condensed-1","myriad-pro-condensed-2", sans-serif;
+    font-family: "Helvetica Neue", Helvetica, "Nimbus Sans L", Arial, "Liberation Sans", "PingFang SC", "Hiragino Sans GB", "Source Han Sans CN", "Source Han Sans SC", "Microsoft YaHei", "Wenquanyi Micro Hei", "WenQuanYi Zen Hei", "ST Heiti", SimHei, "WenQuanYi Zen Hei Sharp", sans-serif;
 }
 
 
@@ -889,16 +889,11 @@ html {
 }
 
 body {
-	font-family: "calluna-1","calluna-2", serif;
     min-width: 320px;
     color: #777;
     line-height: 1.6;
 }
 
-h1, h2, h3, h4, h5, h6 {
-    font-weight: bold;
-    color: rgb(75, 75, 75);
-}
 h3 {
     font-size: 1.25em;
 }
@@ -982,7 +977,7 @@ aside {
  }
     .header h1 {
         font-size: 300%;
-        font-weight: 100;
+        font-weight: 700;
         margin: 0;
     }
      .header h2 {
@@ -1173,6 +1168,10 @@ code {
     #menu .pure-menu .menu-item-divided {
         border-top: 1px solid #333;
     }
+	
+	#menu .pure-menu li{
+		line-height: 230%;
+	}
 
         #menu .pure-menu li a:hover,
         #menu .pure-menu li a:focus {
@@ -1251,6 +1250,7 @@ code {
     #menu .pure-menu-heading {
         font-size: 125%;
         font-weight: 300;
+		font-family: palatino,georgia,serif;
         letter-spacing: 0.1em;
         color: #fff;
         margin-top: 0;
@@ -1366,9 +1366,6 @@ a.pure-button-primary {
         padding-right: 2em;
     }
 
-    .header h1 {
-        font-size: 350%;
-    }
     .header h2 {
         font-size: 150%;
     }
@@ -1419,7 +1416,6 @@ a.pure-button-primary {
     text-align: center;
 }
     .hero-titles {
-        font-family: sans-serif;
         padding: 0 1em;
         margin: 2em auto;
         max-width: 900px;
@@ -1432,7 +1428,7 @@ a.pure-button-primary {
     }
     .hero-tagline {
         font-size: 150%;
-        font-weight: 100;
+        font-weight: 400;
         line-height: 1.5;
         margin: 0 0 1em;
         color: #666;
