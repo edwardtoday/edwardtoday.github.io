@@ -29,3 +29,17 @@ Apple 也说了这是 beta，不要用于生产环境。但是我得在 iOS 9 �
 据说覆盖安装 10.11 beta 5 的升级包可以解决问题，但是会导致系统很多莫名的问题，典型的如声音没了，有人关 SIP 解决，有人说没用。
 
 以公司的网速，升级包等我吃完饭就能下载好了。不管怎样，先试试看再说吧。
+
+---
+
+20150806 更新
+
+感谢 [lembacon](https://forums.developer.apple.com/people/lembacon)，问题有了一个 workaround，可以在不影响开发的情况下，等待 Apple 的下个更新了。
+
+简言之就是
+
+```
+sudo find $(xcode-select -p) -name '*dyld_sim*' -exec mv -v {} {}.orig \;
+```
+
+Works like a charm!
