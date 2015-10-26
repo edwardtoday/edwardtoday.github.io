@@ -5,7 +5,7 @@ description: ""
 tagline: ""
 category: "life"
 tags: [gadgets]
-published: false
+published: true
 ---
 
 刚搬好家，没有重新装修，上家多年前装修的时候并没有布网线，所以各个房间的网络覆盖成了一个问题。
