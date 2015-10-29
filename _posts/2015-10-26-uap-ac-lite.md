@@ -16,11 +16,11 @@ published: true
 
 AC66R 的无线覆盖在原来的小房子就是个问题，主卧一侧床头信号极差。现在问题更明显。
 
-![](https://dn-qingpei-image.qbox.me/in_post/2015/wifi/wifi.png)
+![floorplan](https://dn-qingpei-image.qbox.me/in_post/2015/wifi/wifi.png)
 
 用 iPhone6 + Speedtest app 测速。上下行速度在 A 位置有 240/28 Mbps，B 位置 25/25 Mbps，C 位置搜不到路由器的 SSID 广播，D 位置下行 1.x Mbps，上行测试失败。
 
-床头怎能没有网？蹲坑怎能没有网？正好月初关注的 UBNT 新 AP 在万能的淘宝出现了，以前只有 802.11n 的 UAP 和真・企业级定价的 UAP-AC，现在终于有 UAP-AC 了。［UAP-AC-Lite](https://www.ubnt.com/unifi/unifi-ap-ac-lite/) 更加小巧，于是购入。（天线是 2x2 的，最高只能 867 Mbps。Pro 版本天线倒是 3x3，可以达到 1300 Mbps，但是贵，遂放弃。）装在走廊尽头吊顶上，明线走墙角练到 AC66R，中间接了 POE adapter 供电。（注：低端货是24V/48V供电，高端货才兼容 802.3at POE。）官网下载软件进行配置，全图形界面，难度绝不比家用产品大。支持多个 SSID，可以做隔离，guest Wi-Fi 无压力。
+床头怎能没有网？蹲坑怎能没有网？正好月初关注的 UBNT 新 AP 在万能的淘宝出现了，以前只有 802.11n 的 UAP 和真・企业级定价的 UAP-AC，现在终于有 UAP-AC 了。[UAP-AC-Lite](https://www.ubnt.com/unifi/unifi-ap-ac-lite/) 更加小巧，于是购入。（天线是 2x2 的，最高只能 867 Mbps。Pro 版本天线倒是 3x3，可以达到 1300 Mbps，但是贵，遂放弃。）装在走廊尽头吊顶上，明线走墙角练到 AC66R，中间接了 POE adapter 供电。（注：低端货是24V/48V供电，高端货才兼容 802.3at POE。）官网下载软件进行配置，全图形界面，难度绝不比家用产品大。支持多个 SSID，可以做隔离，guest Wi-Fi 无压力。
 
 连 UAP 测速。A 位置 137/20 Mbps，B 位置 27/10 Mbps，C 位置 20/18 Mbps，D 位置待测。上传浮动大是因为 NAS 在上传抢带宽。
 
